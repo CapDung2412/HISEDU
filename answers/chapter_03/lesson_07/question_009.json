@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_17",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_17",
+  "title": "cuoc-khoi-nghia-hoang-cong-chat-co-nhung-hoat-dong-tieu-bieu-nao",
+  "question": "Cuộc khởi nghĩa Hoàng Công Chất có những hoạt động tiêu biểu nào?",
+  "answer": "Hoàng Công Chất nổi dậy ở Sơn Nam, sau chuyển lên Tây Bắc, phối hợp với người Thái đánh đuổi lực lượng cướp phá, xây căn cứ Mường Thanh và bảo vệ vùng biên giới trong nhiều năm.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B07",
+    "folder": "lesson_07",
+    "title": "Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII"
+  },
+  "keywords": [
+    "Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+    "Cuộc",
+    "khởi",
+    "nghĩa",
+    "Hoàng",
+    "Công",
+    "Chất",
+    "hoạt",
+    "động",
+    "tiêu",
+    "biểu"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 7: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_009.txt"
+}

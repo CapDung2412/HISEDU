@@ -1,0 +1,11 @@
+Những thành tựu y học và vệ sinh góp phần cải thiện sức khỏe con người như thế nào?
+
+---
+question_id: Q_HIST8_LS_05_CAU_HOI_CB_09
+chunk_id: CHK_HIST8_LS_05_CAU_HOI_CB_09
+chapter: chapter_05
+lesson: lesson_13
+lesson_title: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+difficulty: basic
+source_locator: Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+source_url: https://hanhtrangso.nxbgd.vn/

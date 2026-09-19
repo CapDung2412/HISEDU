@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_02_CAU_HOI_MR_02",
+  "chunk_id": "CHK_HIST8_LS_02_CAU_HOI_MR_02",
+  "title": "so-sanh-ban-do-dong-nam-a-truoc-va-qua-trinh-xam-luoc-cua-phuong-tay",
+  "question": "Khi so sánh bản đồ Đông Nam Á trước và sau quá trình xâm lược của phương Tây, cần chú ý những thay đổi nào?",
+  "answer": "Cần chú ý sự thay đổi chủ quyền, biên giới và các đơn vị thuộc địa; các cảng, tuyến biển, trung tâm cai trị và phạm vi ảnh hưởng của từng đế quốc, đồng thời không coi ranh giới thuộc địa là tự nhiên, bất biến.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "sánh",
+    "bản",
+    "Đông",
+    "Nam",
+    "xâm",
+    "lược",
+    "phương",
+    "Tây",
+    "cần",
+    "chú",
+    "thay"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_057.txt"
+}

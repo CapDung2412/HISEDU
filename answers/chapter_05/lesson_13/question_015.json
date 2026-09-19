@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_15",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_15",
+  "title": "su-phat-trien-cua-dien-tin-lam-thay-doi-viec-truyen-tin-nhu-the-nao",
+  "question": "Sự phát triển của điện tín làm thay đổi việc truyền tin như thế nào?",
+  "answer": "Điện tín cho phép truyền thông điệp gần như tức thời qua khoảng cách lớn thay vì chờ thư, làm thay đổi điều hành nhà nước, kinh doanh, báo chí, đường sắt và liên lạc quốc tế.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "phát",
+    "triển",
+    "điện",
+    "tín",
+    "thay",
+    "đổi",
+    "việc",
+    "truyền",
+    "tin"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_015.txt"
+}

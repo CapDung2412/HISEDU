@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_19",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_19",
+  "title": "khoi-nghia-yen-the-co-muc-tieu-va-luc-luong-tham-gia-khac-phong-trao-can",
+  "question": "Khởi nghĩa Yên Thế có mục tiêu và lực lượng tham gia khác phong trào Cần vương như thế nào?",
+  "answer": "Cần vương nhằm phò vua Hàm Nghi, do văn thân sĩ phu lãnh đạo. Yên Thế chủ yếu do nông dân vùng này dưới Hoàng Hoa Thám đứng đầu, trước hết bảo vệ đất, làng và cuộc sống, rồi mang tinh thần chống Pháp lâu dài.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B18",
+    "folder": "lesson_18",
+    "title": "Phong trào chống Pháp trong những năm 1885 - 1896"
+  },
+  "keywords": [
+    "Phong trào chống Pháp trong những năm 1885 - 1896",
+    "Khởi",
+    "nghĩa",
+    "Yên",
+    "mục",
+    "tiêu",
+    "lực",
+    "lượng",
+    "tham",
+    "gia",
+    "khác",
+    "phong"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 18: Phong trào chống Pháp trong những năm 1885 - 1896",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_005.txt"
+}

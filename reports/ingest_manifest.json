@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-09-19T10:14:04+00:00",
+  "completed_at_utc": "2026-09-19T10:16:50+00:00",
+  "record_count": 327,
+  "upserted_count": 327,
+  "idempotent_vector_id": "chunk_id",
+  "dataset_versions": [
+    "1.0.0"
+  ],
+  "dataset_checksum": "3ae8bf654e350ff6bc8063a1332c3b5b19318c6a4c6236d9721c41b802d1f2b5",
+  "embedding_model": "text=sentence-transformers/clip-ViT-B-32-multilingual-v1|image=sentence-transformers/clip-ViT-B-32",
+  "embedding_dimension": 512,
+  "index_name": "hisedu-clip-v1",
+  "namespace": "history8-v1-0-0",
+  "metric": "cosine"
+}

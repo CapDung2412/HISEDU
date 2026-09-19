@@ -1,0 +1,11 @@
+Nêu hai tác động tích cực và hai tác động tiêu cực của cách mạng công nghiệp.
+
+---
+question_id: Q_HIST8_CHUONG_1_20_CAU_MR_05
+chunk_id: CHK_HIST8_CHUONG_1_20_CAU_MR_05
+chapter: chapter_01
+lesson: lesson_03
+lesson_title: Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII
+difficulty: extended
+source_locator: Chương 1, tổng hợp Bài 1-3
+source_url: https://hanhtrangso.nxbgd.vn/

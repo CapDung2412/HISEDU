@@ -1,0 +1,11 @@
+Khởi nghĩa Nguyễn Hữu Cầu diễn ra trong bối cảnh xã hội như thế nào?
+
+---
+question_id: Q_HIST8_CHUONG_3_20_CAU_CB_17
+chunk_id: CHK_HIST8_CHUONG_3_20_CAU_CB_17
+chapter: chapter_03
+lesson: lesson_07
+lesson_title: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII
+difficulty: basic
+source_locator: Bài 7: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII
+source_url: https://hanhtrangso.nxbgd.vn/

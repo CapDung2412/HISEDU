@@ -1,0 +1,3352 @@
+{
+  "status": "applied_and_verified",
+  "started_at_utc": "2026-09-19T09:39:35+00:00",
+  "completed_at_utc": "2026-09-19T09:39:53+00:00",
+  "workspace": "D:\\HISEDU",
+  "backup": "backups/pre_path_normalization.zip",
+  "entries": [
+    {
+      "old_path": "question/Chương 1/Bài 1/001-cach-mang-tu-san-anh-bung-no-vao-nam-nao.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/002-nhung-luc-luong-xa-hoi-nao-la-luc-luong-chu-yeu-chong-che-do-phong-kien.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/003-vi-sao-che-do-phong-kien-anh-tro-thanh-tro-ngai-doi-voi-su-phat-trien.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/004-noi-chien-o-anh-dien-giua-nhung-luc-luong-nao.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/005-su-kien-vua-charles-i-bi-xu-tu-nam-1649-co-y-nghia-gi.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/006-cach-mang-vinh-quang-o-anh-dien-vao-nam-nao.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/007-tuyen-ngon-nhan-quyen-nam-1689-o-anh-co-y-nghia-nhu-the-nao.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/008-13-thuoc-dia-anh-o-bac-my-dau-tranh-chong-chinh-quoc-vi-nhung-nguyen-nhan.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/009-su-kien-che-boston-dien-vao-nam-nao-va-phan-anh-dieu-gi.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/010-tuyen-ngon-doc-lap-cua-13-thuoc-dia-anh-o-bac-my-duoc-thong-qua-ngay.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/011-chien-thang-xa-to-ga-nam-1777-co-y-nghia-gi-doi-voi-cuoc-chien.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/012-chien-tranh-gianh-doc-lap-cua-13-thuoc-dia-ket-thuc-bang-su-kien-nao.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/013-kinh-te-nuoc-anh-truoc-cach-mang-tu-san-co-nhung-bien-doi-nao.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/014-tang-lop-quy-toc-moi-o-anh-la-va-co-loi-ich-kinh-te-nhu-the.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/015-nhung-mau-thuan-xa-hoi-nao-dan-den-cach-mang-tu-san-anh.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/016-vi-sao-mau-thuan-giua-quoc-hoi-va-nha-vua-o-anh-ngay-cang-gay-gat.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_016.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/017-cach-mang-tu-san-anh-dien-qua-nhung-moc-chinh-nao-tu-nam-1642-den-nam.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_017.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/018-che-do-quan-chu-lap-hien-duoc-xac-lap-o-anh-co-dac-diem-gi.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_018.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/019-cach-mang-tu-san-anh-dat-duoc-ket-qua-gi-va-con-nhung-han-che-nao.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_019.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/020-tinh-hinh-kinh-te-cua-13-thuoc-dia-anh-o-bac-my-truoc-chien-tranh-gianh.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_020.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/021-nhung-chinh-sach-nao-cua-chinh-quoc-lam-nguoi-dan-13-thuoc-dia-bac-my-bat.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_021.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/022-chien-tranh-gianh-doc-lap-cua-13-thuoc-dia-anh-o-bac-my-dien-qua-nhung.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_022.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/023-tuyen-ngon-doc-lap-nam-1776-cua-my-de-cap-den-nhung-quyen-co-ban-nao.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_023.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/024-chien-tranh-gianh-doc-lap-cua-13-thuoc-dia-anh-o-bac-my-co-ket-qua.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_024.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/025-vi-sao-mot-cuoc-chien-tranh-gianh-doc-lap-nhu-cuoc-chien-o-bac-my-cung.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_025.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 1/026-neu-so-sanh-quyen-luc-cua-nha-vua-o-anh-truoc-va-nam-1688-se-nhan.txt",
+      "new_path": "questions/chapter_01/lesson_01/question_026.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/001-xa-hoi-phap-truoc-cach-mang-duoc-chia-thanh-nhung-dang-cap-nao.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/002-dang-cap-thu-ba-gom-nhung-tang-lop-nao.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/003-vi-sao-nhan-dan-phap-bat-man-voi-che-do-phong-kien.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/004-ngay-14-7-1789-gan-voi-su-kien-lich-su-nao.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/005-tuyen-ngon-nhan-quyen-va-dan-quyen-nam-1789-de-cao-nhung-quyen-nao.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/006-vi-sao-vua-louis-xvi-bi-xu-tu-nam-1793.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/007-phai-gia-co-banh-len-nam-quyen-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/008-ba-dang-cap-xa-hoi-phap-truoc-nam-1789-co-vi-tri-va-quyen-loi-khac.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/009-nhung-kho-khan-kinh-te-va-tai-chinh-nao-gop-phan-lam-bung-no-cach-mang.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/010-trao-luu-triet-hoc-anh-sang-co-vai-tro-gi-doi-voi-cach-mang-tu-san.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/011-su-kien-ngay-14-thang-7-nam-1789-o-phap-co-y-nghia-gi.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/012-tuyen-ngon-nhan-quyen-va-dan-quyen-nam-1789-neu-nhung-tu-tuong-co-ban-nao.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/013-cach-mang-tu-san-phap-phat-trien-qua-nhung-giai-doan-chinh-nao-tu-nam-1789.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/014-chinh-quyen-gia-co-banh-da-thuc-hien-nhung-bien-phap-gi-de-bao-ve-cach.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/015-cach-mang-tu-san-phap-cuoi-the-ki-xviii-co-ket-qua-y-nghia-va-han.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/016-diem-giong-va-khac-nhau-ve-muc-tieu-giua-cach-mang-tu-san-anh-va-cach.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_016.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 2/017-cac-khau-hieu-ve-tu-do-va-binh-dang-cach-mang-phap-co-y-nghia-gi.txt",
+      "new_path": "questions/chapter_01/lesson_02/question_017.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/001-vi-sao-anh-la-nuoc-dau-tien-tien-hanh-cach-mang-cong-nghiep.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/002-may-hoi-nuoc-da-lam-thay-doi-san-xuat-va-giao-thong-nhu-the-nao.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/003-vi-sao-may-moc-co-the-lam-nang-suat-lao-dong-tang-manh.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/004-cach-mang-cong-nghiep-da-lam-xuat-hien-nhung-giai-cap-co-ban-nao-xa-hoi.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/005-neu-hai-tac-dong-tich-cuc-va-hai-tac-dong-tieu-cuc-cua-cach-mang-cong.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/006-cach-mang-cong-nghiep-la-gi-va-bat-dau-o-quoc-gia-nao.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/007-nhung-dieu-kien-nao-giup-cach-mang-cong-nghiep-khoi-dau-o-anh.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/008-vi-sao-nganh-det-la-mot-nhung-nganh-dau-tien-duoc-co-gioi-hoa-o-anh.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/009-may-keo-soi-gien-ni-lam-thay-doi-hoat-dong-san-xuat-soi-nhu-the-nao.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/010-viec-cai-tien-may-hoi-nuoc-cua-giem-oat-co-y-nghia-gi-doi-voi-san.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/011-nhung-tien-bo-nao-xuat-hien-nganh-luyen-kim-thoi-cach-mang-cong-nghiep.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/012-tau-thuy-chay-bang-hoi-nuoc-va-dau-may-xe-lua-lam-thay-doi-giao-thong.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/013-cach-mang-cong-nghiep-lan-tu-anh-sang-cac-nuoc-khac-nhu-the-nao.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/014-cach-mang-cong-nghiep-lam-thay-doi-nang-suat-lao-dong-va-to-chuc-san-xuat.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/015-cach-mang-cong-nghiep-tac-dong-nhu-the-nao-den-co-cau-xa-hoi-va-su.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/016-vi-sao-khong-the-danh-gia-tac-dong-cua-cach-mang-cong-nghiep-chi-bang-so.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_016.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài 3/017-giua-co-gioi-hoa-thoi-cach-mang-cong-nghiep-va-tu-dong-hoa-ngay-nay-co.txt",
+      "new_path": "questions/chapter_01/lesson_03/question_017.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 1/Bài tổng hợp 1-3/001-so-sanh-diem-giong-nhau-ve-muc-tieu-cua-cac-cuoc-cach-mang-tu-san-anh.txt",
+      "new_path": "questions/chapter_01/review_lessons_01_03/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/001-vi-sao-dong-nam-a-tro-thanh-muc-tieu-xam-luoc-cua-cac-nuoc-phuong-tay.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/002-dong-nam-a-co-nhung-loi-the-dia-li-va-kinh-te-nao-thu-hut-cac.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/003-nam-1511-bo-dao-nha-da-danh-chiem-dia-diem-nao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/004-viec-bo-dao-nha-chiem-ma-lac-ca-nam-1511-co-y-nghia-gi.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/005-nhung-nuoc-phuong-tay-nao-tung-xam-nhap-va-tranh-gianh-anh-huong-o-dong-nam.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/006-ha-lan-tung-buoc-thiet-lap-quyen-thong-tri-o-khu-vuc-nao-cua-dong-nam.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/007-tay-ban-nha-xam-chiem-phi-lip-pin-tu-thoi-gian-nao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/008-vi-sao-cac-nuoc-thuc-dan-chu-kiem-soat-cac-cang-bien-va-tuyen-hang-hai.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/009-thuc-dan-phuong-tay-da-khai-thac-kinh-te-dong-nam-a-nhung-hinh-thuc-nao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/010-chinh-sach-cua-thuc-dan-da-anh-huong-nhu-the-nao-den-doi-song-nhan-dan.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/011-dong-nam-a-bi-tac-dong-nhu-the-nao-ve-chinh-tri-thuc-dan-phuong-tay.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/012-nhung-thay-doi-xa-hoi-nao-xuat-hien-duoi-tac-dong-cua-qua-trinh-xam-luoc.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/013-van-hoa-phuong-tay-duoc-truyen-ba-vao-dong-nam-a-nhung-con-duong-nao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/014-vi-sao-nhan-dan-dong-nam-a-lien-tuc-dau-tranh-chong-thuc-dan.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/015-cac-cuoc-dau-tranh-chong-xam-luoc-o-dong-nam-a-co-dac-diem-chung-gi.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/016-vi-sao-cac-nuoc-dong-nam-a-gap-nhieu-kho-khan-viec-chong-xam-luoc.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_016.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/017-xiem-co-diem-gi-khac-voi-nhieu-nuoc-dong-nam-a-viec-duy-tri-doc-lap.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_017.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/018-hay-neu-mot-he-qua-lau-dai-cua-qua-trinh-thuc-dan-phuong-tay-xam-luoc.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_018.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/019-tai-sao-vi-tri-dia-li-cua-dong-nam-a-vua-tao-thuan-loi-giao-thuong.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_019.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/020-neu-moi-quan-he-giua-su-phat-trien-hang-hai-chau-au-va-qua-trinh-xam.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_020.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/021-so-sanh-muc-dich-cua-cac-nuoc-phuong-tay-den-dong-nam-a-voi-muc-dich.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_021.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/022-vi-sao-kiem-soat-mot-thuong-cang-co-the-giup-thuc-dan-mo-rong-anh-huong.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_022.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/023-neu-khong-co-vi-tri-nam-tren-cac-tuyen-hang-hai-quoc-te-dong-nam-a.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_023.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/024-neu-mot-bai-hoc-ve-viec-bao-ve-chu-quyen-co-the-rut-tu-lich-su.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_024.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/025-lien-he-qua-trinh-toan-cau-hoa-hang-hai-ngay-nay-voi-su-giao-luu-giua.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_025.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/026-vi-tri-dia-li-cua-dong-nam-a-co-y-nghia-gi-doi-voi-giao-thuong.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_026.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/027-nguon-tai-nguyen-va-san-vat-nao-khien-dong-nam-a-thu-hut-cac-nuoc-phuong.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_027.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/028-cac-quoc-gia-phong-kien-dong-nam-a-co-nhung-kho-khan-gi-phuong-tay-bat.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_028.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/029-nhung-nuoc-phuong-tay-nao-som-co-mat-tai-dong-nam-a.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_029.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/030-cac-nuoc-phuong-tay-su-dung-nhung-phuong-thuc-nao-de-tung-buoc-xam-nhap-dong.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_030.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/031-viec-buon-ban-va-lap-thuong-diem-co-vai-tro-gi-qua-trinh-phuong-tay-tham.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_031.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/032-bo-dao-nha-chiem-ma-lac-ca-nam-1511-co-y-nghia-gi-doi-voi-qua.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_032.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/033-vi-sao-cac-tuyen-duong-bien-qua-dong-nam-a-co-gia-tri-chien-luoc-doi.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_033.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/034-qua-trinh-tay-ban-nha-xam-chiem-phi-lip-pin-dien-nhu-the-nao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_034.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/035-ha-lan-tung-buoc-thiet-lap-quyen-thong-tri-o-in-do-ne-xi-a-nhu.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_035.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/036-thuc-dan-anh-mo-rong-anh-huong-tai-ban-dao-ma-lai-nhu-the-nao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_036.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/037-qua-trinh-anh-xam-luoc-mien-dien-the-ki-xix-dien-qua-nhung-buoc-chinh-nao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_037.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/038-thuc-dan-phap-bat-dau-cuoc-xam-luoc-viet-nam-vao-thoi-diem-nao-va-tai.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_038.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/039-phap-mo-rong-su-xam-luoc-va-thong-tri-o-dong-duong-the-ki-xix-nhu.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_039.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/040-tinh-hinh-xiem-truoc-suc-ep-cua-cac-nuoc-phuong-tay-co-dac-diem-gi.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_040.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/041-vi-sao-qua-trinh-xam-luoc-dong-nam-a-cua-phuong-tay-khong-dien-dong-thoi.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_041.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/042-chinh-quyen-thuc-dan-to-chuc-bo-may-cai-tri-tai-cac-thuoc-dia-dong-nam.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_042.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/043-chinh-sach-chia-de-tri-o-dong-nam-a-duoc-the-hien-nhu-the-nao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_043.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/044-thuc-dan-phuong-tay-khai-thac-dat-dai-va-tai-nguyen-tai-dong-nam-a-nham.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_044.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/045-viec-cuong-buc-lao-dong-va-thu-thue-nang-anh-huong-nhu-the-nao-den-nguoi.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_045.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/046-kinh-te-dong-nam-a-bien-doi-nhu-the-nao-duoi-tac-dong-cua-qua-trinh.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_046.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/047-chinh-sach-van-hoa-va-giao-duc-cua-thuc-dan-co-anh-huong-gi-den-xa.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_047.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/048-nhung-mau-thuan-nao-nay-sinh-hoac-tro-nen-gay-gat-xa-hoi-thuoc-dia-dong.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_048.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/049-vi-sao-nhan-dan-dong-nam-a-dung-len-chong-su-xam-luoc-cua-thuc-dan.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_049.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/050-cuoc-khang-chien-chong-ha-lan-cua-nhan-dan-in-do-ne-xi-a-dau-the.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_050.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/051-cuoc-khoi-nghia-do-di-po-ne-go-ro-lanh-dao-dien-o-dau-va-co.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_051.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/052-nhan-dan-phi-lip-pin-da-the-hien-tinh-than-chong-ach-thong-tri-tay-ban.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_052.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/053-nhan-dan-mien-dien-phan-ung-nhu-the-nao-truoc-cac-cuoc-xam-luoc-cua-thuc.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_053.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/054-cac-cuoc-dau-tranh-chong-thuc-dan-o-dong-nam-a-thoi-ki-nay-co-nhung.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_054.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/055-nhung-nguyen-nhan-nao-khien-nhieu-cuoc-dau-tranh-chong-thuc-dan-o-dong-nam-a.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_055.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/056-vi-sao-cung-co-vi-tri-thuan-loi-thuong-mai-dong-nam-a-vua-co-co.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_056.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/057-so-sanh-ban-do-dong-nam-a-truoc-va-qua-trinh-xam-luoc-cua-phuong-tay.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_057.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/058-co-the-dong-nhat-viec-phuong-tay-xay-dung-duong-sa-tai-thuoc-dia-voi-muc.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_058.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/059-su-phan-hoa-va-xung-dot-noi-bo-cac-quoc-gia-dong-nam-a-da-tao.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_059.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/060-vi-sao-mot-cuoc-dau-tranh-chua-gianh-thang-loi-van-co-the-mang-y-nghia.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_060.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 2/Bài 4/061-tim-hieu-mot-cuoc-khoi-nghia-chong-thuc-dan-o-dong-nam-a-can-doi-chieu.txt",
+      "new_path": "questions/chapter_02/lesson_04/question_061.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/001-vi-sao-nha-le-so-suy-yeu-vao-dau-the-ki-xvi.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/002-mac-dang-dung-lap-nha-mac-vao-nam-nao.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/003-vi-sao-hinh-thanh-cuc-dien-nam-trieu-bac-trieu.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/004-bac-trieu-do-luc-luong-nao-dung-dau.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/005-nam-trieu-do-luc-luong-nao-dung-dau.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/006-nam-1592-co-su-kien-quan-nao-lien-quan-den-nha-mac.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/007-vi-sao-nha-le-duoc-khoi-phuc-dat-nuoc-van-tiep-tuc-bi-chia-cat.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/008-ho-trinh-kiem-soat-khu-vuc-nao-va-ho-nguyen-kiem-soat-khu-vuc-nao.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/009-chien-tranh-trinh-nguyen-dien-khoang-thoi-gian-nao.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/010-song-gianh-co-vai-tro-gi-cuc-dien-dang-ngoai-dang.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/011-tinh-hinh-nha-le-dau-the-ki-xvi-co-nhung-bieu-hien-suy-yeu-nao.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/012-nha-mac-duoc-thanh-lap-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/013-cuoc-xung-dot-nam-bac-trieu-xuat-phat-tu-nhung-nguyen-nhan-nao.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/014-cuoc-xung-dot-trinh-nguyen-dien-hoan-canh-nao-va-dan-den-su-chia-cat-dat.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/015-dang-va-dang-ngoai-thoi-trinh-nguyen-co-bo-may-cam-quyen-nhu-the-nao.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/016-cac-cuoc-xung-dot-phong-kien-the-ki-xvi-xvii-anh-huong-nhu-the-nao-den.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_016.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 5/017-vi-sao-danh-gia-cac-cuoc-xung-dot-nam-bac-trieu-va-trinh-nguyen-can-xem.txt",
+      "new_path": "questions/chapter_03/lesson_05/question_017.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/001-vi-sao-chua-nguyen-day-manh-cong-cuoc-khai-pha-vung-dat-phia-nam.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/002-nhung-luc-luong-dan-cu-nao-tham-gia-vao-qua-trinh-khai-pha-vung-dat-phia.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/003-cong-cuoc-khai-pha-da-lam-thay-doi-lanh-tho-va-kinh-te-nhu-the-nao.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/004-hoi-an-va-thanh-ha-co-vai-tro-gi-doi-voi-hoat-dong-thuong-mai.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/005-cong-cuoc-khai-pha-vung-dat-phia-nam-cac-the-ki-xvi-xviii-dien-hoan-canh.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/006-nhung-luc-luong-cu-dan-nao-tham-gia-cong-cuoc-khai-pha-vung-dat-phia-nam.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/007-chinh-quyen-chua-nguyen-da-thuc-hien-nhung-bien-phap-gi-de-thuc-day-khai-hoang.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/008-viec-nguyen-huu-canh-vao-kinh-li-phia-nam-nam-1698-co-y-nghia-gi.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/009-cac-chua-nguyen-to-chuc-hoat-dong-cua-doi-hoang-sa-va-doi-bac-hai-nham.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/010-cong-cuoc-khai-pha-phia-nam-lam-thay-doi-san-xuat-va-doi-song-cu-dan.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 6/011-vi-sao-tim-hieu-qua-trinh-khai-pha-phia-nam-can-chu-y-su-dong-gop.txt",
+      "new_path": "questions/chapter_03/lesson_06/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/001-nhung-nguyen-nhan-chu-yeu-lam-bung-no-cac-cuoc-khoi-nghia-nong-dan-o-dang.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/002-ke-ten-mot-so-cuoc-khoi-nghia-nong-dan-tieu-bieu-o-dang-ngoai-the-ki.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/003-khoi-nghia-nguyen-huu-cau-dien-boi-canh-xa-hoi-nhu-the-nao.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/004-cac-cuoc-khoi-nghia-nong-dan-o-dang-ngoai-co-ket-qua-chung-nhu-the-nao.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/005-tinh-hinh-chinh-quyen-le-trinh-the-ki-xviii-co-nhung-bieu-hien-khung-hoang-nao.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/006-nhung-kho-khan-nao-doi-song-khien-nong-dan-dang-ngoai-noi-day.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/007-nhung-cuoc-khoi-nghia-nong-dan-tieu-bieu-nao-dien-o-dang-ngoai-the-ki-xviii.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/008-cuoc-khoi-nghia-nguyen-huu-cau-co-pham-vi-hoat-dong-va-dac-diem-noi-bat.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/009-cuoc-khoi-nghia-hoang-cong-chat-co-nhung-hoat-dong-tieu-bieu-nao.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/010-cac-cuoc-khoi-nghia-nong-dan-dang-ngoai-the-ki-xviii-co-ket-qua-va-tac.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 7/011-vi-sao-cac-cuoc-khoi-nghia-nong-dan-dang-ngoai-the-ki-xviii-lan-rong-nhung.txt",
+      "new_path": "questions/chapter_03/lesson_07/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/001-phong-trao-tay-son-bung-no-vao-nam-nao-va-do-nhung-lanh-dao.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/002-chien-thang-rach-gam-xoai-mut-nam-1785-co-y-nghia-gi.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/003-neu-cac-moc-1771-1785-1786-va-1789-va-su-kien-tuong-ung.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/004-so-sanh-nguyen-nhan-dan-den-khoi-nghia-nong-dan-dang-ngoai-voi-nguyen-nhan-bung.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/005-vi-sao-phong-trao-tay-son-co-the-gianh-duoc-su-ung-ho-rong-rai-cua.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/006-phong-trao-tay-son-co-nhung-dong-gop-gi-doi-voi-qua-trinh-thong-nhat-va.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/007-phong-trao-tay-son-bung-no-hoan-canh-nao-va-do-lanh-dao.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/008-phong-trao-tay-son-da-lat-do-cac-tap-doan-phong-kien-nguyen-trinh-va-le.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/009-chien-thang-rach-gam-xoai-mut-nam-1785-dien-hoan-canh-nao-va-co-y-nghia.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/010-quang-trung-to-chuc-cuoc-tien-quan-chong-quan-thanh-cuoi-nam-1788-va-dau-nam.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/011-chien-thang-ngoc-hoi-dong-da-nam-1789-co-y-nghia-gi-doi-voi-lich-su.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/012-nguyen-nhan-thang-loi-va-nhung-dong-gop-lon-cua-phong-trao-tay-son-la-gi.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/013-nghe-thuat-tan-dung-thoi-co-duoc-the-hien-nhu-the-nao-cuoc-tien-quan-cua.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 8/014-vi-sao-can-phan-biet-dong-gop-cua-phong-trao-tay-son-viec-xoa-bo-chia.txt",
+      "new_path": "questions/chapter_03/lesson_08/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 9/001-nong-nghiep-dang-va-dang-ngoai-cac-the-ki-xvi-xviii-co-nhung-diem-khac-nhau.txt",
+      "new_path": "questions/chapter_03/lesson_09/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 9/002-thu-cong-nghiep-dai-viet-cac-the-ki-xvi-xviii-phat-trien-nhu-the-nao.txt",
+      "new_path": "questions/chapter_03/lesson_09/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 9/003-su-phat-trien-cua-hoi-an-va-pho-hien-phan-anh-dieu-gi-ve-thuong-mai.txt",
+      "new_path": "questions/chapter_03/lesson_09/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 9/004-tinh-hinh-nho-giao-phat-giao-dao-giao-va-su-du-nhap-thien-chua-giao-thoi.txt",
+      "new_path": "questions/chapter_03/lesson_09/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 9/005-chu-quoc-ngu-hinh-thanh-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_03/lesson_09/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 9/006-van-hoc-va-nghe-thuat-dan-gian-dai-viet-the-ki-xvi-xviii-co-nhung-thanh.txt",
+      "new_path": "questions/chapter_03/lesson_09/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài 9/007-vi-sao-mot-do-thi-thuong-cang-nhu-hoi-an-co-the-tro-thanh-noi-giao.txt",
+      "new_path": "questions/chapter_03/lesson_09/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 3/Bài tổng hợp 5-9/001-tu-tinh-hinh-viet-nam-the-ki-xvi-xviii-hay-neu-mot-bai-hoc-ve-doan.txt",
+      "new_path": "questions/chapter_03/review_lessons_05_09/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/001-nhung-bien-doi-kinh-te-nao-dan-den-su-hinh-thanh-chu-nghia-de-quoc-cuoi.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/002-cac-to-chuc-doc-quyen-doi-hoan-canh-nao-va-tac-dong-nhu-the-nao-den.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/003-nuoc-anh-cuoi-the-ki-xix-con-giu-nhung-the-manh-kinh-te-va-thuoc-dia.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/004-kinh-te-phap-cuoi-the-ki-xix-co-dac-diem-noi-bat-gi.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/005-nhung-dieu-kien-nao-thuc-day-cong-nghiep-duc-phat-trien-nhanh-cuoi-the-ki-xix.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/006-nhung-dieu-kien-nao-giup-kinh-te-my-vuon-len-manh-me-cuoi-the-ki-xix.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/007-chinh-sach-doi-ngoai-cua-cac-nuoc-de-quoc-au-my-co-nhung-diem-chung-nao.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/008-su-phat-trien-khong-deu-giua-cac-nuoc-de-quoc-dan-den-nhung-mau-thuan-gi.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 10/009-vi-sao-tiem-luc-cong-nghiep-va-quy-mo-thuoc-dia-cua-mot-nuoc-de-quoc.txt",
+      "new_path": "questions/chapter_04/lesson_10/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/001-dieu-kien-lao-dong-va-sinh-hoat-cua-cong-nhan-thoi-ki-dau-cong-nghiep-hoa.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/002-vi-sao-nhung-hoat-dong-dap-pha-may-moc-xuat-hien-phong-trao-cong-nhan-buoi.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/003-phong-trao-hien-chuong-o-anh-the-hien-buoc-phat-trien-nao-cua-phong-trao-cong.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/004-cac-mac-va-phri-drich-ang-ghen-co-vai-tro-gi-doi-voi-su-doi-cua.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/005-tuyen-ngon-cua-dang-cong-san-doi-nam-nao-va-co-y-nghia-gi-doi-voi.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/006-quoc-te-thu-nhat-duoc-thanh-lap-nham-muc-dich-gi.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/007-cong-xa-pa-ri-nam-1871-doi-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/008-nhung-chinh-sach-nao-the-hien-tinh-chat-vi-nguoi-lao-dong-cua-cong-xa-pa.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/009-cong-xa-pa-ri-that-bai-do-nhung-nguyen-nhan-nao-va-de-lai-y-nghia.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/010-phong-trao-cong-nhan-cuoi-the-ki-xix-dau-the-ki-xx-gan-voi-su-doi.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/011-su-chuyen-bien-tu-dap-pha-may-moc-sang-dau-tranh-co-to-chuc-thay-nhan.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 11/012-vi-sao-mot-chinh-quyen-ton-tai-thoi-gian-ngan-nhu-cong-xa-pa-ri-van.txt",
+      "new_path": "questions/chapter_04/lesson_11/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/001-nhung-nguyen-nhan-xa-nao-dan-den-chien-tranh-the-gioi-thu-nhat.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/002-duyen-co-truc-tiep-lam-bung-no-chien-tranh-the-gioi-thu-nhat-la-gi.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/003-hai-khoi-quan-su-doi-dau-truoc-chien-tranh-the-gioi-thu-nhat-gom-nhung-nuoc.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/004-chien-tranh-the-gioi-thu-nhat-trai-qua-nhung-giai-doan-chinh-nao.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/005-vi-sao-cuoc-chien-bat-dau-o-chau-au-lai-tro-thanh-chien-tranh-the-gioi.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/006-chien-tranh-the-gioi-thu-nhat-ket-thuc-nhu-the-nao-va-gay-nhung-hau-qua.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/007-tinh-chat-cua-chien-tranh-the-gioi-thu-nhat-duoc-xac-dinh-nhu-the-nao.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/008-nuoc-nga-truoc-cach-mang-thang-hai-nam-1917-lam-vao-tinh-trang-nhu-the-nao.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/009-cach-mang-thang-hai-nam-1917-o-nga-dat-ket-qua-gi.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/010-vi-sao-o-nga-tiep-tuc-dien-cach-mang-thang-muoi-cach-mang-thang-hai-nam.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/011-le-nin-va-dang-bon-se-vich-co-vai-tro-gi-cach-mang-thang-muoi-nga.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/012-cach-mang-thang-muoi-nga-nam-1917-co-y-nghia-nhu-the-nao-doi-voi-nuoc.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/013-vi-sao-can-phan-biet-nguyen-nhan-xa-voi-duyen-co-truc-tiep-giai-thich-mot.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/014-tu-hau-qua-cua-chien-tranh-the-gioi-thu-nhat-se-giai-thich-gia-tri-cua.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 4/Bài 12/015-chien-tranh-the-gioi-thu-nhat-co-anh-huong-nhu-the-nao-den-tinh-hinh-dan.txt",
+      "new_path": "questions/chapter_04/lesson_12/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/001-nhung-dieu-kien-kinh-te-va-xa-hoi-nao-thuc-day-khoa-hoc-ki-thuat-phat.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/002-khoa-hoc-tu-nhien-va-khoa-hoc-xa-hoi-khac-nhau-o-doi-tuong-nghien-cuu.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/003-nhung-thanh-tuu-vat-li-nao-duoc-nhac-den-tim-hieu-khoa-hoc-thoi-can-dai.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/004-cac-nghien-cuu-ve-dien-va-tu-gop-phan-mo-nhung-kha-nang-ung-dung-nao.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/005-hoc-thuyet-te-bao-co-y-nghia-gi-doi-voi-nhan-thuc-ve-the-gioi-sinh.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/006-thuyet-tien-hoa-cua-dac-uyn-lam-thay-doi-cach-giai-thich-su-phat-trien-cua.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/007-dinh-luat-bao-toan-va-chuyen-hoa-nang-luong-co-y-nghia-gi-doi-voi-khoa.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/008-nhung-tien-bo-hoa-hoc-co-anh-huong-gi-den-san-xuat-the-ki-xix.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/009-nhung-thanh-tuu-y-hoc-va-ve-sinh-gop-phan-cai-thien-suc-khoe-con-nguoi.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/010-viec-su-dung-rong-rai-may-hoi-nuoc-tac-dong-nhu-the-nao-den-san-xuat.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/011-ki-thuat-luyen-kim-the-ki-xix-co-nhung-buoc-tien-dang-chu-y-nao.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/012-nhung-tien-bo-ki-thuat-duoc-ap-dung-vao-nong-nghiep-nhu-the-nao.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/013-giao-thong-duong-sat-phat-trien-da-lam-thay-doi-van-chuyen-hang-hoa-va-hanh.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/014-tau-thuy-chay-bang-hoi-nuoc-co-uu-the-gi-so-voi-thuyen-buom-van-tai.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/015-su-phat-trien-cua-dien-tin-lam-thay-doi-viec-truyen-tin-nhu-the-nao.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/016-nhung-tien-bo-ki-thuat-quan-su-the-ki-xix-tac-dong-nhu-the-nao-den.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_016.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/017-nhung-chuyen-bien-xa-hoi-nao-thuc-day-su-phat-trien-cua-cac-tu-tuong-va.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_017.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/018-triet-hoc-duy-vat-co-vai-tro-gi-viec-phat-trien-tu-duy-khoa-hoc.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_018.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/019-kinh-te-chinh-tri-hoc-nghien-cuu-nhung-van-de-co-ban-nao-cua-doi-song.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_019.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/020-chu-nghia-xa-hoi-khong-tuong-the-hien-mong-muon-gi-ve-mot-xa-hoi-tuong.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_020.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/021-su-doi-cua-chu-nghia-xa-hoi-khoa-hoc-co-y-nghia-gi-lich-su-tu.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_021.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/022-van-hoc-chau-au-the-ki-xviii-xix-thuong-phan-anh-nhung-van-de-xa-hoi.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_022.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/023-chu-nghia-lang-man-van-hoc-co-nhung-dac-diem-noi-bat-nao.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_023.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/024-chu-nghia-hien-thuc-van-hoc-chu-phan-anh-dieu-gi.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_024.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/025-vich-to-huy-go-co-nhung-dong-gop-tieu-bieu-nao-van-hoc-the-ki-xix.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_025.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/026-lep-ton-xtoi-co-nhung-tac-pham-va-dong-gop-tieu-bieu-nao.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_026.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/027-nhung-nhac-si-nao-tieu-bieu-su-phat-trien-am-nhac-phuong-tay-thoi-ki-nay.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_027.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/028-am-nhac-cua-bet-to-ven-the-hien-nhung-gia-tri-tinh-than-nao.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_028.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/029-hoi-hoa-the-ki-xviii-xix-co-nhung-chuyen-bien-dang-chu-y-nao-ve-de.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_029.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/030-nhung-thanh-tuu-khoa-hoc-ki-thuat-va-nghe-thuat-thoi-ki-nay-anh-huong-nhu.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_030.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/031-vi-sao-mot-phat-minh-chi-tao-bien-doi-xa-hoi-rong-co-dieu-kien-de.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_031.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/032-co-the-xem-moi-ung-dung-cua-tien-bo-ki-thuat-deu-co-loi-con-nguoi.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_032.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/033-tim-hieu-mot-tac-pham-van-hoc-hien-thuc-the-ki-xix-vi-sao-can-dat.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_033.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/034-mot-tac-pham-nghe-thuat-co-the-giup-tim-hieu-lich-su-nhu-the-nao-va.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_034.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/035-giua-phat-minh-khoa-hoc-va-sang-che-ki-thuat-co-moi-quan-he-nhu-the.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_035.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 5/Bài 13/036-neu-lua-chon-mot-thanh-tuu-the-ki-xviii-xix-con-anh-huong-den-cuoc-song.txt",
+      "new_path": "questions/chapter_05/lesson_13/question_036.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/001-vi-sao-trung-quoc-tro-thanh-doi-tuong-xam-luoc-cua-cac-nuoc-de-quoc-the.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/002-chien-tranh-thuoc-phien-lam-thay-doi-tinh-hinh-trung-quoc-nhu-the-nao.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/003-cac-nuoc-de-quoc-phan-chia-pham-vi-anh-huong-o-trung-quoc-sao.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/004-cuoc-khoi-nghia-thai-binh-thien-quoc-co-muc-tieu-va-ket-qua-gi.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/005-cuoc-van-dong-duy-tan-nam-1898-o-trung-quoc-nham-muc-dich-gi-va-vi.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/006-phong-trao-nghia-hoa-doan-bung-no-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/007-ton-trung-son-co-vai-tro-gi-doi-voi-phong-trao-cach-mang-trung-quoc.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/008-cach-mang-tan-hoi-nam-1911-co-ket-qua-y-nghia-va-han-che-gi.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/009-nhat-ban-giua-the-ki-xix-dung-truoc-nhung-kho-khan-va-suc-ep-nao.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/010-cuoc-duy-tan-minh-tri-bat-dau-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/011-cuoc-duy-tan-minh-tri-thuc-hien-nhung-thay-doi-gi-ve-chinh-tri.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/012-nhung-cai-cach-kinh-te-cua-minh-tri-nham-giai-quyet-cac-van-de-gi.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/013-nhung-cai-cach-giao-duc-cua-minh-tri-co-dac-diem-gi.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/014-nhung-thay-doi-ve-quan-su-duoc-thuc-hien-cuoc-duy-tan-minh-tri-nhu-the.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/015-cuoc-duy-tan-minh-tri-co-y-nghia-gi-doi-voi-su-phat-trien-cua-nhat.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/016-nhat-ban-chuyen-sang-giai-doan-de-quoc-chu-nghia-cuoi-the-ki-xix-dau-the.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_016.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/017-vi-sao-cach-mang-tan-hoi-duoc-xem-la-mot-buoc-tien-lon-du-chua-giai.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_017.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/018-nhung-diem-khac-biet-nao-giua-cuoc-duy-tan-minh-tri-va-cuoc-van-dong-duy.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_018.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 14/019-vai-tro-cua-giao-duc-cuoc-duy-tan-minh-tri-goi-dieu-gi-ve-moi-quan.txt",
+      "new_path": "questions/chapter_06/lesson_14/question_019.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/001-thuc-dan-anh-to-chuc-su-thong-tri-o-an-do-nua-the-ki-xix-nhu.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/002-chinh-sach-khai-thac-kinh-te-cua-anh-anh-huong-nhu-the-nao-den-nguoi-dan.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/003-cuoc-khoi-nghia-xi-pay-bung-no-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/004-cuoc-khoi-nghia-xi-pay-co-ket-qua-va-y-nghia-gi.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/005-dang-quoc-dai-o-an-do-duoc-thanh-lap-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/006-cac-khuynh-huong-dau-tranh-dang-quoc-dai-co-diem-khac-nhau-nao.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/007-phong-trao-chong-chinh-sach-chia-cat-ben-gan-dau-the-ki-xx-the-hien-tinh.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/008-den-cuoi-the-ki-xix-tinh-hinh-thuoc-dia-o-dong-nam-a-co-dac-diem.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/009-nhung-bien-doi-kinh-te-va-xa-hoi-nao-xuat-hien-o-dong-nam-a-duoi.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/010-phong-trao-chong-thuc-dan-o-in-do-ne-xi-a-cuoi-the-ki-xix-dau.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/011-phong-trao-dau-tranh-o-phi-lip-pin-cuoi-the-ki-xix-dien-nhu-the-nao.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/012-nhung-cuoc-dau-tranh-tieu-bieu-nao-dien-o-cam-pu-chia-va-lao-chong-thuc.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/013-xiem-thuc-hien-nhung-cai-cach-nao-vao-nua-the-ki-xix.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/014-phong-trao-giai-phong-dan-toc-o-dong-nam-a-dau-the-ki-xx-co-nhung.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/015-vi-sao-chinh-sach-chia-de-tri-co-the-lam-sac-them-nhung-khac-biet-da.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_015.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/016-su-xuat-hien-cac-luc-luong-xa-hoi-moi-anh-huong-nhu-the-nao-den-hinh.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_016.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 6/Bài 15/017-vi-sao-giai-thich-viec-xiem-giu-duoc-nen-doc-lap-tuong-doi-can-xem-xet.txt",
+      "new_path": "questions/chapter_06/lesson_15/question_017.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 16/001-nha-nguyen-duoc-thanh-lap-hoan-canh-nao-va-chon-kinh-do-o-dau.txt",
+      "new_path": "questions/chapter_07/lesson_16/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 16/002-bo-may-nha-nuoc-thoi-nguyen-duoc-to-chuc-nhu-the-nao.txt",
+      "new_path": "questions/chapter_07/lesson_16/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 16/003-cuoc-cai-cach-hanh-chinh-duoi-thoi-minh-mang-co-noi-dung-noi-bat-gi.txt",
+      "new_path": "questions/chapter_07/lesson_16/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 16/004-tinh-hinh-nong-nghiep-thu-cong-nghiep-va-thuong-nghiep-nua-dau-the-ki-xix-co.txt",
+      "new_path": "questions/chapter_07/lesson_16/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 16/005-trieu-nguyen-da-co-nhung-hoat-dong-gi-de-quan-li-va-thuc-thi-chu-quyen.txt",
+      "new_path": "questions/chapter_07/lesson_16/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 16/006-van-hoa-viet-nam-nua-dau-the-ki-xix-co-nhung-thanh-tuu-tieu-bieu-nao.txt",
+      "new_path": "questions/chapter_07/lesson_16/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 16/007-vi-sao-danh-gia-trieu-nguyen-can-xem-xet-rieng-cac-linh-vuc-quan-li-dat.txt",
+      "new_path": "questions/chapter_07/lesson_16/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/001-vi-sao-thuc-dan-phap-xam-luoc-viet-nam-va-lua-chon-da-nang-lam-noi.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/002-quan-dan-viet-nam-chong-lien-quan-phap-tay-ban-nha-o-da-nang-nhu-the.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/003-thuc-dan-phap-chuyen-huong-tan-cong-gia-dinh-nam-1859-nham-muc-dich-gi.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/004-hiep-uoc-nham-tuat-nam-1862-co-nhung-noi-dung-chinh-nao.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/005-truong-dinh-va-nhan-dan-nam-ki-tiep-tuc-chong-phap-nam-1862-nhu-the-nao.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/006-hai-chien-thang-cau-giay-nam-1873-va-nam-1883-co-y-nghia-gi.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/007-cac-hiep-uoc-hac-mang-nam-1883-va-pa-to-not-nam-1884-tac-dong-nhu.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/008-thai-do-va-hanh-dong-cua-trieu-dinh-hue-khac-voi-phong-trao-khang-chien-cua.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/009-nhung-kho-khan-cua-viet-nam-nua-cuoi-the-ki-xix-dat-yeu-cau-cai-cach.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_009.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/010-nhung-nhan-vat-nao-tieu-bieu-trao-luu-de-nghi-cai-cach-o-viet-nam-nua.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_010.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/011-cac-de-nghi-cai-cach-cua-nguyen-truong-to-tap-trung-vao-nhung-linh-vuc-nao.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_011.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/012-cac-de-nghi-cai-cach-cuoi-the-ki-xix-co-gia-tri-gi-va-vi-sao.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_012.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/013-vi-sao-uu-the-vu-cua-phap-chua-du-de-giai-thich-toan-bo-nguyen-nhan.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_013.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 17/014-neu-so-sanh-dieu-kien-thuc-hien-cai-cach-o-viet-nam-va-nhat-ban-nua.txt",
+      "new_path": "questions/chapter_07/lesson_17/question_014.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 18/001-phong-trao-can-vuong-bung-no-hoan-canh-nao.txt",
+      "new_path": "questions/chapter_07/lesson_18/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 18/002-chieu-can-vuong-keu-goi-dieu-gi-va-duoc-nhung-luc-luong-nao-huong-ung.txt",
+      "new_path": "questions/chapter_07/lesson_18/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 18/003-cac-cuoc-khoi-nghia-ba-dinh-bai-say-va-huong-khe-co-nhung-dac-diem-noi.txt",
+      "new_path": "questions/chapter_07/lesson_18/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 18/004-vi-sao-khoi-nghia-huong-khe-duoc-xem-la-mot-cuoc-khoi-nghia-tieu-bieu-cua.txt",
+      "new_path": "questions/chapter_07/lesson_18/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 18/005-khoi-nghia-yen-the-co-muc-tieu-va-luc-luong-tham-gia-khac-phong-trao-can.txt",
+      "new_path": "questions/chapter_07/lesson_18/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 18/006-phong-trao-chong-phap-cuoi-the-ki-xix-co-nhung-nguyen-nhan-that-bai-va-y.txt",
+      "new_path": "questions/chapter_07/lesson_18/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 18/007-so-sanh-phong-trao-can-vuong-voi-khoi-nghia-yen-the-vi-sao-can-phan-biet.txt",
+      "new_path": "questions/chapter_07/lesson_18/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 19/001-cuoc-khai-thac-thuoc-dia-lan-thu-nhat-cua-phap-lam-kinh-te-va-xa-hoi.txt",
+      "new_path": "questions/chapter_07/lesson_19/question_001.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 19/002-phan-boi-chau-va-phong-trao-dong-du-chu-truong-cuu-nuoc-bang-con-duong-nao.txt",
+      "new_path": "questions/chapter_07/lesson_19/question_002.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 19/003-phan-chau-trinh-va-cuoc-van-dong-duy-tan-de-cao-nhung-hoat-dong-gi.txt",
+      "new_path": "questions/chapter_07/lesson_19/question_003.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 19/004-dong-kinh-nghia-thuc-co-nhung-hoat-dong-va-y-nghia-gi.txt",
+      "new_path": "questions/chapter_07/lesson_19/question_004.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 19/005-nhung-phong-trao-yeu-nuoc-nao-tiep-tuc-dien-thoi-gian-chien-tranh-the-gioi-thu.txt",
+      "new_path": "questions/chapter_07/lesson_19/question_005.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 19/006-nguyen-tat-thanh-di-tim-duong-cuu-nuoc-nam-1911-hoan-canh-nao-va-co-nhung.txt",
+      "new_path": "questions/chapter_07/lesson_19/question_006.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 19/007-chu-truong-cuu-nuoc-cua-phan-boi-chau-va-phan-chau-trinh-khac-nhau-nhu-the.txt",
+      "new_path": "questions/chapter_07/lesson_19/question_007.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "question/Chương 7/Bài 19/008-huong-di-tim-duong-cuu-nuoc-cua-nguyen-tat-thanh-co-diem-gi-khac-voi-cac.txt",
+      "new_path": "questions/chapter_07/lesson_19/question_008.txt",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/001-cach-mang-tu-san-anh-bung-no-vao-nam-nao.json",
+      "new_path": "answers/chapter_01/lesson_01/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/002-nhung-luc-luong-xa-hoi-nao-la-luc-luong-chu-yeu-chong-che-do-phong-kien.json",
+      "new_path": "answers/chapter_01/lesson_01/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/003-vi-sao-che-do-phong-kien-anh-tro-thanh-tro-ngai-doi-voi-su-phat-trien.json",
+      "new_path": "answers/chapter_01/lesson_01/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/004-noi-chien-o-anh-dien-giua-nhung-luc-luong-nao.json",
+      "new_path": "answers/chapter_01/lesson_01/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/005-su-kien-vua-charles-i-bi-xu-tu-nam-1649-co-y-nghia-gi.json",
+      "new_path": "answers/chapter_01/lesson_01/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/006-cach-mang-vinh-quang-o-anh-dien-vao-nam-nao.json",
+      "new_path": "answers/chapter_01/lesson_01/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/007-tuyen-ngon-nhan-quyen-nam-1689-o-anh-co-y-nghia-nhu-the-nao.json",
+      "new_path": "answers/chapter_01/lesson_01/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/008-13-thuoc-dia-anh-o-bac-my-dau-tranh-chong-chinh-quoc-vi-nhung-nguyen-nhan.json",
+      "new_path": "answers/chapter_01/lesson_01/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/009-su-kien-che-boston-dien-vao-nam-nao-va-phan-anh-dieu-gi.json",
+      "new_path": "answers/chapter_01/lesson_01/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/010-tuyen-ngon-doc-lap-cua-13-thuoc-dia-anh-o-bac-my-duoc-thong-qua-ngay.json",
+      "new_path": "answers/chapter_01/lesson_01/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/011-chien-thang-xa-to-ga-nam-1777-co-y-nghia-gi-doi-voi-cuoc-chien.json",
+      "new_path": "answers/chapter_01/lesson_01/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/012-chien-tranh-gianh-doc-lap-cua-13-thuoc-dia-ket-thuc-bang-su-kien-nao.json",
+      "new_path": "answers/chapter_01/lesson_01/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/013-kinh-te-nuoc-anh-truoc-cach-mang-tu-san-co-nhung-bien-doi-nao.json",
+      "new_path": "answers/chapter_01/lesson_01/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/014-tang-lop-quy-toc-moi-o-anh-la-va-co-loi-ich-kinh-te-nhu-the.json",
+      "new_path": "answers/chapter_01/lesson_01/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/015-nhung-mau-thuan-xa-hoi-nao-dan-den-cach-mang-tu-san-anh.json",
+      "new_path": "answers/chapter_01/lesson_01/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/016-vi-sao-mau-thuan-giua-quoc-hoi-va-nha-vua-o-anh-ngay-cang-gay-gat.json",
+      "new_path": "answers/chapter_01/lesson_01/question_016.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/017-cach-mang-tu-san-anh-dien-qua-nhung-moc-chinh-nao-tu-nam-1642-den-nam.json",
+      "new_path": "answers/chapter_01/lesson_01/question_017.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/018-che-do-quan-chu-lap-hien-duoc-xac-lap-o-anh-co-dac-diem-gi.json",
+      "new_path": "answers/chapter_01/lesson_01/question_018.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/019-cach-mang-tu-san-anh-dat-duoc-ket-qua-gi-va-con-nhung-han-che-nao.json",
+      "new_path": "answers/chapter_01/lesson_01/question_019.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/020-tinh-hinh-kinh-te-cua-13-thuoc-dia-anh-o-bac-my-truoc-chien-tranh-gianh.json",
+      "new_path": "answers/chapter_01/lesson_01/question_020.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/021-nhung-chinh-sach-nao-cua-chinh-quoc-lam-nguoi-dan-13-thuoc-dia-bac-my-bat.json",
+      "new_path": "answers/chapter_01/lesson_01/question_021.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/022-chien-tranh-gianh-doc-lap-cua-13-thuoc-dia-anh-o-bac-my-dien-qua-nhung.json",
+      "new_path": "answers/chapter_01/lesson_01/question_022.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/023-tuyen-ngon-doc-lap-nam-1776-cua-my-de-cap-den-nhung-quyen-co-ban-nao.json",
+      "new_path": "answers/chapter_01/lesson_01/question_023.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/024-chien-tranh-gianh-doc-lap-cua-13-thuoc-dia-anh-o-bac-my-co-ket-qua.json",
+      "new_path": "answers/chapter_01/lesson_01/question_024.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/025-vi-sao-mot-cuoc-chien-tranh-gianh-doc-lap-nhu-cuoc-chien-o-bac-my-cung.json",
+      "new_path": "answers/chapter_01/lesson_01/question_025.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 1/026-neu-so-sanh-quyen-luc-cua-nha-vua-o-anh-truoc-va-nam-1688-se-nhan.json",
+      "new_path": "answers/chapter_01/lesson_01/question_026.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/001-xa-hoi-phap-truoc-cach-mang-duoc-chia-thanh-nhung-dang-cap-nao.json",
+      "new_path": "answers/chapter_01/lesson_02/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/002-dang-cap-thu-ba-gom-nhung-tang-lop-nao.json",
+      "new_path": "answers/chapter_01/lesson_02/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/003-vi-sao-nhan-dan-phap-bat-man-voi-che-do-phong-kien.json",
+      "new_path": "answers/chapter_01/lesson_02/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/004-ngay-14-7-1789-gan-voi-su-kien-lich-su-nao.json",
+      "new_path": "answers/chapter_01/lesson_02/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/005-tuyen-ngon-nhan-quyen-va-dan-quyen-nam-1789-de-cao-nhung-quyen-nao.json",
+      "new_path": "answers/chapter_01/lesson_02/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/006-vi-sao-vua-louis-xvi-bi-xu-tu-nam-1793.json",
+      "new_path": "answers/chapter_01/lesson_02/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/007-phai-gia-co-banh-len-nam-quyen-hoan-canh-nao.json",
+      "new_path": "answers/chapter_01/lesson_02/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/008-ba-dang-cap-xa-hoi-phap-truoc-nam-1789-co-vi-tri-va-quyen-loi-khac.json",
+      "new_path": "answers/chapter_01/lesson_02/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/009-nhung-kho-khan-kinh-te-va-tai-chinh-nao-gop-phan-lam-bung-no-cach-mang.json",
+      "new_path": "answers/chapter_01/lesson_02/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/010-trao-luu-triet-hoc-anh-sang-co-vai-tro-gi-doi-voi-cach-mang-tu-san.json",
+      "new_path": "answers/chapter_01/lesson_02/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/011-su-kien-ngay-14-thang-7-nam-1789-o-phap-co-y-nghia-gi.json",
+      "new_path": "answers/chapter_01/lesson_02/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/012-tuyen-ngon-nhan-quyen-va-dan-quyen-nam-1789-neu-nhung-tu-tuong-co-ban-nao.json",
+      "new_path": "answers/chapter_01/lesson_02/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/013-cach-mang-tu-san-phap-phat-trien-qua-nhung-giai-doan-chinh-nao-tu-nam-1789.json",
+      "new_path": "answers/chapter_01/lesson_02/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/014-chinh-quyen-gia-co-banh-da-thuc-hien-nhung-bien-phap-gi-de-bao-ve-cach.json",
+      "new_path": "answers/chapter_01/lesson_02/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/015-cach-mang-tu-san-phap-cuoi-the-ki-xviii-co-ket-qua-y-nghia-va-han.json",
+      "new_path": "answers/chapter_01/lesson_02/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/016-diem-giong-va-khac-nhau-ve-muc-tieu-giua-cach-mang-tu-san-anh-va-cach.json",
+      "new_path": "answers/chapter_01/lesson_02/question_016.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 2/017-cac-khau-hieu-ve-tu-do-va-binh-dang-cach-mang-phap-co-y-nghia-gi.json",
+      "new_path": "answers/chapter_01/lesson_02/question_017.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/001-vi-sao-anh-la-nuoc-dau-tien-tien-hanh-cach-mang-cong-nghiep.json",
+      "new_path": "answers/chapter_01/lesson_03/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/002-may-hoi-nuoc-da-lam-thay-doi-san-xuat-va-giao-thong-nhu-the-nao.json",
+      "new_path": "answers/chapter_01/lesson_03/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/003-vi-sao-may-moc-co-the-lam-nang-suat-lao-dong-tang-manh.json",
+      "new_path": "answers/chapter_01/lesson_03/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/004-cach-mang-cong-nghiep-da-lam-xuat-hien-nhung-giai-cap-co-ban-nao-xa-hoi.json",
+      "new_path": "answers/chapter_01/lesson_03/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/005-neu-hai-tac-dong-tich-cuc-va-hai-tac-dong-tieu-cuc-cua-cach-mang-cong.json",
+      "new_path": "answers/chapter_01/lesson_03/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/006-cach-mang-cong-nghiep-la-gi-va-bat-dau-o-quoc-gia-nao.json",
+      "new_path": "answers/chapter_01/lesson_03/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/007-nhung-dieu-kien-nao-giup-cach-mang-cong-nghiep-khoi-dau-o-anh.json",
+      "new_path": "answers/chapter_01/lesson_03/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/008-vi-sao-nganh-det-la-mot-nhung-nganh-dau-tien-duoc-co-gioi-hoa-o-anh.json",
+      "new_path": "answers/chapter_01/lesson_03/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/009-may-keo-soi-gien-ni-lam-thay-doi-hoat-dong-san-xuat-soi-nhu-the-nao.json",
+      "new_path": "answers/chapter_01/lesson_03/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/010-viec-cai-tien-may-hoi-nuoc-cua-giem-oat-co-y-nghia-gi-doi-voi-san.json",
+      "new_path": "answers/chapter_01/lesson_03/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/011-nhung-tien-bo-nao-xuat-hien-nganh-luyen-kim-thoi-cach-mang-cong-nghiep.json",
+      "new_path": "answers/chapter_01/lesson_03/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/012-tau-thuy-chay-bang-hoi-nuoc-va-dau-may-xe-lua-lam-thay-doi-giao-thong.json",
+      "new_path": "answers/chapter_01/lesson_03/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/013-cach-mang-cong-nghiep-lan-tu-anh-sang-cac-nuoc-khac-nhu-the-nao.json",
+      "new_path": "answers/chapter_01/lesson_03/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/014-cach-mang-cong-nghiep-lam-thay-doi-nang-suat-lao-dong-va-to-chuc-san-xuat.json",
+      "new_path": "answers/chapter_01/lesson_03/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/015-cach-mang-cong-nghiep-tac-dong-nhu-the-nao-den-co-cau-xa-hoi-va-su.json",
+      "new_path": "answers/chapter_01/lesson_03/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/016-vi-sao-khong-the-danh-gia-tac-dong-cua-cach-mang-cong-nghiep-chi-bang-so.json",
+      "new_path": "answers/chapter_01/lesson_03/question_016.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài 3/017-giua-co-gioi-hoa-thoi-cach-mang-cong-nghiep-va-tu-dong-hoa-ngay-nay-co.json",
+      "new_path": "answers/chapter_01/lesson_03/question_017.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 1/Bài tổng hợp 1-3/001-so-sanh-diem-giong-nhau-ve-muc-tieu-cua-cac-cuoc-cach-mang-tu-san-anh.json",
+      "new_path": "answers/chapter_01/review_lessons_01_03/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/001-vi-sao-dong-nam-a-tro-thanh-muc-tieu-xam-luoc-cua-cac-nuoc-phuong-tay.json",
+      "new_path": "answers/chapter_02/lesson_04/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/002-dong-nam-a-co-nhung-loi-the-dia-li-va-kinh-te-nao-thu-hut-cac.json",
+      "new_path": "answers/chapter_02/lesson_04/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/003-nam-1511-bo-dao-nha-da-danh-chiem-dia-diem-nao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/004-viec-bo-dao-nha-chiem-ma-lac-ca-nam-1511-co-y-nghia-gi.json",
+      "new_path": "answers/chapter_02/lesson_04/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/005-nhung-nuoc-phuong-tay-nao-tung-xam-nhap-va-tranh-gianh-anh-huong-o-dong-nam.json",
+      "new_path": "answers/chapter_02/lesson_04/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/006-ha-lan-tung-buoc-thiet-lap-quyen-thong-tri-o-khu-vuc-nao-cua-dong-nam.json",
+      "new_path": "answers/chapter_02/lesson_04/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/007-tay-ban-nha-xam-chiem-phi-lip-pin-tu-thoi-gian-nao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/008-vi-sao-cac-nuoc-thuc-dan-chu-kiem-soat-cac-cang-bien-va-tuyen-hang-hai.json",
+      "new_path": "answers/chapter_02/lesson_04/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/009-thuc-dan-phuong-tay-da-khai-thac-kinh-te-dong-nam-a-nhung-hinh-thuc-nao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/010-chinh-sach-cua-thuc-dan-da-anh-huong-nhu-the-nao-den-doi-song-nhan-dan.json",
+      "new_path": "answers/chapter_02/lesson_04/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/011-dong-nam-a-bi-tac-dong-nhu-the-nao-ve-chinh-tri-thuc-dan-phuong-tay.json",
+      "new_path": "answers/chapter_02/lesson_04/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/012-nhung-thay-doi-xa-hoi-nao-xuat-hien-duoi-tac-dong-cua-qua-trinh-xam-luoc.json",
+      "new_path": "answers/chapter_02/lesson_04/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/013-van-hoa-phuong-tay-duoc-truyen-ba-vao-dong-nam-a-nhung-con-duong-nao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/014-vi-sao-nhan-dan-dong-nam-a-lien-tuc-dau-tranh-chong-thuc-dan.json",
+      "new_path": "answers/chapter_02/lesson_04/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/015-cac-cuoc-dau-tranh-chong-xam-luoc-o-dong-nam-a-co-dac-diem-chung-gi.json",
+      "new_path": "answers/chapter_02/lesson_04/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/016-vi-sao-cac-nuoc-dong-nam-a-gap-nhieu-kho-khan-viec-chong-xam-luoc.json",
+      "new_path": "answers/chapter_02/lesson_04/question_016.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/017-xiem-co-diem-gi-khac-voi-nhieu-nuoc-dong-nam-a-viec-duy-tri-doc-lap.json",
+      "new_path": "answers/chapter_02/lesson_04/question_017.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/018-hay-neu-mot-he-qua-lau-dai-cua-qua-trinh-thuc-dan-phuong-tay-xam-luoc.json",
+      "new_path": "answers/chapter_02/lesson_04/question_018.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/019-tai-sao-vi-tri-dia-li-cua-dong-nam-a-vua-tao-thuan-loi-giao-thuong.json",
+      "new_path": "answers/chapter_02/lesson_04/question_019.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/020-neu-moi-quan-he-giua-su-phat-trien-hang-hai-chau-au-va-qua-trinh-xam.json",
+      "new_path": "answers/chapter_02/lesson_04/question_020.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/021-so-sanh-muc-dich-cua-cac-nuoc-phuong-tay-den-dong-nam-a-voi-muc-dich.json",
+      "new_path": "answers/chapter_02/lesson_04/question_021.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/022-vi-sao-kiem-soat-mot-thuong-cang-co-the-giup-thuc-dan-mo-rong-anh-huong.json",
+      "new_path": "answers/chapter_02/lesson_04/question_022.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/023-neu-khong-co-vi-tri-nam-tren-cac-tuyen-hang-hai-quoc-te-dong-nam-a.json",
+      "new_path": "answers/chapter_02/lesson_04/question_023.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/024-neu-mot-bai-hoc-ve-viec-bao-ve-chu-quyen-co-the-rut-tu-lich-su.json",
+      "new_path": "answers/chapter_02/lesson_04/question_024.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/025-lien-he-qua-trinh-toan-cau-hoa-hang-hai-ngay-nay-voi-su-giao-luu-giua.json",
+      "new_path": "answers/chapter_02/lesson_04/question_025.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/026-vi-tri-dia-li-cua-dong-nam-a-co-y-nghia-gi-doi-voi-giao-thuong.json",
+      "new_path": "answers/chapter_02/lesson_04/question_026.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/027-nguon-tai-nguyen-va-san-vat-nao-khien-dong-nam-a-thu-hut-cac-nuoc-phuong.json",
+      "new_path": "answers/chapter_02/lesson_04/question_027.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/028-cac-quoc-gia-phong-kien-dong-nam-a-co-nhung-kho-khan-gi-phuong-tay-bat.json",
+      "new_path": "answers/chapter_02/lesson_04/question_028.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/029-nhung-nuoc-phuong-tay-nao-som-co-mat-tai-dong-nam-a.json",
+      "new_path": "answers/chapter_02/lesson_04/question_029.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/030-cac-nuoc-phuong-tay-su-dung-nhung-phuong-thuc-nao-de-tung-buoc-xam-nhap-dong.json",
+      "new_path": "answers/chapter_02/lesson_04/question_030.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/031-viec-buon-ban-va-lap-thuong-diem-co-vai-tro-gi-qua-trinh-phuong-tay-tham.json",
+      "new_path": "answers/chapter_02/lesson_04/question_031.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/032-bo-dao-nha-chiem-ma-lac-ca-nam-1511-co-y-nghia-gi-doi-voi-qua.json",
+      "new_path": "answers/chapter_02/lesson_04/question_032.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/033-vi-sao-cac-tuyen-duong-bien-qua-dong-nam-a-co-gia-tri-chien-luoc-doi.json",
+      "new_path": "answers/chapter_02/lesson_04/question_033.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/034-qua-trinh-tay-ban-nha-xam-chiem-phi-lip-pin-dien-nhu-the-nao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_034.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/035-ha-lan-tung-buoc-thiet-lap-quyen-thong-tri-o-in-do-ne-xi-a-nhu.json",
+      "new_path": "answers/chapter_02/lesson_04/question_035.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/036-thuc-dan-anh-mo-rong-anh-huong-tai-ban-dao-ma-lai-nhu-the-nao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_036.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/037-qua-trinh-anh-xam-luoc-mien-dien-the-ki-xix-dien-qua-nhung-buoc-chinh-nao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_037.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/038-thuc-dan-phap-bat-dau-cuoc-xam-luoc-viet-nam-vao-thoi-diem-nao-va-tai.json",
+      "new_path": "answers/chapter_02/lesson_04/question_038.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/039-phap-mo-rong-su-xam-luoc-va-thong-tri-o-dong-duong-the-ki-xix-nhu.json",
+      "new_path": "answers/chapter_02/lesson_04/question_039.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/040-tinh-hinh-xiem-truoc-suc-ep-cua-cac-nuoc-phuong-tay-co-dac-diem-gi.json",
+      "new_path": "answers/chapter_02/lesson_04/question_040.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/041-vi-sao-qua-trinh-xam-luoc-dong-nam-a-cua-phuong-tay-khong-dien-dong-thoi.json",
+      "new_path": "answers/chapter_02/lesson_04/question_041.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/042-chinh-quyen-thuc-dan-to-chuc-bo-may-cai-tri-tai-cac-thuoc-dia-dong-nam.json",
+      "new_path": "answers/chapter_02/lesson_04/question_042.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/043-chinh-sach-chia-de-tri-o-dong-nam-a-duoc-the-hien-nhu-the-nao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_043.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/044-thuc-dan-phuong-tay-khai-thac-dat-dai-va-tai-nguyen-tai-dong-nam-a-nham.json",
+      "new_path": "answers/chapter_02/lesson_04/question_044.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/045-viec-cuong-buc-lao-dong-va-thu-thue-nang-anh-huong-nhu-the-nao-den-nguoi.json",
+      "new_path": "answers/chapter_02/lesson_04/question_045.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/046-kinh-te-dong-nam-a-bien-doi-nhu-the-nao-duoi-tac-dong-cua-qua-trinh.json",
+      "new_path": "answers/chapter_02/lesson_04/question_046.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/047-chinh-sach-van-hoa-va-giao-duc-cua-thuc-dan-co-anh-huong-gi-den-xa.json",
+      "new_path": "answers/chapter_02/lesson_04/question_047.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/048-nhung-mau-thuan-nao-nay-sinh-hoac-tro-nen-gay-gat-xa-hoi-thuoc-dia-dong.json",
+      "new_path": "answers/chapter_02/lesson_04/question_048.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/049-vi-sao-nhan-dan-dong-nam-a-dung-len-chong-su-xam-luoc-cua-thuc-dan.json",
+      "new_path": "answers/chapter_02/lesson_04/question_049.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/050-cuoc-khang-chien-chong-ha-lan-cua-nhan-dan-in-do-ne-xi-a-dau-the.json",
+      "new_path": "answers/chapter_02/lesson_04/question_050.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/051-cuoc-khoi-nghia-do-di-po-ne-go-ro-lanh-dao-dien-o-dau-va-co.json",
+      "new_path": "answers/chapter_02/lesson_04/question_051.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/052-nhan-dan-phi-lip-pin-da-the-hien-tinh-than-chong-ach-thong-tri-tay-ban.json",
+      "new_path": "answers/chapter_02/lesson_04/question_052.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/053-nhan-dan-mien-dien-phan-ung-nhu-the-nao-truoc-cac-cuoc-xam-luoc-cua-thuc.json",
+      "new_path": "answers/chapter_02/lesson_04/question_053.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/054-cac-cuoc-dau-tranh-chong-thuc-dan-o-dong-nam-a-thoi-ki-nay-co-nhung.json",
+      "new_path": "answers/chapter_02/lesson_04/question_054.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/055-nhung-nguyen-nhan-nao-khien-nhieu-cuoc-dau-tranh-chong-thuc-dan-o-dong-nam-a.json",
+      "new_path": "answers/chapter_02/lesson_04/question_055.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/056-vi-sao-cung-co-vi-tri-thuan-loi-thuong-mai-dong-nam-a-vua-co-co.json",
+      "new_path": "answers/chapter_02/lesson_04/question_056.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/057-so-sanh-ban-do-dong-nam-a-truoc-va-qua-trinh-xam-luoc-cua-phuong-tay.json",
+      "new_path": "answers/chapter_02/lesson_04/question_057.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/058-co-the-dong-nhat-viec-phuong-tay-xay-dung-duong-sa-tai-thuoc-dia-voi-muc.json",
+      "new_path": "answers/chapter_02/lesson_04/question_058.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/059-su-phan-hoa-va-xung-dot-noi-bo-cac-quoc-gia-dong-nam-a-da-tao.json",
+      "new_path": "answers/chapter_02/lesson_04/question_059.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/060-vi-sao-mot-cuoc-dau-tranh-chua-gianh-thang-loi-van-co-the-mang-y-nghia.json",
+      "new_path": "answers/chapter_02/lesson_04/question_060.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 2/Bài 4/061-tim-hieu-mot-cuoc-khoi-nghia-chong-thuc-dan-o-dong-nam-a-can-doi-chieu.json",
+      "new_path": "answers/chapter_02/lesson_04/question_061.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/001-vi-sao-nha-le-so-suy-yeu-vao-dau-the-ki-xvi.json",
+      "new_path": "answers/chapter_03/lesson_05/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/002-mac-dang-dung-lap-nha-mac-vao-nam-nao.json",
+      "new_path": "answers/chapter_03/lesson_05/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/003-vi-sao-hinh-thanh-cuc-dien-nam-trieu-bac-trieu.json",
+      "new_path": "answers/chapter_03/lesson_05/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/004-bac-trieu-do-luc-luong-nao-dung-dau.json",
+      "new_path": "answers/chapter_03/lesson_05/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/005-nam-trieu-do-luc-luong-nao-dung-dau.json",
+      "new_path": "answers/chapter_03/lesson_05/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/006-nam-1592-co-su-kien-quan-nao-lien-quan-den-nha-mac.json",
+      "new_path": "answers/chapter_03/lesson_05/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/007-vi-sao-nha-le-duoc-khoi-phuc-dat-nuoc-van-tiep-tuc-bi-chia-cat.json",
+      "new_path": "answers/chapter_03/lesson_05/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/008-ho-trinh-kiem-soat-khu-vuc-nao-va-ho-nguyen-kiem-soat-khu-vuc-nao.json",
+      "new_path": "answers/chapter_03/lesson_05/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/009-chien-tranh-trinh-nguyen-dien-khoang-thoi-gian-nao.json",
+      "new_path": "answers/chapter_03/lesson_05/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/010-song-gianh-co-vai-tro-gi-cuc-dien-dang-ngoai-dang.json",
+      "new_path": "answers/chapter_03/lesson_05/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/011-tinh-hinh-nha-le-dau-the-ki-xvi-co-nhung-bieu-hien-suy-yeu-nao.json",
+      "new_path": "answers/chapter_03/lesson_05/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/012-nha-mac-duoc-thanh-lap-hoan-canh-nao.json",
+      "new_path": "answers/chapter_03/lesson_05/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/013-cuoc-xung-dot-nam-bac-trieu-xuat-phat-tu-nhung-nguyen-nhan-nao.json",
+      "new_path": "answers/chapter_03/lesson_05/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/014-cuoc-xung-dot-trinh-nguyen-dien-hoan-canh-nao-va-dan-den-su-chia-cat-dat.json",
+      "new_path": "answers/chapter_03/lesson_05/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/015-dang-va-dang-ngoai-thoi-trinh-nguyen-co-bo-may-cam-quyen-nhu-the-nao.json",
+      "new_path": "answers/chapter_03/lesson_05/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/016-cac-cuoc-xung-dot-phong-kien-the-ki-xvi-xvii-anh-huong-nhu-the-nao-den.json",
+      "new_path": "answers/chapter_03/lesson_05/question_016.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 5/017-vi-sao-danh-gia-cac-cuoc-xung-dot-nam-bac-trieu-va-trinh-nguyen-can-xem.json",
+      "new_path": "answers/chapter_03/lesson_05/question_017.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/001-vi-sao-chua-nguyen-day-manh-cong-cuoc-khai-pha-vung-dat-phia-nam.json",
+      "new_path": "answers/chapter_03/lesson_06/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/002-nhung-luc-luong-dan-cu-nao-tham-gia-vao-qua-trinh-khai-pha-vung-dat-phia.json",
+      "new_path": "answers/chapter_03/lesson_06/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/003-cong-cuoc-khai-pha-da-lam-thay-doi-lanh-tho-va-kinh-te-nhu-the-nao.json",
+      "new_path": "answers/chapter_03/lesson_06/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/004-hoi-an-va-thanh-ha-co-vai-tro-gi-doi-voi-hoat-dong-thuong-mai.json",
+      "new_path": "answers/chapter_03/lesson_06/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/005-cong-cuoc-khai-pha-vung-dat-phia-nam-cac-the-ki-xvi-xviii-dien-hoan-canh.json",
+      "new_path": "answers/chapter_03/lesson_06/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/006-nhung-luc-luong-cu-dan-nao-tham-gia-cong-cuoc-khai-pha-vung-dat-phia-nam.json",
+      "new_path": "answers/chapter_03/lesson_06/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/007-chinh-quyen-chua-nguyen-da-thuc-hien-nhung-bien-phap-gi-de-thuc-day-khai-hoang.json",
+      "new_path": "answers/chapter_03/lesson_06/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/008-viec-nguyen-huu-canh-vao-kinh-li-phia-nam-nam-1698-co-y-nghia-gi.json",
+      "new_path": "answers/chapter_03/lesson_06/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/009-cac-chua-nguyen-to-chuc-hoat-dong-cua-doi-hoang-sa-va-doi-bac-hai-nham.json",
+      "new_path": "answers/chapter_03/lesson_06/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/010-cong-cuoc-khai-pha-phia-nam-lam-thay-doi-san-xuat-va-doi-song-cu-dan.json",
+      "new_path": "answers/chapter_03/lesson_06/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 6/011-vi-sao-tim-hieu-qua-trinh-khai-pha-phia-nam-can-chu-y-su-dong-gop.json",
+      "new_path": "answers/chapter_03/lesson_06/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/001-nhung-nguyen-nhan-chu-yeu-lam-bung-no-cac-cuoc-khoi-nghia-nong-dan-o-dang.json",
+      "new_path": "answers/chapter_03/lesson_07/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/002-ke-ten-mot-so-cuoc-khoi-nghia-nong-dan-tieu-bieu-o-dang-ngoai-the-ki.json",
+      "new_path": "answers/chapter_03/lesson_07/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/003-khoi-nghia-nguyen-huu-cau-dien-boi-canh-xa-hoi-nhu-the-nao.json",
+      "new_path": "answers/chapter_03/lesson_07/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/004-cac-cuoc-khoi-nghia-nong-dan-o-dang-ngoai-co-ket-qua-chung-nhu-the-nao.json",
+      "new_path": "answers/chapter_03/lesson_07/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/005-tinh-hinh-chinh-quyen-le-trinh-the-ki-xviii-co-nhung-bieu-hien-khung-hoang-nao.json",
+      "new_path": "answers/chapter_03/lesson_07/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/006-nhung-kho-khan-nao-doi-song-khien-nong-dan-dang-ngoai-noi-day.json",
+      "new_path": "answers/chapter_03/lesson_07/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/007-nhung-cuoc-khoi-nghia-nong-dan-tieu-bieu-nao-dien-o-dang-ngoai-the-ki-xviii.json",
+      "new_path": "answers/chapter_03/lesson_07/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/008-cuoc-khoi-nghia-nguyen-huu-cau-co-pham-vi-hoat-dong-va-dac-diem-noi-bat.json",
+      "new_path": "answers/chapter_03/lesson_07/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/009-cuoc-khoi-nghia-hoang-cong-chat-co-nhung-hoat-dong-tieu-bieu-nao.json",
+      "new_path": "answers/chapter_03/lesson_07/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/010-cac-cuoc-khoi-nghia-nong-dan-dang-ngoai-the-ki-xviii-co-ket-qua-va-tac.json",
+      "new_path": "answers/chapter_03/lesson_07/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 7/011-vi-sao-cac-cuoc-khoi-nghia-nong-dan-dang-ngoai-the-ki-xviii-lan-rong-nhung.json",
+      "new_path": "answers/chapter_03/lesson_07/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/001-phong-trao-tay-son-bung-no-vao-nam-nao-va-do-nhung-lanh-dao.json",
+      "new_path": "answers/chapter_03/lesson_08/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/002-chien-thang-rach-gam-xoai-mut-nam-1785-co-y-nghia-gi.json",
+      "new_path": "answers/chapter_03/lesson_08/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/003-neu-cac-moc-1771-1785-1786-va-1789-va-su-kien-tuong-ung.json",
+      "new_path": "answers/chapter_03/lesson_08/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/004-so-sanh-nguyen-nhan-dan-den-khoi-nghia-nong-dan-dang-ngoai-voi-nguyen-nhan-bung.json",
+      "new_path": "answers/chapter_03/lesson_08/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/005-vi-sao-phong-trao-tay-son-co-the-gianh-duoc-su-ung-ho-rong-rai-cua.json",
+      "new_path": "answers/chapter_03/lesson_08/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/006-phong-trao-tay-son-co-nhung-dong-gop-gi-doi-voi-qua-trinh-thong-nhat-va.json",
+      "new_path": "answers/chapter_03/lesson_08/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/007-phong-trao-tay-son-bung-no-hoan-canh-nao-va-do-lanh-dao.json",
+      "new_path": "answers/chapter_03/lesson_08/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/008-phong-trao-tay-son-da-lat-do-cac-tap-doan-phong-kien-nguyen-trinh-va-le.json",
+      "new_path": "answers/chapter_03/lesson_08/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/009-chien-thang-rach-gam-xoai-mut-nam-1785-dien-hoan-canh-nao-va-co-y-nghia.json",
+      "new_path": "answers/chapter_03/lesson_08/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/010-quang-trung-to-chuc-cuoc-tien-quan-chong-quan-thanh-cuoi-nam-1788-va-dau-nam.json",
+      "new_path": "answers/chapter_03/lesson_08/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/011-chien-thang-ngoc-hoi-dong-da-nam-1789-co-y-nghia-gi-doi-voi-lich-su.json",
+      "new_path": "answers/chapter_03/lesson_08/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/012-nguyen-nhan-thang-loi-va-nhung-dong-gop-lon-cua-phong-trao-tay-son-la-gi.json",
+      "new_path": "answers/chapter_03/lesson_08/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/013-nghe-thuat-tan-dung-thoi-co-duoc-the-hien-nhu-the-nao-cuoc-tien-quan-cua.json",
+      "new_path": "answers/chapter_03/lesson_08/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 8/014-vi-sao-can-phan-biet-dong-gop-cua-phong-trao-tay-son-viec-xoa-bo-chia.json",
+      "new_path": "answers/chapter_03/lesson_08/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 9/001-nong-nghiep-dang-va-dang-ngoai-cac-the-ki-xvi-xviii-co-nhung-diem-khac-nhau.json",
+      "new_path": "answers/chapter_03/lesson_09/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 9/002-thu-cong-nghiep-dai-viet-cac-the-ki-xvi-xviii-phat-trien-nhu-the-nao.json",
+      "new_path": "answers/chapter_03/lesson_09/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 9/003-su-phat-trien-cua-hoi-an-va-pho-hien-phan-anh-dieu-gi-ve-thuong-mai.json",
+      "new_path": "answers/chapter_03/lesson_09/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 9/004-tinh-hinh-nho-giao-phat-giao-dao-giao-va-su-du-nhap-thien-chua-giao-thoi.json",
+      "new_path": "answers/chapter_03/lesson_09/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 9/005-chu-quoc-ngu-hinh-thanh-hoan-canh-nao.json",
+      "new_path": "answers/chapter_03/lesson_09/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 9/006-van-hoc-va-nghe-thuat-dan-gian-dai-viet-the-ki-xvi-xviii-co-nhung-thanh.json",
+      "new_path": "answers/chapter_03/lesson_09/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài 9/007-vi-sao-mot-do-thi-thuong-cang-nhu-hoi-an-co-the-tro-thanh-noi-giao.json",
+      "new_path": "answers/chapter_03/lesson_09/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 3/Bài tổng hợp 5-9/001-tu-tinh-hinh-viet-nam-the-ki-xvi-xviii-hay-neu-mot-bai-hoc-ve-doan.json",
+      "new_path": "answers/chapter_03/review_lessons_05_09/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/001-nhung-bien-doi-kinh-te-nao-dan-den-su-hinh-thanh-chu-nghia-de-quoc-cuoi.json",
+      "new_path": "answers/chapter_04/lesson_10/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/002-cac-to-chuc-doc-quyen-doi-hoan-canh-nao-va-tac-dong-nhu-the-nao-den.json",
+      "new_path": "answers/chapter_04/lesson_10/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/003-nuoc-anh-cuoi-the-ki-xix-con-giu-nhung-the-manh-kinh-te-va-thuoc-dia.json",
+      "new_path": "answers/chapter_04/lesson_10/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/004-kinh-te-phap-cuoi-the-ki-xix-co-dac-diem-noi-bat-gi.json",
+      "new_path": "answers/chapter_04/lesson_10/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/005-nhung-dieu-kien-nao-thuc-day-cong-nghiep-duc-phat-trien-nhanh-cuoi-the-ki-xix.json",
+      "new_path": "answers/chapter_04/lesson_10/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/006-nhung-dieu-kien-nao-giup-kinh-te-my-vuon-len-manh-me-cuoi-the-ki-xix.json",
+      "new_path": "answers/chapter_04/lesson_10/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/007-chinh-sach-doi-ngoai-cua-cac-nuoc-de-quoc-au-my-co-nhung-diem-chung-nao.json",
+      "new_path": "answers/chapter_04/lesson_10/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/008-su-phat-trien-khong-deu-giua-cac-nuoc-de-quoc-dan-den-nhung-mau-thuan-gi.json",
+      "new_path": "answers/chapter_04/lesson_10/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 10/009-vi-sao-tiem-luc-cong-nghiep-va-quy-mo-thuoc-dia-cua-mot-nuoc-de-quoc.json",
+      "new_path": "answers/chapter_04/lesson_10/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/001-dieu-kien-lao-dong-va-sinh-hoat-cua-cong-nhan-thoi-ki-dau-cong-nghiep-hoa.json",
+      "new_path": "answers/chapter_04/lesson_11/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/002-vi-sao-nhung-hoat-dong-dap-pha-may-moc-xuat-hien-phong-trao-cong-nhan-buoi.json",
+      "new_path": "answers/chapter_04/lesson_11/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/003-phong-trao-hien-chuong-o-anh-the-hien-buoc-phat-trien-nao-cua-phong-trao-cong.json",
+      "new_path": "answers/chapter_04/lesson_11/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/004-cac-mac-va-phri-drich-ang-ghen-co-vai-tro-gi-doi-voi-su-doi-cua.json",
+      "new_path": "answers/chapter_04/lesson_11/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/005-tuyen-ngon-cua-dang-cong-san-doi-nam-nao-va-co-y-nghia-gi-doi-voi.json",
+      "new_path": "answers/chapter_04/lesson_11/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/006-quoc-te-thu-nhat-duoc-thanh-lap-nham-muc-dich-gi.json",
+      "new_path": "answers/chapter_04/lesson_11/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/007-cong-xa-pa-ri-nam-1871-doi-hoan-canh-nao.json",
+      "new_path": "answers/chapter_04/lesson_11/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/008-nhung-chinh-sach-nao-the-hien-tinh-chat-vi-nguoi-lao-dong-cua-cong-xa-pa.json",
+      "new_path": "answers/chapter_04/lesson_11/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/009-cong-xa-pa-ri-that-bai-do-nhung-nguyen-nhan-nao-va-de-lai-y-nghia.json",
+      "new_path": "answers/chapter_04/lesson_11/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/010-phong-trao-cong-nhan-cuoi-the-ki-xix-dau-the-ki-xx-gan-voi-su-doi.json",
+      "new_path": "answers/chapter_04/lesson_11/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/011-su-chuyen-bien-tu-dap-pha-may-moc-sang-dau-tranh-co-to-chuc-thay-nhan.json",
+      "new_path": "answers/chapter_04/lesson_11/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 11/012-vi-sao-mot-chinh-quyen-ton-tai-thoi-gian-ngan-nhu-cong-xa-pa-ri-van.json",
+      "new_path": "answers/chapter_04/lesson_11/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/001-nhung-nguyen-nhan-xa-nao-dan-den-chien-tranh-the-gioi-thu-nhat.json",
+      "new_path": "answers/chapter_04/lesson_12/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/002-duyen-co-truc-tiep-lam-bung-no-chien-tranh-the-gioi-thu-nhat-la-gi.json",
+      "new_path": "answers/chapter_04/lesson_12/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/003-hai-khoi-quan-su-doi-dau-truoc-chien-tranh-the-gioi-thu-nhat-gom-nhung-nuoc.json",
+      "new_path": "answers/chapter_04/lesson_12/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/004-chien-tranh-the-gioi-thu-nhat-trai-qua-nhung-giai-doan-chinh-nao.json",
+      "new_path": "answers/chapter_04/lesson_12/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/005-vi-sao-cuoc-chien-bat-dau-o-chau-au-lai-tro-thanh-chien-tranh-the-gioi.json",
+      "new_path": "answers/chapter_04/lesson_12/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/006-chien-tranh-the-gioi-thu-nhat-ket-thuc-nhu-the-nao-va-gay-nhung-hau-qua.json",
+      "new_path": "answers/chapter_04/lesson_12/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/007-tinh-chat-cua-chien-tranh-the-gioi-thu-nhat-duoc-xac-dinh-nhu-the-nao.json",
+      "new_path": "answers/chapter_04/lesson_12/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/008-nuoc-nga-truoc-cach-mang-thang-hai-nam-1917-lam-vao-tinh-trang-nhu-the-nao.json",
+      "new_path": "answers/chapter_04/lesson_12/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/009-cach-mang-thang-hai-nam-1917-o-nga-dat-ket-qua-gi.json",
+      "new_path": "answers/chapter_04/lesson_12/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/010-vi-sao-o-nga-tiep-tuc-dien-cach-mang-thang-muoi-cach-mang-thang-hai-nam.json",
+      "new_path": "answers/chapter_04/lesson_12/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/011-le-nin-va-dang-bon-se-vich-co-vai-tro-gi-cach-mang-thang-muoi-nga.json",
+      "new_path": "answers/chapter_04/lesson_12/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/012-cach-mang-thang-muoi-nga-nam-1917-co-y-nghia-nhu-the-nao-doi-voi-nuoc.json",
+      "new_path": "answers/chapter_04/lesson_12/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/013-vi-sao-can-phan-biet-nguyen-nhan-xa-voi-duyen-co-truc-tiep-giai-thich-mot.json",
+      "new_path": "answers/chapter_04/lesson_12/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/014-tu-hau-qua-cua-chien-tranh-the-gioi-thu-nhat-se-giai-thich-gia-tri-cua.json",
+      "new_path": "answers/chapter_04/lesson_12/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 4/Bài 12/015-chien-tranh-the-gioi-thu-nhat-co-anh-huong-nhu-the-nao-den-tinh-hinh-dan.json",
+      "new_path": "answers/chapter_04/lesson_12/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/001-nhung-dieu-kien-kinh-te-va-xa-hoi-nao-thuc-day-khoa-hoc-ki-thuat-phat.json",
+      "new_path": "answers/chapter_05/lesson_13/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/002-khoa-hoc-tu-nhien-va-khoa-hoc-xa-hoi-khac-nhau-o-doi-tuong-nghien-cuu.json",
+      "new_path": "answers/chapter_05/lesson_13/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/003-nhung-thanh-tuu-vat-li-nao-duoc-nhac-den-tim-hieu-khoa-hoc-thoi-can-dai.json",
+      "new_path": "answers/chapter_05/lesson_13/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/004-cac-nghien-cuu-ve-dien-va-tu-gop-phan-mo-nhung-kha-nang-ung-dung-nao.json",
+      "new_path": "answers/chapter_05/lesson_13/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/005-hoc-thuyet-te-bao-co-y-nghia-gi-doi-voi-nhan-thuc-ve-the-gioi-sinh.json",
+      "new_path": "answers/chapter_05/lesson_13/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/006-thuyet-tien-hoa-cua-dac-uyn-lam-thay-doi-cach-giai-thich-su-phat-trien-cua.json",
+      "new_path": "answers/chapter_05/lesson_13/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/007-dinh-luat-bao-toan-va-chuyen-hoa-nang-luong-co-y-nghia-gi-doi-voi-khoa.json",
+      "new_path": "answers/chapter_05/lesson_13/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/008-nhung-tien-bo-hoa-hoc-co-anh-huong-gi-den-san-xuat-the-ki-xix.json",
+      "new_path": "answers/chapter_05/lesson_13/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/009-nhung-thanh-tuu-y-hoc-va-ve-sinh-gop-phan-cai-thien-suc-khoe-con-nguoi.json",
+      "new_path": "answers/chapter_05/lesson_13/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/010-viec-su-dung-rong-rai-may-hoi-nuoc-tac-dong-nhu-the-nao-den-san-xuat.json",
+      "new_path": "answers/chapter_05/lesson_13/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/011-ki-thuat-luyen-kim-the-ki-xix-co-nhung-buoc-tien-dang-chu-y-nao.json",
+      "new_path": "answers/chapter_05/lesson_13/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/012-nhung-tien-bo-ki-thuat-duoc-ap-dung-vao-nong-nghiep-nhu-the-nao.json",
+      "new_path": "answers/chapter_05/lesson_13/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/013-giao-thong-duong-sat-phat-trien-da-lam-thay-doi-van-chuyen-hang-hoa-va-hanh.json",
+      "new_path": "answers/chapter_05/lesson_13/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/014-tau-thuy-chay-bang-hoi-nuoc-co-uu-the-gi-so-voi-thuyen-buom-van-tai.json",
+      "new_path": "answers/chapter_05/lesson_13/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/015-su-phat-trien-cua-dien-tin-lam-thay-doi-viec-truyen-tin-nhu-the-nao.json",
+      "new_path": "answers/chapter_05/lesson_13/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/016-nhung-tien-bo-ki-thuat-quan-su-the-ki-xix-tac-dong-nhu-the-nao-den.json",
+      "new_path": "answers/chapter_05/lesson_13/question_016.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/017-nhung-chuyen-bien-xa-hoi-nao-thuc-day-su-phat-trien-cua-cac-tu-tuong-va.json",
+      "new_path": "answers/chapter_05/lesson_13/question_017.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/018-triet-hoc-duy-vat-co-vai-tro-gi-viec-phat-trien-tu-duy-khoa-hoc.json",
+      "new_path": "answers/chapter_05/lesson_13/question_018.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/019-kinh-te-chinh-tri-hoc-nghien-cuu-nhung-van-de-co-ban-nao-cua-doi-song.json",
+      "new_path": "answers/chapter_05/lesson_13/question_019.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/020-chu-nghia-xa-hoi-khong-tuong-the-hien-mong-muon-gi-ve-mot-xa-hoi-tuong.json",
+      "new_path": "answers/chapter_05/lesson_13/question_020.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/021-su-doi-cua-chu-nghia-xa-hoi-khoa-hoc-co-y-nghia-gi-lich-su-tu.json",
+      "new_path": "answers/chapter_05/lesson_13/question_021.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/022-van-hoc-chau-au-the-ki-xviii-xix-thuong-phan-anh-nhung-van-de-xa-hoi.json",
+      "new_path": "answers/chapter_05/lesson_13/question_022.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/023-chu-nghia-lang-man-van-hoc-co-nhung-dac-diem-noi-bat-nao.json",
+      "new_path": "answers/chapter_05/lesson_13/question_023.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/024-chu-nghia-hien-thuc-van-hoc-chu-phan-anh-dieu-gi.json",
+      "new_path": "answers/chapter_05/lesson_13/question_024.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/025-vich-to-huy-go-co-nhung-dong-gop-tieu-bieu-nao-van-hoc-the-ki-xix.json",
+      "new_path": "answers/chapter_05/lesson_13/question_025.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/026-lep-ton-xtoi-co-nhung-tac-pham-va-dong-gop-tieu-bieu-nao.json",
+      "new_path": "answers/chapter_05/lesson_13/question_026.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/027-nhung-nhac-si-nao-tieu-bieu-su-phat-trien-am-nhac-phuong-tay-thoi-ki-nay.json",
+      "new_path": "answers/chapter_05/lesson_13/question_027.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/028-am-nhac-cua-bet-to-ven-the-hien-nhung-gia-tri-tinh-than-nao.json",
+      "new_path": "answers/chapter_05/lesson_13/question_028.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/029-hoi-hoa-the-ki-xviii-xix-co-nhung-chuyen-bien-dang-chu-y-nao-ve-de.json",
+      "new_path": "answers/chapter_05/lesson_13/question_029.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/030-nhung-thanh-tuu-khoa-hoc-ki-thuat-va-nghe-thuat-thoi-ki-nay-anh-huong-nhu.json",
+      "new_path": "answers/chapter_05/lesson_13/question_030.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/031-vi-sao-mot-phat-minh-chi-tao-bien-doi-xa-hoi-rong-co-dieu-kien-de.json",
+      "new_path": "answers/chapter_05/lesson_13/question_031.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/032-co-the-xem-moi-ung-dung-cua-tien-bo-ki-thuat-deu-co-loi-con-nguoi.json",
+      "new_path": "answers/chapter_05/lesson_13/question_032.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/033-tim-hieu-mot-tac-pham-van-hoc-hien-thuc-the-ki-xix-vi-sao-can-dat.json",
+      "new_path": "answers/chapter_05/lesson_13/question_033.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/034-mot-tac-pham-nghe-thuat-co-the-giup-tim-hieu-lich-su-nhu-the-nao-va.json",
+      "new_path": "answers/chapter_05/lesson_13/question_034.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/035-giua-phat-minh-khoa-hoc-va-sang-che-ki-thuat-co-moi-quan-he-nhu-the.json",
+      "new_path": "answers/chapter_05/lesson_13/question_035.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 5/Bài 13/036-neu-lua-chon-mot-thanh-tuu-the-ki-xviii-xix-con-anh-huong-den-cuoc-song.json",
+      "new_path": "answers/chapter_05/lesson_13/question_036.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/001-vi-sao-trung-quoc-tro-thanh-doi-tuong-xam-luoc-cua-cac-nuoc-de-quoc-the.json",
+      "new_path": "answers/chapter_06/lesson_14/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/002-chien-tranh-thuoc-phien-lam-thay-doi-tinh-hinh-trung-quoc-nhu-the-nao.json",
+      "new_path": "answers/chapter_06/lesson_14/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/003-cac-nuoc-de-quoc-phan-chia-pham-vi-anh-huong-o-trung-quoc-sao.json",
+      "new_path": "answers/chapter_06/lesson_14/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/004-cuoc-khoi-nghia-thai-binh-thien-quoc-co-muc-tieu-va-ket-qua-gi.json",
+      "new_path": "answers/chapter_06/lesson_14/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/005-cuoc-van-dong-duy-tan-nam-1898-o-trung-quoc-nham-muc-dich-gi-va-vi.json",
+      "new_path": "answers/chapter_06/lesson_14/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/006-phong-trao-nghia-hoa-doan-bung-no-hoan-canh-nao.json",
+      "new_path": "answers/chapter_06/lesson_14/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/007-ton-trung-son-co-vai-tro-gi-doi-voi-phong-trao-cach-mang-trung-quoc.json",
+      "new_path": "answers/chapter_06/lesson_14/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/008-cach-mang-tan-hoi-nam-1911-co-ket-qua-y-nghia-va-han-che-gi.json",
+      "new_path": "answers/chapter_06/lesson_14/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/009-nhat-ban-giua-the-ki-xix-dung-truoc-nhung-kho-khan-va-suc-ep-nao.json",
+      "new_path": "answers/chapter_06/lesson_14/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/010-cuoc-duy-tan-minh-tri-bat-dau-hoan-canh-nao.json",
+      "new_path": "answers/chapter_06/lesson_14/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/011-cuoc-duy-tan-minh-tri-thuc-hien-nhung-thay-doi-gi-ve-chinh-tri.json",
+      "new_path": "answers/chapter_06/lesson_14/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/012-nhung-cai-cach-kinh-te-cua-minh-tri-nham-giai-quyet-cac-van-de-gi.json",
+      "new_path": "answers/chapter_06/lesson_14/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/013-nhung-cai-cach-giao-duc-cua-minh-tri-co-dac-diem-gi.json",
+      "new_path": "answers/chapter_06/lesson_14/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/014-nhung-thay-doi-ve-quan-su-duoc-thuc-hien-cuoc-duy-tan-minh-tri-nhu-the.json",
+      "new_path": "answers/chapter_06/lesson_14/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/015-cuoc-duy-tan-minh-tri-co-y-nghia-gi-doi-voi-su-phat-trien-cua-nhat.json",
+      "new_path": "answers/chapter_06/lesson_14/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/016-nhat-ban-chuyen-sang-giai-doan-de-quoc-chu-nghia-cuoi-the-ki-xix-dau-the.json",
+      "new_path": "answers/chapter_06/lesson_14/question_016.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/017-vi-sao-cach-mang-tan-hoi-duoc-xem-la-mot-buoc-tien-lon-du-chua-giai.json",
+      "new_path": "answers/chapter_06/lesson_14/question_017.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/018-nhung-diem-khac-biet-nao-giua-cuoc-duy-tan-minh-tri-va-cuoc-van-dong-duy.json",
+      "new_path": "answers/chapter_06/lesson_14/question_018.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 14/019-vai-tro-cua-giao-duc-cuoc-duy-tan-minh-tri-goi-dieu-gi-ve-moi-quan.json",
+      "new_path": "answers/chapter_06/lesson_14/question_019.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/001-thuc-dan-anh-to-chuc-su-thong-tri-o-an-do-nua-the-ki-xix-nhu.json",
+      "new_path": "answers/chapter_06/lesson_15/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/002-chinh-sach-khai-thac-kinh-te-cua-anh-anh-huong-nhu-the-nao-den-nguoi-dan.json",
+      "new_path": "answers/chapter_06/lesson_15/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/003-cuoc-khoi-nghia-xi-pay-bung-no-hoan-canh-nao.json",
+      "new_path": "answers/chapter_06/lesson_15/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/004-cuoc-khoi-nghia-xi-pay-co-ket-qua-va-y-nghia-gi.json",
+      "new_path": "answers/chapter_06/lesson_15/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/005-dang-quoc-dai-o-an-do-duoc-thanh-lap-hoan-canh-nao.json",
+      "new_path": "answers/chapter_06/lesson_15/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/006-cac-khuynh-huong-dau-tranh-dang-quoc-dai-co-diem-khac-nhau-nao.json",
+      "new_path": "answers/chapter_06/lesson_15/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/007-phong-trao-chong-chinh-sach-chia-cat-ben-gan-dau-the-ki-xx-the-hien-tinh.json",
+      "new_path": "answers/chapter_06/lesson_15/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/008-den-cuoi-the-ki-xix-tinh-hinh-thuoc-dia-o-dong-nam-a-co-dac-diem.json",
+      "new_path": "answers/chapter_06/lesson_15/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/009-nhung-bien-doi-kinh-te-va-xa-hoi-nao-xuat-hien-o-dong-nam-a-duoi.json",
+      "new_path": "answers/chapter_06/lesson_15/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/010-phong-trao-chong-thuc-dan-o-in-do-ne-xi-a-cuoi-the-ki-xix-dau.json",
+      "new_path": "answers/chapter_06/lesson_15/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/011-phong-trao-dau-tranh-o-phi-lip-pin-cuoi-the-ki-xix-dien-nhu-the-nao.json",
+      "new_path": "answers/chapter_06/lesson_15/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/012-nhung-cuoc-dau-tranh-tieu-bieu-nao-dien-o-cam-pu-chia-va-lao-chong-thuc.json",
+      "new_path": "answers/chapter_06/lesson_15/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/013-xiem-thuc-hien-nhung-cai-cach-nao-vao-nua-the-ki-xix.json",
+      "new_path": "answers/chapter_06/lesson_15/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/014-phong-trao-giai-phong-dan-toc-o-dong-nam-a-dau-the-ki-xx-co-nhung.json",
+      "new_path": "answers/chapter_06/lesson_15/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/015-vi-sao-chinh-sach-chia-de-tri-co-the-lam-sac-them-nhung-khac-biet-da.json",
+      "new_path": "answers/chapter_06/lesson_15/question_015.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/016-su-xuat-hien-cac-luc-luong-xa-hoi-moi-anh-huong-nhu-the-nao-den-hinh.json",
+      "new_path": "answers/chapter_06/lesson_15/question_016.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 6/Bài 15/017-vi-sao-giai-thich-viec-xiem-giu-duoc-nen-doc-lap-tuong-doi-can-xem-xet.json",
+      "new_path": "answers/chapter_06/lesson_15/question_017.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 16/001-nha-nguyen-duoc-thanh-lap-hoan-canh-nao-va-chon-kinh-do-o-dau.json",
+      "new_path": "answers/chapter_07/lesson_16/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 16/002-bo-may-nha-nuoc-thoi-nguyen-duoc-to-chuc-nhu-the-nao.json",
+      "new_path": "answers/chapter_07/lesson_16/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 16/003-cuoc-cai-cach-hanh-chinh-duoi-thoi-minh-mang-co-noi-dung-noi-bat-gi.json",
+      "new_path": "answers/chapter_07/lesson_16/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 16/004-tinh-hinh-nong-nghiep-thu-cong-nghiep-va-thuong-nghiep-nua-dau-the-ki-xix-co.json",
+      "new_path": "answers/chapter_07/lesson_16/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 16/005-trieu-nguyen-da-co-nhung-hoat-dong-gi-de-quan-li-va-thuc-thi-chu-quyen.json",
+      "new_path": "answers/chapter_07/lesson_16/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 16/006-van-hoa-viet-nam-nua-dau-the-ki-xix-co-nhung-thanh-tuu-tieu-bieu-nao.json",
+      "new_path": "answers/chapter_07/lesson_16/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 16/007-vi-sao-danh-gia-trieu-nguyen-can-xem-xet-rieng-cac-linh-vuc-quan-li-dat.json",
+      "new_path": "answers/chapter_07/lesson_16/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/001-vi-sao-thuc-dan-phap-xam-luoc-viet-nam-va-lua-chon-da-nang-lam-noi.json",
+      "new_path": "answers/chapter_07/lesson_17/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/002-quan-dan-viet-nam-chong-lien-quan-phap-tay-ban-nha-o-da-nang-nhu-the.json",
+      "new_path": "answers/chapter_07/lesson_17/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/003-thuc-dan-phap-chuyen-huong-tan-cong-gia-dinh-nam-1859-nham-muc-dich-gi.json",
+      "new_path": "answers/chapter_07/lesson_17/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/004-hiep-uoc-nham-tuat-nam-1862-co-nhung-noi-dung-chinh-nao.json",
+      "new_path": "answers/chapter_07/lesson_17/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/005-truong-dinh-va-nhan-dan-nam-ki-tiep-tuc-chong-phap-nam-1862-nhu-the-nao.json",
+      "new_path": "answers/chapter_07/lesson_17/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/006-hai-chien-thang-cau-giay-nam-1873-va-nam-1883-co-y-nghia-gi.json",
+      "new_path": "answers/chapter_07/lesson_17/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/007-cac-hiep-uoc-hac-mang-nam-1883-va-pa-to-not-nam-1884-tac-dong-nhu.json",
+      "new_path": "answers/chapter_07/lesson_17/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/008-thai-do-va-hanh-dong-cua-trieu-dinh-hue-khac-voi-phong-trao-khang-chien-cua.json",
+      "new_path": "answers/chapter_07/lesson_17/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/009-nhung-kho-khan-cua-viet-nam-nua-cuoi-the-ki-xix-dat-yeu-cau-cai-cach.json",
+      "new_path": "answers/chapter_07/lesson_17/question_009.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/010-nhung-nhan-vat-nao-tieu-bieu-trao-luu-de-nghi-cai-cach-o-viet-nam-nua.json",
+      "new_path": "answers/chapter_07/lesson_17/question_010.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/011-cac-de-nghi-cai-cach-cua-nguyen-truong-to-tap-trung-vao-nhung-linh-vuc-nao.json",
+      "new_path": "answers/chapter_07/lesson_17/question_011.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/012-cac-de-nghi-cai-cach-cuoi-the-ki-xix-co-gia-tri-gi-va-vi-sao.json",
+      "new_path": "answers/chapter_07/lesson_17/question_012.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/013-vi-sao-uu-the-vu-cua-phap-chua-du-de-giai-thich-toan-bo-nguyen-nhan.json",
+      "new_path": "answers/chapter_07/lesson_17/question_013.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 17/014-neu-so-sanh-dieu-kien-thuc-hien-cai-cach-o-viet-nam-va-nhat-ban-nua.json",
+      "new_path": "answers/chapter_07/lesson_17/question_014.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 18/001-phong-trao-can-vuong-bung-no-hoan-canh-nao.json",
+      "new_path": "answers/chapter_07/lesson_18/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 18/002-chieu-can-vuong-keu-goi-dieu-gi-va-duoc-nhung-luc-luong-nao-huong-ung.json",
+      "new_path": "answers/chapter_07/lesson_18/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 18/003-cac-cuoc-khoi-nghia-ba-dinh-bai-say-va-huong-khe-co-nhung-dac-diem-noi.json",
+      "new_path": "answers/chapter_07/lesson_18/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 18/004-vi-sao-khoi-nghia-huong-khe-duoc-xem-la-mot-cuoc-khoi-nghia-tieu-bieu-cua.json",
+      "new_path": "answers/chapter_07/lesson_18/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 18/005-khoi-nghia-yen-the-co-muc-tieu-va-luc-luong-tham-gia-khac-phong-trao-can.json",
+      "new_path": "answers/chapter_07/lesson_18/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 18/006-phong-trao-chong-phap-cuoi-the-ki-xix-co-nhung-nguyen-nhan-that-bai-va-y.json",
+      "new_path": "answers/chapter_07/lesson_18/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 18/007-so-sanh-phong-trao-can-vuong-voi-khoi-nghia-yen-the-vi-sao-can-phan-biet.json",
+      "new_path": "answers/chapter_07/lesson_18/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 19/001-cuoc-khai-thac-thuoc-dia-lan-thu-nhat-cua-phap-lam-kinh-te-va-xa-hoi.json",
+      "new_path": "answers/chapter_07/lesson_19/question_001.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 19/002-phan-boi-chau-va-phong-trao-dong-du-chu-truong-cuu-nuoc-bang-con-duong-nao.json",
+      "new_path": "answers/chapter_07/lesson_19/question_002.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 19/003-phan-chau-trinh-va-cuoc-van-dong-duy-tan-de-cao-nhung-hoat-dong-gi.json",
+      "new_path": "answers/chapter_07/lesson_19/question_003.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 19/004-dong-kinh-nghia-thuc-co-nhung-hoat-dong-va-y-nghia-gi.json",
+      "new_path": "answers/chapter_07/lesson_19/question_004.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 19/005-nhung-phong-trao-yeu-nuoc-nao-tiep-tuc-dien-thoi-gian-chien-tranh-the-gioi-thu.json",
+      "new_path": "answers/chapter_07/lesson_19/question_005.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 19/006-nguyen-tat-thanh-di-tim-duong-cuu-nuoc-nam-1911-hoan-canh-nao-va-co-nhung.json",
+      "new_path": "answers/chapter_07/lesson_19/question_006.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 19/007-chu-truong-cuu-nuoc-cua-phan-boi-chau-va-phan-chau-trinh-khac-nhau-nhu-the.json",
+      "new_path": "answers/chapter_07/lesson_19/question_007.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "answer/Chương 7/Bài 19/008-huong-di-tim-duong-cuu-nuoc-cua-nguyen-tat-thanh-co-diem-gi-khac-voi-cac.json",
+      "new_path": "answers/chapter_07/lesson_19/question_008.json",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/Chuong_1_20_cau.docx",
+      "new_path": "source_documents/chapter_01_20_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/Chuong_2_20_cau.docx",
+      "new_path": "source_documents/chapter_02_20_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/Chuong_3_20_cau.docx",
+      "new_path": "source_documents/chapter_03_20_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/LS_01_Cau_hoi.docx",
+      "new_path": "source_documents/history_01_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/LS_02_Cau_hoi.docx",
+      "new_path": "source_documents/history_02_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/LS_03_Cau_hoi.docx",
+      "new_path": "source_documents/history_03_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/LS_04_Cau_hoi.docx",
+      "new_path": "source_documents/history_04_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/LS_05_Cau_hoi.docx",
+      "new_path": "source_documents/history_05_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/LS_06_Cau_hoi.docx",
+      "new_path": "source_documents/history_06_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/LS_07_Cau_hoi.docx",
+      "new_path": "source_documents/history_07_questions.docx",
+      "status": "applied"
+    },
+    {
+      "old_path": "du_lieu/Tom_tat_Lich_su_8_Ket_noi_tri_thuc_Bai_1-9.docx",
+      "new_path": "source_documents/history_8_summary_lessons_01_09.docx",
+      "status": "applied"
+    }
+  ],
+  "preflight": {
+    "entries": 665,
+    "missing_sources": [],
+    "existing_targets": [],
+    "duplicate_targets": [],
+    "unplanned_sources": [],
+    "valid": true
+  },
+  "verification": {
+    "targets_expected": 665,
+    "targets_present": 665,
+    "missing_targets": [],
+    "remaining_sources": [],
+    "json_pairs_checked": 327,
+    "invalid_pairs": [],
+    "valid": true
+  },
+  "rollback": "Use the backup and reverse old_path/new_path mapping. Do not overwrite newer data without an explicit recovery decision."
+}

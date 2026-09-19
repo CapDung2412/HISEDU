@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_MR_02",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_MR_02",
+  "title": "vi-sao-tim-hieu-qua-trinh-khai-pha-phia-nam-can-chu-y-su-dong-gop",
+  "question": "Vì sao khi tìm hiểu quá trình khai phá phía Nam cần chú ý sự đóng góp và giao lưu của nhiều cộng đồng cư dân?",
+  "answer": "Vùng đất phía Nam đã có cư dân và văn hóa Khmer, Chăm trước khi người Việt, Hoa đến. Nhìn nhận nhiều cộng đồng giúp phản ánh đúng quá trình cùng khai phá, trao đổi kĩ thuật, buôn bán và hình thành xã hội đa văn hóa.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B06",
+    "folder": "lesson_06",
+    "title": "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "sao",
+    "tìm",
+    "hiểu",
+    "khai",
+    "phá",
+    "phía",
+    "Nam",
+    "cần",
+    "chú",
+    "đóng",
+    "góp"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 6: Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_011.txt"
+}

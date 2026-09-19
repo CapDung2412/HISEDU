@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_CB_06",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_CB_06",
+  "title": "nhung-dieu-kien-nao-giup-kinh-te-my-vuon-len-manh-me-cuoi-the-ki-xix",
+  "question": "Những điều kiện nào giúp kinh tế Mỹ vươn lên mạnh mẽ cuối thế kỉ XIX?",
+  "answer": "Hoa Kỳ có lãnh thổ, tài nguyên và thị trường rộng, lao động nhập cư dồi dào, tích lũy vốn lớn, đường sắt phát triển, ứng dụng kĩ thuật và tổ chức sản xuất mới, lại ít bị chiến tranh tàn phá trên lãnh thổ.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B10",
+    "folder": "lesson_10",
+    "title": "Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)"
+  },
+  "keywords": [
+    "Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)",
+    "điều",
+    "kiện",
+    "giúp",
+    "kinh",
+    "vươn",
+    "lên",
+    "mạnh",
+    "cuối",
+    "XIX"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 10: Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_006.txt"
+}

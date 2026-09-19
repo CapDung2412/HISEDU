@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_19",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_19",
+  "title": "kinh-te-chinh-tri-hoc-nghien-cuu-nhung-van-de-co-ban-nao-cua-doi-song",
+  "question": "Kinh tế chính trị học nghiên cứu những vấn đề cơ bản nào của đời sống kinh tế?",
+  "answer": "Kinh tế chính trị học nghiên cứu sản xuất, phân phối, trao đổi, tiêu dùng, giá trị, tiền công, lợi nhuận, địa tô và quan hệ giữa các giai cấp trong nền kinh tế.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Kinh",
+    "chính",
+    "trị",
+    "học",
+    "nghiên",
+    "cứu",
+    "vấn",
+    "bản",
+    "đời",
+    "sống"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_019.txt"
+}

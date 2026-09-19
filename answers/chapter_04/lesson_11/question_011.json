@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_MR_02",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_MR_02",
+  "title": "su-chuyen-bien-tu-dap-pha-may-moc-sang-dau-tranh-co-to-chuc-thay-nhan",
+  "question": "Sự chuyển biến từ đập phá máy móc sang đấu tranh có tổ chức cho thấy nhận thức của công nhân thay đổi như thế nào?",
+  "answer": "Công nhân dần hiểu máy móc không phải nguyên nhân gốc của nghèo khổ mà quan hệ bóc lột mới là vấn đề; họ nhận ra lợi ích chung, thành lập công đoàn, đưa yêu sách kinh tế–chính trị và liên kết vượt khỏi từng xưởng.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B11",
+    "folder": "lesson_11",
+    "title": "Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học"
+  },
+  "keywords": [
+    "Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học",
+    "chuyển",
+    "biến",
+    "đập",
+    "phá",
+    "máy",
+    "móc",
+    "sang",
+    "đấu",
+    "tranh",
+    "chức",
+    "thấy"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 11: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_011.txt"
+}

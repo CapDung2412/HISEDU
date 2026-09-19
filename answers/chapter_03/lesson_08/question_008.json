@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_20",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_20",
+  "title": "phong-trao-tay-son-da-lat-do-cac-tap-doan-phong-kien-nguyen-trinh-va-le",
+  "question": "Phong trào Tây Sơn đã lật đổ các tập đoàn phong kiến Nguyễn, Trịnh và Lê như thế nào?",
+  "answer": "Tây Sơn đánh đổ chính quyền chúa Nguyễn năm 1777; năm 1786 Nguyễn Huệ tiến ra Bắc lật đổ họ Trịnh, trao quyền cho vua Lê rồi tiếp tục loại bỏ các thế lực cát cứ, làm nền tảng xóa bỏ chia cắt.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B08",
+    "folder": "lesson_08",
+    "title": "Phong trào Tây Sơn"
+  },
+  "keywords": [
+    "Phong trào Tây Sơn",
+    "Phong",
+    "trào",
+    "Tây",
+    "Sơn",
+    "lật",
+    "tập",
+    "đoàn",
+    "kiến",
+    "Nguyễn",
+    "Trịnh"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 8: Phong trào Tây Sơn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_008.txt"
+}

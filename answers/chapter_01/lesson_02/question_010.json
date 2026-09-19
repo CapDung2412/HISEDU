@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_15",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_15",
+  "title": "trao-luu-triet-hoc-anh-sang-co-vai-tro-gi-doi-voi-cach-mang-tu-san",
+  "question": "Trào lưu Triết học Ánh sáng có vai trò gì đối với Cách mạng tư sản Pháp?",
+  "answer": "Các nhà tư tưởng Ánh sáng như Montesquieu, Voltaire và Rousseau phê phán chế độ chuyên chế, đặc quyền và Giáo hội, đồng thời truyền bá tư tưởng tự do, bình đẳng, chủ quyền nhân dân, chuẩn bị về tư tưởng cho cách mạng.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B02",
+    "folder": "lesson_02",
+    "title": "Cách mạng tư sản Pháp cuối thế kỉ XVIII"
+  },
+  "keywords": [
+    "Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "Trào",
+    "lưu",
+    "Triết",
+    "học",
+    "Ánh",
+    "sáng",
+    "vai",
+    "trò",
+    "Cách",
+    "mạng",
+    "sản"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_010.txt"
+}

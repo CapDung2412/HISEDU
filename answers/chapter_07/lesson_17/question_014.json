@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_MR_04",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_MR_04",
+  "title": "neu-so-sanh-dieu-kien-thuc-hien-cai-cach-o-viet-nam-va-nhat-ban-nua",
+  "question": "Nếu so sánh điều kiện thực hiện cải cách ở Việt Nam và Nhật Bản nửa cuối thế kỉ XIX, cần xem xét những yếu tố nào?",
+  "answer": "Cần so sánh mức độ thống nhất và quyền lực của lãnh đạo, lực lượng ủng hộ cải cách, tài chính–quân sự, giáo dục, khả năng huy động xã hội, sức ép ngoại bang và thời gian hòa bình; Nhật có nhiều điều kiện thuận lợi hơn Việt Nam đang bị xâm lược.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B17",
+    "folder": "lesson_17",
+    "title": "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884"
+  },
+  "keywords": [
+    "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "Nếu",
+    "sánh",
+    "điều",
+    "kiện",
+    "thực",
+    "cải",
+    "cách",
+    "Việt",
+    "Nam",
+    "Nhật",
+    "Bản"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_014.txt"
+}

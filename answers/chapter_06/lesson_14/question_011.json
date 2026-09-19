@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_11",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_11",
+  "title": "cuoc-duy-tan-minh-tri-thuc-hien-nhung-thay-doi-gi-ve-chinh-tri",
+  "question": "Cuộc Duy tân Minh Trị thực hiện những thay đổi gì về chính trị?",
+  "answer": "Chính quyền bãi bỏ các phiên, lập phủ huyện do trung ương quản lí, xây dựng nhà nước quân chủ tập quyền, ban hành Hiến pháp 1889 và tổ chức nghị viện, qua đó xóa dần cát cứ phong kiến.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Cuộc",
+    "Duy",
+    "tân",
+    "Minh",
+    "Trị",
+    "thực",
+    "thay",
+    "đổi",
+    "chính"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_011.txt"
+}

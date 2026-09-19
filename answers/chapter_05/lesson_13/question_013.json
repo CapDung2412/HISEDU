@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_13",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_13",
+  "title": "giao-thong-duong-sat-phat-trien-da-lam-thay-doi-van-chuyen-hang-hoa-va-hanh",
+  "question": "Giao thông đường sắt phát triển đã làm thay đổi vận chuyển hàng hóa và hành khách ra sao?",
+  "answer": "Đường sắt vận chuyển khối lượng lớn nhanh, đều và rẻ hơn, nối mỏ–nhà máy–cảng–thị trường, rút ngắn thời gian đi lại và thúc đẩy hình thành mạng lưới kinh tế quốc gia.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Giao",
+    "thông",
+    "đường",
+    "sắt",
+    "phát",
+    "triển",
+    "thay",
+    "đổi",
+    "vận",
+    "chuyển",
+    "hàng"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_013.txt"
+}

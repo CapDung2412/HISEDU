@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_03",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_03",
+  "title": "cac-nuoc-de-quoc-phan-chia-pham-vi-anh-huong-o-trung-quoc-sao",
+  "question": "Các nước đế quốc phân chia phạm vi ảnh hưởng ở Trung Quốc ra sao?",
+  "answer": "Các đế quốc ép thuê cảng, làm đường sắt, khai mỏ và xác lập khu vực lợi ích: Anh nổi bật ở lưu vực Dương Tử, Pháp ở miền Nam, Đức ở Sơn Đông, Nga ở Đông Bắc, Nhật ở vùng duyên hải; Trung Quốc bị ví như chiếc bánh bị chia cắt.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "quốc",
+    "phân",
+    "chia",
+    "phạm",
+    "ảnh",
+    "hưởng",
+    "Trung",
+    "sao"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_003.txt"
+}

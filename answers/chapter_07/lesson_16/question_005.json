@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_05",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_05",
+  "title": "trieu-nguyen-da-co-nhung-hoat-dong-gi-de-quan-li-va-thuc-thi-chu-quyen",
+  "question": "Triều Nguyễn đã có những hoạt động gì để quản lí và thực thi chủ quyền đối với Hoàng Sa, Trường Sa?",
+  "answer": "Triều Nguyễn tiếp tục cử thủy quân và dân binh ra Hoàng Sa, Trường Sa khảo sát, đo đạc, dựng mốc, lập bản đồ, khai thác sản vật, cứu hộ tàu thuyền và tuần tra, thực thi chủ quyền thường xuyên.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B16",
+    "folder": "lesson_16",
+    "title": "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)"
+  },
+  "keywords": [
+    "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "Triều",
+    "Nguyễn",
+    "hoạt",
+    "động",
+    "quản",
+    "thực",
+    "thi",
+    "quyền",
+    "Hoàng",
+    "Trường"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 16: Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_005.txt"
+}

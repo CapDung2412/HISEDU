@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_25",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_25",
+  "title": "cuoc-khai-thac-thuoc-dia-lan-thu-nhat-cua-phap-lam-kinh-te-va-xa-hoi",
+  "question": "Cuộc khai thác thuộc địa lần thứ nhất của Pháp làm kinh tế và xã hội Việt Nam thay đổi như thế nào?",
+  "answer": "Cuộc khai thác lần thứ nhất phát triển mỏ, đồn điền, đường sắt và kinh tế hàng hóa nhưng làm nền kinh tế lệ thuộc, tài nguyên bị rút đi. Xã hội phân hóa: địa chủ và nông dân biến đổi, công nhân ra đời, tư sản và tiểu tư sản mới manh nha.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B19",
+    "folder": "lesson_19",
+    "title": "Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917"
+  },
+  "keywords": [
+    "Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917",
+    "Cuộc",
+    "khai",
+    "thác",
+    "thuộc",
+    "địa",
+    "lần",
+    "thứ",
+    "nhất",
+    "Pháp",
+    "kinh",
+    "hội"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 19: Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

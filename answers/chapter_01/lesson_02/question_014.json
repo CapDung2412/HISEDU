@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_19",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_19",
+  "title": "chinh-quyen-gia-co-banh-da-thuc-hien-nhung-bien-phap-gi-de-bao-ve-cach",
+  "question": "Chính quyền Gia-cô-banh đã thực hiện những biện pháp gì để bảo vệ cách mạng?",
+  "answer": "Gia-cô-banh chia ruộng công, xóa bỏ hoàn toàn nghĩa vụ phong kiến, quy định giá tối đa, tổ chức cứu tế và giáo dục; đồng thời tổng động viên, trấn áp phản cách mạng và đẩy lùi liên quân xâm lược.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B02",
+    "folder": "lesson_02",
+    "title": "Cách mạng tư sản Pháp cuối thế kỉ XVIII"
+  },
+  "keywords": [
+    "Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "Chính",
+    "quyền",
+    "Gia-cô-banh",
+    "thực",
+    "biện",
+    "pháp",
+    "bảo",
+    "cách",
+    "mạng"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_014.txt"
+}

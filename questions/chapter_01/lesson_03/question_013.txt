@@ -1,0 +1,11 @@
+Cách mạng công nghiệp lan từ Anh sang các nước khác như thế nào?
+
+---
+question_id: Q_HIST8_LS_01_CAU_HOI_CB_28
+chunk_id: CHK_HIST8_LS_01_CAU_HOI_CB_28
+chapter: chapter_01
+lesson: lesson_03
+lesson_title: Cách mạng công nghiệp
+difficulty: basic
+source_locator: Bài 3: Cách mạng công nghiệp
+source_url: https://hanhtrangso.nxbgd.vn/

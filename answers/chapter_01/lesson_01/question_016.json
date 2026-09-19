@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_04",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_04",
+  "title": "vi-sao-mau-thuan-giua-quoc-hoi-va-nha-vua-o-anh-ngay-cang-gay-gat",
+  "question": "Vì sao mâu thuẫn giữa Quốc hội và nhà vua ở Anh ngày càng gay gắt trước năm 1642?",
+  "answer": "Vua Charles I cai trị chuyên chế, tự đặt thuế, duy trì độc quyền và nhiều lần giải tán Quốc hội; Quốc hội đòi kiểm soát thuế, quân đội và quyền lập pháp nên xung đột ngày càng gay gắt.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B01",
+    "folder": "lesson_01",
+    "title": "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+  },
+  "keywords": [
+    "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "sao",
+    "mâu",
+    "thuẫn",
+    "Quốc",
+    "hội",
+    "nhà",
+    "vua",
+    "Anh",
+    "ngày",
+    "càng",
+    "gay"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_016.txt"
+}

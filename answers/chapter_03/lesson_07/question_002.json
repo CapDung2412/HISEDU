@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_CB_16",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_16",
+  "title": "ke-ten-mot-so-cuoc-khoi-nghia-nong-dan-tieu-bieu-o-dang-ngoai-the-ki",
+  "question": "Kể tên một số cuộc khởi nghĩa nông dân tiêu biểu ở Đàng Ngoài thế kỉ XVIII.",
+  "answer": "Các khởi nghĩa tiêu biểu gồm Nguyễn Dương Hưng, Nguyễn Danh Phương, Nguyễn Hữu Cầu, Hoàng Công Chất và Lê Duy Mật.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B07",
+    "folder": "lesson_07",
+    "title": "Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII"
+  },
+  "keywords": [
+    "Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+    "tên",
+    "cuộc",
+    "khởi",
+    "nghĩa",
+    "nông",
+    "tiêu",
+    "biểu",
+    "Đàng",
+    "Ngoài",
+    "XVIII"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 7: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_002.txt"
+}

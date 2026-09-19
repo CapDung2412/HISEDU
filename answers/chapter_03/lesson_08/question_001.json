@@ -1,0 +1,40 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_CB_19",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_19",
+  "title": "phong-trao-tay-son-bung-no-vao-nam-nao-va-do-nhung-lanh-dao",
+  "question": "Phong trào Tây Sơn bùng nổ vào năm nào và do những ai lãnh đạo?",
+  "answer": "Phong trào Tây Sơn bùng nổ năm 1771 tại Tây Sơn, do ba anh em Nguyễn Nhạc, Nguyễn Huệ và Nguyễn Lữ lãnh đạo.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B08",
+    "folder": "lesson_08",
+    "title": "Phong trào Tây Sơn"
+  },
+  "keywords": [
+    "Phong trào Tây Sơn",
+    "Phong",
+    "trào",
+    "Tây",
+    "Sơn",
+    "bùng",
+    "lãnh",
+    "đạo"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 8: Phong trào Tây Sơn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

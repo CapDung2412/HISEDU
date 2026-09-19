@@ -1,0 +1,11 @@
+Những biến đổi kinh tế nào dẫn đến sự hình thành chủ nghĩa đế quốc cuối thế kỉ XIX?
+
+---
+question_id: Q_HIST8_LS_04_CAU_HOI_CB_01
+chunk_id: CHK_HIST8_LS_04_CAU_HOI_CB_01
+chapter: chapter_04
+lesson: lesson_10
+lesson_title: Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)
+difficulty: basic
+source_locator: Bài 10: Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)
+source_url: https://hanhtrangso.nxbgd.vn/

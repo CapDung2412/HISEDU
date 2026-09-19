@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_14",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_14",
+  "title": "nhung-thay-doi-ve-quan-su-duoc-thuc-hien-cuoc-duy-tan-minh-tri-nhu-the",
+  "question": "Những thay đổi về quân sự được thực hiện trong cuộc Duy tân Minh Trị như thế nào?",
+  "answer": "Chính phủ thi hành nghĩa vụ quân sự, xây quân đội thường trực, huấn luyện và trang bị theo kiểu phương Tây, phát triển công nghiệp quốc phòng và hải quân hiện đại.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "thay",
+    "đổi",
+    "quân",
+    "thực",
+    "cuộc",
+    "Duy",
+    "tân",
+    "Minh",
+    "Trị"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_014.txt"
+}

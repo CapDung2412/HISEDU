@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_CB_15",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_15",
+  "title": "nhung-nguyen-nhan-chu-yeu-lam-bung-no-cac-cuoc-khoi-nghia-nong-dan-o-dang",
+  "question": "Những nguyên nhân chủ yếu làm bùng nổ các cuộc khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII là gì?",
+  "answer": "Chính quyền Lê–Trịnh khủng hoảng, quan lại tham nhũng, địa chủ chiếm ruộng; thuế khóa, lao dịch nặng nề, mất mùa và đói kém khiến nông dân nổi dậy.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B07",
+    "folder": "lesson_07",
+    "title": "Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII"
+  },
+  "keywords": [
+    "Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+    "nguyên",
+    "yếu",
+    "bùng",
+    "cuộc",
+    "khởi",
+    "nghĩa",
+    "nông",
+    "Đàng",
+    "Ngoài",
+    "XVIII"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 7: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

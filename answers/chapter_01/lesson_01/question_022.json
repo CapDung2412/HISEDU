@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_10",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_10",
+  "title": "chien-tranh-gianh-doc-lap-cua-13-thuoc-dia-anh-o-bac-my-dien-qua-nhung",
+  "question": "Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ diễn ra qua những mốc chính nào?",
+  "answer": "Các mốc chính: 1775 giao tranh ở Lexington mở đầu chiến tranh; 4/7/1776 công bố Tuyên ngôn Độc lập; 1777 thắng Xa-ra-tô-ga; 1781 thắng quyết định ở Yorktown; 1783 Anh kí Hiệp ước Pa-ri công nhận Hoa Kỳ.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B01",
+    "folder": "lesson_01",
+    "title": "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+  },
+  "keywords": [
+    "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "Chiến",
+    "tranh",
+    "giành",
+    "độc",
+    "lập",
+    "thuộc",
+    "địa",
+    "Anh",
+    "Bắc",
+    "diễn",
+    "qua"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_022.txt"
+}

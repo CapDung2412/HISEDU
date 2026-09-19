@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_06",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_06",
+  "title": "che-do-quan-chu-lap-hien-duoc-xac-lap-o-anh-co-dac-diem-gi",
+  "question": "Chế độ quân chủ lập hiến được xác lập ở Anh có đặc điểm gì?",
+  "answer": "Anh vẫn có vua nhưng quyền lực bị pháp luật và Quốc hội hạn chế. Quốc hội nắm quyền lập pháp, thuế và kiểm soát chính phủ; nhà vua chủ yếu trị vì trong khuôn khổ hiến pháp.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B01",
+    "folder": "lesson_01",
+    "title": "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+  },
+  "keywords": [
+    "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "Chế",
+    "quân",
+    "lập",
+    "hiến",
+    "xác",
+    "Anh",
+    "đặc",
+    "điểm"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_018.txt"
+}

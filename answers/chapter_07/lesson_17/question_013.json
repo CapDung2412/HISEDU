@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_MR_02",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_MR_02",
+  "title": "vi-sao-uu-the-vu-cua-phap-chua-du-de-giai-thich-toan-bo-nguyen-nhan",
+  "question": "Vì sao ưu thế vũ khí của Pháp chưa đủ để giải thích toàn bộ nguyên nhân Việt Nam mất độc lập cuối thế kỉ XIX?",
+  "answer": "Ngoài chênh lệch vũ khí còn có khủng hoảng kinh tế–chính trị, chính sách bảo thủ, bỏ lỡ cải cách, đường lối phòng thủ và nhượng bộ của triều đình, sự thiếu thống nhất chỉ huy; phía Pháp lại có công nghiệp, tài chính và kinh nghiệm thực dân.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B17",
+    "folder": "lesson_17",
+    "title": "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884"
+  },
+  "keywords": [
+    "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "sao",
+    "khí",
+    "Pháp",
+    "chưa",
+    "giải",
+    "thích",
+    "toàn",
+    "nguyên",
+    "Việt",
+    "Nam",
+    "mất"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_013.txt"
+}

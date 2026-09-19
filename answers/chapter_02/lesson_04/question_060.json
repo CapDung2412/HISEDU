@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_02_CAU_HOI_MR_05",
+  "chunk_id": "CHK_HIST8_LS_02_CAU_HOI_MR_05",
+  "title": "vi-sao-mot-cuoc-dau-tranh-chua-gianh-thang-loi-van-co-the-mang-y-nghia",
+  "question": "Vì sao một cuộc đấu tranh chưa giành thắng lợi vẫn có thể mang ý nghĩa lịch sử quan trọng?",
+  "answer": "Dù thất bại, một cuộc đấu tranh vẫn có thể gây tổn thất cho thực dân, bảo vệ cộng đồng trong một thời gian, nuôi dưỡng ý thức dân tộc, để lại kinh nghiệm tổ chức và chuẩn bị cho phong trào sau.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "sao",
+    "cuộc",
+    "đấu",
+    "tranh",
+    "chưa",
+    "giành",
+    "thắng",
+    "lợi",
+    "vẫn",
+    "thể",
+    "mang"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_060.txt"
+}

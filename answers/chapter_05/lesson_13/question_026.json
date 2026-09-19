@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_26",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_26",
+  "title": "lep-ton-xtoi-co-nhung-tac-pham-va-dong-gop-tieu-bieu-nao",
+  "question": "Lép Tôn-xtôi có những tác phẩm và đóng góp tiêu biểu nào?",
+  "answer": "Lev Tolstoy là đại biểu lớn của văn học hiện thực Nga với Chiến tranh và hòa bình, Anna Karenina và Phục sinh; tác phẩm khắc họa sâu sắc xã hội, chiến tranh, đạo đức và số phận con người.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Lép",
+    "Tôn-xtôi",
+    "tác",
+    "phẩm",
+    "đóng",
+    "góp",
+    "tiêu",
+    "biểu"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_026.txt"
+}

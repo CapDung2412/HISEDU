@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_MR_05",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_MR_05",
+  "title": "vi-sao-khong-the-danh-gia-tac-dong-cua-cach-mang-cong-nghiep-chi-bang-so",
+  "question": "Vì sao không thể đánh giá tác động của cách mạng công nghiệp chỉ bằng số lượng máy móc được chế tạo?",
+  "answer": "Số lượng máy móc chỉ phản ánh phương tiện. Muốn đánh giá đầy đủ phải xem năng suất, tổ chức lao động, phân bố dân cư, quan hệ giai cấp, mức sống, môi trường và cách lợi ích được phân chia.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B03",
+    "folder": "lesson_03",
+    "title": "Cách mạng công nghiệp"
+  },
+  "keywords": [
+    "Cách mạng công nghiệp",
+    "sao",
+    "không",
+    "thể",
+    "đánh",
+    "giá",
+    "tác",
+    "động",
+    "cách",
+    "mạng",
+    "công",
+    "nghiệp"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 3: Cách mạng công nghiệp",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_016.txt"
+}

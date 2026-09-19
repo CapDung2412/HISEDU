@@ -1,0 +1,40 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_15",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_15",
+  "title": "phong-trao-can-vuong-bung-no-hoan-canh-nao",
+  "question": "Phong trào Cần vương bùng nổ trong hoàn cảnh nào?",
+  "answer": "Sau khi phe chủ chiến phản công Pháp tại kinh thành Huế đêm 4 rạng 5/7/1885 thất bại, Tôn Thất Thuyết đưa vua Hàm Nghi ra Tân Sở; Chiếu Cần vương được ban bố, khơi dậy phong trào chống Pháp rộng khắp.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B18",
+    "folder": "lesson_18",
+    "title": "Phong trào chống Pháp trong những năm 1885 - 1896"
+  },
+  "keywords": [
+    "Phong trào chống Pháp trong những năm 1885 - 1896",
+    "Phong",
+    "trào",
+    "Cần",
+    "vương",
+    "bùng",
+    "hoàn",
+    "cảnh"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 18: Phong trào chống Pháp trong những năm 1885 - 1896",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

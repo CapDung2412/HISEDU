@@ -1,0 +1,11 @@
+Tuyên ngôn Nhân quyền và Dân quyền năm 1789 nêu những tư tưởng cơ bản nào?
+
+---
+question_id: Q_HIST8_LS_01_CAU_HOI_CB_17
+chunk_id: CHK_HIST8_LS_01_CAU_HOI_CB_17
+chapter: chapter_01
+lesson: lesson_02
+lesson_title: Cách mạng tư sản Pháp cuối thế kỉ XVIII
+difficulty: basic
+source_locator: Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII
+source_url: https://hanhtrangso.nxbgd.vn/

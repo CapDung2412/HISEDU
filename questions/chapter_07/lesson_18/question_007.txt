@@ -1,0 +1,11 @@
+Khi so sánh phong trào Cần vương với khởi nghĩa Yên Thế, vì sao cần phân biệt mục tiêu trực tiếp với tinh thần yêu nước chung?
+
+---
+question_id: Q_HIST8_LS_07_CAU_HOI_MR_03
+chunk_id: CHK_HIST8_LS_07_CAU_HOI_MR_03
+chapter: chapter_07
+lesson: lesson_18
+lesson_title: Phong trào chống Pháp trong những năm 1885 - 1896
+difficulty: extended
+source_locator: Bài 18: Phong trào chống Pháp trong những năm 1885 - 1896
+source_url: https://hanhtrangso.nxbgd.vn/

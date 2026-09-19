@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_06",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_06",
+  "title": "thuyet-tien-hoa-cua-dac-uyn-lam-thay-doi-cach-giai-thich-su-phat-trien-cua",
+  "question": "Thuyết tiến hóa của Đác-uyn làm thay đổi cách giải thích sự phát triển của sinh giới như thế nào?",
+  "answer": "Darwin giải thích sinh giới biến đổi qua biến dị, di truyền và chọn lọc tự nhiên, thay cho quan niệm các loài bất biến; con người và sinh vật được nhìn nhận trong một quá trình tiến hóa lâu dài.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Thuyết",
+    "tiến",
+    "hóa",
+    "Đác-uyn",
+    "thay",
+    "đổi",
+    "cách",
+    "giải",
+    "thích",
+    "phát",
+    "triển"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_006.txt"
+}

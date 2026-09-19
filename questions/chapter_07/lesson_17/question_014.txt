@@ -1,0 +1,11 @@
+Nếu so sánh điều kiện thực hiện cải cách ở Việt Nam và Nhật Bản nửa cuối thế kỉ XIX, cần xem xét những yếu tố nào?
+
+---
+question_id: Q_HIST8_LS_07_CAU_HOI_MR_04
+chunk_id: CHK_HIST8_LS_07_CAU_HOI_MR_04
+chapter: chapter_07
+lesson: lesson_17
+lesson_title: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884
+difficulty: extended
+source_locator: Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884
+source_url: https://hanhtrangso.nxbgd.vn/

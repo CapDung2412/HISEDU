@@ -1,0 +1,11 @@
+Thuyết tiến hóa của Đác-uyn làm thay đổi cách giải thích sự phát triển của sinh giới như thế nào?
+
+---
+question_id: Q_HIST8_LS_05_CAU_HOI_CB_06
+chunk_id: CHK_HIST8_LS_05_CAU_HOI_CB_06
+chapter: chapter_05
+lesson: lesson_13
+lesson_title: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+difficulty: basic
+source_locator: Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+source_url: https://hanhtrangso.nxbgd.vn/

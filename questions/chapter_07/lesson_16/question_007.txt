@@ -1,0 +1,11 @@
+Vì sao khi đánh giá triều Nguyễn cần xem xét riêng các lĩnh vực quản lí đất nước, văn hóa và chính sách đối ngoại?
+
+---
+question_id: Q_HIST8_LS_07_CAU_HOI_MR_01
+chunk_id: CHK_HIST8_LS_07_CAU_HOI_MR_01
+chapter: chapter_07
+lesson: lesson_16
+lesson_title: Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)
+difficulty: extended
+source_locator: Bài 16: Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)
+source_url: https://hanhtrangso.nxbgd.vn/

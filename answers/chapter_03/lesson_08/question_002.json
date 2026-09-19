@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_CB_20",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_20",
+  "title": "chien-thang-rach-gam-xoai-mut-nam-1785-co-y-nghia-gi",
+  "question": "Chiến thắng Rạch Gầm – Xoài Mút năm 1785 có ý nghĩa gì?",
+  "answer": "Chiến thắng Rạch Gầm – Xoài Mút năm 1785 tiêu diệt phần lớn quân Xiêm xâm lược, bảo vệ đất nước và khẳng định tài chỉ huy của Nguyễn Huệ.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B08",
+    "folder": "lesson_08",
+    "title": "Phong trào Tây Sơn"
+  },
+  "keywords": [
+    "Phong trào Tây Sơn",
+    "Chiến",
+    "thắng",
+    "Rạch",
+    "Gầm",
+    "Xoài",
+    "Mút",
+    "1785",
+    "nghĩa"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 8: Phong trào Tây Sơn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_002.txt"
+}

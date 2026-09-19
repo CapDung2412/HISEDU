@@ -1,0 +1,11 @@
+Hai chiến thắng Cầu Giấy năm 1873 và năm 1883 có ý nghĩa gì?
+
+---
+question_id: Q_HIST8_LS_07_CAU_HOI_CB_12
+chunk_id: CHK_HIST8_LS_07_CAU_HOI_CB_12
+chapter: chapter_07
+lesson: lesson_17
+lesson_title: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884
+difficulty: basic
+source_locator: Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884
+source_url: https://hanhtrangso.nxbgd.vn/

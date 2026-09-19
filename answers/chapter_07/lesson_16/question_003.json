@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_03",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_03",
+  "title": "cuoc-cai-cach-hanh-chinh-duoi-thoi-minh-mang-co-noi-dung-noi-bat-gi",
+  "question": "Cuộc cải cách hành chính dưới thời Minh Mạng có nội dung nổi bật gì?",
+  "answer": "Năm 1831–1832, Minh Mạng bỏ Bắc Thành và Gia Định Thành, chia cả nước thành 30 tỉnh cùng phủ Thừa Thiên, đặt tổng đốc, tuần phủ do triều đình bổ nhiệm và tăng kiểm soát từ trung ương.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B16",
+    "folder": "lesson_16",
+    "title": "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)"
+  },
+  "keywords": [
+    "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "Cuộc",
+    "cải",
+    "cách",
+    "hành",
+    "chính",
+    "dưới",
+    "Minh",
+    "Mạng",
+    "nội",
+    "dung",
+    "nổi"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 16: Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_003.txt"
+}

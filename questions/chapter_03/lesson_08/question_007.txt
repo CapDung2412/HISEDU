@@ -1,0 +1,11 @@
+Phong trào Tây Sơn bùng nổ trong hoàn cảnh nào và do ai lãnh đạo?
+
+---
+question_id: Q_HIST8_LS_03_CAU_HOI_CB_19
+chunk_id: CHK_HIST8_LS_03_CAU_HOI_CB_19
+chapter: chapter_03
+lesson: lesson_08
+lesson_title: Phong trào Tây Sơn
+difficulty: basic
+source_locator: Bài 8: Phong trào Tây Sơn
+source_url: https://hanhtrangso.nxbgd.vn/

@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_CB_08",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_CB_08",
+  "title": "su-phat-trien-khong-deu-giua-cac-nuoc-de-quoc-dan-den-nhung-mau-thuan-gi",
+  "question": "Sự phát triển không đều giữa các nước đế quốc dẫn đến những mâu thuẫn gì?",
+  "answer": "Các nước công nghiệp mới như Đức và Mỹ tăng trưởng nhanh nhưng có ít thuộc địa hơn Anh, Pháp. Sự phân chia thuộc địa không tương xứng làm mâu thuẫn giữa các đế quốc gay gắt, dẫn đến liên minh quân sự và nguy cơ chiến tranh.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B10",
+    "folder": "lesson_10",
+    "title": "Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)"
+  },
+  "keywords": [
+    "Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)",
+    "phát",
+    "triển",
+    "không",
+    "đều",
+    "quốc",
+    "dẫn",
+    "mâu",
+    "thuẫn"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 10: Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_008.txt"
+}

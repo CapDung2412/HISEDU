@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_30",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_30",
+  "title": "phong-trao-giai-phong-dan-toc-o-dong-nam-a-dau-the-ki-xx-co-nhung",
+  "question": "Phong trào giải phóng dân tộc ở Đông Nam Á đầu thế kỉ XX có những chuyển biến mới nào?",
+  "answer": "Phong trào dần chuyển từ khởi nghĩa do vua, quý tộc hay thủ lĩnh địa phương sang tổ chức dân tộc có sự tham gia của trí thức, tư sản và công nhân; báo chí, hội đoàn, tẩy chay, bãi công và cương lĩnh chính trị được sử dụng nhiều hơn.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Phong",
+    "trào",
+    "giải",
+    "phóng",
+    "tộc",
+    "Đông",
+    "Nam",
+    "đầu",
+    "chuyển",
+    "biến",
+    "mới"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_014.txt"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_CB_02",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_02",
+  "title": "mac-dang-dung-lap-nha-mac-vao-nam-nao",
+  "question": "Mạc Đăng Dung lập ra nhà Mạc vào năm nào?",
+  "answer": "Mạc Đăng Dung lập nhà Mạc năm 1527.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B05",
+    "folder": "lesson_05",
+    "title": "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn"
+  },
+  "keywords": [
+    "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "Mạc",
+    "Đăng",
+    "Dung",
+    "lập",
+    "nhà"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 5: Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_002.txt"
+}

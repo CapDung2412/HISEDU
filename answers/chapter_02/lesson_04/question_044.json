@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_02_CAU_HOI_CB_19",
+  "chunk_id": "CHK_HIST8_LS_02_CAU_HOI_CB_19",
+  "title": "thuc-dan-phuong-tay-khai-thac-dat-dai-va-tai-nguyen-tai-dong-nam-a-nham",
+  "question": "Thực dân phương Tây khai thác đất đai và tài nguyên tại Đông Nam Á nhằm mục đích gì?",
+  "answer": "Mục đích là chiếm ruộng lập đồn điền, lấy khoáng sản và nguyên liệu rẻ, thu lợi nhuận, cung cấp hàng cho chính quốc và biến thuộc địa thành thị trường tiêu thụ.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "Thực",
+    "phương",
+    "Tây",
+    "khai",
+    "thác",
+    "đất",
+    "đai",
+    "tài",
+    "nguyên",
+    "tại",
+    "Đông"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_044.txt"
+}

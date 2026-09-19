@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_02",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_02",
+  "title": "chien-tranh-thuoc-phien-lam-thay-doi-tinh-hinh-trung-quoc-nhu-the-nao",
+  "question": "Chiến tranh thuốc phiện làm thay đổi tình hình Trung Quốc như thế nào?",
+  "answer": "Sau thất bại trong Chiến tranh thuốc phiện 1840–1842, nhà Thanh phải kí Hiệp ước Nam Kinh: nhượng Hồng Kông, mở cửa biển và bồi thường. Trung Quốc dần bị các nước đế quốc xâm phạm chủ quyền và trở thành nước nửa thuộc địa.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Chiến",
+    "tranh",
+    "thuốc",
+    "phiện",
+    "thay",
+    "đổi",
+    "tình",
+    "hình",
+    "Trung",
+    "Quốc"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_002.txt"
+}

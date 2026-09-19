@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_05",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_05",
+  "title": "cach-mang-tu-san-anh-dien-qua-nhung-moc-chinh-nao-tu-nam-1642-den-nam",
+  "question": "Cách mạng tư sản Anh diễn ra qua những mốc chính nào từ năm 1642 đến năm 1688?",
+  "answer": "Các mốc chính: 1642 nội chiến bùng nổ; 1649 Charles I bị xử tử và nền cộng hòa ra đời; sau đó Cromwell lập chế độ Bảo hộ; 1660 quân chủ được phục hồi; 1688 Cách mạng Vinh quang và năm 1689 xác lập quân chủ lập hiến.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B01",
+    "folder": "lesson_01",
+    "title": "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+  },
+  "keywords": [
+    "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "Cách",
+    "mạng",
+    "sản",
+    "Anh",
+    "diễn",
+    "qua",
+    "mốc",
+    "chính",
+    "1642",
+    "1688"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_017.txt"
+}

@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_08",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_08",
+  "title": "nhung-tien-bo-hoa-hoc-co-anh-huong-gi-den-san-xuat-the-ki-xix",
+  "question": "Những tiến bộ trong hóa học có ảnh hưởng gì đến sản xuất trong thế kỉ XIX?",
+  "answer": "Hóa học cung cấp hiểu biết về nguyên tố và phản ứng, đặc biệt qua bảng tuần hoàn; nó thúc đẩy sản xuất phân bón, thuốc nhuộm, dược phẩm, vật liệu, chất nổ và nhiều quy trình công nghiệp.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "tiến",
+    "hóa",
+    "học",
+    "ảnh",
+    "hưởng",
+    "sản",
+    "xuất",
+    "XIX"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_008.txt"
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_MR_03",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_MR_03",
+  "title": "tim-hieu-mot-tac-pham-van-hoc-hien-thuc-the-ki-xix-vi-sao-can-dat",
+  "question": "Khi tìm hiểu một tác phẩm văn học hiện thực thế kỉ XIX, vì sao cần đặt tác phẩm trong bối cảnh xã hội đương thời?",
+  "answer": "Bối cảnh cho biết những quan hệ giai cấp, chuẩn mực, biến cố và vấn đề mà tác giả quan sát. Nhờ đó ta hiểu nhân vật, chi tiết phê phán và thông điệp của tác phẩm, tránh áp tiêu chuẩn hiện nay một cách máy móc.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "tìm",
+    "hiểu",
+    "tác",
+    "phẩm",
+    "văn",
+    "học",
+    "thực",
+    "XIX",
+    "sao",
+    "cần",
+    "đặt"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_033.txt"
+}

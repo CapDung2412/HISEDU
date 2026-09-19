@@ -1,0 +1,11 @@
+Cách mạng công nghiệp tác động như thế nào đến cơ cấu xã hội và sự phát triển đô thị?
+
+---
+question_id: Q_HIST8_LS_01_CAU_HOI_CB_30
+chunk_id: CHK_HIST8_LS_01_CAU_HOI_CB_30
+chapter: chapter_01
+lesson: lesson_03
+lesson_title: Cách mạng công nghiệp
+difficulty: basic
+source_locator: Bài 3: Cách mạng công nghiệp
+source_url: https://hanhtrangso.nxbgd.vn/

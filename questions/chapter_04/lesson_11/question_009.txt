@@ -1,0 +1,11 @@
+Công xã Pa-ri thất bại do những nguyên nhân nào và để lại ý nghĩa lịch sử gì?
+
+---
+question_id: Q_HIST8_LS_04_CAU_HOI_CB_17
+chunk_id: CHK_HIST8_LS_04_CAU_HOI_CB_17
+chapter: chapter_04
+lesson: lesson_11
+lesson_title: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+difficulty: basic
+source_locator: Bài 11: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+source_url: https://hanhtrangso.nxbgd.vn/

@@ -1,0 +1,40 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_27",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_27",
+  "title": "nhung-nhac-si-nao-tieu-bieu-su-phat-trien-am-nhac-phuong-tay-thoi-ki-nay",
+  "question": "Những nhạc sĩ nào tiêu biểu cho sự phát triển âm nhạc phương Tây thời kì này?",
+  "answer": "Những nhạc sĩ tiêu biểu gồm Mozart, Beethoven, Chopin và Tchaikovsky; họ phát triển giao hưởng, sonata, concerto, opera và âm nhạc dân tộc với sức biểu cảm mới.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "nhạc",
+    "tiêu",
+    "biểu",
+    "phát",
+    "triển",
+    "phương",
+    "Tây"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_027.txt"
+}

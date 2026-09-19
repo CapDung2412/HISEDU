@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_30",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_30",
+  "title": "van-hoc-va-nghe-thuat-dan-gian-dai-viet-the-ki-xvi-xviii-co-nhung-thanh",
+  "question": "Văn học và nghệ thuật dân gian Đại Việt thế kỉ XVI–XVIII có những thành tựu tiêu biểu nào?",
+  "answer": "Văn học chữ Nôm và văn học dân gian phát triển với truyện thơ, ca dao, tục ngữ; nghệ thuật có điêu khắc đình làng, tượng Phật, tranh dân gian, chèo, tuồng và các hình thức diễn xướng cộng đồng.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B09",
+    "folder": "lesson_09",
+    "title": "Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII"
+  },
+  "keywords": [
+    "Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII",
+    "Văn",
+    "học",
+    "nghệ",
+    "thuật",
+    "gian",
+    "Đại",
+    "Việt",
+    "XVI–XVIII",
+    "thành",
+    "tựu",
+    "tiêu"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 9: Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_006.txt"
+}

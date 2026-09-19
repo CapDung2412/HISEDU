@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_03",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_03",
+  "title": "cuoc-xung-dot-nam-bac-trieu-xuat-phat-tu-nhung-nguyen-nhan-nao",
+  "question": "Cuộc xung đột Nam – Bắc triều xuất phát từ những nguyên nhân nào?",
+  "answer": "Nguyên nhân trực tiếp là việc nhà Mạc thay nhà Lê khiến cựu thần nhà Lê chống đối. Năm 1533, Nguyễn Kim dựng Lê Trang Tông ở Thanh Hóa, hình thành Nam triều đối đầu với Bắc triều nhà Mạc.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B05",
+    "folder": "lesson_05",
+    "title": "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn"
+  },
+  "keywords": [
+    "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "Cuộc",
+    "xung",
+    "đột",
+    "Nam",
+    "Bắc",
+    "triều",
+    "xuất",
+    "phát",
+    "nguyên"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 5: Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_013.txt"
+}

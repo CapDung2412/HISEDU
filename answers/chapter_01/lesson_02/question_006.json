@@ -1,0 +1,38 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_1_20_CAU_CB_18",
+  "chunk_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_18",
+  "title": "vi-sao-vua-louis-xvi-bi-xu-tu-nam-1793",
+  "question": "Vì sao vua Louis XVI bị xử tử năm 1793?",
+  "answer": "Louis XVI bị xử tử vì bị xác định phản bội Tổ quốc, cấu kết với lực lượng phong kiến nước ngoài chống lại cách mạng.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B02",
+    "folder": "lesson_02",
+    "title": "Cách mạng tư sản Pháp cuối thế kỉ XVIII"
+  },
+  "keywords": [
+    "Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "sao",
+    "vua",
+    "Louis",
+    "XVI",
+    "1793"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_006.txt"
+}

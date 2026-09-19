@@ -1,0 +1,40 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_02_CAU_HOI_CB_18",
+  "chunk_id": "CHK_HIST8_LS_02_CAU_HOI_CB_18",
+  "title": "chinh-sach-chia-de-tri-o-dong-nam-a-duoc-the-hien-nhu-the-nao",
+  "question": "Chính sách chia để trị ở Đông Nam Á được thể hiện như thế nào?",
+  "answer": "Họ chia lãnh thổ thành nhiều đơn vị với chế độ pháp lí khác nhau, khoét sâu khác biệt dân tộc, tôn giáo và địa phương, ưu đãi nhóm cộng tác để ngăn sự đoàn kết chống thuộc địa.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "Chính",
+    "sách",
+    "chia",
+    "trị",
+    "Đông",
+    "Nam",
+    "thể"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_043.txt"
+}

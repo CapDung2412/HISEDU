@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_25",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_25",
+  "title": "nhung-bien-doi-kinh-te-va-xa-hoi-nao-xuat-hien-o-dong-nam-a-duoi",
+  "question": "Những biến đổi kinh tế và xã hội nào xuất hiện ở Đông Nam Á dưới ách thống trị thực dân?",
+  "answer": "Đồn điền, mỏ, cảng và đường giao thông xuất hiện nhưng phục vụ khai thác, làm kinh tế lệ thuộc vào xuất khẩu nguyên liệu. Nông dân bị bần cùng; công nhân, tư sản và trí thức bản xứ dần hình thành, xã hội phân hóa mới.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "biến",
+    "đổi",
+    "kinh",
+    "hội",
+    "xuất",
+    "Đông",
+    "Nam",
+    "dưới",
+    "ách",
+    "thống",
+    "trị"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_009.txt"
+}

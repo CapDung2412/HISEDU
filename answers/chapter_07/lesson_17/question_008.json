@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_14",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_14",
+  "title": "thai-do-va-hanh-dong-cua-trieu-dinh-hue-khac-voi-phong-trao-khang-chien-cua",
+  "question": "Thái độ và hành động của triều đình Huế khác với phong trào kháng chiến của nhân dân như thế nào trong giai đoạn 1858–1884?",
+  "answer": "Ban đầu triều đình có tổ chức chống cự nhưng dần thiên về phòng thủ, thương lượng và liên tiếp nhượng bộ, ra lệnh bãi binh. Trái lại, nhân dân ở Nam Kì, Bắc Kì và nhiều nơi vẫn tự tổ chức chiến đấu dù thiếu sự lãnh đạo thống nhất.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B17",
+    "folder": "lesson_17",
+    "title": "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884"
+  },
+  "keywords": [
+    "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "Thái",
+    "hành",
+    "động",
+    "triều",
+    "đình",
+    "Huế",
+    "khác",
+    "phong",
+    "trào",
+    "kháng",
+    "chiến"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_008.txt"
+}

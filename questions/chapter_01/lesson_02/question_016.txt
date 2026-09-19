@@ -1,0 +1,11 @@
+Điểm giống và khác nhau về mục tiêu giữa Cách mạng tư sản Anh và Cách mạng tư sản Pháp là gì?
+
+---
+question_id: Q_HIST8_LS_01_CAU_HOI_MR_03
+chunk_id: CHK_HIST8_LS_01_CAU_HOI_MR_03
+chapter: chapter_01
+lesson: lesson_02
+lesson_title: Cách mạng tư sản Pháp cuối thế kỉ XVIII
+difficulty: extended
+source_locator: Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII
+source_url: https://hanhtrangso.nxbgd.vn/

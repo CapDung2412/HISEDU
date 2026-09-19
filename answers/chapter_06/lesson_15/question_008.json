@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_24",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_24",
+  "title": "den-cuoi-the-ki-xix-tinh-hinh-thuoc-dia-o-dong-nam-a-co-dac-diem",
+  "question": "Đến cuối thế kỉ XIX, tình hình thuộc địa ở Đông Nam Á có đặc điểm gì?",
+  "answer": "Đến cuối thế kỉ XIX, hầu hết Đông Nam Á đã trở thành thuộc địa: Anh chiếm Miến Điện và Mã Lai, Pháp chiếm Đông Dương, Hà Lan cai trị In-đô-nê-xi-a, Tây Ban Nha rồi Hoa Kỳ chiếm Phi-líp-pin; chỉ Xiêm giữ độc lập tương đối.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "cuối",
+    "XIX",
+    "tình",
+    "hình",
+    "thuộc",
+    "địa",
+    "Đông",
+    "Nam",
+    "đặc",
+    "điểm"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_008.txt"
+}

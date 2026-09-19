@@ -1,0 +1,11 @@
+Từ tình hình Việt Nam thế kỉ XVI–XVIII, hãy nêu một bài học về đoàn kết và bảo vệ chủ quyền.
+
+---
+question_id: Q_HIST8_CHUONG_3_20_CAU_MR_05
+chunk_id: CHK_HIST8_CHUONG_3_20_CAU_MR_05
+chapter: chapter_03
+lesson: review_lessons_05_09
+lesson_title: Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII
+difficulty: extended
+source_locator: Chương 3, tổng hợp Bài 5-9
+source_url: https://hanhtrangso.nxbgd.vn/

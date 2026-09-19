@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_22",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_22",
+  "title": "van-hoc-chau-au-the-ki-xviii-xix-thuong-phan-anh-nhung-van-de-xa-hoi",
+  "question": "Văn học châu Âu thế kỉ XVIII–XIX thường phản ánh những vấn đề xã hội nào?",
+  "answer": "Văn học thường phản ánh xung đột giữa lí tưởng tự do với áp bức, hậu quả chiến tranh và công nghiệp hóa, sự phân hóa giàu nghèo, đời sống công nhân, nông dân và những bất công của xã hội tư sản.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Văn",
+    "học",
+    "châu",
+    "XVIII–XIX",
+    "thường",
+    "phản",
+    "ánh",
+    "vấn",
+    "hội"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_022.txt"
+}

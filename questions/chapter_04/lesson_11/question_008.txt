@@ -1,0 +1,11 @@
+Những chính sách nào thể hiện tính chất vì người lao động của Công xã Pa-ri?
+
+---
+question_id: Q_HIST8_LS_04_CAU_HOI_CB_16
+chunk_id: CHK_HIST8_LS_04_CAU_HOI_CB_16
+chapter: chapter_04
+lesson: lesson_11
+lesson_title: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+difficulty: basic
+source_locator: Bài 11: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+source_url: https://hanhtrangso.nxbgd.vn/

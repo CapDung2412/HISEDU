@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_07",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_07",
+  "title": "dinh-luat-bao-toan-va-chuyen-hoa-nang-luong-co-y-nghia-gi-doi-voi-khoa",
+  "question": "Định luật bảo toàn và chuyển hóa năng lượng có ý nghĩa gì đối với khoa học?",
+  "answer": "Định luật cho biết năng lượng không tự sinh ra hay mất đi mà chỉ chuyển từ dạng này sang dạng khác, thống nhất cách hiểu nhiều hiện tượng vật lí và tạo nền tảng cho nghiên cứu, thiết kế máy móc.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Định",
+    "luật",
+    "bảo",
+    "toàn",
+    "chuyển",
+    "hóa",
+    "năng",
+    "lượng",
+    "nghĩa",
+    "khoa",
+    "học"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

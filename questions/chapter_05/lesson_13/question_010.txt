@@ -1,0 +1,11 @@
+Việc sử dụng rộng rãi máy hơi nước tác động như thế nào đến sản xuất công nghiệp?
+
+---
+question_id: Q_HIST8_LS_05_CAU_HOI_CB_10
+chunk_id: CHK_HIST8_LS_05_CAU_HOI_CB_10
+chapter: chapter_05
+lesson: lesson_13
+lesson_title: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+difficulty: basic
+source_locator: Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+source_url: https://hanhtrangso.nxbgd.vn/

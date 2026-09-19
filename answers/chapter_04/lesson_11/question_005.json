@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_CB_13",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_CB_13",
+  "title": "tuyen-ngon-cua-dang-cong-san-doi-nam-nao-va-co-y-nghia-gi-doi-voi",
+  "question": "Tuyên ngôn của Đảng Cộng sản ra đời năm nào và có ý nghĩa gì đối với phong trào công nhân?",
+  "answer": "Tuyên ngôn của Đảng Cộng sản được công bố tháng 2/1848. Tác phẩm trình bày những nguyên lí cơ bản của chủ nghĩa xã hội khoa học và cung cấp cương lĩnh, mục tiêu đoàn kết cho phong trào công nhân.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B11",
+    "folder": "lesson_11",
+    "title": "Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học"
+  },
+  "keywords": [
+    "Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học",
+    "Tuyên",
+    "ngôn",
+    "Đảng",
+    "Cộng",
+    "sản",
+    "đời",
+    "nghĩa",
+    "phong",
+    "trào",
+    "công"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 11: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_005.txt"
+}

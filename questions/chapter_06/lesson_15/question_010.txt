@@ -1,0 +1,11 @@
+Phong trào chống thực dân ở In-đô-nê-xi-a cuối thế kỉ XIX đầu thế kỉ XX có điểm gì nổi bật?
+
+---
+question_id: Q_HIST8_LS_06_CAU_HOI_CB_26
+chunk_id: CHK_HIST8_LS_06_CAU_HOI_CB_26
+chapter: chapter_06
+lesson: lesson_15
+lesson_title: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+difficulty: basic
+source_locator: Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+source_url: https://hanhtrangso.nxbgd.vn/

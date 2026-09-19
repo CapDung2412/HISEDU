@@ -1,0 +1,11 @@
+Điều kiện lao động và sinh hoạt của công nhân thời kì đầu công nghiệp hóa có những khó khăn nào?
+
+---
+question_id: Q_HIST8_LS_04_CAU_HOI_CB_09
+chunk_id: CHK_HIST8_LS_04_CAU_HOI_CB_09
+chapter: chapter_04
+lesson: lesson_11
+lesson_title: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+difficulty: basic
+source_locator: Bài 11: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+source_url: https://hanhtrangso.nxbgd.vn/

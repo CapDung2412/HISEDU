@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_02_CAU_HOI_CB_12",
+  "chunk_id": "CHK_HIST8_LS_02_CAU_HOI_CB_12",
+  "title": "qua-trinh-anh-xam-luoc-mien-dien-the-ki-xix-dien-qua-nhung-buoc-chinh-nao",
+  "question": "Quá trình Anh xâm lược Miến Điện trong thế kỉ XIX diễn ra qua những bước chính nào?",
+  "answer": "Anh tiến hành ba cuộc chiến tranh Anh–Miến vào các năm 1824–1826, 1852 và 1885; sau mỗi cuộc chiến Miến Điện mất thêm đất, đến năm 1885 bị thôn tính hoàn toàn.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "Anh",
+    "xâm",
+    "lược",
+    "Miến",
+    "Điện",
+    "XIX",
+    "diễn",
+    "qua",
+    "bước",
+    "chính"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_037.txt"
+}

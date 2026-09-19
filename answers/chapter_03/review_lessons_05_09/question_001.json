@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_MR_05",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_MR_05",
+  "title": "tu-tinh-hinh-viet-nam-the-ki-xvi-xviii-hay-neu-mot-bai-hoc-ve-doan",
+  "question": "Từ tình hình Việt Nam thế kỉ XVI–XVIII, hãy nêu một bài học về đoàn kết và bảo vệ chủ quyền.",
+  "answer": "Bài học là chia rẽ và tranh giành quyền lực làm đất nước suy yếu; muốn giữ chủ quyền phải đặt lợi ích quốc gia và nhân dân lên trên lợi ích phe phái, củng cố đoàn kết và quốc phòng.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "review_lessons_05_09",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII",
+    "tình",
+    "hình",
+    "Việt",
+    "Nam",
+    "XVI–XVIII",
+    "bài",
+    "học",
+    "đoàn",
+    "kết",
+    "bảo",
+    "quyền"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Chương 3, tổng hợp Bài 5-9",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

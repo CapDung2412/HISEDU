@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_16",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_16",
+  "title": "chieu-can-vuong-keu-goi-dieu-gi-va-duoc-nhung-luc-luong-nao-huong-ung",
+  "question": "Chiếu Cần vương kêu gọi điều gì và được những lực lượng nào hưởng ứng?",
+  "answer": "Chiếu kêu gọi văn thân, sĩ phu và nhân dân phò vua, cứu nước, đánh Pháp; phong trào được đông đảo sĩ phu, nông dân và các cộng đồng địa phương ở Trung Kì, Bắc Kì hưởng ứng.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B18",
+    "folder": "lesson_18",
+    "title": "Phong trào chống Pháp trong những năm 1885 - 1896"
+  },
+  "keywords": [
+    "Phong trào chống Pháp trong những năm 1885 - 1896",
+    "Chiếu",
+    "Cần",
+    "vương",
+    "kêu",
+    "gọi",
+    "điều",
+    "lực",
+    "lượng",
+    "hưởng",
+    "ứng"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 18: Phong trào chống Pháp trong những năm 1885 - 1896",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_002.txt"
+}

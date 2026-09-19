@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_2_20_CAU_CB_15",
+  "chunk_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_15",
+  "title": "cac-cuoc-dau-tranh-chong-xam-luoc-o-dong-nam-a-co-dac-diem-chung-gi",
+  "question": "Các cuộc đấu tranh chống xâm lược ở Đông Nam Á có đặc điểm chung gì?",
+  "answer": "Các cuộc đấu tranh diễn ra liên tục ở nhiều nơi, dựa đông đảo vào nông dân và thường do vua, quý tộc hoặc thủ lĩnh địa phương lãnh đạo; phần lớn còn phân tán và chưa thắng lợi.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "cuộc",
+    "đấu",
+    "tranh",
+    "chống",
+    "xâm",
+    "lược",
+    "Đông",
+    "Nam",
+    "đặc",
+    "điểm",
+    "chung"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_015.txt"
+}

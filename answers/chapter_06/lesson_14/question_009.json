@@ -1,0 +1,40 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_09",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_09",
+  "title": "nhat-ban-giua-the-ki-xix-dung-truoc-nhung-kho-khan-va-suc-ep-nao",
+  "question": "Nhật Bản giữa thế kỉ XIX đứng trước những khó khăn và sức ép nào?",
+  "answer": "Chế độ Mạc phủ khủng hoảng, kinh tế–xã hội biến đổi nhưng phong kiến cát cứ cản trở; từ năm 1853, tàu chiến Hoa Kỳ và các nước phương Tây ép Nhật mở cửa, kí hiệp ước bất bình đẳng, đe dọa độc lập.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Nhật",
+    "Bản",
+    "XIX",
+    "đứng",
+    "khó",
+    "khăn",
+    "sức"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_009.txt"
+}

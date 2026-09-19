@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_01",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_01",
+  "title": "nha-nguyen-duoc-thanh-lap-hoan-canh-nao-va-chon-kinh-do-o-dau",
+  "question": "Nhà Nguyễn được thành lập trong hoàn cảnh nào và chọn kinh đô ở đâu?",
+  "answer": "Sau khi đánh bại Tây Sơn, Nguyễn Ánh lên ngôi năm 1802, lấy niên hiệu Gia Long, lập triều Nguyễn và thống nhất lãnh thổ; triều đình chọn Phú Xuân, tức Huế, làm kinh đô.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B16",
+    "folder": "lesson_16",
+    "title": "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)"
+  },
+  "keywords": [
+    "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "Nhà",
+    "Nguyễn",
+    "thành",
+    "lập",
+    "hoàn",
+    "cảnh",
+    "chọn",
+    "kinh",
+    "đâu"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 16: Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

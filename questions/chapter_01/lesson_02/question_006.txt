@@ -1,0 +1,11 @@
+Vì sao vua Louis XVI bị xử tử năm 1793?
+
+---
+question_id: Q_HIST8_CHUONG_1_20_CAU_CB_18
+chunk_id: CHK_HIST8_CHUONG_1_20_CAU_CB_18
+chapter: chapter_01
+lesson: lesson_02
+lesson_title: Cách mạng tư sản Pháp cuối thế kỉ XVIII
+difficulty: basic
+source_locator: Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII
+source_url: https://hanhtrangso.nxbgd.vn/

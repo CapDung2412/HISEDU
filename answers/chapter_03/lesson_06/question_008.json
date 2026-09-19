@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_10",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_10",
+  "title": "viec-nguyen-huu-canh-vao-kinh-li-phia-nam-nam-1698-co-y-nghia-gi",
+  "question": "Việc Nguyễn Hữu Cảnh vào kinh lí phía Nam năm 1698 có ý nghĩa gì?",
+  "answer": "Năm 1698, Nguyễn Hữu Cảnh lập phủ Gia Định, chia đơn vị hành chính, đặt quan cai trị và lập sổ đinh, điền. Việc này khẳng định chính quyền chúa Nguyễn quản lí chính thức vùng Nam Bộ.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B06",
+    "folder": "lesson_06",
+    "title": "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "Việc",
+    "Nguyễn",
+    "Hữu",
+    "Cảnh",
+    "kinh",
+    "phía",
+    "Nam",
+    "1698",
+    "nghĩa"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 6: Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_008.txt"
+}

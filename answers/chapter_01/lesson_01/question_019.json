@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_07",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_07",
+  "title": "cach-mang-tu-san-anh-dat-duoc-ket-qua-gi-va-con-nhung-han-che-nao",
+  "question": "Cách mạng tư sản Anh đạt được kết quả gì và còn những hạn chế nào?",
+  "answer": "Cách mạng lật đổ quân chủ chuyên chế, xác lập quân chủ lập hiến và mở đường cho chủ nghĩa tư bản phát triển. Tuy vậy, thành quả chủ yếu thuộc về tư sản và quý tộc mới; quyền lợi của nông dân, lao động nghèo chưa được giải quyết đầy đủ.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B01",
+    "folder": "lesson_01",
+    "title": "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+  },
+  "keywords": [
+    "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "Cách",
+    "mạng",
+    "sản",
+    "Anh",
+    "đạt",
+    "kết",
+    "quả",
+    "còn",
+    "hạn",
+    "chế"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_019.txt"
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_28",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_28",
+  "title": "nhung-cuoc-dau-tranh-tieu-bieu-nao-dien-o-cam-pu-chia-va-lao-chong-thuc",
+  "question": "Những cuộc đấu tranh tiêu biểu nào diễn ra ở Cam-pu-chia và Lào chống thực dân Pháp?",
+  "answer": "Ở Cam-pu-chia có các cuộc khởi nghĩa của A-cha Xoa, Pu-côm-bô và Si-vô-tha; ở Lào có phong trào Pha-ca-đuốc, Ong Kẹo và Com-ma-đam. Các phong trào dựa vào nông dân và cộng đồng địa phương chống thuế, lao dịch và cai trị Pháp.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "cuộc",
+    "đấu",
+    "tranh",
+    "tiêu",
+    "biểu",
+    "diễn",
+    "Cam-pu-chia",
+    "Lào",
+    "chống",
+    "thực",
+    "Pháp"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_012.txt"
+}

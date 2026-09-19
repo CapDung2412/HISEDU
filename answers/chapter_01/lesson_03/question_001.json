@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_1_20_CAU_CB_20",
+  "chunk_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_20",
+  "title": "vi-sao-anh-la-nuoc-dau-tien-tien-hanh-cach-mang-cong-nghiep",
+  "question": "Vì sao Anh là nước đầu tiên tiến hành cách mạng công nghiệp?",
+  "answer": "Anh có sớm quan hệ sản xuất tư bản chủ nghĩa, nguồn vốn và thuộc địa lớn, lao động dồi dào, thị trường rộng, tài nguyên than–sắt phong phú và thể chế chính trị thuận lợi cho kinh doanh.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B03",
+    "folder": "lesson_03",
+    "title": "Cách mạng công nghiệp"
+  },
+  "keywords": [
+    "Cách mạng công nghiệp",
+    "sao",
+    "Anh",
+    "đầu",
+    "tiên",
+    "tiến",
+    "hành",
+    "cách",
+    "mạng",
+    "công",
+    "nghiệp"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 3: Cách mạng công nghiệp",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

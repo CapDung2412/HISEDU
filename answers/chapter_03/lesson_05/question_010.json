@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_CB_10",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_10",
+  "title": "song-gianh-co-vai-tro-gi-cuc-dien-dang-ngoai-dang",
+  "question": "Sông Gianh có vai trò gì trong cục diện Đàng Ngoài – Đàng Trong?",
+  "answer": "Sau chiến tranh, sông Gianh trở thành ranh giới chia cắt tương đối giữa Đàng Ngoài của họ Trịnh và Đàng Trong của họ Nguyễn.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B05",
+    "folder": "lesson_05",
+    "title": "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn"
+  },
+  "keywords": [
+    "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "Sông",
+    "Gianh",
+    "vai",
+    "trò",
+    "cục",
+    "diện",
+    "Đàng",
+    "Ngoài"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 5: Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_010.txt"
+}

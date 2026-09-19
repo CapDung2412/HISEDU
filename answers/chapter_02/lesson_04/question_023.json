@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_2_20_CAU_MR_03",
+  "chunk_id": "CHK_HIST8_CHUONG_2_20_CAU_MR_03",
+  "title": "neu-khong-co-vi-tri-nam-tren-cac-tuyen-hang-hai-quoc-te-dong-nam-a",
+  "question": "Nếu không có vị trí nằm trên các tuyến hàng hải quốc tế, Đông Nam Á có còn hấp dẫn với các nước phương Tây không? Vì sao?",
+  "answer": "Khu vực vẫn hấp dẫn vì tài nguyên, nông sản và thị trường, nhưng sức hấp dẫn chiến lược sẽ giảm đáng kể nếu không nằm trên các tuyến biển quốc tế thuận tiện.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "Nếu",
+    "không",
+    "trí",
+    "nằm",
+    "trên",
+    "tuyến",
+    "hàng",
+    "hải",
+    "quốc",
+    "Đông",
+    "Nam"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Chương 2, tổng hợp Bài 4",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_023.txt"
+}

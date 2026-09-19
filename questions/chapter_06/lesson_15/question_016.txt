@@ -1,0 +1,11 @@
+Sự xuất hiện các lực lượng xã hội mới ảnh hưởng như thế nào đến hình thức đấu tranh giải phóng dân tộc ở châu Á?
+
+---
+question_id: Q_HIST8_LS_06_CAU_HOI_MR_05
+chunk_id: CHK_HIST8_LS_06_CAU_HOI_MR_05
+chapter: chapter_06
+lesson: lesson_15
+lesson_title: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+difficulty: extended
+source_locator: Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+source_url: https://hanhtrangso.nxbgd.vn/

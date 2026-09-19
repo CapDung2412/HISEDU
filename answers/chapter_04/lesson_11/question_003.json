@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_CB_11",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_CB_11",
+  "title": "phong-trao-hien-chuong-o-anh-the-hien-buoc-phat-trien-nao-cua-phong-trao-cong",
+  "question": "Phong trào Hiến chương ở Anh thể hiện bước phát triển nào của phong trào công nhân?",
+  "answer": "Phong trào Hiến chương chuyển đấu tranh công nhân Anh sang quy mô toàn quốc, có tổ chức và chương trình chính trị rõ như đòi phổ thông đầu phiếu nam và nghị sĩ được trả lương, thay cho phản kháng tự phát đơn lẻ.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B11",
+    "folder": "lesson_11",
+    "title": "Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học"
+  },
+  "keywords": [
+    "Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học",
+    "Phong",
+    "trào",
+    "Hiến",
+    "chương",
+    "Anh",
+    "thể",
+    "bước",
+    "phát",
+    "triển",
+    "công"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 11: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_003.txt"
+}

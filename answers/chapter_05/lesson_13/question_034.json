@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_MR_04",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_MR_04",
+  "title": "mot-tac-pham-nghe-thuat-co-the-giup-tim-hieu-lich-su-nhu-the-nao-va",
+  "question": "Một tác phẩm nghệ thuật có thể giúp tìm hiểu lịch sử như thế nào và có những giới hạn gì?",
+  "answer": "Tác phẩm lưu lại cách con người cảm nhận trang phục, không gian, xung đột và giá trị của thời đại. Tuy nhiên nó là sáng tạo có chọn lọc, chịu quan điểm tác giả và quy ước nghệ thuật nên phải đối chiếu với nguồn khác.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "tác",
+    "phẩm",
+    "nghệ",
+    "thuật",
+    "thể",
+    "giúp",
+    "tìm",
+    "hiểu",
+    "lịch",
+    "giới",
+    "hạn"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_034.txt"
+}

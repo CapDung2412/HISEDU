@@ -1,0 +1,11 @@
+Chiến tranh thế giới thứ nhất kết thúc như thế nào và gây ra những hậu quả gì?
+
+---
+question_id: Q_HIST8_LS_04_CAU_HOI_CB_24
+chunk_id: CHK_HIST8_LS_04_CAU_HOI_CB_24
+chapter: chapter_04
+lesson: lesson_12
+lesson_title: Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917
+difficulty: basic
+source_locator: Bài 12: Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917
+source_url: https://hanhtrangso.nxbgd.vn/

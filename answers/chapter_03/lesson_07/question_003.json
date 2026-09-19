@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_CB_17",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_17",
+  "title": "khoi-nghia-nguyen-huu-cau-dien-boi-canh-xa-hoi-nhu-the-nao",
+  "question": "Khởi nghĩa Nguyễn Hữu Cầu diễn ra trong bối cảnh xã hội như thế nào?",
+  "answer": "Khởi nghĩa Nguyễn Hữu Cầu diễn ra khi chính quyền Lê–Trịnh suy yếu, nông dân đói khổ vì mất đất, thuế khóa và thiên tai; phong trào phát triển rộng ở vùng ven biển rồi lan vào đồng bằng Bắc Bộ.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B07",
+    "folder": "lesson_07",
+    "title": "Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII"
+  },
+  "keywords": [
+    "Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+    "Khởi",
+    "nghĩa",
+    "Nguyễn",
+    "Hữu",
+    "Cầu",
+    "diễn",
+    "bối",
+    "cảnh",
+    "hội"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 7: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_003.txt"
+}

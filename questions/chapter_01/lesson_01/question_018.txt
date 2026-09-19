@@ -1,0 +1,11 @@
+Chế độ quân chủ lập hiến được xác lập ở Anh có đặc điểm gì?
+
+---
+question_id: Q_HIST8_LS_01_CAU_HOI_CB_06
+chunk_id: CHK_HIST8_LS_01_CAU_HOI_CB_06
+chapter: chapter_01
+lesson: lesson_01
+lesson_title: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ
+difficulty: basic
+source_locator: Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ
+source_url: https://hanhtrangso.nxbgd.vn/

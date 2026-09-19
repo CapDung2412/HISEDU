@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_2_20_CAU_CB_02",
+  "chunk_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_02",
+  "title": "dong-nam-a-co-nhung-loi-the-dia-li-va-kinh-te-nao-thu-hut-cac",
+  "question": "Đông Nam Á có những lợi thế địa lí và kinh tế nào thu hút các nước phương Tây?",
+  "answer": "Khu vực nằm ở ngã tư đường biển quốc tế, có nhiều eo biển và cảng tốt; đồng thời nổi tiếng về gia vị, hương liệu, lâm sản, khoáng sản và nông sản nhiệt đới.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "Đông",
+    "Nam",
+    "lợi",
+    "địa",
+    "kinh",
+    "thu",
+    "hút",
+    "phương",
+    "Tây"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_002.txt"
+}

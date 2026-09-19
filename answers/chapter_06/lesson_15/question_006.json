@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_22",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_22",
+  "title": "cac-khuynh-huong-dau-tranh-dang-quoc-dai-co-diem-khac-nhau-nao",
+  "question": "Các khuynh hướng đấu tranh trong Đảng Quốc đại có điểm khác nhau nào?",
+  "answer": "Phái ôn hòa chủ trương kiến nghị, thương lượng và cải cách từng bước; phái cấp tiến đòi hành động mạnh, dựa vào quần chúng, tẩy chay hàng Anh và đấu tranh giành tự trị dưới các lãnh tụ như Tilak.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "khuynh",
+    "hướng",
+    "đấu",
+    "tranh",
+    "Đảng",
+    "Quốc",
+    "đại",
+    "điểm",
+    "khác",
+    "nhau"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_006.txt"
+}

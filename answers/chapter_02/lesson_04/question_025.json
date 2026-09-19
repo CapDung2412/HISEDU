@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_2_20_CAU_MR_05",
+  "chunk_id": "CHK_HIST8_CHUONG_2_20_CAU_MR_05",
+  "title": "lien-he-qua-trinh-toan-cau-hoa-hang-hai-ngay-nay-voi-su-giao-luu-giua",
+  "question": "Liên hệ quá trình toàn cầu hóa hàng hải ngày nay với sự giao lưu giữa các khu vực trên thế giới.",
+  "answer": "Toàn cầu hóa hàng hải hiện nay tiếp tục làm các khu vực phụ thuộc và giao lưu sâu sắc qua thương mại, con người và văn hóa; khác trước, hoạt động này được điều chỉnh nhiều hơn bằng luật pháp quốc tế và chủ quyền quốc gia.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "Liên",
+    "toàn",
+    "cầu",
+    "hóa",
+    "hàng",
+    "hải",
+    "ngày",
+    "nay",
+    "giao",
+    "lưu",
+    "khu"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Chương 2, tổng hợp Bài 4",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_025.txt"
+}

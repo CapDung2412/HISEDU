@@ -1,0 +1,11 @@
+Các hiệp ước Hác-măng năm 1883 và Pa-tơ-nốt năm 1884 tác động như thế nào đến nền độc lập của Việt Nam?
+
+---
+question_id: Q_HIST8_LS_07_CAU_HOI_CB_13
+chunk_id: CHK_HIST8_LS_07_CAU_HOI_CB_13
+chapter: chapter_07
+lesson: lesson_17
+lesson_title: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884
+difficulty: basic
+source_locator: Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884
+source_url: https://hanhtrangso.nxbgd.vn/

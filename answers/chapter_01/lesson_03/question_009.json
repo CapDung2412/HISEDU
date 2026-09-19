@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_24",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_24",
+  "title": "may-keo-soi-gien-ni-lam-thay-doi-hoat-dong-san-xuat-soi-nhu-the-nao",
+  "question": "Máy kéo sợi Gien-ni làm thay đổi hoạt động sản xuất sợi như thế nào?",
+  "answer": "Máy kéo sợi Gien-ni cho phép một công nhân vận hành nhiều cọc sợi cùng lúc, làm lượng sợi tăng mạnh và giảm chênh lệch năng suất giữa khâu kéo sợi với khâu dệt.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B03",
+    "folder": "lesson_03",
+    "title": "Cách mạng công nghiệp"
+  },
+  "keywords": [
+    "Cách mạng công nghiệp",
+    "Máy",
+    "kéo",
+    "sợi",
+    "Gien-ni",
+    "thay",
+    "đổi",
+    "hoạt",
+    "động",
+    "sản",
+    "xuất"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 3: Cách mạng công nghiệp",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_009.txt"
+}

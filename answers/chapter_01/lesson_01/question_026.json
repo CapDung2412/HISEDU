@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_MR_02",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_MR_02",
+  "title": "neu-so-sanh-quyen-luc-cua-nha-vua-o-anh-truoc-va-nam-1688-se-nhan",
+  "question": "Nếu so sánh quyền lực của nhà vua ở Anh trước và sau năm 1688, em sẽ nhận ra thay đổi căn bản nào?",
+  "answer": "Trước 1688, nhà vua có xu hướng chuyên chế, tự can thiệp vào thuế và luật. Sau cách mạng, nhà vua phải cai trị theo pháp luật, còn quyền quyết định chủ yếu về lập pháp, ngân sách và chính phủ thuộc Quốc hội.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B01",
+    "folder": "lesson_01",
+    "title": "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+  },
+  "keywords": [
+    "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "Nếu",
+    "sánh",
+    "quyền",
+    "lực",
+    "nhà",
+    "vua",
+    "Anh",
+    "1688",
+    "nhận",
+    "thay",
+    "đổi"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_026.txt"
+}

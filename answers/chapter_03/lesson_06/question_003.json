@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_CB_13",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_13",
+  "title": "cong-cuoc-khai-pha-da-lam-thay-doi-lanh-tho-va-kinh-te-nhu-the-nao",
+  "question": "Công cuộc khai phá đã làm thay đổi lãnh thổ và kinh tế như thế nào?",
+  "answer": "Nhiều vùng hoang hóa trở thành làng xóm, ruộng vườn và đô thị; phạm vi quản lí của Đại Việt mở rộng tới Nam Bộ, nông nghiệp hàng hóa và buôn bán ngày càng phát triển.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B06",
+    "folder": "lesson_06",
+    "title": "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "Công",
+    "cuộc",
+    "khai",
+    "phá",
+    "thay",
+    "đổi",
+    "lãnh",
+    "thổ",
+    "kinh"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 6: Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_003.txt"
+}

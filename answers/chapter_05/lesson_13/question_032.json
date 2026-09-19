@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_MR_02",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_MR_02",
+  "title": "co-the-xem-moi-ung-dung-cua-tien-bo-ki-thuat-deu-co-loi-con-nguoi",
+  "question": "Có thể xem mọi ứng dụng của tiến bộ kĩ thuật đều có lợi cho con người hay không? Vì sao?",
+  "answer": "Không. Kĩ thuật có thể chữa bệnh và tăng năng suất nhưng cũng có thể gây ô nhiễm, thất nghiệp, giám sát hoặc vũ khí hủy diệt; lợi ích phụ thuộc mục đích, cách phân phối và quy định sử dụng.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "thể",
+    "xem",
+    "mọi",
+    "ứng",
+    "dụng",
+    "tiến",
+    "thuật",
+    "đều",
+    "lợi",
+    "con",
+    "người"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_032.txt"
+}

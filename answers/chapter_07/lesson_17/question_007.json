@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_13",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_13",
+  "title": "cac-hiep-uoc-hac-mang-nam-1883-va-pa-to-not-nam-1884-tac-dong-nhu",
+  "question": "Các hiệp ước Hác-măng năm 1883 và Pa-tơ-nốt năm 1884 tác động như thế nào đến nền độc lập của Việt Nam?",
+  "answer": "Hai hiệp ước đặt Bắc Kì và Trung Kì dưới quyền bảo hộ của Pháp, thu hẹp quyền đối ngoại và cai trị của triều Nguyễn; Pháp cơ bản hoàn thành việc áp đặt ách thống trị, Việt Nam mất độc lập.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B17",
+    "folder": "lesson_17",
+    "title": "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884"
+  },
+  "keywords": [
+    "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "hiệp",
+    "ước",
+    "Hác-măng",
+    "1883",
+    "Pa-tơ-nốt",
+    "1884",
+    "tác",
+    "động",
+    "nền",
+    "độc",
+    "lập"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

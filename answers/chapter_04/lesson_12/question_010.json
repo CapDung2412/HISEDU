@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_CB_28",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_CB_28",
+  "title": "vi-sao-o-nga-tiep-tuc-dien-cach-mang-thang-muoi-cach-mang-thang-hai-nam",
+  "question": "Vì sao ở Nga tiếp tục diễn ra Cách mạng tháng Mười sau Cách mạng tháng Hai năm 1917?",
+  "answer": "Chính phủ lâm thời vẫn tiếp tục chiến tranh, không giải quyết ruộng đất, hòa bình và đời sống; vì vậy nhiệm vụ cách mạng chưa hoàn thành, mâu thuẫn xã hội đòi hỏi chuyển quyền lực về các Xô viết.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B12",
+    "folder": "lesson_12",
+    "title": "Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917"
+  },
+  "keywords": [
+    "Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917",
+    "sao",
+    "Nga",
+    "tiếp",
+    "tục",
+    "diễn",
+    "Cách",
+    "mạng",
+    "Mười",
+    "Hai",
+    "1917"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 12: Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_010.txt"
+}

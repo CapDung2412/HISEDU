@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_27",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_27",
+  "title": "phong-trao-dau-tranh-o-phi-lip-pin-cuoi-the-ki-xix-dien-nhu-the-nao",
+  "question": "Phong trào đấu tranh ở Phi-líp-pin cuối thế kỉ XIX diễn ra như thế nào?",
+  "answer": "Phong trào tuyên truyền và cải cách do José Rizal cùng trí thức khởi xướng làm ý thức dân tộc phát triển; tổ chức Katipunan lãnh đạo cách mạng năm 1896. Tây Ban Nha thất bại năm 1898 nhưng Hoa Kỳ sau đó thay thế ách cai trị.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Phong",
+    "trào",
+    "đấu",
+    "tranh",
+    "Phi-líp-pin",
+    "cuối",
+    "XIX",
+    "diễn"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_011.txt"
+}

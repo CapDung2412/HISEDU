@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_MR_03",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_MR_03",
+  "title": "so-sanh-phong-trao-can-vuong-voi-khoi-nghia-yen-the-vi-sao-can-phan-biet",
+  "question": "Khi so sánh phong trào Cần vương với khởi nghĩa Yên Thế, vì sao cần phân biệt mục tiêu trực tiếp với tinh thần yêu nước chung?",
+  "answer": "Cần vương trực tiếp phò vua đánh Pháp, do sĩ phu lãnh đạo; Yên Thế trực tiếp bảo vệ đất sống của nông dân và do thủ lĩnh nông dân lãnh đạo. Phân biệt mục tiêu giúp hiểu lực lượng, chiến lược riêng nhưng cả hai đều biểu hiện tinh thần yêu nước, chống xâm lược.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B18",
+    "folder": "lesson_18",
+    "title": "Phong trào chống Pháp trong những năm 1885 - 1896"
+  },
+  "keywords": [
+    "Phong trào chống Pháp trong những năm 1885 - 1896",
+    "sánh",
+    "phong",
+    "trào",
+    "Cần",
+    "vương",
+    "khởi",
+    "nghĩa",
+    "Yên",
+    "sao",
+    "phân",
+    "biệt"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 18: Phong trào chống Pháp trong những năm 1885 - 1896",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

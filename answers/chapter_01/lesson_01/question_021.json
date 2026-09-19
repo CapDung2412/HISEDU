@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_09",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_09",
+  "title": "nhung-chinh-sach-nao-cua-chinh-quoc-lam-nguoi-dan-13-thuoc-dia-bac-my-bat",
+  "question": "Những chính sách nào của chính quốc làm người dân 13 thuộc địa Bắc Mỹ bất mãn?",
+  "answer": "Anh đánh nhiều loại thuế như thuế tem và thuế chè, buộc thuộc địa tuân thủ độc quyền thương mại, hạn chế sản xuất, cấm mở rộng về phía tây và không cho họ có đại diện trong Quốc hội.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B01",
+    "folder": "lesson_01",
+    "title": "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+  },
+  "keywords": [
+    "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "chính",
+    "sách",
+    "quốc",
+    "người",
+    "thuộc",
+    "địa",
+    "Bắc",
+    "bất",
+    "mãn"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_021.txt"
+}

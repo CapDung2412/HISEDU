@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_18",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_18",
+  "title": "cach-mang-tu-san-phap-phat-trien-qua-nhung-giai-doan-chinh-nao-tu-nam-1789",
+  "question": "Cách mạng tư sản Pháp phát triển qua những giai đoạn chính nào từ năm 1789 đến năm 1794?",
+  "answer": "Ba giai đoạn chính: 1789–1792, quân chủ lập hiến do đại tư sản chi phối; 9/1792–6/1793, nền cộng hòa dưới phái Gi-rông-đanh; 6/1793–7/1794, chuyên chính dân chủ cách mạng Gia-cô-banh đạt tới đỉnh cao.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B02",
+    "folder": "lesson_02",
+    "title": "Cách mạng tư sản Pháp cuối thế kỉ XVIII"
+  },
+  "keywords": [
+    "Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "Cách",
+    "mạng",
+    "sản",
+    "Pháp",
+    "phát",
+    "triển",
+    "qua",
+    "giai",
+    "đoạn",
+    "chính",
+    "1789"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_013.txt"
+}

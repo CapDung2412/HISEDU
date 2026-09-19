@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_09",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_09",
+  "title": "chinh-quyen-chua-nguyen-da-thuc-hien-nhung-bien-phap-gi-de-thuc-day-khai-hoang",
+  "question": "Chính quyền chúa Nguyễn đã thực hiện những biện pháp gì để thúc đẩy khai hoang?",
+  "answer": "Chúa Nguyễn khuyến khích di dân, cho khai hoang lập làng, cấp nông cụ hoặc miễn giảm thuế, đặt đơn vị hành chính và cử quan quản lí, đồng thời tổ chức bảo vệ vùng đất mới.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B06",
+    "folder": "lesson_06",
+    "title": "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "Chính",
+    "quyền",
+    "chúa",
+    "Nguyễn",
+    "thực",
+    "biện",
+    "pháp",
+    "thúc",
+    "đẩy",
+    "khai",
+    "hoang"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 6: Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

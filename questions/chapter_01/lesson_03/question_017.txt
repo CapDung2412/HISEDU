@@ -1,0 +1,11 @@
+Giữa cơ giới hóa thời cách mạng công nghiệp và tự động hóa ngày nay có điểm tương đồng và khác biệt nào?
+
+---
+question_id: Q_HIST8_LS_01_CAU_HOI_MR_06
+chunk_id: CHK_HIST8_LS_01_CAU_HOI_MR_06
+chapter: chapter_01
+lesson: lesson_03
+lesson_title: Cách mạng công nghiệp
+difficulty: extended
+source_locator: Bài 3: Cách mạng công nghiệp
+source_url: https://hanhtrangso.nxbgd.vn/

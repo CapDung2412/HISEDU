@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_30",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_30",
+  "title": "nhung-thanh-tuu-khoa-hoc-ki-thuat-va-nghe-thuat-thoi-ki-nay-anh-huong-nhu",
+  "question": "Những thành tựu khoa học, kĩ thuật và nghệ thuật thời kì này ảnh hưởng như thế nào đến đời sống con người?",
+  "answer": "Khoa học và kĩ thuật làm sản xuất, giao thông, liên lạc và y tế tiến bộ, thay đổi nhịp sống và không gian đô thị; văn học, nghệ thuật phản ánh, phê phán xã hội và làm giàu đời sống tinh thần, dù công nghệ cũng tăng bóc lột và sức hủy diệt chiến tranh.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "thành",
+    "tựu",
+    "khoa",
+    "học",
+    "thuật",
+    "nghệ",
+    "ảnh",
+    "hưởng",
+    "đời",
+    "sống",
+    "con"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_030.txt"
+}

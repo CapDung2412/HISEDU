@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_MR_05",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_MR_05",
+  "title": "su-xuat-hien-cac-luc-luong-xa-hoi-moi-anh-huong-nhu-the-nao-den-hinh",
+  "question": "Sự xuất hiện các lực lượng xã hội mới ảnh hưởng như thế nào đến hình thức đấu tranh giải phóng dân tộc ở châu Á?",
+  "answer": "Tư sản, trí thức và công nhân đem theo báo chí, trường học, công đoàn, hội kín và chính đảng; mục tiêu chuyển dần từ chống sưu thuế cục bộ sang độc lập dân tộc, còn hình thức mở rộng sang tẩy chay, bãi công và đấu tranh chính trị.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "xuất",
+    "lực",
+    "lượng",
+    "hội",
+    "mới",
+    "ảnh",
+    "hưởng",
+    "hình",
+    "thức",
+    "đấu",
+    "tranh"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_016.txt"
+}

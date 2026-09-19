@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_02_CAU_HOI_CB_21",
+  "chunk_id": "CHK_HIST8_LS_02_CAU_HOI_CB_21",
+  "title": "kinh-te-dong-nam-a-bien-doi-nhu-the-nao-duoi-tac-dong-cua-qua-trinh",
+  "question": "Kinh tế Đông Nam Á biến đổi như thế nào dưới tác động của quá trình xâm nhập và thống trị thực dân?",
+  "answer": "Một số đường sá, cảng, mỏ và đồn điền được xây dựng, kinh tế hàng hóa mở rộng; nhưng cơ cấu bị lệ thuộc, tập trung vào nguyên liệu xuất khẩu, thủ công bản địa suy giảm và lợi nhuận chủ yếu chảy về chính quốc.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "Kinh",
+    "Đông",
+    "Nam",
+    "biến",
+    "đổi",
+    "dưới",
+    "tác",
+    "động",
+    "xâm",
+    "nhập",
+    "thống"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_046.txt"
+}

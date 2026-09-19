@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_2_20_CAU_MR_04",
+  "chunk_id": "CHK_HIST8_CHUONG_2_20_CAU_MR_04",
+  "title": "neu-mot-bai-hoc-ve-viec-bao-ve-chu-quyen-co-the-rut-tu-lich-su",
+  "question": "Nêu một bài học về việc bảo vệ chủ quyền có thể rút ra từ lịch sử Đông Nam Á.",
+  "answer": "Bài học là phải củng cố nội lực, đoàn kết dân tộc, giữ vững chủ quyền, hiện đại hóa quốc phòng và xử lí linh hoạt quan hệ đối ngoại, không để mâu thuẫn nội bộ bị ngoại bang lợi dụng.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "bài",
+    "học",
+    "việc",
+    "bảo",
+    "quyền",
+    "thể",
+    "rút",
+    "lịch",
+    "Đông",
+    "Nam"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Chương 2, tổng hợp Bài 4",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_024.txt"
+}

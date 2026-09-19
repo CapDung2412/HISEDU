@@ -1,0 +1,11 @@
+Chiến tranh thế giới thứ nhất trải qua những giai đoạn chính nào?
+
+---
+question_id: Q_HIST8_LS_04_CAU_HOI_CB_22
+chunk_id: CHK_HIST8_LS_04_CAU_HOI_CB_22
+chapter: chapter_04
+lesson: lesson_12
+lesson_title: Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917
+difficulty: basic
+source_locator: Bài 12: Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917
+source_url: https://hanhtrangso.nxbgd.vn/

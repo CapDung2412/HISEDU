@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_MR_05",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_MR_05",
+  "title": "giua-phat-minh-khoa-hoc-va-sang-che-ki-thuat-co-moi-quan-he-nhu-the",
+  "question": "Giữa phát minh khoa học và sáng chế kĩ thuật có mối quan hệ như thế nào?",
+  "answer": "Khoa học phát hiện quy luật và cung cấp tri thức nền; kĩ thuật biến tri thức thành công cụ, quy trình và sản phẩm. Nhu cầu thực tiễn lại đặt câu hỏi mới cho khoa học, nên hai lĩnh vực thúc đẩy lẫn nhau.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "phát",
+    "minh",
+    "khoa",
+    "học",
+    "sáng",
+    "chế",
+    "thuật",
+    "mối",
+    "quan"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_035.txt"
+}

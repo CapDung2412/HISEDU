@@ -1,0 +1,11 @@
+Những cuộc khởi nghĩa nông dân tiêu biểu nào diễn ra ở Đàng Ngoài thế kỉ XVIII?
+
+---
+question_id: Q_HIST8_LS_03_CAU_HOI_CB_15
+chunk_id: CHK_HIST8_LS_03_CAU_HOI_CB_15
+chapter: chapter_03
+lesson: lesson_07
+lesson_title: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII
+difficulty: basic
+source_locator: Bài 7: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII
+source_url: https://hanhtrangso.nxbgd.vn/

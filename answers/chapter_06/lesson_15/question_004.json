@@ -1,0 +1,39 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_20",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_20",
+  "title": "cuoc-khoi-nghia-xi-pay-co-ket-qua-va-y-nghia-gi",
+  "question": "Cuộc khởi nghĩa Xi-pay có kết quả và ý nghĩa gì?",
+  "answer": "Khởi nghĩa bị đàn áp vào năm 1859 do thiếu lãnh đạo thống nhất và ưu thế quân sự của Anh. Đây là cuộc đấu tranh lớn đầu tiên chống thực dân Anh, thể hiện tinh thần dân tộc và mở đầu một giai đoạn đấu tranh mới.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Cuộc",
+    "khởi",
+    "nghĩa",
+    "Xi-pay",
+    "kết",
+    "quả"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_004.txt"
+}

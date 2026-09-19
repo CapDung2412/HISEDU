@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_1_20_CAU_MR_04",
+  "chunk_id": "CHK_HIST8_CHUONG_1_20_CAU_MR_04",
+  "title": "so-sanh-diem-giong-nhau-ve-muc-tieu-cua-cac-cuoc-cach-mang-tu-san-anh",
+  "question": "So sánh điểm giống nhau về mục tiêu của các cuộc cách mạng tư sản Anh, Mỹ và Pháp.",
+  "answer": "Cả ba cuộc cách mạng đều nhằm lật đổ hoặc phá bỏ những trở ngại phong kiến, thuộc địa để mở đường cho chủ nghĩa tư bản phát triển; riêng cuộc chiến ở Bắc Mỹ còn trực tiếp giành độc lập dân tộc.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "review_lessons_01_03",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII",
+    "sánh",
+    "điểm",
+    "giống",
+    "nhau",
+    "mục",
+    "tiêu",
+    "cuộc",
+    "cách",
+    "mạng",
+    "sản",
+    "Anh"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Chương 1, tổng hợp Bài 1-3",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

@@ -1,0 +1,11 @@
+Những lực lượng cư dân nào tham gia công cuộc khai phá vùng đất phía Nam?
+
+---
+question_id: Q_HIST8_LS_03_CAU_HOI_CB_08
+chunk_id: CHK_HIST8_LS_03_CAU_HOI_CB_08
+chapter: chapter_03
+lesson: lesson_06
+lesson_title: Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII
+difficulty: basic
+source_locator: Bài 6: Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII
+source_url: https://hanhtrangso.nxbgd.vn/

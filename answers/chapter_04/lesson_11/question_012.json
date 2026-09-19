@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_MR_03",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_MR_03",
+  "title": "vi-sao-mot-chinh-quyen-ton-tai-thoi-gian-ngan-nhu-cong-xa-pa-ri-van",
+  "question": "Vì sao một chính quyền tồn tại trong thời gian ngắn như Công xã Pa-ri vẫn được nghiên cứu trong lịch sử thế giới?",
+  "answer": "Công xã là lần đầu người lao động trực tiếp lập một chính quyền kiểu mới và ban hành chính sách vì đa số. Kinh nghiệm về tổ chức, dân chủ, liên minh lực lượng và bảo vệ chính quyền có ảnh hưởng lâu dài hơn 72 ngày tồn tại.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B11",
+    "folder": "lesson_11",
+    "title": "Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học"
+  },
+  "keywords": [
+    "Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học",
+    "sao",
+    "chính",
+    "quyền",
+    "tồn",
+    "tại",
+    "gian",
+    "ngắn",
+    "Công",
+    "Pa-ri",
+    "vẫn",
+    "nghiên"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 11: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_012.txt"
+}

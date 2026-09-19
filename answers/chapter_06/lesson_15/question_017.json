@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_MR_06",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_MR_06",
+  "title": "vi-sao-giai-thich-viec-xiem-giu-duoc-nen-doc-lap-tuong-doi-can-xem-xet",
+  "question": "Vì sao khi giải thích việc Xiêm giữ được nền độc lập tương đối cần xem xét cả cải cách trong nước và quan hệ giữa các cường quốc?",
+  "answer": "Xiêm giữ độc lập tương đối nhờ cải cách tăng năng lực nhà nước và quân sự, đồng thời khéo nhượng bộ, ngoại giao cân bằng giữa Anh với Pháp. Cả nội lực và vị trí vùng đệm trong thế cân bằng cường quốc đều cần được xem xét.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "sao",
+    "giải",
+    "thích",
+    "việc",
+    "Xiêm",
+    "giữ",
+    "nền",
+    "độc",
+    "lập",
+    "tương",
+    "cần"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_017.txt"
+}

@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_CB_03",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_CB_03",
+  "title": "nuoc-anh-cuoi-the-ki-xix-con-giu-nhung-the-manh-kinh-te-va-thuoc-dia",
+  "question": "Nước Anh cuối thế kỉ XIX còn giữ những thế mạnh kinh tế và thuộc địa nào?",
+  "answer": "Dù tốc độ công nghiệp chậm hơn Mỹ và Đức, Anh vẫn mạnh về thương mại, hàng hải, ngân hàng và xuất khẩu tư bản; nước này sở hữu hệ thống thuộc địa rộng nhất thế giới nên được gọi là đế quốc thực dân.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B10",
+    "folder": "lesson_10",
+    "title": "Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)"
+  },
+  "keywords": [
+    "Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)",
+    "Anh",
+    "cuối",
+    "XIX",
+    "còn",
+    "giữ",
+    "mạnh",
+    "kinh",
+    "thuộc",
+    "địa"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 10: Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_003.txt"
+}

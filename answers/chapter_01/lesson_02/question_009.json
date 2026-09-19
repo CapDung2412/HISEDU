@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_14",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_14",
+  "title": "nhung-kho-khan-kinh-te-va-tai-chinh-nao-gop-phan-lam-bung-no-cach-mang",
+  "question": "Những khó khăn kinh tế và tài chính nào góp phần làm bùng nổ Cách mạng tư sản Pháp?",
+  "answer": "Nhà nước nợ nần do chiến tranh và chi tiêu cung đình, hệ thống thuế bất công nên ngân khố gần phá sản; mất mùa làm giá lương thực tăng, công–thương nghiệp đình đốn và đời sống nhân dân thêm khốn khó.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B02",
+    "folder": "lesson_02",
+    "title": "Cách mạng tư sản Pháp cuối thế kỉ XVIII"
+  },
+  "keywords": [
+    "Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "khó",
+    "khăn",
+    "kinh",
+    "tài",
+    "chính",
+    "góp",
+    "phần",
+    "bùng",
+    "Cách",
+    "mạng",
+    "sản"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_009.txt"
+}

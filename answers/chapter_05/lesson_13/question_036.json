@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_MR_06",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_MR_06",
+  "title": "neu-lua-chon-mot-thanh-tuu-the-ki-xviii-xix-con-anh-huong-den-cuoc-song",
+  "question": "Nếu lựa chọn một thành tựu thế kỉ XVIII–XIX còn ảnh hưởng đến cuộc sống hôm nay, em sẽ chọn thành tựu nào và giải thích ra sao?",
+  "answer": "Có thể chọn điện và điện từ học: nền tảng này dẫn tới máy phát, động cơ, chiếu sáng, viễn thông và phần lớn thiết bị số hiện nay; ảnh hưởng của nó trải từ sản xuất đến y tế, học tập và sinh hoạt hằng ngày.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Nếu",
+    "lựa",
+    "chọn",
+    "thành",
+    "tựu",
+    "XVIII–XIX",
+    "còn",
+    "ảnh",
+    "hưởng",
+    "cuộc",
+    "sống"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_036.txt"
+}

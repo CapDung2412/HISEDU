@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_05",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_05",
+  "title": "hoc-thuyet-te-bao-co-y-nghia-gi-doi-voi-nhan-thuc-ve-the-gioi-sinh",
+  "question": "Học thuyết tế bào có ý nghĩa gì đối với nhận thức về thế giới sinh vật?",
+  "answer": "Học thuyết tế bào chứng minh tế bào là đơn vị cấu tạo cơ bản của cơ thể sống và tế bào mới sinh từ tế bào có trước, tạo nền tảng thống nhất cho sinh học, giải phẫu và y học hiện đại.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Học",
+    "thuyết",
+    "bào",
+    "nghĩa",
+    "nhận",
+    "thức",
+    "giới",
+    "sinh",
+    "vật"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_005.txt"
+}

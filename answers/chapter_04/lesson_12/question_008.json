@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_CB_26",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_CB_26",
+  "title": "nuoc-nga-truoc-cach-mang-thang-hai-nam-1917-lam-vao-tinh-trang-nhu-the-nao",
+  "question": "Nước Nga trước Cách mạng tháng Hai năm 1917 lâm vào tình trạng như thế nào?",
+  "answer": "Chế độ Nga hoàng chuyên chế khủng hoảng sâu sắc; chiến tranh gây thương vong, thiếu lương thực, lạm phát và thất bại quân sự, khiến công nhân, nông dân, binh lính và các dân tộc bất mãn.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B12",
+    "folder": "lesson_12",
+    "title": "Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917"
+  },
+  "keywords": [
+    "Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917",
+    "Nga",
+    "Cách",
+    "mạng",
+    "Hai",
+    "1917",
+    "lâm",
+    "tình",
+    "trạng"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 12: Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_008.txt"
+}

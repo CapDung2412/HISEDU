@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_02_CAU_HOI_CB_30",
+  "chunk_id": "CHK_HIST8_LS_02_CAU_HOI_CB_30",
+  "title": "nhung-nguyen-nhan-nao-khien-nhieu-cuoc-dau-tranh-chong-thuc-dan-o-dong-nam-a",
+  "question": "Những nguyên nhân nào khiến nhiều cuộc đấu tranh chống thực dân ở Đông Nam Á thời kì này chưa giành thắng lợi?",
+  "answer": "Nguyên nhân chủ yếu là tương quan lực lượng chênh lệch, vũ khí và tổ chức lạc hậu, lãnh đạo phong kiến còn hạn chế, thiếu đường lối và sự liên kết giữa các địa phương, trong khi thực dân có thể chia rẽ và đàn áp từng nơi.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "nguyên",
+    "khiến",
+    "nhiều",
+    "cuộc",
+    "đấu",
+    "tranh",
+    "chống",
+    "thực",
+    "Đông",
+    "Nam",
+    "chưa"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_055.txt"
+}

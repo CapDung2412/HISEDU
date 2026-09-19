@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_1_20_CAU_MR_01",
+  "chunk_id": "CHK_HIST8_CHUONG_1_20_CAU_MR_01",
+  "title": "may-hoi-nuoc-da-lam-thay-doi-san-xuat-va-giao-thong-nhu-the-nao",
+  "question": "Máy hơi nước đã làm thay đổi sản xuất và giao thông như thế nào?",
+  "answer": "Máy hơi nước cung cấp nguồn động lực mạnh, ổn định và không phụ thuộc vào sức người, sức nước; nó thúc đẩy cơ giới hóa nhà máy, tàu thủy và đầu máy xe lửa, làm sản xuất và vận chuyển nhanh hơn nhiều.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "lesson_03",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII",
+    "Máy",
+    "hơi",
+    "thay",
+    "đổi",
+    "sản",
+    "xuất",
+    "giao",
+    "thông"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Chương 1, tổng hợp Bài 1-3",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_002.txt"
+}

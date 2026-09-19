@@ -1,0 +1,11 @@
+Vì sao nhân dân Đông Nam Á liên tục đấu tranh chống thực dân?
+
+---
+question_id: Q_HIST8_CHUONG_2_20_CAU_CB_14
+chunk_id: CHK_HIST8_CHUONG_2_20_CAU_CB_14
+chapter: chapter_02
+lesson: lesson_04
+lesson_title: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX
+difficulty: basic
+source_locator: Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX
+source_url: https://hanhtrangso.nxbgd.vn/

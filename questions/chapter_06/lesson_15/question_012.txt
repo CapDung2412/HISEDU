@@ -1,0 +1,11 @@
+Những cuộc đấu tranh tiêu biểu nào diễn ra ở Cam-pu-chia và Lào chống thực dân Pháp?
+
+---
+question_id: Q_HIST8_LS_06_CAU_HOI_CB_28
+chunk_id: CHK_HIST8_LS_06_CAU_HOI_CB_28
+chapter: chapter_06
+lesson: lesson_15
+lesson_title: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+difficulty: basic
+source_locator: Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+source_url: https://hanhtrangso.nxbgd.vn/

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_16",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_16",
+  "title": "nhat-ban-chuyen-sang-giai-doan-de-quoc-chu-nghia-cuoi-the-ki-xix-dau-the",
+  "question": "Nhật Bản chuyển sang giai đoạn đế quốc chủ nghĩa cuối thế kỉ XIX đầu thế kỉ XX như thế nào?",
+  "answer": "Công nghiệp và ngân hàng tập trung vào các tập đoàn tài phiệt như Mitsui, Mitsubishi; nhà nước quân phiệt hóa và tiến hành chiến tranh với Trung Quốc, Nga, chiếm Đài Loan, Triều Tiên và nhiều quyền lợi ở châu Á.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Nhật",
+    "Bản",
+    "chuyển",
+    "sang",
+    "giai",
+    "đoạn",
+    "quốc",
+    "nghĩa",
+    "cuối",
+    "XIX",
+    "đầu"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_016.txt"
+}

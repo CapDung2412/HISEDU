@@ -1,0 +1,11 @@
+Phong trào Tây Sơn có những đóng góp gì đối với quá trình thống nhất và bảo vệ đất nước?
+
+---
+question_id: Q_HIST8_CHUONG_3_20_CAU_MR_04
+chunk_id: CHK_HIST8_CHUONG_3_20_CAU_MR_04
+chapter: chapter_03
+lesson: lesson_08
+lesson_title: Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII
+difficulty: extended
+source_locator: Chương 3, tổng hợp Bài 5-9
+source_url: https://hanhtrangso.nxbgd.vn/

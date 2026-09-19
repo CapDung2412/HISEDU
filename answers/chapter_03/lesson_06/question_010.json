@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_12",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_12",
+  "title": "cong-cuoc-khai-pha-phia-nam-lam-thay-doi-san-xuat-va-doi-song-cu-dan",
+  "question": "Công cuộc khai phá phía Nam làm thay đổi sản xuất và đời sống cư dân như thế nào?",
+  "answer": "Đất hoang được biến thành ruộng, vườn và làng xóm; lúa gạo, thủ công và buôn bán phát triển, các đô thị–thương cảng hình thành, đời sống và văn hóa cư dân trở nên đa dạng qua giao lưu cộng đồng.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B06",
+    "folder": "lesson_06",
+    "title": "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "Công",
+    "cuộc",
+    "khai",
+    "phá",
+    "phía",
+    "Nam",
+    "thay",
+    "đổi",
+    "sản",
+    "xuất",
+    "đời"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 6: Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_010.txt"
+}

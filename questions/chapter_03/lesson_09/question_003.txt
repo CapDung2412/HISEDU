@@ -1,0 +1,11 @@
+Sự phát triển của Hội An và Phố Hiến phản ánh điều gì về thương mại Đại Việt?
+
+---
+question_id: Q_HIST8_LS_03_CAU_HOI_CB_27
+chunk_id: CHK_HIST8_LS_03_CAU_HOI_CB_27
+chapter: chapter_03
+lesson: lesson_09
+lesson_title: Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII
+difficulty: basic
+source_locator: Bài 9: Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII
+source_url: https://hanhtrangso.nxbgd.vn/

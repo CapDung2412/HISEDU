@@ -1,0 +1,11 @@
+Những tiến bộ trong hóa học có ảnh hưởng gì đến sản xuất trong thế kỉ XIX?
+
+---
+question_id: Q_HIST8_LS_05_CAU_HOI_CB_08
+chunk_id: CHK_HIST8_LS_05_CAU_HOI_CB_08
+chapter: chapter_05
+lesson: lesson_13
+lesson_title: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+difficulty: basic
+source_locator: Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+source_url: https://hanhtrangso.nxbgd.vn/

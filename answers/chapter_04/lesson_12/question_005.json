@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_CB_23",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_CB_23",
+  "title": "vi-sao-cuoc-chien-bat-dau-o-chau-au-lai-tro-thanh-chien-tranh-the-gioi",
+  "question": "Vì sao cuộc chiến bắt đầu ở châu Âu lại trở thành chiến tranh thế giới?",
+  "answer": "Hệ thống thuộc địa, tuyến biển và liên minh kéo nhiều khu vực vào cuộc chiến; quân lính, nguyên liệu và chiến trường từ châu Á, châu Phi, Trung Đông đến đại dương khiến xung đột châu Âu trở thành chiến tranh thế giới.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B12",
+    "folder": "lesson_12",
+    "title": "Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917"
+  },
+  "keywords": [
+    "Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917",
+    "sao",
+    "cuộc",
+    "chiến",
+    "bắt",
+    "đầu",
+    "châu",
+    "lại",
+    "trở",
+    "thành",
+    "tranh",
+    "giới"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 12: Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_005.txt"
+}

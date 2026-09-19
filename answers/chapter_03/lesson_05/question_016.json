@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_06",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_06",
+  "title": "cac-cuoc-xung-dot-phong-kien-the-ki-xvi-xvii-anh-huong-nhu-the-nao-den",
+  "question": "Các cuộc xung đột phong kiến thế kỉ XVI–XVII ảnh hưởng như thế nào đến đời sống nhân dân?",
+  "answer": "Chiến tranh kéo dài làm nhiều người chết, làng mạc và ruộng đất bị tàn phá, sản xuất đình đốn; dân phải chịu thuế, binh dịch, di cư và cảnh đất nước chia cắt.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B05",
+    "folder": "lesson_05",
+    "title": "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn"
+  },
+  "keywords": [
+    "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "cuộc",
+    "xung",
+    "đột",
+    "phong",
+    "kiến",
+    "XVI–XVII",
+    "ảnh",
+    "hưởng",
+    "đời",
+    "sống"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 5: Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_016.txt"
+}

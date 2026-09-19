@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_06",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_06",
+  "title": "van-hoa-viet-nam-nua-dau-the-ki-xix-co-nhung-thanh-tuu-tieu-bieu-nao",
+  "question": "Văn hóa Việt Nam nửa đầu thế kỉ XIX có những thành tựu tiêu biểu nào?",
+  "answer": "Văn học có Nguyễn Du, Hồ Xuân Hương, Cao Bá Quát; sử học và địa lí có Đại Nam thực lục, Đại Nam nhất thống chí, Gia Định thành thông chí. Kiến trúc, điêu khắc Huế, Nhã nhạc và nghệ thuật dân gian cũng phát triển.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B16",
+    "folder": "lesson_16",
+    "title": "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)"
+  },
+  "keywords": [
+    "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "Văn",
+    "hóa",
+    "Việt",
+    "Nam",
+    "nửa",
+    "đầu",
+    "XIX",
+    "thành",
+    "tựu",
+    "tiêu",
+    "biểu"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 16: Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_006.txt"
+}

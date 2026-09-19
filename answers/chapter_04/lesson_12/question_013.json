@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_MR_04",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_MR_04",
+  "title": "vi-sao-can-phan-biet-nguyen-nhan-xa-voi-duyen-co-truc-tiep-giai-thich-mot",
+  "question": "Vì sao cần phân biệt nguyên nhân sâu xa với duyên cớ trực tiếp khi giải thích một cuộc chiến tranh?",
+  "answer": "Nguyên nhân sâu xa là các mâu thuẫn tích tụ lâu dài và giải thích vì sao chiến tranh có thể xảy ra; duyên cớ trực tiếp là sự kiện kích hoạt ở một thời điểm. Nhầm hai khái niệm sẽ biến một xung đột hệ thống thành hậu quả của một biến cố đơn lẻ.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B12",
+    "folder": "lesson_12",
+    "title": "Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917"
+  },
+  "keywords": [
+    "Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917",
+    "sao",
+    "cần",
+    "phân",
+    "biệt",
+    "nguyên",
+    "sâu",
+    "duyên",
+    "trực",
+    "tiếp",
+    "giải",
+    "thích"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 12: Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_013.txt"
+}

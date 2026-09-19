@@ -1,0 +1,11 @@
+Sự chuyển biến từ đập phá máy móc sang đấu tranh có tổ chức cho thấy nhận thức của công nhân thay đổi như thế nào?
+
+---
+question_id: Q_HIST8_LS_04_CAU_HOI_MR_02
+chunk_id: CHK_HIST8_LS_04_CAU_HOI_MR_02
+chapter: chapter_04
+lesson: lesson_11
+lesson_title: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+difficulty: extended
+source_locator: Bài 11: Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+source_url: https://hanhtrangso.nxbgd.vn/

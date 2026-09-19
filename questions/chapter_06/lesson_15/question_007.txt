@@ -1,0 +1,11 @@
+Phong trào chống chính sách chia cắt Ben-gan đầu thế kỉ XX thể hiện tinh thần đấu tranh của nhân dân Ấn Độ ra sao?
+
+---
+question_id: Q_HIST8_LS_06_CAU_HOI_CB_23
+chunk_id: CHK_HIST8_LS_06_CAU_HOI_CB_23
+chapter: chapter_06
+lesson: lesson_15
+lesson_title: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+difficulty: basic
+source_locator: Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+source_url: https://hanhtrangso.nxbgd.vn/

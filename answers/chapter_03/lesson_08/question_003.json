@@ -1,0 +1,41 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_3_20_CAU_MR_01",
+  "chunk_id": "CHK_HIST8_CHUONG_3_20_CAU_MR_01",
+  "title": "neu-cac-moc-1771-1785-1786-va-1789-va-su-kien-tuong-ung",
+  "question": "Nêu các mốc 1771, 1785, 1786 và 1789 và sự kiện tương ứng.",
+  "answer": "Các mốc chính: 1771 khởi nghĩa Tây Sơn bùng nổ; 1785 thắng quân Xiêm ở Rạch Gầm–Xoài Mút; 1786 Nguyễn Huệ tiến ra Bắc lật đổ họ Trịnh; 1789 đại phá quân Thanh ở Ngọc Hồi–Đống Đa.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "lesson_08",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "keywords": [
+    "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII",
+    "mốc",
+    "1771",
+    "1785",
+    "1786",
+    "1789",
+    "kiện",
+    "tương",
+    "ứng"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Chương 3, tổng hợp Bài 5-9",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_003.txt"
+}

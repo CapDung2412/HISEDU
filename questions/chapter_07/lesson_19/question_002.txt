@@ -1,0 +1,11 @@
+Phan Bội Châu và phong trào Đông du chủ trương cứu nước bằng con đường nào?
+
+---
+question_id: Q_HIST8_LS_07_CAU_HOI_CB_26
+chunk_id: CHK_HIST8_LS_07_CAU_HOI_CB_26
+chapter: chapter_07
+lesson: lesson_19
+lesson_title: Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917
+difficulty: basic
+source_locator: Bài 19: Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917
+source_url: https://hanhtrangso.nxbgd.vn/

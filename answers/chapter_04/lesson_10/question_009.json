@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_04_CAU_HOI_MR_01",
+  "chunk_id": "CHK_HIST8_LS_04_CAU_HOI_MR_01",
+  "title": "vi-sao-tiem-luc-cong-nghiep-va-quy-mo-thuoc-dia-cua-mot-nuoc-de-quoc",
+  "question": "Vì sao tiềm lực công nghiệp và quy mô thuộc địa của một nước đế quốc không phải lúc nào cũng tương ứng với nhau?",
+  "answer": "Sức mạnh công nghiệp phụ thuộc thời điểm công nghiệp hóa, tài nguyên, thị trường và công nghệ; thuộc địa còn do kết quả chinh phục trong nhiều thế kỉ. Vì vậy Anh, Pháp giữ nhiều thuộc địa dù tăng trưởng chậm hơn Đức, Mỹ.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH04",
+    "folder": "chapter_04",
+    "title": "Châu Âu và nước Mỹ từ cuối thế kỉ XVIII đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B10",
+    "folder": "lesson_10",
+    "title": "Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)"
+  },
+  "keywords": [
+    "Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)",
+    "sao",
+    "tiềm",
+    "lực",
+    "công",
+    "nghiệp",
+    "quy",
+    "thuộc",
+    "địa",
+    "quốc",
+    "không",
+    "phải"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 10: Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_009.txt"
+}

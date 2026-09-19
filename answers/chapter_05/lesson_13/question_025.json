@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_25",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_25",
+  "title": "vich-to-huy-go-co-nhung-dong-gop-tieu-bieu-nao-van-hoc-the-ki-xix",
+  "question": "Vích-to Huy-gô có những đóng góp tiêu biểu nào cho văn học thế kỉ XIX?",
+  "answer": "Victor Hugo là nhà văn lãng mạn lớn của Pháp, tác giả Nhà thờ Đức Bà Pa-ri và Những người khốn khổ; ông bảo vệ người yếu thế, lên án bất công và đề cao lòng nhân ái.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Vích-to",
+    "Huy-gô",
+    "đóng",
+    "góp",
+    "tiêu",
+    "biểu",
+    "văn",
+    "học",
+    "XIX"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_025.txt"
+}

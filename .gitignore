@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Next.js frontend
+web/node_modules/
+web/.next/
+web/out/
+web/coverage/
+web/.env*
+!web/.env.local.example
+*.tsbuildinfo

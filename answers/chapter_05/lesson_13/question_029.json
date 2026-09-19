@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_29",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_29",
+  "title": "hoi-hoa-the-ki-xviii-xix-co-nhung-chuyen-bien-dang-chu-y-nao-ve-de",
+  "question": "Hội họa thế kỉ XVIII–XIX có những chuyển biến đáng chú ý nào về đề tài và cách thể hiện?",
+  "answer": "Hội họa mở rộng từ đề tài cung đình, tôn giáo sang cách mạng, chiến tranh, lao động và đời sống thường ngày; các khuynh hướng lãng mạn, hiện thực và ấn tượng dùng màu sắc, ánh sáng, bút pháp ngày càng tự do.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "Hội",
+    "họa",
+    "XVIII–XIX",
+    "chuyển",
+    "biến",
+    "đáng",
+    "chú",
+    "tài",
+    "cách",
+    "thể"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_029.txt"
+}

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_22",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_22",
+  "title": "nhung-dieu-kien-nao-giup-cach-mang-cong-nghiep-khoi-dau-o-anh",
+  "question": "Những điều kiện nào giúp cách mạng công nghiệp khởi đầu ở Anh?",
+  "answer": "Anh có vốn tích lũy lớn, thị trường và thuộc địa rộng, lao động làm thuê dồi dào, than và sắt phong phú, kĩ thuật tiến bộ, cùng môi trường chính trị–pháp lí thuận lợi cho kinh doanh.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B03",
+    "folder": "lesson_03",
+    "title": "Cách mạng công nghiệp"
+  },
+  "keywords": [
+    "Cách mạng công nghiệp",
+    "điều",
+    "kiện",
+    "giúp",
+    "cách",
+    "mạng",
+    "công",
+    "nghiệp",
+    "khởi",
+    "đầu",
+    "Anh"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 3: Cách mạng công nghiệp",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

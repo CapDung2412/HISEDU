@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_07",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_07",
+  "title": "ton-trung-son-co-vai-tro-gi-doi-voi-phong-trao-cach-mang-trung-quoc",
+  "question": "Tôn Trung Sơn có vai trò gì đối với phong trào cách mạng Trung Quốc?",
+  "answer": "Tôn Trung Sơn truyền bá tư tưởng Tam dân, tập hợp lực lượng cách mạng và thành lập Trung Quốc Đồng minh hội năm 1905; ông định hướng và trở thành lãnh tụ tiêu biểu của Cách mạng Tân Hợi.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Tôn",
+    "Trung",
+    "Sơn",
+    "vai",
+    "trò",
+    "phong",
+    "trào",
+    "cách",
+    "mạng",
+    "Quốc"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

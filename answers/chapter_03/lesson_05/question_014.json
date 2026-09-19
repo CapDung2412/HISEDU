@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_04",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_04",
+  "title": "cuoc-xung-dot-trinh-nguyen-dien-hoan-canh-nao-va-dan-den-su-chia-cat-dat",
+  "question": "Cuộc xung đột Trịnh – Nguyễn diễn ra trong hoàn cảnh nào và dẫn đến sự chia cắt đất nước ra sao?",
+  "answer": "Sau khi Nguyễn Kim mất, họ Trịnh nắm quyền ở Nam triều; Nguyễn Hoàng xây dựng thế lực ở Thuận–Quảng. Mâu thuẫn bùng thành chiến tranh 1627–1672, rồi hai bên lấy sông Gianh làm ranh giới Đàng Ngoài–Đàng Trong.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B05",
+    "folder": "lesson_05",
+    "title": "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn"
+  },
+  "keywords": [
+    "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "Cuộc",
+    "xung",
+    "đột",
+    "Trịnh",
+    "Nguyễn",
+    "diễn",
+    "hoàn",
+    "cảnh",
+    "dẫn",
+    "chia",
+    "cắt"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 5: Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_014.txt"
+}

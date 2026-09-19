@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_08",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_08",
+  "title": "cach-mang-tan-hoi-nam-1911-co-ket-qua-y-nghia-va-han-che-gi",
+  "question": "Cách mạng Tân Hợi năm 1911 có kết quả, ý nghĩa và hạn chế gì?",
+  "answer": "Cách mạng 1911 lật đổ nhà Thanh, chấm dứt chế độ quân chủ hàng nghìn năm và lập Trung Hoa Dân quốc. Tuy nhiên nó không đánh đuổi đế quốc, không giải quyết ruộng đất, thành quả rơi vào tay Viên Thế Khải nên xã hội chưa đổi thay triệt để.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Cách",
+    "mạng",
+    "Tân",
+    "Hợi",
+    "1911",
+    "kết",
+    "quả",
+    "nghĩa",
+    "hạn",
+    "chế"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_008.txt"
+}

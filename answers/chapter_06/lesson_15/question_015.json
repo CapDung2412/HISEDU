@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_MR_04",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_MR_04",
+  "title": "vi-sao-chinh-sach-chia-de-tri-co-the-lam-sac-them-nhung-khac-biet-da",
+  "question": "Vì sao chính sách chia để trị có thể làm sâu sắc thêm những khác biệt đã tồn tại trong xã hội thuộc địa?",
+  "answer": "Bằng cách phân loại và ưu đãi một số cộng đồng, đặt luật lệ hoặc đơn vị hành chính khác nhau, thực dân biến khác biệt thành cạnh tranh quyền lợi, gây nghi kị và ngăn hình thành mặt trận đoàn kết chống cai trị.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "sao",
+    "chính",
+    "sách",
+    "chia",
+    "trị",
+    "thể",
+    "sâu",
+    "sắc",
+    "thêm",
+    "khác",
+    "biệt"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_015.txt"
+}

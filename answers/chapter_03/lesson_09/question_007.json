@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_MR_06",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_MR_06",
+  "title": "vi-sao-mot-do-thi-thuong-cang-nhu-hoi-an-co-the-tro-thanh-noi-giao",
+  "question": "Vì sao một đô thị thương cảng như Hội An có thể trở thành nơi giao lưu văn hóa giữa nhiều cộng đồng?",
+  "answer": "Hội An đón thương nhân Việt, Hoa, Nhật và châu Âu; trao đổi hàng hóa kéo theo cư trú, ngôn ngữ, tín ngưỡng, kiến trúc và ẩm thực giao thoa, nên thương cảng trở thành không gian tiếp xúc văn hóa tự nhiên.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B09",
+    "folder": "lesson_09",
+    "title": "Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII"
+  },
+  "keywords": [
+    "Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII",
+    "sao",
+    "thị",
+    "thương",
+    "cảng",
+    "Hội",
+    "thể",
+    "trở",
+    "thành",
+    "nơi",
+    "giao",
+    "lưu"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 9: Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

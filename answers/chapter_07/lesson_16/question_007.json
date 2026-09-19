@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_MR_01",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_MR_01",
+  "title": "vi-sao-danh-gia-trieu-nguyen-can-xem-xet-rieng-cac-linh-vuc-quan-li-dat",
+  "question": "Vì sao khi đánh giá triều Nguyễn cần xem xét riêng các lĩnh vực quản lí đất nước, văn hóa và chính sách đối ngoại?",
+  "answer": "Triều Nguyễn có đóng góp về thống nhất quản lí, cải cách hành chính, văn hóa và thực thi chủ quyền biển đảo, nhưng đồng thời bảo thủ, hạn chế đối ngoại và sai lầm khi chống Pháp. Tách từng lĩnh vực giúp tránh kết luận tuyệt đối, một chiều.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B16",
+    "folder": "lesson_16",
+    "title": "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)"
+  },
+  "keywords": [
+    "Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "sao",
+    "đánh",
+    "giá",
+    "triều",
+    "Nguyễn",
+    "cần",
+    "xem",
+    "xét",
+    "riêng",
+    "lĩnh",
+    "vực"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 16: Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

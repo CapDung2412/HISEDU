@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_04",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_04",
+  "title": "cuoc-khoi-nghia-thai-binh-thien-quoc-co-muc-tieu-va-ket-qua-gi",
+  "question": "Cuộc khởi nghĩa Thái bình Thiên quốc có mục tiêu và kết quả gì?",
+  "answer": "Thái bình Thiên quốc 1851–1864 nhằm lật đổ nhà Thanh, chống áp bức và xây dựng một trật tự bình đẳng hơn, có chủ trương chia ruộng. Phong trào lập chính quyền rộng lớn nhưng cuối cùng bị quân Thanh và thế lực nước ngoài đàn áp.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B14",
+    "folder": "lesson_14",
+    "title": "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Cuộc",
+    "khởi",
+    "nghĩa",
+    "Thái",
+    "bình",
+    "Thiên",
+    "quốc",
+    "mục",
+    "tiêu",
+    "kết",
+    "quả"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_004.txt"
+}

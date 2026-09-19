@@ -1,0 +1,11 @@
+Khoa học tự nhiên và khoa học xã hội khác nhau ở đối tượng nghiên cứu như thế nào?
+
+---
+question_id: Q_HIST8_LS_05_CAU_HOI_CB_02
+chunk_id: CHK_HIST8_LS_05_CAU_HOI_CB_02
+chapter: chapter_05
+lesson: lesson_13
+lesson_title: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+difficulty: basic
+source_locator: Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+source_url: https://hanhtrangso.nxbgd.vn/

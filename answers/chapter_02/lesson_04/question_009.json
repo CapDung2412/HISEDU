@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_CHUONG_2_20_CAU_CB_09",
+  "chunk_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_09",
+  "title": "thuc-dan-phuong-tay-da-khai-thac-kinh-te-dong-nam-a-nhung-hinh-thuc-nao",
+  "question": "Thực dân phương Tây đã khai thác kinh tế Đông Nam Á theo những hình thức nào?",
+  "answer": "Họ độc chiếm thương mại, cướp đoạt ruộng đất, lập đồn điền và mỏ, cưỡng bức lao động, đánh thuế nặng và khai thác tài nguyên để xuất khẩu.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "Thực",
+    "phương",
+    "Tây",
+    "khai",
+    "thác",
+    "kinh",
+    "Đông",
+    "Nam",
+    "hình",
+    "thức"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_009.txt"
+}

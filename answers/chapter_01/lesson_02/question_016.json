@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_MR_03",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_MR_03",
+  "title": "diem-giong-va-khac-nhau-ve-muc-tieu-giua-cach-mang-tu-san-anh-va-cach",
+  "question": "Điểm giống và khác nhau về mục tiêu giữa Cách mạng tư sản Anh và Cách mạng tư sản Pháp là gì?",
+  "answer": "Giống nhau, cả hai đều chống chế độ phong kiến và mở đường cho chủ nghĩa tư bản. Khác nhau, cách mạng Anh chủ yếu xác lập quân chủ lập hiến dưới liên minh tư sản–quý tộc mới, còn cách mạng Pháp lật đổ triệt để hơn các đặc quyền phong kiến và lập nền cộng hòa.",
+  "answer_type": "reasoned_synthesis",
+  "difficulty": "extended",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B02",
+    "folder": "lesson_02",
+    "title": "Cách mạng tư sản Pháp cuối thế kỉ XVIII"
+  },
+  "keywords": [
+    "Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "Điểm",
+    "giống",
+    "khác",
+    "nhau",
+    "mục",
+    "tiêu",
+    "Cách",
+    "mạng",
+    "sản",
+    "Anh",
+    "Pháp"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_016.txt"
+}

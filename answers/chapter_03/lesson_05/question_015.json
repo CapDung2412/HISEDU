@@ -1,0 +1,40 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_03_CAU_HOI_CB_05",
+  "chunk_id": "CHK_HIST8_LS_03_CAU_HOI_CB_05",
+  "title": "dang-va-dang-ngoai-thoi-trinh-nguyen-co-bo-may-cam-quyen-nhu-the-nao",
+  "question": "Đàng Trong và Đàng Ngoài thời Trịnh – Nguyễn có bộ máy cầm quyền như thế nào?",
+  "answer": "Cả hai miền đều danh nghĩa tôn vua Lê. Ở Đàng Ngoài, vua Lê chỉ còn hư vị, phủ chúa Trịnh nắm thực quyền; ở Đàng Trong, các chúa Nguyễn tổ chức chính quyền riêng và cai quản lãnh thổ phía nam sông Gianh.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH03",
+    "folder": "chapter_03",
+    "title": "Việt Nam từ đầu thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B05",
+    "folder": "lesson_05",
+    "title": "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn"
+  },
+  "keywords": [
+    "Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "Đàng",
+    "Ngoài",
+    "Trịnh",
+    "Nguyễn",
+    "máy",
+    "cầm",
+    "quyền"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 5: Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_015.txt"
+}

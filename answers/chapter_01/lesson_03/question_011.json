@@ -1,0 +1,42 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_26",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_26",
+  "title": "nhung-tien-bo-nao-xuat-hien-nganh-luyen-kim-thoi-cach-mang-cong-nghiep",
+  "question": "Những tiến bộ nào xuất hiện trong ngành luyện kim thời cách mạng công nghiệp?",
+  "answer": "Ngành luyện kim dùng than cốc thay than củi, cải tiến lò cao và các phương pháp luyện, cán sắt; nhờ đó sản lượng và chất lượng sắt, thép tăng, đáp ứng nhu cầu máy móc, đường ray và xây dựng.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B03",
+    "folder": "lesson_03",
+    "title": "Cách mạng công nghiệp"
+  },
+  "keywords": [
+    "Cách mạng công nghiệp",
+    "tiến",
+    "xuất",
+    "ngành",
+    "luyện",
+    "kim",
+    "cách",
+    "mạng",
+    "công",
+    "nghiệp"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 3: Cách mạng công nghiệp",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_011.txt"
+}

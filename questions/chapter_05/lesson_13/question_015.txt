@@ -1,0 +1,11 @@
+Sự phát triển của điện tín làm thay đổi việc truyền tin như thế nào?
+
+---
+question_id: Q_HIST8_LS_05_CAU_HOI_CB_15
+chunk_id: CHK_HIST8_LS_05_CAU_HOI_CB_15
+chapter: chapter_05
+lesson: lesson_13
+lesson_title: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+difficulty: basic
+source_locator: Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX
+source_url: https://hanhtrangso.nxbgd.vn/

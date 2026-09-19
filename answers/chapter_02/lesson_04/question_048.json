@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_02_CAU_HOI_CB_23",
+  "chunk_id": "CHK_HIST8_LS_02_CAU_HOI_CB_23",
+  "title": "nhung-mau-thuan-nao-nay-sinh-hoac-tro-nen-gay-gat-xa-hoi-thuoc-dia-dong",
+  "question": "Những mâu thuẫn nào nảy sinh hoặc trở nên gay gắt trong xã hội thuộc địa Đông Nam Á?",
+  "answer": "Mâu thuẫn cơ bản giữa toàn thể dân tộc thuộc địa với thực dân trở nên gay gắt; mâu thuẫn nông dân–địa chủ và xung đột dân tộc, tôn giáo cũng bị chính sách chia để trị làm sâu thêm.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH02",
+    "folder": "chapter_02",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến thế kỉ XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B04",
+    "folder": "lesson_04",
+    "title": "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX"
+  },
+  "keywords": [
+    "Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "mâu",
+    "thuẫn",
+    "nảy",
+    "sinh",
+    "hoặc",
+    "trở",
+    "nên",
+    "gay",
+    "gắt",
+    "hội",
+    "thuộc"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_048.txt"
+}

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_25",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_25",
+  "title": "viec-cai-tien-may-hoi-nuoc-cua-giem-oat-co-y-nghia-gi-doi-voi-san",
+  "question": "Việc cải tiến máy hơi nước của Giêm Oát có ý nghĩa gì đối với sản xuất?",
+  "answer": "Máy hơi nước cải tiến của James Watt cung cấp động lực mạnh, ổn định và có thể đặt ở nhiều nơi, thúc đẩy cơ giới hóa nhà máy, khai mỏ, luyện kim và giao thông.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B03",
+    "folder": "lesson_03",
+    "title": "Cách mạng công nghiệp"
+  },
+  "keywords": [
+    "Cách mạng công nghiệp",
+    "Việc",
+    "cải",
+    "tiến",
+    "máy",
+    "hơi",
+    "Giêm",
+    "Oát",
+    "nghĩa",
+    "sản",
+    "xuất"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 3: Cách mạng công nghiệp",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_010.txt"
+}

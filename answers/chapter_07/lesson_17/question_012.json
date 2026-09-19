@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_07_CAU_HOI_CB_24",
+  "chunk_id": "CHK_HIST8_LS_07_CAU_HOI_CB_24",
+  "title": "cac-de-nghi-cai-cach-cuoi-the-ki-xix-co-gia-tri-gi-va-vi-sao",
+  "question": "Các đề nghị cải cách cuối thế kỉ XIX có giá trị gì và vì sao chưa được thực hiện đầy đủ?",
+  "answer": "Các đề nghị thể hiện tư duy canh tân, yêu nước, chỉ ra nhiều nhược điểm và giải pháp tiến bộ. Chúng rời rạc, thiếu cơ sở xã hội và tài chính, gặp triều đình bảo thủ, lại diễn ra giữa chiến tranh nên bị bác bỏ hoặc chỉ thực hiện nửa vời.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH07",
+    "folder": "chapter_07",
+    "title": "Việt Nam từ thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B17",
+    "folder": "lesson_17",
+    "title": "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884"
+  },
+  "keywords": [
+    "Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "nghị",
+    "cải",
+    "cách",
+    "cuối",
+    "XIX",
+    "giá",
+    "trị",
+    "sao",
+    "chưa",
+    "thực",
+    "đầy"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_012.txt"
+}

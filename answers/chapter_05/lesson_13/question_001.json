@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_05_CAU_HOI_CB_01",
+  "chunk_id": "CHK_HIST8_LS_05_CAU_HOI_CB_01",
+  "title": "nhung-dieu-kien-kinh-te-va-xa-hoi-nao-thuc-day-khoa-hoc-ki-thuat-phat",
+  "question": "Những điều kiện kinh tế và xã hội nào thúc đẩy khoa học, kĩ thuật phát triển trong các thế kỉ XVIII–XIX?",
+  "answer": "Cách mạng công nghiệp tạo nhu cầu cải tiến máy móc, giao thông và sản xuất; đô thị, giáo dục, báo chí và các viện nghiên cứu phát triển, trong khi cạnh tranh giữa doanh nghiệp và quốc gia thúc đẩy đầu tư cho khoa học, kĩ thuật.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH05",
+    "folder": "chapter_05",
+    "title": "Sự phát triển của khoa học kĩ thuật văn học nghệ thuật trong các thế kỉ XVIII và XIX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B13",
+    "folder": "lesson_13",
+    "title": "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX"
+  },
+  "keywords": [
+    "Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "điều",
+    "kiện",
+    "kinh",
+    "hội",
+    "thúc",
+    "đẩy",
+    "khoa",
+    "học",
+    "thuật",
+    "phát",
+    "triển"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_001.txt"
+}

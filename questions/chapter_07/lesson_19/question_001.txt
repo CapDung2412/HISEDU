@@ -1,0 +1,11 @@
+Cuộc khai thác thuộc địa lần thứ nhất của Pháp làm kinh tế và xã hội Việt Nam thay đổi như thế nào?
+
+---
+question_id: Q_HIST8_LS_07_CAU_HOI_CB_25
+chunk_id: CHK_HIST8_LS_07_CAU_HOI_CB_25
+chapter: chapter_07
+lesson: lesson_19
+lesson_title: Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917
+difficulty: basic
+source_locator: Bài 19: Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917
+source_url: https://hanhtrangso.nxbgd.vn/

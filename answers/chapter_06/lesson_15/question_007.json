@@ -1,0 +1,44 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_06_CAU_HOI_CB_23",
+  "chunk_id": "CHK_HIST8_LS_06_CAU_HOI_CB_23",
+  "title": "phong-trao-chong-chinh-sach-chia-cat-ben-gan-dau-the-ki-xx-the-hien-tinh",
+  "question": "Phong trào chống chính sách chia cắt Ben-gan đầu thế kỉ XX thể hiện tinh thần đấu tranh của nhân dân Ấn Độ ra sao?",
+  "answer": "Sau khi Anh chia cắt Ben-gan năm 1905, phong trào tẩy chay hàng Anh, dùng hàng nội địa, bãi khóa và biểu tình lan rộng, lôi cuốn tư sản, trí thức, học sinh và công nhân; Anh phải hủy quyết định chia cắt năm 1911.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH06",
+    "folder": "chapter_06",
+    "title": "Châu Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B15",
+    "folder": "lesson_15",
+    "title": "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX"
+  },
+  "keywords": [
+    "Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "Phong",
+    "trào",
+    "chống",
+    "chính",
+    "sách",
+    "chia",
+    "cắt",
+    "Ben-gan",
+    "đầu",
+    "thể",
+    "tinh"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_007.txt"
+}

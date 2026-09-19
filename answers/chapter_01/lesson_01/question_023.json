@@ -1,0 +1,43 @@
+{
+  "dataset_name": "HISEDU - Lịch sử 8 Kết nối tri thức - Hỏi đáp RAG",
+  "version": "1.0.0",
+  "id": "Q_HIST8_LS_01_CAU_HOI_CB_11",
+  "chunk_id": "CHK_HIST8_LS_01_CAU_HOI_CB_11",
+  "title": "tuyen-ngon-doc-lap-nam-1776-cua-my-de-cap-den-nhung-quyen-co-ban-nao",
+  "question": "Tuyên ngôn Độc lập năm 1776 của Mỹ đề cập đến những quyền cơ bản nào của con người?",
+  "answer": "Tuyên ngôn khẳng định mọi người sinh ra bình đẳng và có các quyền không thể bị tước đoạt, trong đó có quyền sống, quyền tự do và quyền mưu cầu hạnh phúc; chính quyền phải dựa trên sự đồng thuận của nhân dân.",
+  "answer_type": "textbook_factual",
+  "difficulty": "basic",
+  "chapter": {
+    "id": "HIST8_KNTT_CH01",
+    "folder": "chapter_01",
+    "title": "Châu Âu và Bắc Mỹ từ nửa sau thế kỉ XVI đến thế kỉ XVIII"
+  },
+  "lesson": {
+    "id": "HIST8_KNTT_B01",
+    "folder": "lesson_01",
+    "title": "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+  },
+  "keywords": [
+    "Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "Tuyên",
+    "ngôn",
+    "Độc",
+    "lập",
+    "1776",
+    "cập",
+    "quyền",
+    "bản",
+    "con",
+    "người"
+  ],
+  "source": {
+    "name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống (Phần Lịch sử)",
+    "url": "https://hanhtrangso.nxbgd.vn/",
+    "locator": "Bài 1: Cách mạng tư sản Anh và chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
+    "page_number": null
+  },
+  "review_status": "Đã kiểm tra cấu trúc và đối chiếu sơ bộ; chờ giáo viên duyệt",
+  "provenance_note": "Câu trả lời được diễn đạt lại, tổng hợp theo bài học; không phải trích dẫn nguyên văn SGK.",
+  "paired_question_file": "question_023.txt"
+}
