@@ -6,7 +6,7 @@ import re
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Iterable, Iterator, Sequence
+from typing import Any, Iterable, Iterator, Mapping, Sequence
 
 
 class DatasetError(ValueError):
@@ -29,6 +29,62 @@ def _reject_duplicate_json_keys(items: list[tuple[str, Any]]) -> dict[str, Any]:
 def normalize_text(value: str) -> str:
     value = unicodedata.normalize("NFC", value)
     return re.sub(r"\s+", " ", value).strip()
+
+
+def is_textbook_source_name(value: str) -> bool:
+    """Return whether a source explicitly identifies itself as a textbook."""
+    folded = unicodedata.normalize("NFD", value).encode("ascii", "ignore").decode().lower()
+    return "sgk" in folded or "sach giao khoa" in folded
+
+
+def textbook_source_metadata(
+    source: Mapping[str, Any],
+) -> tuple[int | None, str | None]:
+    """Read grade/book series from explicit metadata, then from the verified title.
+
+    Older HISEDU records encode these two values in ``source.name``. Parsing that
+    field is safe because the returned values still originate in dataset metadata;
+    no model-generated value is accepted here.
+    """
+    name = normalize_text(str(source.get("name") or source.get("source_name") or ""))
+    if not is_textbook_source_name(name):
+        return None, None
+
+    raw_grade = source.get("grade", source.get("source_grade"))
+    grade: int | None = None
+    if not isinstance(raw_grade, bool):
+        try:
+            candidate = int(raw_grade) if raw_grade is not None else None
+            grade = candidate if candidate is not None and 1 <= candidate <= 12 else None
+        except (TypeError, ValueError):
+            pass
+
+    raw_series = source.get("book_series", source.get("source_book_series"))
+    series = normalize_text(str(raw_series)) if raw_series else None
+
+    # Example: "SGK Lịch sử và Địa lí 8 - Kết nối tri thức ... (Phần Lịch sử)".
+    title_match = re.search(
+        r"\b(?P<grade>[1-9]|1[0-2])\s*[-\u2013\u2014]\s*(?P<series>[^()]+)",
+        name,
+    )
+    if title_match:
+        if grade is None:
+            grade = int(title_match.group("grade"))
+        if not series:
+            series = normalize_text(title_match.group("series"))
+    return grade, series
+
+
+def source_page_number(source: Mapping[str, Any]) -> int | None:
+    """Return a valid page carried by source metadata, never a guessed page."""
+    raw_page = source.get("page_number", source.get("source_page_number"))
+    if raw_page is None or isinstance(raw_page, bool):
+        return None
+    try:
+        page = int(raw_page)
+    except (TypeError, ValueError):
+        return None
+    return page if 1 <= page <= 10_000 else None
 
 
 def question_body(text: str) -> str:
@@ -102,9 +158,19 @@ class DatasetRecord:
             "embedding_model": embedding_model,
             "embedding_dimension": len(vector),
         }
-        page_number = self.source.get("page_number")
+        grade, book_series = textbook_source_metadata(self.source)
+        if grade is not None:
+            document["source_grade"] = grade
+        if book_series is not None:
+            document["source_book_series"] = book_series
+        page_number = source_page_number(self.source)
         if page_number is not None:
-            document["source_page_number"] = int(page_number)
+            document["source_page_number"] = page_number
+            document["source_page_status"] = "verified"
+        elif is_textbook_source_name(str(self.source.get("name") or "")):
+            document["source_page_status"] = "unverified"
+        else:
+            document["source_page_status"] = "not_applicable"
         return document
 
 
@@ -175,6 +241,24 @@ class HISEduDataset:
         for field in ("chapter", "lesson", "source"):
             if not isinstance(data[field], dict):
                 raise DatasetError(f"{field} must be an object: {answer_path}")
+        source = data["source"]
+        missing_source_fields = sorted(
+            {"name", "url", "locator", "page_number"} - source.keys()
+        )
+        if missing_source_fields:
+            raise DatasetError(
+                f"Missing source fields in {answer_path}: {missing_source_fields}"
+            )
+        raw_page = source.get("page_number")
+        if raw_page is not None and source_page_number(source) is None:
+            raise DatasetError(f"source.page_number must be 1..10000: {answer_path}")
+        if is_textbook_source_name(str(source.get("name") or "")):
+            grade, book_series = textbook_source_metadata(source)
+            if grade is None or not book_series:
+                raise DatasetError(
+                    "Textbook source must identify grade and book series: "
+                    f"{answer_path}"
+                )
         if not isinstance(data["keywords"], list) or not all(
             isinstance(item, str) and item.strip() for item in data["keywords"]
         ):

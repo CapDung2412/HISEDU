@@ -4,7 +4,10 @@ const API_BASE_URL = (process.env.NEXT_PUBLIC_API_BASE_URL ?? "").replace(
   /\/$/,
   ""
 );
-const REQUEST_TIMEOUT_MS = 60_000;
+const DEFAULT_REQUEST_TIMEOUT_MS = 30_000;
+// The first lesson request may also initialize the local CLIP text model.
+// This is only a safety ceiling; successful responses return immediately.
+const LESSON_REQUEST_TIMEOUT_MS = 90_000;
 
 export class ApiError extends Error {
   constructor(
@@ -37,9 +40,13 @@ function getRequestId(body: unknown): string | undefined {
   return typeof requestId === "string" ? requestId : undefined;
 }
 
-async function request<T>(path: string, init: RequestInit): Promise<T> {
+async function request<T>(
+  path: string,
+  init: RequestInit,
+  timeoutMs = DEFAULT_REQUEST_TIMEOUT_MS
+): Promise<T> {
   const controller = new AbortController();
-  const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  const timeout = window.setTimeout(() => controller.abort(), timeoutMs);
   const headers = new Headers(init.headers);
   headers.set("Accept", "application/json");
 
@@ -71,11 +78,15 @@ async function request<T>(path: string, init: RequestInit): Promise<T> {
 }
 
 export function askTextQuestion(question: string): Promise<AskResponse> {
-  return request<AskResponse>("/api/questions/ask", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ question, top_k: 5 })
-  });
+  return request<AskResponse>(
+    "/api/questions/ask",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question, top_k: 5 })
+    },
+    LESSON_REQUEST_TIMEOUT_MS
+  );
 }
 
 export function askImageQuestion(file: File, question?: string): Promise<AskResponse> {
@@ -85,10 +96,14 @@ export function askImageQuestion(file: File, question?: string): Promise<AskResp
   data.append("top_k", "5");
   data.append("mode", "hybrid");
 
-  return request<AskResponse>("/api/questions/ask-image", {
-    method: "POST",
-    body: data
-  });
+  return request<AskResponse>(
+    "/api/questions/ask-image",
+    {
+      method: "POST",
+      body: data
+    },
+    LESSON_REQUEST_TIMEOUT_MS
+  );
 }
 
 export function submitQuizAnswers(

@@ -10,14 +10,17 @@ describe("SourceList", () => {
           id: "S1",
           title: "Lịch sử và Địa lí 8",
           publisher: "Nhà xuất bản Giáo dục",
-          type: "sgk",
+          type: "dataset",
           url: "javascript:alert(1)",
+          grade: 8,
+          book_series: "Kết nối tri thức với cuộc sống",
+          page_status: "unverified",
           supports: ["Nội dung bài học"]
         }]}
       />
     );
 
-    expect(screen.getByText("Dữ liệu hiện tại chưa ghi nhận số trang")).toBeInTheDocument();
+    expect(screen.getByText("Chưa xác minh số trang — không hiển thị như trích dẫn SGK")).toBeInTheDocument();
     expect(screen.getByText(/Hỗ trợ nội dung: Nội dung bài học/)).toBeInTheDocument();
     expect(screen.queryByRole("link")).not.toBeInTheDocument();
   });

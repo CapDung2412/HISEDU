@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Literal
 
-from .clip_encoder import ClipEncoder
+from .clip_encoder import ClipEncoder, TextTooLongError, normalize_vector
 from .ocr import OcrError, PaddleOcrExtractor
 from .pinecone_store import PineconeVectorStore
 
@@ -74,12 +74,26 @@ class ImageQueryService:
         if self.ocr is None:
             raise OcrError("OCR mode requested but no OCR extractor is configured")
         ocr_result = self.ocr.extract(image_path)
-        vector = self.encoder.encode_texts([ocr_result.text])[0]
+        embedding_strategy = "full_text"
+        try:
+            vector = self.encoder.encode_texts([ocr_result.text])[0]
+        except TextTooLongError:
+            # A photographed page can exceed CLIP's text token limit. Embed
+            # OCR lines in one batch, then mean-pool back into the CLIP space.
+            line_vectors = self.encoder.encode_texts(list(ocr_result.lines))
+            vector = normalize_vector(
+                [
+                    sum(row[index] for row in line_vectors) / len(line_vectors)
+                    for index in range(len(line_vectors[0]))
+                ]
+            )
+            embedding_strategy = "mean_line_vectors"
         matches = self.store.query(vector, top_k=candidate_k)
         return matches, {
             "text": ocr_result.text,
             "line_count": len(ocr_result.lines),
             "mean_line_score": ocr_result.mean_score,
+            "embedding_strategy": embedding_strategy,
         }
 
     def query_image(
@@ -96,19 +110,22 @@ class ImageQueryService:
             raise ValueError(f"Unsupported query mode: {mode}")
         if top_k <= 0:
             raise ValueError("top_k must be positive")
-        candidate_k = max(top_k * 3, 10) if mode == "hybrid" else top_k
+        candidate_k = top_k
         branches: dict[str, list[dict[str, Any]]] = {}
         ocr_details: dict[str, Any] | None = None
         ocr_error: str | None = None
-        if mode in {"clip", "hybrid"}:
+        if mode == "clip":
             branches["clip"] = self._clip_branch(path, candidate_k)
-        if mode in {"ocr", "hybrid"}:
+        else:
             try:
                 branches["ocr"], ocr_details = self._ocr_branch(path, candidate_k)
             except OcrError as exc:
                 if mode == "ocr":
                     raise
                 ocr_error = str(exc)
+                # Hybrid is OCR-first: CLIP image retrieval is only a fallback
+                # for photos where local OCR cannot produce usable text.
+                branches["clip"] = self._clip_branch(path, candidate_k)
 
         if len(branches) == 1:
             branch_name, raw_matches = next(iter(branches.items()))

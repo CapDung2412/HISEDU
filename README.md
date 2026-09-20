@@ -26,14 +26,13 @@ Luồng ingest:
 
 Luồng hỏi bằng văn bản:
 
-`câu hỏi → CLIP text embedding → Pinecone → OpenAI Responses API → hậu kiểm nguồn/URL → answer + mindmap + quiz`
+`câu hỏi → CLIP text embedding → Pinecone → OpenAI Responses API → hậu kiểm nguồn → YouTube Data API (lọc channelId) → answer + mindmap + quiz`
 
 Luồng hỏi bằng ảnh:
 
-1. Nhánh CLIP: `ảnh → CLIP image embedding → Pinecone`.
-2. Nhánh OCR: `ảnh → PaddleOCR tiếng Việt → CLIP multilingual text embedding → Pinecone`.
-3. Chế độ `hybrid` hợp nhất hai bảng xếp hạng bằng Reciprocal Rank Fusion.
-4. Kết quả truy xuất đi qua cùng luồng sinh bài học như câu hỏi văn bản.
+1. Mặc định: `ảnh → PaddleOCR tiếng Việt → CLIP multilingual text embedding → Pinecone`.
+2. Chế độ `hybrid` chỉ dùng `CLIP image embedding` dự phòng khi OCR không đọc được chữ.
+3. Kết quả truy xuất đi qua cùng luồng sinh bài học như câu hỏi văn bản.
 
 CLIP không phải OCR. Với ảnh chủ yếu chứa chữ, nên dùng `hybrid` hoặc `ocr`; số, mốc năm và tên riêng cần được đánh giá trên ảnh điện thoại thật.
 
@@ -50,6 +49,7 @@ Chỉ trường `question` được embed để tránh nhiễu và truncation. A
 - Node.js 20 trở lên và npm để chạy frontend.
 - Pinecone index `hisedu-clip-v1` đã ingest dữ liệu.
 - OpenAI API key để sinh câu trả lời, mindmap và quiz.
+- YouTube Data API v3 key để tìm video trong danh sách kênh cho phép.
 
 ## Cài đặt backend
 
@@ -63,7 +63,7 @@ python -m pip install -e .
 if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 ```
 
-Điền `PINECONE_API_KEY` và `CHATGPT_API_KEY` thật vào `.env`. Không commit file này.
+Điền `PINECONE_API_KEY`, `CHATGPT_API_KEY` và `YOUTUBE_API_KEY` thật vào `.env`. Không commit file này.
 
 Để bật OCR local:
 
@@ -71,7 +71,7 @@ if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 python -m pip install -e ".[ocr]"
 ```
 
-PaddleOCR còn cần inference engine PaddlePaddle phù hợp CPU/GPU và hệ điều hành. Lần dùng encoder đầu tiên có thể tải model weights; không commit model cache.
+Extra `ocr` cài cả PaddleOCR và PaddlePaddle CPU. Lần dùng OCR đầu tiên có thể tải model weights; không commit model cache.
 
 ## Cài đặt frontend
 
@@ -93,9 +93,12 @@ Các biến được mô tả đầy đủ trong `.env.example`.
 | `PINECONE_INDEX_NAME` | `hisedu-clip-v1` | Index đã chứa embedding HISEDU. |
 | `PINECONE_NAMESPACE` | `history8-v1-0-0` | Namespace của dataset. |
 | `CHATGPT_API_KEY` | Không có | OpenAI API key, chỉ đọc ở backend. |
+| `YOUTUBE_API_KEY` | Không có | YouTube Data API v3 key, chỉ đọc ở backend. |
 | `OPENAI_MODEL` | `gpt-4.1-mini` | Model dùng với Responses API và Structured Outputs. |
-| `HISEDU_ENABLE_WEB_SEARCH` | `false` | Bật tối đa một web-search tool call trên mỗi lần sinh khi cần video/nguồn ngoài. |
-| `HISEDU_OPENAI_TIMEOUT_SECONDS` | `45` | Timeout của lượt sinh OpenAI. |
+| `HISEDU_ENABLE_WEB_SEARCH` | `false` | Bật tối đa một web-search tool call cho nguồn ngoài; tìm video dùng YouTube API riêng. |
+| `HISEDU_YOUTUBE_TIMEOUT_SECONDS` | `5` | Timeout cho một lần tìm video. |
+| `HISEDU_YOUTUBE_CACHE_TTL_SECONDS` | `86400` | Cache kết quả tìm video, kể cả kết quả rỗng, để tiết kiệm quota. |
+| `HISEDU_OPENAI_TIMEOUT_SECONDS` | `30` | Timeout của lượt sinh OpenAI. |
 | `HISEDU_CACHE_TTL_SECONDS` | `900` | TTL cache bài học trong bộ nhớ tiến trình. |
 | `HISEDU_QUIZ_TTL_SECONDS` | `1800` | Thời gian quiz còn hợp lệ trong bộ nhớ tiến trình. |
 | `HISEDU_RATE_LIMIT_REQUESTS` | `20` | Số request tối đa cho mỗi IP trong một cửa sổ. |
@@ -103,9 +106,13 @@ Các biến được mô tả đầy đủ trong `.env.example`.
 | `HISEDU_CORS_ORIGINS` | `http://localhost:3000` | Danh sách origin chính xác, phân tách bằng dấu phẩy. |
 | `HISEDU_MAX_IMAGE_BYTES` | `5242880` | Dung lượng ảnh tối đa, tính bằng byte. |
 | `HISEDU_MAX_IMAGE_PIXELS` | `20000000` | Số pixel tối đa sau khi giải mã ảnh. |
-| `HISEDU_PROMPT_VERSION` | `hisedu-web-v1` | Phiên bản prompt dùng trong cache key. |
+| `HISEDU_PROMPT_VERSION` | `hisedu-web-v6-youtube-api-video` | Phiên bản prompt dùng trong cache key. |
 
-`.env.example` chủ động đặt `HISEDU_ENABLE_WEB_SEARCH=false` để hạn chế chi phí khi phát triển. Khi bật web search, backend chỉ giữ URL xuất hiện trong kết quả công cụ và thuộc danh sách domain tin cậy; nếu không xác minh được video thì giao diện hiển thị danh sách rỗng.
+`.env.example` chủ động đặt `HISEDU_ENABLE_WEB_SEARCH=false` để hạn chế chi phí khi phát triển. Khi bật web search, backend chỉ giữ URL xuất hiện trong kết quả công cụ và thuộc danh sách domain tin cậy.
+
+## Gợi ý video bằng YouTube Data API
+
+Backend gọi `search.list` tối đa một lần cho mỗi cache miss, sau đó lọc cứng theo `channelId`. Danh sách cho phép hiện gồm EZ Sử, HTV Tin Tức, VTV24, Sử Lược - Tóm Tắt Lịch Sử và Dòng Máu Việt. URL hoặc tên kênh do mô hình AI tạo không được sử dụng. Kết quả được cache 24 giờ; thiếu key, lỗi API hoặc hết quota thì bài học vẫn hoạt động và trả `videos=[]`.
 
 Cache, quiz store và rate limiter hiện là bộ nhớ trong từng tiến trình. Chúng phù hợp chạy local hoặc một worker. Nếu triển khai nhiều worker hoặc nhiều máy, cần thay bằng kho dùng chung như Redis để quiz, cache và rate limit nhất quán.
 
@@ -180,15 +187,15 @@ Trả trạng thái cấu hình backend mà không gọi dịch vụ bên ngoài
 
 Trong trường hợp bình thường:
 
-| Tình huống | Pinecone | OpenAI Responses | Web search |
-| --- | ---: | ---: | ---: |
-| Text, cache miss | 1 | 1 | 0 khi tắt; tối đa 1 khi bật |
-| Text, cache hit | 1 | 0 | 0 |
-| Ảnh `clip` hoặc `ocr`, cache miss | 1 | 1 | 0 hoặc tối đa 1 |
-| Ảnh `hybrid`, cache miss | 2 | 1 | 0 hoặc tối đa 1 |
-| Health, validate-data và test mock | 0 | 0 | 0 |
+| Tình huống | Pinecone | OpenAI Responses | Web search | YouTube Search |
+| --- | ---: | ---: | ---: | ---: |
+| Text, cache miss | 1 | 2 (bài học + quiz) | 0 khi tắt; tối đa 1 khi bật | Tối đa 1 nếu cache video miss |
+| Text, cache hit | 1 | 0 | 0 | 0 |
+| Ảnh `clip` hoặc `ocr`, cache miss | 1 | 2 | 0 hoặc tối đa 1 | Tối đa 1 nếu cache video miss |
+| Ảnh `hybrid`, cache miss | 2 | 2 | 0 hoặc tối đa 1 | Tối đa 1 nếu cache video miss |
+| Health, validate-data và test mock | 0 | 0 | 0 | 0 |
 
-Cache vẫn cần truy xuất Pinecone để xác định các record phù hợp trước khi tạo cache key. Mỗi cache hit tạo một `quiz_id` mới nhưng không gọi lại OpenAI. Khi lỗi mạng tạm thời, OpenAI SDK được phép retry hữu hạn nên số HTTP attempt thực tế có thể cao hơn bảng trên.
+Cache vẫn cần truy xuất Pinecone để xác định các record phù hợp trước khi tạo cache key. Mỗi cache hit tạo một `quiz_id` mới nhưng không gọi lại OpenAI. Backend không tự retry OpenAI hay YouTube, nhằm giữ thời gian chờ và quota có thể dự đoán.
 
 Để tiết kiệm quota trong quá trình phát triển:
 
@@ -247,7 +254,7 @@ npm run build
 
 Các test backend dùng fake retrieval/OpenAI/Pinecone; component test frontend dùng mock. Những lệnh trên không chủ động gọi OpenAI, Pinecone hoặc web search.
 
-Đã xác nhận cục bộ: 327/327 bản ghi dữ liệu hợp lệ, 22/22 test Python đạt, 8/8 test frontend đạt, TypeScript/ESLint đạt và Next.js build production thành công. Website chưa được kiểm thử live end-to-end với OpenAI và Pinecone sau khi ghép frontend/backend nhằm tránh tiêu tốn quota. Trước production cần:
+Đã xác nhận cục bộ: 327/327 bản ghi dữ liệu hợp lệ, 47/47 test Python đạt, 8/8 test frontend đạt, TypeScript/ESLint đạt và Next.js build production thành công. Website chưa được kiểm thử live end-to-end với OpenAI, Pinecone và YouTube API sau khi ghép frontend/backend nhằm tránh tiêu tốn quota. Trước production cần:
 
 - Một smoke test live có giới hạn quota.
 - Một holdout ảnh điện thoại gồm ảnh rõ, mờ, nghiêng, thiếu sáng và các câu có mốc năm gần nhau.
@@ -263,7 +270,3 @@ Các test backend dùng fake retrieval/OpenAI/Pinecone; component test frontend 
 - [Multilingual CLIP model card](https://huggingface.co/sentence-transformers/clip-ViT-B-32-multilingual-v1)
 - [Sentence Transformers image search](https://sbert.net/examples/sentence_transformer/applications/image-search/README.html)
 - [PaddleOCR general OCR pipeline](https://www.paddleocr.ai/main/en/version3.x/pipeline_usage/OCR.html)
-#   H i s t o r y  
- #   H i s t o r y  
- #   H i s t o r y  
- 

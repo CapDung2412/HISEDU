@@ -54,12 +54,12 @@ export function Quiz({ quiz, onSubmit = submitQuizAnswers }: Props) {
 
   return (
     <section id={`quiz-${quiz.quiz_id}`} className="section-card scroll-mt-6 overflow-hidden" aria-labelledby="quiz-heading">
-      <div className="bg-gradient-to-r from-amber-50 to-white p-5 sm:p-7">
+      <div className="border-b border-sun-400/30 bg-gradient-to-r from-sun-50 to-white p-5 sm:p-7">
         <div className="flex items-start gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-2xl bg-sun-100 text-xl" aria-hidden>🏆</span>
+          <span className="history-serif grid h-11 w-11 place-items-center rounded-full border border-sun-400/50 bg-white text-sm font-bold text-brand-700" aria-hidden>05</span>
           <div>
             <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700">Thử thách ghi nhớ</p>
-            <h2 id="quiz-heading" className="text-xl font-black text-ink sm:text-2xl">Quiz 5 câu</h2>
+            <h2 id="quiz-heading" className="history-serif text-xl font-bold text-ink sm:text-2xl">Quiz 5 câu</h2>
             <p className="mt-1 text-sm text-slate-600">Chọn một đáp án cho mỗi câu. Đáp án chỉ hiện sau khi em nộp bài.</p>
           </div>
         </div>

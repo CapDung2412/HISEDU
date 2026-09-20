@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import math
 import unittest
+from unittest.mock import patch
 
 from hisedu.clip_encoder import ClipEncoder, EmbeddingError
 
@@ -53,6 +54,24 @@ class ClipEncoderTests(unittest.TestCase):
     def test_text_encoding_does_not_initialize_image_dimension(self) -> None:
         encoder = self.encoder(image_model=FailingImageModel())
         self.assertEqual([0.6, 0.8, 0.0], encoder.encode_texts(["lịch sử"])[0])
+
+    def test_local_only_flag_is_forwarded_to_sentence_transformer(self) -> None:
+        calls = []
+
+        def factory(model_name, **kwargs):
+            calls.append((model_name, kwargs))
+            return FakeModel()
+
+        encoder = ClipEncoder(
+            text_model_name="cached-text-model",
+            image_model_name="cached-image-model",
+            local_files_only=True,
+        )
+        with patch.object(ClipEncoder, "_sentence_transformer", return_value=factory):
+            self.assertEqual(3, encoder.text_dimension)
+
+        self.assertEqual("cached-text-model", calls[0][0])
+        self.assertTrue(calls[0][1]["local_files_only"])
 
 
 if __name__ == "__main__":

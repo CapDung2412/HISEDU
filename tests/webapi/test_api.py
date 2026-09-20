@@ -1,16 +1,17 @@
 from __future__ import annotations
 
+import asyncio
 import unittest
 from io import BytesIO
 
 from fastapi.testclient import TestClient
 from PIL import Image
 
-from hisedu.webapi.app import create_app
+from hisedu.webapi.app import _KeyedLockPool, create_app
 from hisedu.webapi.errors import AiServiceError, AiTimeoutError
 from hisedu.webapi.settings import WebSettings
 
-from .helpers import FakeAI, FakeRetrieval, YOUTUBE_URL, generated_lesson
+from .helpers import FakeAI, FakeRetrieval, generated_lesson
 
 
 def settings(**changes) -> WebSettings:
@@ -49,6 +50,35 @@ class WebApiTests(unittest.TestCase):
         self.assertEqual(0, self.retrieval.text_calls)
         self.assertEqual(0, self.ai.calls)
 
+    def test_response_exposes_stage_timings_without_question_content(self) -> None:
+        client = self.make_client()
+        response = client.post(
+            "/api/questions/ask", json={"question": "Cách mạng Anh năm nào?"}
+        )
+
+        self.assertEqual(200, response.status_code, response.text)
+        timing = response.headers["server-timing"]
+        self.assertIn("retrieval;dur=", timing)
+        self.assertIn("openai;dur=", timing)
+        self.assertIn("total;dur=", timing)
+        self.assertNotIn("Cách mạng", timing)
+
+    def test_total_deadline_returns_json_before_frontend_abort(self) -> None:
+        class SlowRetrieval(FakeRetrieval):
+            async def search_text(self, question: str, *, top_k: int):
+                await asyncio.sleep(0.05)
+                return await super().search_text(question, top_k=top_k)
+
+        client = self.make_client(
+            retrieval=SlowRetrieval(), request_timeout_seconds=0.01
+        )
+        response = client.post(
+            "/api/questions/ask", json={"question": "Cách mạng Anh năm nào?"}
+        )
+
+        self.assertEqual(504, response.status_code, response.text)
+        self.assertEqual("REQUEST_TIMEOUT", response.json()["error"]["code"])
+
     def test_ask_hides_answers_strips_fake_page_and_uses_cache_template(self) -> None:
         client = self.make_client()
         payload = {"question": "Cách mạng tư sản Anh bùng nổ năm nào?"}
@@ -59,9 +89,13 @@ class WebApiTests(unittest.TestCase):
         body = first.json()
         self.assertNotIn("correct_option_id", first.text)
         self.assertEqual(5, len(body["quiz"]["questions"]))
+        self.assertEqual("dataset", body["sources"][0]["type"])
         self.assertIsNone(body["sources"][0]["page"])
+        self.assertEqual("unverified", body["sources"][0]["page_status"])
         self.assertIn("chưa ghi nhận số trang", " ".join(body["limitations"]))
-        self.assertEqual(YOUTUBE_URL, body["videos"][0]["url"])
+        # Model-produced video URLs are ignored; without a YouTube API key the
+        # allowlisted provider fails closed and returns no videos.
+        self.assertEqual([], body["videos"])
         self.assertEqual(1, self.ai.calls)
         self.assertNotEqual(body["quiz"]["quiz_id"], second.json()["quiz"]["quiz_id"])
 
@@ -82,6 +116,20 @@ class WebApiTests(unittest.TestCase):
         self.assertEqual(1, response.json()["score"])
         self.assertEqual(5, response.json()["max_score"])
         self.assertTrue(all("correct_option_id" in item for item in response.json()["results"]))
+
+    def test_slow_optional_quiz_can_return_a_usable_partial_lesson(self) -> None:
+        lesson = generated_lesson().model_copy(update={"quiz": []})
+        client = self.make_client(ai=FakeAI(lesson))
+
+        response = client.post(
+            "/api/questions/ask", json={"question": "Cách mạng Anh năm nào?"}
+        )
+
+        self.assertEqual(200, response.status_code, response.text)
+        body = response.json()
+        self.assertTrue(body["answer"]["summary"])
+        self.assertEqual("quiz-unavailable", body["quiz"]["quiz_id"])
+        self.assertEqual([], body["quiz"]["questions"])
 
     def test_no_retrieval_result_returns_standard_404_without_ai_call(self) -> None:
         client = self.make_client(retrieval=FakeRetrieval(matches=[]))
@@ -141,6 +189,76 @@ class WebApiTests(unittest.TestCase):
         )
         self.assertEqual(200, response.status_code, response.text)
         self.assertEqual([], response.json()["videos"])
+
+    def test_channel_or_broadcaster_homepage_is_not_presented_as_video(self) -> None:
+        for url in ("https://www.youtube.com/@ezsu", "https://htv.com.vn/"):
+            with self.subTest(url=url):
+                bad = generated_lesson().model_dump()
+                bad["videos"][0]["url"] = url
+                client = self.make_client(
+                    ai=FakeAI(
+                        generated_lesson().model_validate(bad), web_urls={url}
+                    )
+                )
+                response = client.post(
+                    "/api/questions/ask", json={"question": "Cách mạng Anh năm nào?"}
+                )
+                self.assertEqual(200, response.status_code, response.text)
+                self.assertEqual([], response.json()["videos"])
+
+    def test_verified_textbook_page_is_shown_with_book_identity(self) -> None:
+        retrieval = FakeRetrieval(
+            matches=[
+                {
+                    "id": "chunk-1",
+                    "score": 0.95,
+                    "fields": {
+                        "dataset_version": "1.0.0",
+                        "question": "Cách mạng tư sản Anh bùng nổ năm nào?",
+                        "answer": "Năm 1642.",
+                        "lesson_title": "Bài 1",
+                        "source_name": "SGK Lịch sử và Địa lí 8 - Kết nối tri thức với cuộc sống",
+                        "source_locator": "Bài 1",
+                        "source_page_number": 7,
+                        "source_grade": 8,
+                        "source_book_series": "Kết nối tri thức với cuộc sống",
+                    },
+                }
+            ]
+        )
+        client = self.make_client(
+            retrieval=retrieval, ai=FakeAI(generated_lesson(source_page=7))
+        )
+
+        response = client.post(
+            "/api/questions/ask", json={"question": "Cách mạng Anh năm nào?"}
+        )
+
+        self.assertEqual(200, response.status_code, response.text)
+        source = response.json()["sources"][0]
+        self.assertEqual("sgk", source["type"])
+        self.assertEqual(8, source["grade"])
+        self.assertEqual("Kết nối tri thức với cuộc sống", source["book_series"])
+        self.assertEqual(7, source["page"])
+        self.assertEqual("verified", source["page_status"])
+
+
+class KeyedLockPoolTests(unittest.IsolatedAsyncioTestCase):
+    async def test_different_questions_do_not_wait_for_one_global_lock(self) -> None:
+        pool = _KeyedLockPool()
+        active = 0
+        max_active = 0
+
+        async def worker(key: str) -> None:
+            nonlocal active, max_active
+            async with pool.hold(key):
+                active += 1
+                max_active = max(max_active, active)
+                await asyncio.sleep(0.01)
+                active -= 1
+
+        await asyncio.gather(worker("question-a"), worker("question-b"))
+        self.assertEqual(2, max_active)
 
 
 if __name__ == "__main__":

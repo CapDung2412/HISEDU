@@ -17,6 +17,17 @@ def _positive_int(name: str, default: int) -> int:
     return value
 
 
+def _positive_float(name: str, default: float) -> float:
+    raw = os.getenv(name, str(default)).strip()
+    try:
+        value = float(raw)
+    except ValueError as exc:
+        raise ValueError(f"{name} must be a number") from exc
+    if value <= 0:
+        raise ValueError(f"{name} must be positive")
+    return value
+
+
 def _boolean(name: str, default: bool) -> bool:
     raw = os.getenv(name)
     if raw is None:
@@ -32,16 +43,23 @@ def _boolean(name: str, default: bool) -> bool:
 @dataclass(frozen=True, slots=True)
 class WebSettings:
     chatgpt_api_key: str | None = field(default=None, repr=False)
+    youtube_api_key: str | None = field(default=None, repr=False)
     openai_model: str = "gpt-4.1-mini"
     enable_web_search: bool = False
-    openai_timeout_seconds: int = 45
+    openai_timeout_seconds: int = 30
+    openai_quiz_grace_seconds: float = 6.0
+    retrieval_timeout_seconds: int = 45
+    request_timeout_seconds: int = 70
+    pinecone_timeout_seconds: int = 8
+    youtube_timeout_seconds: float = 5.0
+    youtube_cache_ttl_seconds: int = 86_400
     max_image_bytes: int = 5 * 1024 * 1024
     max_image_pixels: int = 20_000_000
     cache_ttl_seconds: int = 900
     quiz_ttl_seconds: int = 1_800
     rate_limit_requests: int = 20
     rate_limit_window_seconds: int = 60
-    prompt_version: str = "hisedu-web-v1"
+    prompt_version: str = "hisedu-web-v6-youtube-api-video"
     cors_origins: tuple[str, ...] = ("http://localhost:3000",)
 
     @classmethod
@@ -54,15 +72,36 @@ class WebSettings:
         )
         return cls(
             chatgpt_api_key=os.getenv("CHATGPT_API_KEY", "").strip() or None,
+            youtube_api_key=os.getenv("YOUTUBE_API_KEY", "").strip() or None,
             openai_model=os.getenv("OPENAI_MODEL", "gpt-4.1-mini").strip(),
             enable_web_search=_boolean("HISEDU_ENABLE_WEB_SEARCH", False),
-            openai_timeout_seconds=_positive_int("HISEDU_OPENAI_TIMEOUT_SECONDS", 45),
+            openai_timeout_seconds=_positive_int("HISEDU_OPENAI_TIMEOUT_SECONDS", 30),
+            openai_quiz_grace_seconds=_positive_float(
+                "HISEDU_OPENAI_QUIZ_GRACE_SECONDS", 6.0
+            ),
+            retrieval_timeout_seconds=_positive_int(
+                "HISEDU_RETRIEVAL_TIMEOUT_SECONDS", 45
+            ),
+            request_timeout_seconds=_positive_int(
+                "HISEDU_REQUEST_TIMEOUT_SECONDS", 70
+            ),
+            pinecone_timeout_seconds=_positive_int(
+                "HISEDU_PINECONE_TIMEOUT_SECONDS", 8
+            ),
+            youtube_timeout_seconds=_positive_float(
+                "HISEDU_YOUTUBE_TIMEOUT_SECONDS", 5.0
+            ),
+            youtube_cache_ttl_seconds=_positive_int(
+                "HISEDU_YOUTUBE_CACHE_TTL_SECONDS", 86_400
+            ),
             max_image_bytes=_positive_int("HISEDU_MAX_IMAGE_BYTES", 5 * 1024 * 1024),
             max_image_pixels=_positive_int("HISEDU_MAX_IMAGE_PIXELS", 20_000_000),
             cache_ttl_seconds=_positive_int("HISEDU_CACHE_TTL_SECONDS", 900),
             quiz_ttl_seconds=_positive_int("HISEDU_QUIZ_TTL_SECONDS", 1_800),
             rate_limit_requests=_positive_int("HISEDU_RATE_LIMIT_REQUESTS", 20),
             rate_limit_window_seconds=_positive_int("HISEDU_RATE_LIMIT_WINDOW_SECONDS", 60),
-            prompt_version=os.getenv("HISEDU_PROMPT_VERSION", "hisedu-web-v1").strip(),
+            prompt_version=os.getenv(
+                "HISEDU_PROMPT_VERSION", "hisedu-web-v6-youtube-api-video"
+            ).strip(),
             cors_origins=origins,
         )

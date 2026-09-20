@@ -35,6 +35,18 @@ class RetrievalServiceError(WebApiError):
     public_message = "Kho kiến thức đang tạm thời không khả dụng."
 
 
+class RetrievalTimeoutError(RetrievalServiceError):
+    code = "RETRIEVAL_TIMEOUT"
+    status_code = 504
+    public_message = "Kho kiến thức phản hồi quá lâu. Em hãy thử lại sau ít phút."
+
+
+class RequestTimeoutError(WebApiError):
+    code = "REQUEST_TIMEOUT"
+    status_code = 504
+    public_message = "HISEDU chưa xử lý xong trong thời gian cho phép. Em hãy thử lại."
+
+
 class InvalidImageError(WebApiError):
     code = "INVALID_IMAGE"
     status_code = 415

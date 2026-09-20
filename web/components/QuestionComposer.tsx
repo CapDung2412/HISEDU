@@ -68,12 +68,21 @@ export function QuestionComposer({ onSubmit, busy = false }: Props) {
   }
 
   return (
-    <section className="section-card overflow-hidden p-4 sm:p-6" aria-label="Đặt câu hỏi lịch sử">
+    <section className="section-card overflow-hidden border-brand-200/80 p-4 ring-4 ring-white/50 sm:p-6" aria-label="Đặt câu hỏi lịch sử">
+      <div className="mb-4 flex items-center justify-between gap-4 border-b border-stone-100 pb-4">
+        <div>
+          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-brand-600">Bắt đầu khám phá</p>
+          <h2 className="history-serif mt-0.5 text-xl font-bold text-ink sm:text-2xl">Em muốn tìm hiểu điều gì?</h2>
+        </div>
+        <span className="hidden rounded-full border border-sun-400/30 bg-sun-50 px-3 py-1 text-xs font-bold text-amber-900 sm:block">
+          Văn bản hoặc hình ảnh
+        </span>
+      </div>
       <form onSubmit={handleSubmit} noValidate>
-        <label htmlFor="history-question" className="mb-2 block font-bold text-ink">
+        <label htmlFor="history-question" className="mb-2 block text-sm font-bold text-stone-700">
           Câu hỏi của em
         </label>
-        <div className="rounded-3xl border-2 border-slate-200 bg-white transition focus-within:border-brand-500 focus-within:ring-4 focus-within:ring-brand-50">
+        <div className="rounded-2xl border border-stone-200 bg-[#fffefa] shadow-inner transition focus-within:border-brand-500 focus-within:ring-4 focus-within:ring-brand-50">
           <textarea
             id="history-question"
             value={question}
@@ -86,9 +95,9 @@ export function QuestionComposer({ onSubmit, busy = false }: Props) {
             disabled={busy}
             aria-describedby="question-help question-count question-error"
             placeholder="Ví dụ: Vì sao chiến thắng Bạch Đằng năm 938 có ý nghĩa lớn?"
-            className="min-h-32 w-full resize-y rounded-t-3xl border-0 bg-transparent px-4 pb-2 pt-4 text-base text-ink outline-none placeholder:text-slate-400 disabled:cursor-wait disabled:opacity-70 sm:px-5 sm:text-lg"
+            className="min-h-28 w-full resize-y rounded-t-2xl border-0 bg-transparent px-4 pb-2 pt-4 text-base leading-7 text-ink outline-none placeholder:text-stone-400 disabled:cursor-wait disabled:opacity-70 sm:px-5 sm:text-lg"
           />
-          <div className="flex items-center justify-between gap-3 px-4 pb-3 text-xs text-slate-500 sm:px-5">
+          <div className="flex items-center justify-between gap-3 px-4 pb-3 text-xs text-stone-500 sm:px-5">
             <span id="question-help">Không nhập thông tin cá nhân của em.</span>
             <span id="question-count" aria-label={`${question.length} trên ${MAX_QUESTION_LENGTH} ký tự`}>
               {question.length}/{MAX_QUESTION_LENGTH}
@@ -132,9 +141,9 @@ export function QuestionComposer({ onSubmit, busy = false }: Props) {
               type="button"
               onClick={() => uploadRef.current?.click()}
               disabled={busy}
-              className="min-h-11 rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-brand-300 hover:bg-brand-50 disabled:opacity-50"
+              className="min-h-11 rounded-xl border border-stone-200 bg-white px-4 py-2 text-sm font-bold text-stone-700 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700 disabled:opacity-50"
             >
-              <span aria-hidden>🖼️</span> Tải ảnh
+              <span className="mr-1 text-brand-600" aria-hidden>＋</span> Tải ảnh
             </button>
 
             <input
@@ -151,16 +160,16 @@ export function QuestionComposer({ onSubmit, busy = false }: Props) {
               type="button"
               onClick={() => cameraRef.current?.click()}
               disabled={busy}
-              className="min-h-11 rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-brand-300 hover:bg-brand-50 disabled:opacity-50"
+              className="min-h-11 rounded-xl border border-stone-200 bg-white px-4 py-2 text-sm font-bold text-stone-700 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700 disabled:opacity-50"
             >
-              <span aria-hidden>📷</span> Chụp câu hỏi
+              <span className="mr-1 text-brand-600" aria-hidden>◎</span> Chụp câu hỏi
             </button>
           </div>
 
           <button
             type="submit"
             disabled={busy}
-            className="min-h-12 rounded-2xl bg-brand-600 px-6 py-3 font-extrabold text-white shadow-lg shadow-blue-200 transition hover:-translate-y-0.5 hover:bg-brand-700 disabled:cursor-wait disabled:translate-y-0 disabled:opacity-60"
+            className="min-h-12 rounded-xl border border-brand-800 bg-brand-700 px-7 py-3 font-extrabold text-white shadow-lg shadow-brand-200 transition hover:-translate-y-0.5 hover:bg-brand-800 disabled:cursor-wait disabled:translate-y-0 disabled:opacity-60"
           >
             {busy ? "Đang tìm hiểu…" : "Hỏi HISEDU"} <span aria-hidden>→</span>
           </button>
@@ -171,8 +180,8 @@ export function QuestionComposer({ onSubmit, busy = false }: Props) {
         </p>
       </form>
 
-      <div className="border-t border-slate-100 pt-4">
-        <p className="text-xs font-bold uppercase tracking-wider text-slate-500">Em có thể hỏi</p>
+      <div className="border-t border-stone-100 pt-4">
+        <p className="text-[11px] font-black uppercase tracking-[0.16em] text-stone-500">Gợi ý câu hỏi</p>
         <div className="mt-2 flex gap-2 overflow-x-auto pb-2 sm:flex-wrap" aria-label="Câu hỏi gợi ý">
           {SUGGESTIONS.map((suggestion) => (
             <button
@@ -183,7 +192,7 @@ export function QuestionComposer({ onSubmit, busy = false }: Props) {
                 setQuestion(suggestion);
                 setValidationError(null);
               }}
-              className="shrink-0 rounded-full bg-sun-50 px-3 py-2 text-left text-xs font-semibold text-amber-900 transition hover:bg-sun-100 disabled:opacity-50 sm:text-sm"
+              className="shrink-0 rounded-full border border-sun-400/25 bg-sun-50 px-3 py-2 text-left text-xs font-semibold text-amber-950 transition hover:border-sun-400 hover:bg-sun-100 disabled:opacity-50 sm:text-sm"
             >
               {suggestion}
             </button>

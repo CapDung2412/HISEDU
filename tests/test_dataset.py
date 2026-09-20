@@ -28,9 +28,11 @@ class DatasetTests(unittest.TestCase):
         self.assertEqual(record.chunk_id, document["_id"])
         self.assertEqual(3, document["embedding_dimension"])
         self.assertNotIn("source_page_number", document)
+        self.assertEqual(8, document["source_grade"])
+        self.assertIn("Kết nối tri thức", document["source_book_series"])
+        self.assertEqual("unverified", document["source_page_status"])
         self.assertTrue(all(not isinstance(value, dict) for value in document.values()))
 
 
 if __name__ == "__main__":
     unittest.main()
-

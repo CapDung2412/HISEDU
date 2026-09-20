@@ -17,10 +17,15 @@ const sourceTypeNames: Record<ReferenceSource["type"], string> = {
 
 function locationLabel(source: ReferenceSource): string {
   if (source.page !== undefined && source.page !== null && String(source.page).trim()) {
-    return `Trang ${source.page}`;
+    const book = [
+      source.grade ? `Lớp ${source.grade}` : "",
+      source.book_series?.trim() ?? "",
+      `Trang ${source.page}`
+    ].filter(Boolean);
+    return book.join(" · ");
   }
-  if (source.type === "sgk") {
-    const missingPage = "Dữ liệu hiện tại chưa ghi nhận số trang";
+  if (source.page_status === "unverified") {
+    const missingPage = "Chưa xác minh số trang — không hiển thị như trích dẫn SGK";
     return source.locator?.trim()
       ? `${source.locator} · ${missingPage}`
       : missingPage;
@@ -31,11 +36,12 @@ function locationLabel(source: ReferenceSource): string {
 
 export function SourceList({ sources }: Props) {
   return (
-    <section className="section-card p-5 sm:p-7" aria-labelledby="sources-heading">
+    <section className="section-card border-t-4 border-t-heritage-600 p-5 sm:p-7" aria-labelledby="sources-heading">
       <div className="flex items-start gap-3">
-        <span className="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-50 text-xl" aria-hidden>🔎</span>
+        <span className="history-serif grid h-11 w-11 place-items-center rounded-full border border-heritage-100 bg-heritage-50 text-sm font-bold text-heritage-700" aria-hidden>04</span>
         <div>
-          <h2 id="sources-heading" className="text-xl font-black text-ink sm:text-2xl">Nguồn tham khảo</h2>
+          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-heritage-600">Đối chiếu sử liệu</p>
+          <h2 id="sources-heading" className="history-serif text-xl font-bold text-ink sm:text-2xl">Nguồn tham khảo</h2>
           <p className="text-sm text-slate-600">Em có thể mở từng nguồn để kiểm tra và đọc thêm.</p>
         </div>
       </div>

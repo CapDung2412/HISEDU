@@ -29,6 +29,8 @@ class QuizStore:
         self._lock = Lock()
 
     def create(self, questions: list[GeneratedQuizQuestion]) -> Quiz:
+        if not questions:
+            return Quiz(quiz_id="quiz-unavailable", questions=[])
         if len(questions) != 5:
             raise ValueError("a lesson quiz must contain exactly five questions")
         quiz_id = uuid.uuid4().hex

@@ -15,16 +15,24 @@ export interface LearningAnswer {
 
 export type MindMapNodeType =
   | "root"
+  | "time"
+  | "person"
   | "cause"
   | "event"
   | "result"
-  | "meaning";
+  | "meaning"
+  | "memory";
 
 export interface MindMapNode {
   id: string;
   label: string;
   description: string;
   type: MindMapNodeType;
+  /** Optional structured facts. Older API responses can omit every field below. */
+  details?: string[] | null;
+  time?: string | null;
+  people?: string[] | null;
+  memory_points?: string[] | null;
 }
 
 export interface MindMapEdge {
@@ -52,7 +60,10 @@ export interface ReferenceSource {
   publisher: string;
   type: "dataset" | "sgk" | "government" | "museum" | "wikipedia" | "news" | "other";
   url?: string | null;
+  grade?: number | null;
+  book_series?: string | null;
   page?: number | null;
+  page_status?: "verified" | "unverified" | "not_applicable";
   locator?: string | null;
   accessed_at?: string | null;
   supports: string[];

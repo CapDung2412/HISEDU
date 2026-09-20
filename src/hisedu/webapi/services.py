@@ -13,6 +13,7 @@ from hisedu.ocr import PaddleOcrExtractor
 from hisedu.pinecone_store import PineconeVectorStore
 from hisedu.query import ImageQueryService, QueryMode
 
+from .errors import RetrievalTimeoutError
 from .schemas import GeneratedLesson
 
 
@@ -29,7 +30,10 @@ RETURN_FIELDS = [
     "source_name",
     "source_url",
     "source_locator",
+    "source_grade",
+    "source_book_series",
     "source_page_number",
+    "source_page_status",
     "review_status",
     "provenance_note",
     "content_checksum",
@@ -74,12 +78,22 @@ class LessonGenerationService(Protocol):
 class HISEduRetrievalService:
     """Lazy adapter over existing CLIP/Pinecone code; never creates an index."""
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        *,
+        timeout_seconds: float = 30.0,
+        pinecone_timeout_seconds: float = 8.0,
+    ) -> None:
+        if timeout_seconds <= 0 or pinecone_timeout_seconds <= 0:
+            raise ValueError("retrieval timeouts must be positive")
         self._lock = Lock()
         self._inference_lock = Lock()
         self._encoder: ClipEncoder | None = None
         self._store: PineconeVectorStore | None = None
+        self._ocr: PaddleOcrExtractor | None = None
         self._index_dimension: int | None = None
+        self._timeout_seconds = float(timeout_seconds)
+        self._pinecone_timeout_seconds = float(pinecone_timeout_seconds)
 
     def _runtime(
         self, tower: Literal["text", "image"]
@@ -92,8 +106,16 @@ class HISEduRetrievalService:
                     image_model_name=settings.image_model,
                     device=settings.device,
                     batch_size=settings.embedding_batch_size,
+                    # Ingest already downloaded the exact models used to build
+                    # the index. Avoid slow Hugging Face network probes on each
+                    # local backend cold start.
+                    local_files_only=True,
                 )
-                store = PineconeVectorStore(settings)
+                store = PineconeVectorStore(
+                    settings,
+                    max_attempts=1,
+                    request_timeout_seconds=self._pinecone_timeout_seconds,
+                )
                 self._encoder = encoder
                 self._store = store
             dimension = (
@@ -113,7 +135,13 @@ class HISEduRetrievalService:
         return self._store.settings, self._encoder, self._store
 
     async def search_text(self, question: str, *, top_k: int) -> RetrievalResult:
-        return await asyncio.to_thread(self._search_text_sync, question, top_k)
+        try:
+            return await asyncio.wait_for(
+                asyncio.to_thread(self._search_text_sync, question, top_k),
+                timeout=self._timeout_seconds,
+            )
+        except asyncio.TimeoutError as exc:
+            raise RetrievalTimeoutError() from exc
 
     def _search_text_sync(self, question: str, top_k: int) -> RetrievalResult:
         _, encoder, store = self._runtime("text")
@@ -132,9 +160,20 @@ class HISEduRetrievalService:
         mode: QueryMode,
         question: str | None,
     ) -> RetrievalResult:
-        return await asyncio.to_thread(
-            self._search_image_sync, data, content_type, top_k, mode, question
-        )
+        try:
+            return await asyncio.wait_for(
+                asyncio.to_thread(
+                    self._search_image_sync,
+                    data,
+                    content_type,
+                    top_k,
+                    mode,
+                    question,
+                ),
+                timeout=self._timeout_seconds,
+            )
+        except asyncio.TimeoutError as exc:
+            raise RetrievalTimeoutError() from exc
 
     def _search_image_sync(
         self,
@@ -144,7 +183,9 @@ class HISEduRetrievalService:
         mode: QueryMode,
         question: str | None,
     ) -> RetrievalResult:
-        first_tower = "text" if mode == "ocr" else "image"
+        # Uploaded question photos are read as text first. The heavier image
+        # tower is initialized only when explicit CLIP mode/fallback needs it.
+        first_tower = "text" if mode in {"ocr", "hybrid"} else "image"
         settings, encoder, store = self._runtime(first_tower)
         suffix = {
             "image/jpeg": ".jpg",
@@ -156,14 +197,17 @@ class HISEduRetrievalService:
             with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_file:
                 temp_file.write(data)
                 temp_path = Path(temp_file.name)
-            ocr = (
-                PaddleOcrExtractor(
-                    language=settings.ocr_language,
-                    min_line_score=settings.ocr_min_line_score,
-                )
-                if mode in {"ocr", "hybrid"}
-                else None
-            )
+            ocr = None
+            if mode in {"ocr", "hybrid"}:
+                # Keep the local OCR pipeline warm; rebuilding its models for
+                # every uploaded photo is both slow and memory-intensive.
+                with self._lock:
+                    if self._ocr is None:
+                        self._ocr = PaddleOcrExtractor(
+                            language=settings.ocr_language,
+                            min_line_score=settings.ocr_min_line_score,
+                        )
+                    ocr = self._ocr
             with self._inference_lock:
                 result = ImageQueryService(
                     encoder, store, ocr=ocr, min_score=settings.min_score
