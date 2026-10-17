@@ -48,11 +48,11 @@ def create_test_results() -> None:
     image = Image.new("RGB", (1600, 900), "#ffffff")
     draw = ImageDraw.Draw(image)
     draw.text((78, 62), "HISEDU | KẾT QUẢ KIỂM THỬ", font=font(44, bold=True), fill="#222222")
-    draw.text((80, 125), "Minh chứng kỹ thuật ngày 16/10/2026", font=font(23), fill="#666666")
+    draw.text((80, 125), "Minh chứng kỹ thuật ngày 17/10/2026", font=font(23), fill="#666666")
 
     cards = [
-        ("75/75", "Backend", "Python unit/integration tests"),
-        ("29/29", "Frontend", "Vitest component/API tests"),
+        ("87/87", "Backend", "Python unit/integration tests"),
+        ("31/31", "Frontend", "Vitest component/API tests"),
         ("ĐẠT", "TypeScript", "tsc --noEmit"),
         ("ĐẠT", "ESLint", "0 warning, 0 error"),
     ]
@@ -72,7 +72,7 @@ def create_test_results() -> None:
     )
     draw.text(
         (120, 713),
-        "• 75 test backend và 29 test frontend chạy cục bộ, không gọi dịch vụ ngoài.",
+        "• 87 test backend và 31 test frontend chạy cục bộ, không gọi dịch vụ ngoài.",
         font=font(22),
         fill="#222222",
     )

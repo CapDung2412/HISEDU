@@ -360,6 +360,31 @@ try {
     `[...document.querySelectorAll('h2')].find((node) => node.textContent.trim() === 'Xem để hiểu sâu hơn')?.closest('section')`,
     1100
   );
+  await evaluate(client, `(async () => {
+    const section = [...document.querySelectorAll('h2')]
+      .find((node) => node.textContent.trim() === 'Tư liệu lịch sử xác thực')
+      ?.closest('section');
+    if (!section) return false;
+    section.scrollIntoView({ block: "start", inline: "nearest" });
+    const images = [...section.querySelectorAll('img')];
+    images.forEach((img) => { img.loading = "eager"; });
+    await Promise.race([
+      Promise.all(images.map((img) => img.complete && img.naturalWidth > 0
+        ? img.decode().catch(() => undefined)
+        : new Promise((resolve) => {
+            img.addEventListener("load", resolve, { once: true });
+            img.addEventListener("error", resolve, { once: true });
+          }))),
+      new Promise((resolve) => setTimeout(resolve, 3000))
+    ]);
+    return true;
+  })()`);
+  await captureElement(
+    client,
+    "12_historical_images.png",
+    `[...document.querySelectorAll('h2')].find((node) => node.textContent.trim() === 'Tư liệu lịch sử xác thực')?.closest('section')`,
+    1300
+  );
 
   await captureElement(
     client,

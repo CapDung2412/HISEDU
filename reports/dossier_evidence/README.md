@@ -1,6 +1,6 @@
 # Minh chứng hồ sơ HISEDU
 
-Thư mục này phục vụ hồ sơ dự thi Bảng A, cập nhật ngày 20/09/2026.
+Thư mục này phục vụ hồ sơ dự thi Bảng A, cập nhật ngày 17/10/2026.
 
 ## Nội dung đã xác minh
 
@@ -8,13 +8,15 @@ Thư mục này phục vụ hồ sơ dự thi Bảng A, cập nhật ngày 20/09
 - `02_vector_pipeline.png`: tóm tắt số liệu từ `reports/ingest_manifest.json`.
 - `03_ui_result_demo.png`: minh họa kết quả bằng câu hỏi và câu trả lời thật tại `answers/chapter_01/lesson_02/question_009.json`.
 - `04_before_after_fix.png`: tổng hợp lỗi đã sửa và kết quả kiểm thử hiện tại.
+- `11_test_results.png`: kết quả kiểm thử kỹ thuật và benchmark được cập nhật ngày 17/10/2026.
+- `12_historical_images.png`: giao diện gợi ý ảnh tư liệu theo đúng chủ đề, kèm nguồn, giấy phép và câu hỏi quan sát.
 - `prompt_01_dataset_clip.txt`: prompt gốc dùng cho giai đoạn audit dataset, CLIP và Pinecone.
 - `prompt_02_website.txt`: prompt gốc dùng cho giai đoạn xây dựng website.
 
-Kết quả chạy ngày 20/09/2026:
+Kết quả chạy ngày 17/10/2026:
 
-- Backend: 52/52 kiểm thử đạt.
-- Frontend: 14/14 kiểm thử đạt.
+- Backend: 87/87 kiểm thử đạt.
+- Frontend: 31/31 kiểm thử đạt.
 - Dataset: 327/327 cặp TXT–JSON hợp lệ về cấu trúc.
 - Pinecone: 327/327 vector được upsert theo manifest.
 
