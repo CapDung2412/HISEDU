@@ -128,6 +128,7 @@ class ProgressEndpointTests(unittest.TestCase):
         self.assertEqual(result["sources"], partial["sources"])
         self.assertNotIn("quiz", partial)
         self.assertNotIn("videos", partial)
+        self.assertNotIn("historical_images", partial)
         self.assertNotIn("answer_id", partial)
         self.assertEqual("Cách mạng tư sản Anh bùng nổ năm nào?", result["question"])
         self.assertEqual(5, len(result["quiz"]["questions"]))

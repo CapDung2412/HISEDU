@@ -43,6 +43,7 @@ from .schemas import (
     GeneratedLesson,
     GeneratedLessonCore,
     HealthResponse,
+    HistoricalImage,
     OcrPreviewResponse,
     QuestionRequest,
     Quiz,
@@ -63,6 +64,10 @@ from .services import (
 )
 from .settings import WebSettings
 from .validation import sanitize_lesson, validate_image
+from .historical_image_recommender import (
+    CuratedHistoricalImageRecommender,
+    HistoricalImageRecommendationService,
+)
 from .video_recommender import (
     VideoRecommendationService,
     YouTubeVideoRecommender,
@@ -77,6 +82,7 @@ class CachedLesson:
     lesson: object
     sources: list[Source]
     videos: list[Video]
+    historical_images: list[HistoricalImage]
 
 
 @dataclass(slots=True)
@@ -151,6 +157,7 @@ def _cache_key(
     model: str,
     web_search: bool,
     video_provider_version: str,
+    historical_image_provider_version: str,
 ) -> str:
     records = [
         {
@@ -167,7 +174,8 @@ def _cache_key(
         "model": model,
         "web_search": web_search,
         "video_provider_version": video_provider_version,
-        "schema_version": "hisedu-web-response-v4-youtube-api",
+        "historical_image_provider_version": historical_image_provider_version,
+        "schema_version": "hisedu-web-response-v5-curated-historical-images",
     }
     return hashlib.sha256(
         json.dumps(payload, ensure_ascii=False, sort_keys=True).encode("utf-8")
@@ -226,6 +234,7 @@ def create_app(
     quiz_store: QuizStore | None = None,
     feedback_store: FeedbackStore | None = None,
     video_recommender: VideoRecommendationService | None = None,
+    historical_image_recommender: HistoricalImageRecommendationService | None = None,
 ) -> FastAPI:
     config = settings or WebSettings.from_env()
     runtime_retrieval = retrieval_service or HISEduRetrievalService(
@@ -301,6 +310,9 @@ def create_app(
         config.youtube_api_key,
         timeout_seconds=config.youtube_timeout_seconds,
         cache_ttl_seconds=config.youtube_cache_ttl_seconds,
+    )
+    app.state.historical_image_recommender = (
+        historical_image_recommender or CuratedHistoricalImageRecommender()
     )
     # Duplicate questions share a lock, while different questions can be
     # generated concurrently instead of queueing behind one global lock.
@@ -421,6 +433,42 @@ def create_app(
             finally:
                 _record_timing(request, "youtube_video", started)
 
+        async def recommend_historical_images() -> list[HistoricalImage]:
+            started = time.perf_counter()
+            try:
+                topics = [
+                    str((match.get("fields") or {}).get(field) or "")
+                    for match in result.matches
+                    for field in (
+                        "question",
+                        "chapter_title",
+                        "lesson_title",
+                        "source_locator",
+                    )
+                ]
+                recommendations = (
+                    await app.state.historical_image_recommender.recommend(
+                        question=result.query,
+                        topics=topics,
+                        limit=4,
+                    )
+                )
+                # Validate injected providers at the boundary so an invalid or
+                # remote image cannot leak into the public response.
+                return [
+                    HistoricalImage.model_validate(image)
+                    for image in recommendations[:4]
+                ]
+            except Exception as exc:
+                logger.warning(
+                    "hisedu_historical_image_error request_id=%s error_type=%s",
+                    _request_id(request),
+                    type(exc).__name__,
+                )
+                return []
+            finally:
+                _record_timing(request, "historical_images", started)
+
         key = _cache_key(
             result.query,
             result,
@@ -429,6 +477,13 @@ def create_app(
             web_search=config.enable_web_search,
             video_provider_version=str(
                 getattr(app.state.video_recommender, "provider_version", "unknown")
+            ),
+            historical_image_provider_version=str(
+                getattr(
+                    app.state.historical_image_recommender,
+                    "provider_version",
+                    "unknown",
+                )
             ),
         )
         cached = app.state.response_cache.get(key)
@@ -472,6 +527,10 @@ def create_app(
                     # five seconds after the lesson is already complete.
                     video_task = asyncio.create_task(
                         recommend_videos(), name="hisedu-youtube-video"
+                    )
+                    historical_image_task = asyncio.create_task(
+                        recommend_historical_images(),
+                        name="hisedu-historical-images",
                     )
                     try:
                         ai_started = time.perf_counter()
@@ -528,18 +587,28 @@ def create_app(
                         await publish_progress(
                             request,
                             "enrichment",
-                            "Đang chọn video và bài luyện tập phù hợp…",
+                            "Đang chọn ảnh tư liệu, video và bài luyện tập phù hợp…",
                         )
                         videos = await video_task
+                        historical_images = await historical_image_task
                         cleaned = cleaned.model_copy(update={"videos": videos})
                         cached = CachedLesson(
-                            lesson=cleaned, sources=sources, videos=videos
+                            lesson=cleaned,
+                            sources=sources,
+                            videos=videos,
+                            historical_images=historical_images,
                         )
                         app.state.response_cache.set(key, cached)
                     finally:
                         if not video_task.done():
                             video_task.cancel()
-                        await asyncio.gather(video_task, return_exceptions=True)
+                        if not historical_image_task.done():
+                            historical_image_task.cancel()
+                        await asyncio.gather(
+                            video_task,
+                            historical_image_task,
+                            return_exceptions=True,
+                        )
         if not partial_published:
             # A response-cache hit is already sanitized. Reuse its public
             # sources so evidence metadata stays identical to the final event.
@@ -591,6 +660,7 @@ def create_app(
             answer=lesson.answer,
             mindmap=lesson.mindmap,
             videos=cached.videos,
+            historical_images=cached.historical_images,
             sources=cached.sources,
             quiz=quiz,
             retrieval=RetrievalInfo(

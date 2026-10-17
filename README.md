@@ -3,7 +3,7 @@
 HISEDU là trợ lý học Lịch sử 8 gồm hai phần:
 
 - Pipeline truy xuất `TXT + JSON → multilingual CLIP → Pinecone`.
-- Website thử nghiệm cho nội dung Lịch sử lớp 8: hỏi bằng văn bản hoặc ảnh, nhận lời giải, mindmap, nguồn tham khảo để đối chiếu, video từ các kênh được cho phép và quiz 5 câu.
+- Website thử nghiệm cho nội dung Lịch sử lớp 8: hỏi bằng văn bản hoặc ảnh, nhận lời giải, ảnh tư liệu đã kiểm duyệt, mindmap, nguồn tham khảo để đối chiếu, video từ các kênh được cho phép và quiz 5 câu.
 
 Backend nằm trong `src/hisedu/webapi/`; frontend Next.js nằm trong `web/`.
 
@@ -26,7 +26,7 @@ Luồng ingest:
 
 Luồng hỏi bằng văn bản:
 
-`câu hỏi → CLIP text embedding → Pinecone → OpenAI Responses API → hậu kiểm nguồn → YouTube Data API (lọc channelId) → answer + mindmap + quiz`
+`câu hỏi → CLIP text embedding → Pinecone → OpenAI Responses API → hậu kiểm nguồn → ảnh tư liệu cục bộ + YouTube Data API → answer + mindmap + quiz`
 
 Luồng hỏi bằng ảnh:
 
@@ -120,6 +120,10 @@ Các biến được mô tả đầy đủ trong `.env.example`.
 ## Gợi ý video bằng YouTube Data API
 
 Backend tìm chung một lần; nếu kết quả đúng chủ đề còn ít, hệ thống tìm bù song song ở tối đa hai kênh chuyên môn ưu tiên. Mọi kết quả đều được lọc cứng theo `channelId`, chấm điểm theo chủ đề/tiêu đề/mô tả, khử trùng và giới hạn 6 video. Danh sách cho phép hiện gồm EZ Sử, HTV Tin Tức, VTV24, Sử Lược - Tóm Tắt Lịch Sử và Dòng Máu Việt. URL hoặc tên kênh do mô hình AI tạo không được sử dụng. Kết quả được cache 24 giờ; thiếu key, câu hỏi quá chung, lỗi API hoặc hết quota thì bài học vẫn hoạt động và trả `videos=[]`.
+
+## Gợi ý ảnh tư liệu đã kiểm duyệt
+
+Ảnh tư liệu được chọn từ danh mục cục bộ có nguồn và giấy phép rõ ràng; AI không được tự tạo URL ảnh. Bộ xếp hạng đối chiếu câu hỏi với chủ đề, nhân vật, sự kiện và mốc năm, giới hạn 4 ảnh và trả danh sách rỗng nếu không có ảnh đủ liên quan. Ảnh được phục vụ từ `web/public/historical`, còn thẻ tư liệu hiển thị loại hình, tác giả, niên đại, đơn vị lưu giữ, giấy phép, lý do liên quan và câu hỏi gợi ý quan sát. Việc chọn ảnh chạy song song với OpenAI và YouTube nên không làm tăng đáng kể thời gian phản hồi.
 
 Cache, quiz store và rate limiter hiện là bộ nhớ trong từng tiến trình. Chúng phù hợp chạy local hoặc một worker. Nếu triển khai nhiều worker hoặc nhiều máy, cần thay bằng kho dùng chung như Redis để quiz, cache và rate limit nhất quán.
 

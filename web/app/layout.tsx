@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "HISEDU — Học lịch sử thật dễ hiểu",
   description:
-    "Bản thử nghiệm trợ lý học tập nội dung Lịch sử lớp 8: giải đáp, sơ đồ tư duy, video và quiz ôn tập.",
+    "Bản thử nghiệm trợ lý học tập Lịch sử lớp 8: giải đáp có nguồn, ảnh tư liệu, sơ đồ tư duy, video và quiz ôn tập.",
   robots: { index: false, follow: false }
 };
 

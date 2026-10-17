@@ -54,6 +54,32 @@ export interface LearningVideo {
   label: "cause" | "event" | "result" | "meaning";
 }
 
+export type HistoricalMediaType =
+  | "photograph"
+  | "painting"
+  | "engraving"
+  | "portrait"
+  | "map"
+  | "document"
+  | "artifact";
+
+export interface HistoricalImage {
+  id: string;
+  title: string;
+  description: string;
+  image_url: string;
+  source_url: string;
+  institution: string;
+  license: string;
+  license_url?: string | null;
+  creator?: string | null;
+  date?: string | null;
+  media_type: HistoricalMediaType;
+  alt: string;
+  observation_prompt?: string | null;
+  relevance?: string | null;
+}
+
 export interface ReferenceSource {
   id: CitationId;
   title: string;
@@ -112,6 +138,8 @@ export interface AskResponse {
   answer: LearningAnswer;
   mindmap: MindMapData;
   videos: LearningVideo[];
+  /** Curated archival images; optional for compatibility with older backends. */
+  historical_images?: HistoricalImage[];
   sources: ReferenceSource[];
   quiz: QuizData;
   retrieval: RetrievalInfo;

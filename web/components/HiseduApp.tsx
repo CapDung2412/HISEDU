@@ -337,7 +337,7 @@ export function HiseduApp() {
                       Lời giải đã sẵn sàng
                     </p>
                     <p className="mt-1 text-sm font-semibold leading-6 text-emerald-950" role="status" aria-live="polite">
-                      {progress?.message ?? "HISEDU đang hoàn thiện sơ đồ tư duy, video và quiz…"}
+                      {progress?.message ?? "HISEDU đang hoàn thiện ảnh tư liệu, sơ đồ tư duy, video và quiz…"}
                     </p>
                   </div>
                   <div className="flex shrink-0 items-center gap-3">
@@ -392,9 +392,13 @@ export function HiseduApp() {
                 </aside>
               )}
               <AnswerPanel answer={result.answer} question={result.question} mindmap={result.mindmap} />
+              <HistoricalSourceGallery
+                question={result.question}
+                answer={result.answer}
+                materials={result.historical_images}
+              />
               <AnswerFeedback key={`feedback-${result.answer_id}`} answerId={result.answer_id} />
               <SourceList sources={result.sources} />
-              <HistoricalSourceGallery question={result.question} answer={result.answer} />
               <MindMap key={`mindmap-${result.request_id}`} data={result.mindmap} />
               <VideoList videos={result.videos} />
               <Quiz key={`quiz-${result.request_id}`} quiz={result.quiz} />

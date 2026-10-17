@@ -288,6 +288,43 @@ class Video(ApiModel):
     label: Literal["cause", "event", "result", "meaning"]
 
 
+class HistoricalImage(ApiModel):
+    """A locally served, curator-reviewed historical source image."""
+
+    id: Identifier
+    title: ShortText
+    description: Annotated[str, Field(min_length=1, max_length=2_000)]
+    image_url: Annotated[str, Field(min_length=2, max_length=500)]
+    source_url: Annotated[str, Field(min_length=8, max_length=2_000)]
+    institution: ShortText
+    license: Annotated[str, Field(min_length=1, max_length=200)]
+    license_url: Annotated[str, Field(min_length=8, max_length=2_000)] | None = None
+    creator: str | None = Field(default=None, max_length=500)
+    date: str | None = Field(default=None, max_length=500)
+    media_type: Literal[
+        "document",
+        "engraving",
+        "map",
+        "painting",
+        "photograph",
+        "portrait",
+        "artifact",
+    ]
+    alt: Annotated[str, Field(min_length=1, max_length=1_000)]
+    observation_prompt: Annotated[str, Field(min_length=1, max_length=1_000)]
+    relevance: Annotated[str, Field(min_length=1, max_length=1_000)]
+
+    @model_validator(mode="after")
+    def validate_urls(self) -> "HistoricalImage":
+        if not self.image_url.startswith("/historical/") or ".." in self.image_url:
+            raise ValueError("historical image_url must be a local /historical/ asset")
+        if not self.source_url.startswith("https://"):
+            raise ValueError("historical source_url must use HTTPS")
+        if self.license_url is not None and not self.license_url.startswith("https://"):
+            raise ValueError("historical license_url must use HTTPS")
+        return self
+
+
 class QuizOption(ApiModel):
     id: Identifier
     text: Annotated[str, Field(min_length=1, max_length=1_000)]
@@ -331,6 +368,7 @@ class AskResponse(ApiModel):
     answer: AnswerContent
     mindmap: Mindmap
     videos: list[Video] = Field(max_length=6)
+    historical_images: list[HistoricalImage] = Field(default_factory=list, max_length=4)
     sources: list[Source] = Field(max_length=20)
     quiz: Quiz
     retrieval: RetrievalInfo
