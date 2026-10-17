@@ -35,6 +35,18 @@ class RetrievalServiceError(WebApiError):
     public_message = "Kho kiến thức đang tạm thời không khả dụng."
 
 
+class RetrievalTimeoutError(RetrievalServiceError):
+    code = "RETRIEVAL_TIMEOUT"
+    status_code = 504
+    public_message = "Kho kiến thức phản hồi quá lâu. Em hãy thử lại sau ít phút."
+
+
+class RequestTimeoutError(WebApiError):
+    code = "REQUEST_TIMEOUT"
+    status_code = 504
+    public_message = "HISEDU chưa xử lý xong trong thời gian cho phép. Em hãy thử lại."
+
+
 class InvalidImageError(WebApiError):
     code = "INVALID_IMAGE"
     status_code = 415
@@ -47,6 +59,14 @@ class ImageTooLargeError(WebApiError):
     public_message = "Ảnh vượt quá dung lượng cho phép."
 
 
+class OcrRecognitionError(WebApiError):
+    code = "OCR_RECOGNITION_FAILED"
+    status_code = 422
+    public_message = (
+        "Chưa đọc được chữ trong ảnh. Em hãy chụp thẳng, đủ sáng và thử lại."
+    )
+
+
 class QuizNotFoundError(WebApiError):
     code = "QUIZ_NOT_FOUND"
     status_code = 404
@@ -57,6 +77,14 @@ class InvalidQuizSubmissionError(WebApiError):
     code = "INVALID_QUIZ_SUBMISSION"
     status_code = 422
     public_message = "Cần trả lời đúng 5 câu bằng các lựa chọn hợp lệ."
+
+
+class AnswerFeedbackNotFoundError(WebApiError):
+    code = "ANSWER_FEEDBACK_NOT_FOUND"
+    status_code = 404
+    public_message = (
+        "Câu trả lời không còn trong phiên phản hồi. Em hãy hỏi lại rồi báo sai nếu cần."
+    )
 
 
 class RateLimitError(WebApiError):

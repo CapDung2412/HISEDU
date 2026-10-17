@@ -1,0 +1,223 @@
+Bạn là Senior Machine Learning Engineer kiêm Data Engineer. Hãy làm việc trực tiếp trong workspace:
+
+D:\HISEDU
+
+Mục tiêu của dự án:
+1. Kiểm tra toàn bộ dataset gồm file câu hỏi `.txt` và file kết quả `.json`.
+2. Xác nhận từng JSON có đọc và parse được hay không.
+3. Kiểm tra mỗi `.txt` có đúng file `.json` tương ứng.
+4. Chuẩn hóa tên file và đường dẫn sang tiếng Anh, ASCII, không dấu.
+5. Xây dựng CLIP encoder để mã hóa câu hỏi và truy vấn bằng ảnh.
+6. Sử dụng Pinecone làm vector store.
+7. Khi người dùng chụp hoặc tải ảnh lên, hệ thống tìm bản ghi phù hợp và trả về thông tin trong JSON.
+
+## Nguyên tắc bắt buộc
+
+- Trước tiên hãy đọc cấu trúc repository và các file hướng dẫn như `AGENTS.md`, `README`, `pyproject.toml`, `requirements.txt` nếu có.
+- Không giả định schema JSON trước khi đọc dữ liệu thực tế.
+- Không xóa hoặc ghi đè dữ liệu nguồn.
+- Không làm mất các thay đổi hiện có của người dùng.
+- Không đưa API key vào source code.
+- Nội dung câu hỏi tiếng Việt phải được giữ nguyên dưới dạng UTF-8. Chỉ chuẩn hóa tên thư mục và tên file.
+- Không đưa nguyên JSON vào CLIP:
+  - CLIP text encoder chỉ mã hóa câu hỏi và các trường văn bản có ích cho việc tìm kiếm.
+  - JSON đầy đủ được lưu làm metadata nếu đủ nhỏ.
+  - Nếu JSON lớn hoặc lồng nhau, chỉ lưu metadata cần thiết trong Pinecone và dùng `record_id` để tham chiếu đến file/database gốc.
+- CLIP không phải OCR. Nếu ảnh là ảnh chụp trang giấy có chữ, hãy đánh giá phương án:
+  `OCR tiếng Việt → chuẩn hóa văn bản → text embedding/search`.
+  CLIP vẫn phải được triển khai cho tìm kiếm ảnh–văn bản, nhưng cần giải thích rõ giới hạn của nó với ảnh chứa nhiều chữ.
+- Ưu tiên checkpoint CLIP/OpenCLIP có hỗ trợ tiếng Việt hoặc đa ngôn ngữ. Text encoder và image encoder phải thuộc cùng một không gian embedding tương thích.
+- Không hard-code kích thước vector. Phải lấy dimension trực tiếp từ output của model.
+
+## Giai đoạn 1 — Audit dataset, chỉ đọc
+
+Chưa sửa hoặc đổi tên file trong giai đoạn này.
+
+Thực hiện:
+
+1. Tìm toàn bộ `.txt` và `.json` liên quan đến dataset.
+2. Xác định quy tắc ghép cặp:
+   - Ưu tiên cùng tên file/stem.
+   - Nếu JSON có `id`, `question_id` hoặc trường tương tự thì kiểm tra thêm theo ID.
+   - Không tự ghép khi có nhiều khả năng; phải đánh dấu `ambiguous`.
+3. Với mỗi `.txt`, kiểm tra:
+   - File có đọc được không.
+   - Encoding có phải UTF-8 không.
+   - Có BOM hoặc ký tự lỗi không.
+   - File có rỗng không.
+   - Nội dung có bị trùng với file khác không.
+4. Với mỗi `.json`, kiểm tra:
+   - Có đọc được bằng UTF-8 không.
+   - Có parse được bằng JSON parser chuẩn không.
+   - Nếu lỗi, báo chính xác đường dẫn, dòng, cột và thông báo lỗi.
+   - Root là object hay array.
+   - Kiểu dữ liệu và các field có nhất quán giữa các file không.
+   - Có thiếu ID, kết quả, đáp án hoặc field quan trọng không.
+   - Có ID trùng không.
+   - Có đường dẫn nội bộ nào trỏ đến file không tồn tại không.
+   - Có giá trị không hợp lệ như `NaN`, `Infinity`, trailing comma hoặc JSON bị cắt không.
+5. Phân loại 100% file thành:
+   - `valid_pair`
+   - `orphan_txt`
+   - `orphan_json`
+   - `duplicate`
+   - `invalid_txt`
+   - `invalid_json`
+   - `ambiguous_pair`
+6. Kiểm tra sơ bộ nội dung `.txt` có hợp lý với JSON đi kèm hay không.
+7. Đề xuất JSON Schema dựa trên dữ liệu thực tế, nhưng không tự bịa field.
+
+Tạo báo cáo:
+
+- `reports/dataset_audit.md`
+- `reports/dataset_audit.json`
+- Bảng thống kê tổng số file, số cặp hợp lệ và danh sách lỗi cụ thể.
+- Đề xuất cách sửa cho từng loại lỗi.
+- Danh sách field JSON nên được dùng để tạo `search_text`.
+- Đánh giá CLIP có phù hợp với loại ảnh mục tiêu hay cần thêm OCR.
+
+Sau khi hoàn thành Giai đoạn 1, hãy dừng lại, trình bày kết quả và chờ tôi xác nhận “TIẾP TỤC” trước khi đổi tên file hoặc viết pipeline production.
+
+## Giai đoạn 2 — Chuẩn hóa đường dẫn
+
+Sau khi được xác nhận:
+
+1. Chuẩn hóa tên thư mục và file theo quy tắc:
+   - Dùng tiếng Anh.
+   - Chỉ dùng ASCII.
+   - Chữ thường.
+   - Dùng `snake_case`.
+   - Không dấu, không khoảng trắng, không ký tự đặc biệt.
+   - Extension viết thường.
+   - Ưu tiên tên ổn định như `question_0001.txt` và `question_0001.json`.
+2. Kiểm tra tên cấm trên Windows như `CON`, `PRN`, `AUX`, `NUL`, `COM1`.
+3. Chạy dry-run và kiểm tra collision trước khi đổi tên.
+4. Ghép cặp `.txt` và `.json` phải giữ nguyên sau khi đổi tên.
+5. Tạo mapping:
+   - `reports/path_rename_mapping.json`
+   - Bao gồm `old_path`, `new_path`, `record_id`, trạng thái.
+6. Cập nhật mọi reference trong code, config và manifest.
+7. Sau khi đổi tên, chạy lại audit để chắc chắn không có reference bị hỏng.
+
+## Giai đoạn 3 — Chuẩn hóa record
+
+Tạo record nội bộ tối thiểu:
+
+- `record_id`
+- `question_text`
+- `search_text`
+- `result` hoặc `answer`
+- `source_txt`
+- `source_json`
+- `content_checksum`
+- `dataset_version`
+- `embedding_model`
+- `embedding_dimension`
+
+`record_id` phải xác định, ổn định và giúp ingest chạy lại không sinh vector trùng.
+
+Không được âm thầm cắt mất văn bản dài. Hãy kiểm tra giới hạn token của model và báo cáo record nào bị vượt giới hạn. Nếu cần chunking, phải lưu `parent_record_id` và `chunk_index`.
+
+## Giai đoạn 4 — CLIP encoder
+
+Tích hợp vào cấu trúc hiện có của dự án; nếu chưa có cấu trúc thì tạo module rõ ràng cho:
+
+- Dataset loader
+- CLIP encoder
+- Pinecone vector store
+- Ingest pipeline
+- Image query pipeline
+- CLI
+- Tests
+
+CLIP encoder phải:
+
+- Hỗ trợ encode text theo batch.
+- Hỗ trợ encode image theo batch hoặc từng ảnh.
+- Dùng đúng tokenizer và image preprocessing của checkpoint.
+- Chạy được trên CPU và tự dùng CUDA nếu có.
+- Dùng inference mode.
+- Trả vector `float32`.
+- Kiểm tra vector không chứa `NaN` hoặc `Infinity`.
+- L2-normalize vector.
+- Text và image embedding phải cùng dimension và cùng không gian vector.
+- Lưu tên model/checkpoint trong manifest để tránh query bằng model khác model đã index.
+
+## Giai đoạn 5 — Pinecone
+
+Sử dụng Pinecone SDK phù hợp với dependency hiện tại của dự án, tránh API đã deprecated.
+
+Cấu hình qua biến môi trường:
+
+- `PINECONE_API_KEY`
+- `PINECONE_INDEX_NAME`
+- `PINECONE_NAMESPACE`
+- Các biến cloud/region cần thiết
+- Tên và checkpoint của CLIP model
+
+Tạo `.env.example`, tuyệt đối không commit secret.
+
+Yêu cầu:
+
+- Metric `cosine`.
+- Dimension lấy từ encoder.
+- Kiểm tra index hiện có trước khi sử dụng.
+- Nếu dimension hoặc metric không khớp, không được tự xóa index; hãy báo lỗi rõ ràng.
+- Upsert theo batch.
+- Có retry hợp lý.
+- Ingest idempotent.
+- Có namespace hoặc dataset version để re-index an toàn.
+- Metadata phải có ít nhất `record_id`, câu hỏi, đường dẫn nguồn, phiên bản dataset và model.
+- Nếu metadata vượt giới hạn, lưu JSON đầy đủ bên ngoài Pinecone và chỉ lưu reference.
+
+## Giai đoạn 6 — Truy vấn bằng ảnh
+
+Xây CLI hoặc service với luồng:
+
+`image → CLIP preprocessing → image embedding → Pinecone query → top_k records → lấy JSON kết quả`
+
+Kết quả phải trả:
+
+- `record_id`
+- similarity score
+- câu hỏi tương ứng
+- kết quả/đáp án
+- đường dẫn `.txt`
+- đường dẫn `.json`
+- trạng thái confidence
+
+Confidence threshold phải cấu hình được. Cosine score không được mô tả như xác suất.
+
+Nếu ảnh chủ yếu chứa chữ, bổ sung thiết kế OCR/hybrid search:
+
+`ảnh → OCR tiếng Việt → text embedding/search`
+
+Có thể kết hợp kết quả OCR và CLIP nhưng phải giải thích chiến lược xếp hạng.
+
+## Kiểm thử và nghiệm thu
+
+- Unit test audit dataset.
+- Unit test JSON parser với JSON đúng và JSON lỗi.
+- Unit test mapping/đổi tên, bao gồm collision trên Windows.
+- Unit test text/image encoder.
+- Unit test dimension, normalization, `NaN` và `Infinity`.
+- Mock Pinecone cho create/upsert/query; unit test không phụ thuộc Pinecone thật.
+- Ingest chạy hai lần không sinh duplicate.
+- Số vector upsert phải bằng số record hợp lệ dự kiến.
+- Nếu có ảnh ground truth, báo cáo Recall@K.
+- Nếu chưa có ảnh mẫu, không được tự tuyên bố độ chính xác.
+- Chạy formatter, lint và test phù hợp với repository.
+
+Khi hoàn thành, báo cáo:
+
+1. Dataset có hợp lệ không.
+2. Bao nhiêu JSON đọc được và bao nhiêu JSON lỗi.
+3. Danh sách file/đường dẫn đã đổi tên.
+4. Model CLIP đã chọn và lý do.
+5. Cấu trúc pipeline.
+6. Các file đã tạo hoặc sửa.
+7. Lệnh audit, ingest và query.
+8. Kết quả test thực tế.
+9. Những hạn chế còn lại, đặc biệt là OCR và tiếng Việt.
+
+Không che giấu lỗi, không bịa kết quả test và không upload dữ liệu lên Pinecone nếu chưa có credential hợp lệ.

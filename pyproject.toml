@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
   "fastapi>=0.115,<1",
+  "httpx>=0.27,<1",
   "openai>=1.66,<3",
   "Pillow>=10,<13",
   "pinecone>=10,<11",
@@ -20,7 +21,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-ocr = ["paddleocr>=3.7,<4"]
+ocr = ["paddleocr>=3.7,<4", "paddlepaddle>=3,<4"]
 
 [project.scripts]
 hisedu = "hisedu.cli:main"

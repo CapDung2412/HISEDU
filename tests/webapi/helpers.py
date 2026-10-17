@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from hisedu.webapi.schemas import GeneratedLesson
-from hisedu.webapi.services import GenerationResult, RetrievalResult
+from hisedu.webapi.services import GenerationResult, OcrPreview, RetrievalResult
 
 
 YOUTUBE_URL = "https://www.youtube.com/watch?v=history-test"
@@ -64,7 +64,10 @@ def generated_lesson(*, source_page: int | None = 99) -> GeneratedLesson:
                     "publisher": "SGK Lịch sử",
                     "type": "sgk",
                     "url": None,
+                    "grade": 8,
+                    "book_series": "Kết nối tri thức với cuộc sống",
                     "page": source_page,
+                    "page_status": "verified" if source_page is not None else "unverified",
                     "locator": "Bài 1",
                     "accessed_at": None,
                     "supports": ["Mốc năm 1642"],
@@ -78,6 +81,9 @@ def generated_lesson(*, source_page: int | None = 99) -> GeneratedLesson:
                         {"id": f"q{index}_{letter}", "text": f"Lựa chọn {letter}"}
                         for letter in "abcd"
                     ],
+                    "difficulty": (
+                        "remember" if index <= 2 else "understand" if index <= 4 else "apply"
+                    ),
                     "correct_option_id": f"q{index}_a",
                     "explanation": "Đáp án A đúng.",
                     "source_ids": ["S1"],
@@ -101,11 +107,14 @@ class FakeRetrieval:
                     "answer": "Năm 1642.",
                     "source_name": "SGK Lịch sử",
                     "source_locator": "Bài 1",
+                    "review_status": "Chờ giáo viên duyệt",
+                    "provenance_note": "Nội dung diễn đạt lại; không phải trích dẫn nguyên văn SGK.",
                 },
             }
         ]
         self.text_calls = 0
         self.image_calls = 0
+        self.ocr_calls = 0
 
     async def search_text(self, question: str, *, top_k: int) -> RetrievalResult:
         self.text_calls += 1
@@ -115,6 +124,14 @@ class FakeRetrieval:
         self.image_calls += 1
         question = kwargs.get("question") or "Câu hỏi đọc từ ảnh"
         return RetrievalResult(query=question, matches=self.matches, score_kind="cosine")
+
+    async def extract_image_text(self, data: bytes, **kwargs) -> OcrPreview:
+        self.ocr_calls += 1
+        return OcrPreview(
+            text="Cách mạng tư sản Anh bùng nổ vào năm nào?",
+            line_count=2,
+            mean_score=0.91,
+        )
 
 
 class FakeAI:

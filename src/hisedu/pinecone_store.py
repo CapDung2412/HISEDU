@@ -28,7 +28,10 @@ DEFAULT_RETURN_FIELDS = [
     "source_name",
     "source_url",
     "source_locator",
+    "source_grade",
+    "source_book_series",
     "source_page_number",
+    "source_page_status",
     "review_status",
     "provenance_note",
     "content_checksum",
@@ -61,15 +64,19 @@ class PineconeVectorStore:
         client: Any = None,
         sleep: Callable[[float], None] = time.sleep,
         max_attempts: int = 3,
+        request_timeout_seconds: float = 30.0,
     ) -> None:
         if max_attempts <= 0:
             raise ValueError("max_attempts must be positive")
+        if request_timeout_seconds <= 0:
+            raise ValueError("request_timeout_seconds must be positive")
         self.settings = settings
         self._client = client
         self._index = None
         self._dimension: int | None = None
         self._sleep = sleep
         self._max_attempts = max_attempts
+        self._request_timeout_seconds = float(request_timeout_seconds)
 
     def _ensure_client(self) -> Any:
         if self._client is not None:
@@ -77,12 +84,18 @@ class PineconeVectorStore:
         if not self.settings.pinecone_api_key:
             raise VectorStoreError("PINECONE_API_KEY is not configured")
         try:
-            from pinecone import Pinecone
+            from pinecone import Pinecone, RetryConfig
         except ImportError as exc:
             raise VectorStoreError(
                 "pinecone is not installed; run `python -m pip install -e .`"
             ) from exc
-        self._client = Pinecone(api_key=self.settings.pinecone_api_key)
+        # This class owns retry/backoff in _retry(). Disable the SDK retry
+        # layer so one logical request cannot multiply into many 30s waits.
+        self._client = Pinecone(
+            api_key=self.settings.pinecone_api_key,
+            timeout=self._request_timeout_seconds,
+            retry_config=RetryConfig(max_retries=0),
+        )
         return self._client
 
     @staticmethod

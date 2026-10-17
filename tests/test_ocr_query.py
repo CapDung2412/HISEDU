@@ -22,6 +22,15 @@ class FakeOcrPipeline:
         return [FakeOcrPayload()]
 
 
+class EmptyOcrPayload:
+    json = {"res": {"rec_texts": [], "rec_scores": []}}
+
+
+class EmptyOcrPipeline:
+    def predict(self, path):
+        return [EmptyOcrPayload()]
+
+
 class FakeEncoder:
     def encode_images(self, paths):
         return [[1.0, 0.0, 0.0] for _ in paths]
@@ -55,7 +64,7 @@ class OcrAndQueryTests(unittest.TestCase):
         self.assertEqual("Cách mạng tư sản Anh năm nào?", result.text)
         self.assertEqual(2, len(result.lines))
 
-    def test_hybrid_query_fuses_clip_and_ocr_ranks(self) -> None:
+    def test_hybrid_query_uses_ocr_text_vector_first(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             image = Path(temp_dir) / "photo.jpg"
             image.write_bytes(b"test")
@@ -68,12 +77,27 @@ class OcrAndQueryTests(unittest.TestCase):
                 min_score=0.75,
             )
             result = service.query_image(image, top_k=2, mode="hybrid")
-        self.assertEqual(["clip", "ocr"], result["branches_used"])
+        self.assertEqual(["ocr"], result["branches_used"])
         self.assertEqual("b", result["matches"][0]["id"])
-        self.assertEqual("reciprocal_rank_fusion", result["matches"][0]["score_kind"])
+        self.assertEqual("cosine", result["matches"][0]["score_kind"])
         self.assertEqual("accepted", result["matches"][0]["confidence_status"])
+
+    def test_hybrid_query_falls_back_to_clip_when_ocr_has_no_text(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            image = Path(temp_dir) / "photo.jpg"
+            image.write_bytes(b"test")
+            service = ImageQueryService(
+                FakeEncoder(),
+                FakeStore(),
+                ocr=PaddleOcrExtractor(
+                    min_line_score=0.5, pipeline=EmptyOcrPipeline()
+                ),
+            )
+            result = service.query_image(image, top_k=2, mode="hybrid")
+        self.assertEqual(["clip"], result["branches_used"])
+        self.assertEqual("a", result["matches"][0]["id"])
+        self.assertIsNotNone(result["ocr_error"])
 
 
 if __name__ == "__main__":
     unittest.main()
-

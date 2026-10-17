@@ -1,0 +1,2088 @@
+{
+  "method": {
+    "sample": "60 stratified questions: chapters 1-4 have 9 each; chapter 5 has 8; chapter 6 has 9; chapter 7 has all 7 available in lesson 16",
+    "pass_rule": "HTTP 200, expected dataset record retrieved, non-empty valid citations, reference dates retained, and >=32% normalized reference-term coverage",
+    "source_scope": "Compared with paired JSON reference answers; textbook page metadata remains unverified",
+    "warmup_excluded": false,
+    "concurrency": 2
+  },
+  "summary": {
+    "questions_tested": 60,
+    "http_200": 60,
+    "answers_passed": 60,
+    "pass_rate_percent": 100.0,
+    "average_response_seconds": 10.167,
+    "median_response_seconds": 9.71,
+    "p95_response_seconds": 13.511,
+    "minimum_response_seconds": 7.109,
+    "maximum_response_seconds": 16.442,
+    "target_average_seconds": 15.0,
+    "target_met": true
+  },
+  "results": [
+    {
+      "chapter": 1,
+      "question_number": 1,
+      "question": "Cách mạng tư sản Anh bùng nổ vào năm nào?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_01",
+      "reference_answer": "Cách mạng tư sản Anh bùng nổ năm 1642, khi nội chiến giữa Quốc hội và lực lượng trung thành với nhà vua bắt đầu.",
+      "status": 200,
+      "elapsed_seconds": 13.685,
+      "server_timing": "retrieval;dur=7.0, generation_lock;dur=0.0, youtube_video;dur=2301.8, openai;dur=8501.1, total;dur=12977.8",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Cách mạng tư sản Anh bùng nổ vào năm 1642, bắt đầu bằng cuộc nội chiến giữa Quốc hội và lực lượng trung thành với nhà vua.",
+      "key_points": [
+        "Cách mạng tư sản Anh bùng nổ năm 1642.",
+        "Nguyên nhân chính là mâu thuẫn giữa Quốc hội và vua.",
+        "Cuộc nội chiến giữa hai phe là diễn biến chính của cách mạng.",
+        "Kết quả là chế độ quân chủ lập hiến được thiết lập.",
+        "Cách mạng có ý nghĩa lớn trong sự phát triển dân chủ tại Anh."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 1,
+      "question_number": 2,
+      "question": "Những lực lượng xã hội nào là lực lượng chủ yếu chống chế độ phong kiến ở Anh?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_02",
+      "reference_answer": "Tư sản và quý tộc mới là các lực lượng lãnh đạo chống chế độ phong kiến; đông đảo nông dân, thợ thủ công và dân nghèo thành thị tham gia đấu tranh.",
+      "status": 200,
+      "elapsed_seconds": 16.442,
+      "server_timing": "retrieval;dur=0.6, generation_lock;dur=0.0, youtube_video;dur=9687.4, openai;dur=15731.2, total;dur=15739.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_02"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Ở Anh, cuộc đấu tranh chống chế độ phong kiến chủ yếu do các lực lượng tư sản và quý tộc mới lãnh đạo, với sự tham gia đông đảo của nông dân, thợ thủ công và dân nghèo thành thị. Họ cùng nhau tạo thành sức mạnh quan trọng để thay đổi xã hội phong kiến. Dưới đây là phân tích chi tiết về các lực lượng này và vai trò của họ trong cuộc cách mạng tư sản Anh.",
+      "key_points": [
+        "Tư sản và quý tộc mới là lực lượng lãnh đạo chống chế độ phong kiến ở Anh.",
+        "Tư sản là các thương nhân, nhà sản xuất muốn phát triển kinh tế tự do.",
+        "Quý tộc mới giàu lên từ kinh doanh, muốn thay đổi quyền lực truyền thống.",
+        "Nông dân, thợ thủ công và dân nghèo thành thị tham gia rộng rãi trong đấu tranh.",
+        "Sự kết hợp giữa các lực lượng này tạo thành sức mạnh chống chế độ phong kiến.",
+        "Cuộc đấu tranh dẫn đến các cải cách xã hội và chính trị quan trọng ở Anh.",
+        "Đây là nền tảng cho cách mạng tư sản Anh và sự phát triển xã hội hiện đại."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 1,
+      "question_number": 3,
+      "question": "Vì sao chế độ phong kiến Anh trở thành trở ngại đối với sự phát triển kinh tế?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_03",
+      "reference_answer": "Chế độ quân chủ chuyên chế duy trì đặc quyền phong kiến, thuế khóa và độc quyền, cản trở kinh doanh, thương mại và quan hệ sản xuất tư bản chủ nghĩa đang phát triển.",
+      "status": 200,
+      "elapsed_seconds": 8.445,
+      "server_timing": "retrieval;dur=1.0, generation_lock;dur=0.0, youtube_video;dur=2596.0, openai;dur=7904.9, total;dur=7915.3",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_03"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.963,
+      "reference_numbers_present": true,
+      "summary": "Chế độ phong kiến Anh trở thành trở ngại cho sự phát triển kinh tế vì nó duy trì các đặc quyền phong kiến, áp đặt thuế khóa và độc quyền, cản trở sự phát triển của kinh doanh, thương mại và các quan hệ sản xuất tư bản chủ nghĩa.",
+      "key_points": [
+        "Chế độ phong kiến Anh duy trì đặc quyền phong kiến lâu đời.",
+        "Thuế khóa và độc quyền được áp đặt dưới chế độ quân chủ chuyên chế.",
+        "Các đặc quyền và thuế khóa cản trở kinh doanh và thương mại.",
+        "Thị trường không phát triển tự do do độc quyền và kiểm soát chặt chẽ.",
+        "Quan hệ sản xuất tư bản chủ nghĩa khó phát triển trong điều kiện phong kiến.",
+        "Chế độ này kìm hãm sự phát triển của nền kinh tế hiện đại.",
+        "Là một trong các nguyên nhân dẫn đến cuộc Cách mạng tư sản Anh."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 1,
+      "question_number": 4,
+      "question": "Nội chiến ở Anh diễn ra giữa những lực lượng nào?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_04",
+      "reference_answer": "Nội chiến diễn ra giữa phe Quốc hội, nòng cốt là tư sản và quý tộc mới, với phe nhà vua gồm lực lượng phong kiến trung thành với Charles I.",
+      "status": 200,
+      "elapsed_seconds": 7.828,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2.1, openai;dur=7356.6, total;dur=7360.5",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_04"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9091,
+      "reference_numbers_present": true,
+      "summary": "Nội chiến ở Anh diễn ra giữa hai phe chính: phe Quốc hội đại diện cho tư sản và quý tộc mới, và phe nhà vua gồm lực lượng phong kiến trung thành với vua Charles I.",
+      "key_points": [
+        "Nội chiến Anh diễn ra giữa phe Quốc hội và phe nhà vua.",
+        "Phe Quốc hội gồm tư sản và quý tộc mới.",
+        "Phe nhà vua là lực lượng phong kiến trung thành với vua Charles I.",
+        "Phe Quốc hội muốn hạn chế quyền lực nhà vua, tăng quyền cho Quốc hội.",
+        "Phe nhà vua giữ vững quyền lực tuyệt đối của mình."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 1,
+      "question_number": 5,
+      "question": "Sự kiện vua Charles I bị xử tử năm 1649 có ý nghĩa gì?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_05",
+      "reference_answer": "Việc xử tử Charles I đã giáng đòn quyết định vào chế độ quân chủ chuyên chế và mở đường cho nước Anh tuyên bố là nước cộng hòa.",
+      "status": 200,
+      "elapsed_seconds": 9.639,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2048.0, openai;dur=9190.5, total;dur=9198.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_05"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Sự kiện vua Charles I bị xử tử năm 1649 đánh dấu một bước ngoặt lớn trong lịch sử nước Anh khi nó chấm dứt chế độ quân chủ chuyên chế và mở đường cho việc thành lập nước Anh cộng hòa.",
+      "key_points": [
+        "Vua Charles I bị xử tử năm 1649.",
+        "Xử tử vua Charles I chấm dứt chế độ quân chủ chuyên chế tại Anh.",
+        "Sự kiện này diễn ra sau cuộc xung đột lâu dài giữa vua và Quốc hội.",
+        "Sự kiện mở đường cho nước Anh tuyên bố là nước cộng hòa.",
+        "Đánh dấu một bước ngoặt quan trọng trong lịch sử chính trị Anh.",
+        "Charles I bị kết tội phản quốc trước khi bị xử tử."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 1,
+      "question_number": 6,
+      "question": "Cách mạng Vinh quang ở Anh diễn ra vào năm nào?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_06",
+      "reference_answer": "Cách mạng Vinh quang diễn ra năm 1688.",
+      "status": 200,
+      "elapsed_seconds": 8.152,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2.5, openai;dur=7665.9, total;dur=7673.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_06"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Cách mạng Vinh quang ở Anh diễn ra vào năm 1688, một sự kiện quan trọng trong lịch sử Anh và châu Âu cuối thế kỷ XVII.",
+      "key_points": [
+        "Cách mạng Vinh quang xảy ra năm 1688.",
+        "Đây là một cuộc cách mạng diễn ra ở Anh cuối thế kỷ XVII.",
+        "Sự kiện này đánh dấu sự chuyển đổi sang chế độ quân chủ lập hiến.",
+        "Cách mạng giúp giới hạn quyền lực của vua và tăng quyền lực của quốc hội.",
+        "Tác động của cuộc cách mạng ảnh hưởng đến hệ thống chính trị châu Âu."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 1,
+      "question_number": 7,
+      "question": "Tuyên ngôn Nhân quyền năm 1689 ở Anh có ý nghĩa như thế nào?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_07",
+      "reference_answer": "Đạo luật Nhân quyền năm 1689 hạn chế quyền lực của nhà vua, đề cao vai trò của Quốc hội và đặt nền tảng cho chế độ quân chủ lập hiến ở Anh.",
+      "status": 200,
+      "elapsed_seconds": 9.252,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2.4, openai;dur=8746.7, total;dur=8750.8",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_07"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9167,
+      "reference_numbers_present": true,
+      "summary": "Tuyên ngôn Nhân quyền năm 1689 ở Anh có ý nghĩa quan trọng trong việc giới hạn quyền lực nhà vua và nâng cao vai trò của Quốc hội, từ đó đặt nền móng cho chế độ quân chủ lập hiến.",
+      "key_points": [
+        "Được ban hành năm 1689 tại Anh.",
+        "Hạn chế quyền lực của nhà vua.",
+        "Củng cố vai trò của Quốc hội Anh.",
+        "Thiết lập nguyên tắc quân chủ lập hiến.",
+        "Đặt nền móng cho sự phát triển dân chủ.",
+        "Trả lời cho mâu thuẫn giữa vua và Quốc hội.",
+        "Có ảnh hưởng lâu dài đến chính trị Anh và thế giới."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 1,
+      "question_number": 8,
+      "question": "13 thuộc địa Anh ở Bắc Mỹ đấu tranh chống chính quốc vì những nguyên nhân chủ yếu nào?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_08",
+      "reference_answer": "Chính quốc đánh thuế nặng, hạn chế sản xuất và buôn bán, độc quyền thương mại và không cho người thuộc địa có đại diện trong Quốc hội, nên mâu thuẫn ngày càng gay gắt.",
+      "status": 200,
+      "elapsed_seconds": 11.594,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2207.1, openai;dur=11035.9, total;dur=11040.7",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_08"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "13 thuộc địa Anh ở Bắc Mỹ đã đấu tranh chống chính quốc vì các nguyên nhân chủ yếu gồm bị đánh thuế nặng, hạn chế sản xuất và buôn bán, chính sách độc quyền thương mại và không được đại diện trong Quốc hội Anh. Những nguyên nhân này gây nên mâu thuẫn gay gắt giữa thuộc địa và chính quốc, dẫn đến cuộc chiến giành độc lập.",
+      "key_points": [
+        "Chính quốc đánh thuế cao lên 13 thuộc địa.",
+        "Hạn chế sản xuất và hoạt động buôn bán của thuộc địa.",
+        "Áp đặt chính sách độc quyền thương mại chặt chẽ.",
+        "Người thuộc địa không có đại diện trong Quốc hội Anh.",
+        "Mâu thuẫn ngày càng gay gắt giữa thuộc địa và chính quốc.",
+        "12 thuộc địa dẫn đến cuộc đấu tranh giành độc lập.",
+        "Nguyên nhân kinh tế và chính trị là chủ yếu."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 1,
+      "question_number": 9,
+      "question": "Sự kiện Chè Boston diễn ra vào năm nào và phản ánh điều gì?",
+      "expected_id": "CHK_HIST8_CHUONG_1_20_CAU_CB_09",
+      "reference_answer": "Sự kiện Chè Boston diễn ra năm 1773; việc người dân đổ chè của Công ty Đông Ấn xuống biển thể hiện sự phản đối chính sách thuế và ách cai trị của Anh.",
+      "status": 200,
+      "elapsed_seconds": 9.475,
+      "server_timing": "retrieval;dur=2.0, generation_lock;dur=0.0, youtube_video;dur=2382.5, openai;dur=8539.6, total;dur=8692.5",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_1_20_CAU_CB_09"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.96,
+      "reference_numbers_present": true,
+      "summary": "Sự kiện Chè Boston diễn ra vào năm 1773, là cuộc phản đối của người dân thuộc địa Bắc Mỹ đối với chính sách thuế và ách cai trị hà khắc của nước Anh.",
+      "key_points": [
+        "Sự kiện diễn ra năm 1773",
+        "Người dân đổ chè của Công ty Đông Ấn xuống biển",
+        "Phản đối chính sách thuế của Anh",
+        "Phản ứng chống lại ách cai trị hà khắc",
+        "Bước đầu trong phong trào giành độc lập của 13 thuộc địa",
+        "Thể hiện tinh thần phản kháng của người dân Bắc Mỹ",
+        "Khởi nguồn của cuộc chiến giành tự do"
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 1,
+      "question": "Vì sao Đông Nam Á trở thành mục tiêu xâm lược của các nước phương Tây?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_01",
+      "reference_answer": "Đông Nam Á giàu tài nguyên, sản vật nhiệt đới, có thị trường và nằm trên tuyến hàng hải nối Ấn Độ Dương với Thái Bình Dương; trong khi nhiều quốc gia phong kiến suy yếu, phân tán nên dễ bị nhòm ngó.",
+      "status": 200,
+      "elapsed_seconds": 9.932,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2225.2, openai;dur=9508.3, total;dur=9515.6",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9355,
+      "reference_numbers_present": true,
+      "summary": "Đông Nam Á trở thành mục tiêu xâm lược của các nước phương Tây do khu vực này giàu tài nguyên thiên nhiên, có sản vật nhiệt đới đa dạng, là nơi giao thương quan trọng nằm trên tuyến đường biển nối Ấn Độ Dương và Thái Bình Dương, đồng thời các quốc gia phong kiến trong khu vực lại suy yếu và phân tán, tạo điều kiện cho các thế lực phương Tây dễ dàng thâm nhập và chiếm đóng.",
+      "key_points": [
+        "Đông Nam Á giàu tài nguyên thiên nhiên và sản vật nhiệt đới.",
+        "Khu vực nằm trên tuyến hàng hải chiến lược nối hai đại dương lớn: Ấn Độ Dương và Thái Bình Dương.",
+        "Nhiều quốc gia Đông Nam Á thời kỳ đó phong kiến suy yếu, phân tán quyền lực.",
+        "Sự suy yếu của các quốc gia tạo điều kiện thuận lợi cho thực dân phương Tây xâm lược.",
+        "Thực dân muốn kiểm soát thương mại và khai thác tài nguyên từ khu vực này.",
+        "Đông Nam Á trở thành điểm đến quan trọng để xây dựng thuộc địa và mở rộng ảnh hưởng kinh tế - chính trị.",
+        "Vị trí địa lý giúp các nước phương Tây dễ dàng chi phối tuyến thương mại toàn cầu."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 2,
+      "question": "Đông Nam Á có những lợi thế địa lí và kinh tế nào thu hút các nước phương Tây?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_02",
+      "reference_answer": "Khu vực nằm ở ngã tư đường biển quốc tế, có nhiều eo biển và cảng tốt; đồng thời nổi tiếng về gia vị, hương liệu, lâm sản, khoáng sản và nông sản nhiệt đới.",
+      "status": 200,
+      "elapsed_seconds": 11.577,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2628.2, openai;dur=10914.4, total;dur=10921.7",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_02"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9583,
+      "reference_numbers_present": true,
+      "summary": "Đông Nam Á có lợi thế địa lí quan trọng nằm ở ngã tư đường biển quốc tế với nhiều eo biển và cảng tốt, cùng với kinh tế phong phú về gia vị, hương liệu, lâm sản, khoáng sản và nông sản nhiệt đới. Những lợi thế này đã thu hút các nước phương Tây đến khai thác và buôn bán từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX.",
+      "key_points": [
+        "Đông Nam Á nằm ở ngã tư đường biển quốc tế, vị trí chiến lược giao thương.",
+        "Khu vực có nhiều eo biển và cảng biển thuận lợi cho giao dịch hàng hải.",
+        "Nổi bật về các loại gia vị và hương liệu quý giá với thị trường quốc tế.",
+        "Có nguồn lâm sản và khoáng sản phong phú, đáp ứng nhu cầu đa dạng.",
+        "Sản phẩm nông nghiệp nhiệt đới đa dạng, hấp dẫn các nước phương Tây.",
+        "Vị trí và kinh tế đã thúc đẩy sự quan tâm và chiếm đóng của các nước phương Tây.",
+        "Đông Nam Á trở thành điểm trung chuyển và thương mại quốc tế quan trọng."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 3,
+      "question": "Năm 1511, Bồ Đào Nha đã đánh chiếm địa điểm nào?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_03",
+      "reference_answer": "Năm 1511, Bồ Đào Nha đánh chiếm Ma-lắc-ca.",
+      "status": 200,
+      "elapsed_seconds": 9.289,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2058.2, openai;dur=8650.4, total;dur=8673.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_03"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Năm 1511, Bồ Đào Nha đã tiến hành đánh chiếm Ma-lắc-ca, một địa điểm chiến lược ở Đông Nam Á, nhằm kiểm soát tuyến đường thương mại quan trọng trong khu vực.",
+      "key_points": [
+        "Năm 1511, Bồ Đào Nha đánh chiếm Ma-lắc-ca.",
+        "Ma-lắc-ca là vị trí chiến lược trên tuyến đường thương mại quan trọng ở Đông Nam Á.",
+        "Mục tiêu chính của Bồ Đào Nha là kiểm soát hoạt động buôn bán gia vị.",
+        "Việc chiếm Ma-lắc-ca tạo điều kiện cho Bồ Đào Nha mở rộng ảnh hưởng ở khu vực Đông Nam Á.",
+        "Sự kiện ghi dấu bước đầu của Bồ Đào Nha trong cuộc cạnh tranh địa chính trị tại châu Á."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 4,
+      "question": "Việc Bồ Đào Nha chiếm Ma-lắc-ca năm 1511 có ý nghĩa gì?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_04",
+      "reference_answer": "Việc chiếm Ma-lắc-ca giúp Bồ Đào Nha khống chế một thương cảng và eo biển chiến lược, mở đầu quá trình các nước phương Tây dùng vũ lực xâm nhập sâu vào Đông Nam Á.",
+      "status": 200,
+      "elapsed_seconds": 9.012,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=3189.5, openai;dur=8422.7, total;dur=8429.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_04"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9032,
+      "reference_numbers_present": true,
+      "summary": "Việc Bồ Đào Nha chiếm Ma-lắc-ca năm 1511 có ý nghĩa quan trọng trong lịch sử Đông Nam Á khi giúp họ nắm quyền kiểm soát thương cảng và eo biển chiến lược, mở đầu cho sự xâm nhập sâu rộng của các nước phương Tây vào khu vực này bằng vũ lực.",
+      "key_points": [
+        "Bồ Đào Nha chiếm Ma-lắc-ca năm 1511.",
+        "Ma-lắc-ca là vị trí chiến lược với thương cảng và eo biển quan trọng.",
+        "Chiếm được Ma-lắc-ca giúp Bồ Đào Nha kiểm soát tuyến đường thương mại lớn.",
+        "Sự kiện đánh dấu việc các nước phương Tây bắt đầu xâm nhập sâu vào Đông Nam Á bằng vũ lực.",
+        "Có ảnh hưởng lâu dài đến sự phát triển lịch sử và địa chính trị khu vực Đông Nam Á."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 5,
+      "question": "Những nước phương Tây nào từng xâm nhập và tranh giành ảnh hưởng ở Đông Nam Á?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_05",
+      "reference_answer": "Các nước phương Tây từng xâm nhập, tranh giành ảnh hưởng gồm Bồ Đào Nha, Tây Ban Nha, Hà Lan, Anh và Pháp.",
+      "status": 200,
+      "elapsed_seconds": 12.513,
+      "server_timing": "retrieval;dur=0.9, generation_lock;dur=0.0, youtube_video;dur=2771.4, openai;dur=11199.4, total;dur=11212.7",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_05"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9444,
+      "reference_numbers_present": true,
+      "summary": "Trong giai đoạn từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX, nhiều nước phương Tây đã xâm nhập và tranh giành ảnh hưởng ở khu vực Đông Nam Á. Các nước này gồm Bồ Đào Nha, Tây Ban Nha, Hà Lan, Anh và Pháp. Sự cạnh tranh của các cường quốc này đã góp phần thay đổi bộ mặt chính trị và kinh tế của Đông Nam Á trong thời kỳ này.",
+      "key_points": [
+        "Các nước phương Tây xâm nhập Đông Nam Á gồm Bồ Đào Nha, Tây Ban Nha, Hà Lan, Anh và Pháp.",
+        "Thời gian xâm nhập tập trung từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX.",
+        "Mục tiêu chính là khai thác tài nguyên và mở rộng thị trường thương mại.",
+        "Các nước thiết lập thuộc địa hoặc vùng ảnh hưởng, thiếp lập các liên minh hoặc chiến tranh giành quyền kiểm soát.",
+        "Cuộc tranh giành này làm thay đổi chính trị và kinh tế Đông Nam Á.",
+        "Ảnh hưởng lâu dài đến sự phát triển của khu vực Đông Nam Á trong thời kỳ thuộc địa.",
+        "Sự cạnh tranh giữa các nước phương Tây làm tăng căng thẳng và biến động khu vực."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 6,
+      "question": "Hà Lan từng bước thiết lập quyền thống trị ở khu vực nào của Đông Nam Á?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_06",
+      "reference_answer": "Hà Lan từng bước thiết lập quyền thống trị chủ yếu tại quần đảo In-đô-nê-xi-a.",
+      "status": 200,
+      "elapsed_seconds": 11.733,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=1.8, openai;dur=10703.0, total;dur=10710.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_06"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Hà Lan đã từng bước thiết lập quyền thống trị chủ yếu tại quần đảo In-đô-nê-xi-a trong khu vực Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX.",
+      "key_points": [
+        "Hà Lan tập trung thiết lập quyền thống trị chủ yếu tại quần đảo In-đô-nê-xi-a.",
+        "Quá trình này diễn ra từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX.",
+        "Mục đích chính là kiểm soát nguồn hàng và tuyến thương mại quốc tế.",
+        "Quyền thống trị giúp Hà Lan trở thành thế lực thuộc địa quan trọng ở Đông Nam Á.",
+        "Hà Lan kiểm soát chính trị và kinh tế khu vực qua việc độc quyền thương mại.",
+        "Việc kiểm soát này góp phần hình thành thuộc địa Hà Lan ở quần đảo In-đô-nê-xi-a.",
+        "Đây là giai đoạn quan trọng trong lịch sử thuộc địa Đông Nam Á."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 7,
+      "question": "Tây Ban Nha xâm chiếm Phi-líp-pin từ thời gian nào?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_07",
+      "reference_answer": "Tây Ban Nha bắt đầu xâm chiếm Phi-líp-pin từ năm 1565 và đến năm 1571 đã chiếm Ma-ni-la, mở rộng ách thống trị trên quần đảo.",
+      "status": 200,
+      "elapsed_seconds": 7.468,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=3005.3, openai;dur=6973.4, total;dur=6977.1",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_07"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Tây Ban Nha bắt đầu xâm chiếm Phi-líp-pin từ năm 1565, và đến năm 1571, họ đã chiếm được Ma-ni-la, thiết lập ách thống trị trên quần đảo Phi-líp-pin.",
+      "key_points": [
+        "Tây Ban Nha bắt đầu xâm chiếm Phi-líp-pin năm 1565.",
+        "Năm 1571, Tây Ban Nha chiếm được Ma-ni-la.",
+        "Ma-ni-la trở thành trung tâm quyền lực của Tây Ban Nha tại quần đảo Phi-líp-pin.",
+        "Tây Ban Nha thiết lập ách thống trị lâu dài trên Phi-líp-pin.",
+        "Sự xâm chiếm có ảnh hưởng lớn đến lịch sử và văn hóa của Phi-líp-pin."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 8,
+      "question": "Vì sao các nước thực dân chú trọng kiểm soát các cảng biển và tuyến hàng hải ở Đông Nam Á?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_08",
+      "reference_answer": "Kiểm soát cảng và tuyến hàng hải cho phép thực dân nắm luồng hàng hóa, thu thuế, bảo vệ tàu thuyền và dùng cảng làm bàn đạp quân sự để mở rộng xâm lược.",
+      "status": 200,
+      "elapsed_seconds": 9.645,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2149.2, openai;dur=9003.4, total;dur=9007.0",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_08"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.96,
+      "reference_numbers_present": true,
+      "summary": "Các nước thực dân chú trọng kiểm soát các cảng biển và tuyến hàng hải ở Đông Nam Á để nắm giữ việc luân chuyển hàng hóa, thu thuế, bảo vệ tàu thuyền và dùng cảng làm căn cứ quân sự mở rộng vùng chiếm đóng.",
+      "key_points": [
+        "Các cảng biển là trung tâm hoạt động thương mại trọng yếu ở Đông Nam Á.",
+        "Thực dân muốn kiểm soát đường vận chuyển hàng hóa để thu thuế và lợi nhuận.",
+        "Cảng biển là nơi bảo vệ tàu thuyền của thực dân khỏi các mối nguy.",
+        "Kiểm soát cảng giúp thực dân triển khai quân sự dễ dàng hơn trong khu vực.",
+        "Tuyến hàng hải Đông Nam Á rất quan trọng về kinh tế và chiến lược.",
+        "Kiểm soát cảng góp phần mở rộng và thâu tóm lãnh thổ thực dân.",
+        "Việc kiểm soát này giúp các thực dân duy trì quyền lực lâu dài tại Đông Nam Á."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "question_number": 9,
+      "question": "Thực dân phương Tây đã khai thác kinh tế Đông Nam Á theo những hình thức nào?",
+      "expected_id": "CHK_HIST8_CHUONG_2_20_CAU_CB_09",
+      "reference_answer": "Họ độc chiếm thương mại, cướp đoạt ruộng đất, lập đồn điền và mỏ, cưỡng bức lao động, đánh thuế nặng và khai thác tài nguyên để xuất khẩu.",
+      "status": 200,
+      "elapsed_seconds": 9.005,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=1.6, openai;dur=8372.7, total;dur=8383.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_2_20_CAU_CB_09"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9615,
+      "reference_numbers_present": true,
+      "summary": "Thực dân phương Tây khai thác kinh tế Đông Nam Á qua nhiều hình thức khác nhau nhằm tối đa hóa lợi ích kinh tế cho chính họ.",
+      "key_points": [
+        "Thực dân phương Tây độc quyền thương mại tại Đông Nam Á.",
+        "Họ chiếm đoạt ruộng đất để lập đồn điền và khai thác mỏ.",
+        "Người dân địa phương bị cưỡng bức lao động và áp đặt thuế nặng.",
+        "Tài nguyên thiên nhiên bị khai thác để xuất khẩu.",
+        "Mục đích chính là phục vụ lợi ích kinh tế của thực dân.",
+        "Các hình thức khai thác ảnh hưởng nặng nề đến đời sống người dân bản địa.",
+        "Đây là đặc điểm chung của chế độ thực dân ở Đông Nam Á trong giai đoạn này."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 1,
+      "question": "Vì sao nhà Lê sơ suy yếu vào đầu thế kỉ XVI?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_01",
+      "reference_answer": "Đầu thế kỉ XVI, vua quan nhà Lê sa đọa, tranh giành quyền lực; triều chính rối ren, địa phương nổi dậy, kinh tế sa sút và đời sống nhân dân khổ cực.",
+      "status": 200,
+      "elapsed_seconds": 12.918,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=1515.6, openai;dur=12415.4, total;dur=12420.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Nhà Lê sơ suy yếu vào đầu thế kỉ XVI do nhiều nguyên nhân như vua quan sa đọa, tranh giành quyền lực, triều chính rối ren, các cuộc nổi dậy ở địa phương, kinh tế sa sút và đời sống nhân dân khổ cực.",
+      "key_points": [
+        "Nhà Lê sơ suy yếu đầu thế kỉ XVI do vua quan sa đọa và tranh giành quyền lực.",
+        "Triều chính rối ren làm mất ổn định chính trị.",
+        "Nhiều cuộc nổi dậy ở địa phương làm suy yếu trung ương.",
+        "Kinh tế sa sút khiến sản xuất và thương mại bị ảnh hưởng.",
+        "Đời sống nhân dân khổ cực, đói nghèo gia tăng.",
+        "Tình hình bất ổn tạo điều kiện cho các phong trào phản kháng.",
+        "Sự suy yếu tổng hợp về chính trị, kinh tế và xã hội dẫn đến sự suy tàn của nhà Lê sơ."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 2,
+      "question": "Mạc Đăng Dung lập ra nhà Mạc vào năm nào?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_02",
+      "reference_answer": "Mạc Đăng Dung lập nhà Mạc năm 1527.",
+      "status": 200,
+      "elapsed_seconds": 7.109,
+      "server_timing": "retrieval;dur=0.7, generation_lock;dur=0.0, youtube_video;dur=1014.2, openai;dur=6431.4, total;dur=6443.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_02"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Mạc Đăng Dung lập ra nhà Mạc năm 1527, đánh dấu sự thay đổi quan trọng trong lịch sử Việt Nam đầu thế kỷ XVI. Sự kiện này mở đầu cho triều đại mới và góp phần vào các biến động lịch sử tiếp theo.",
+      "key_points": [
+        "Mạc Đăng Dung lập nhà Mạc năm 1527.",
+        "Nhà Mạc được thành lập sau khi Mạc Đăng Dung nắm quyền lực chính trị.",
+        "Sự kiện này đánh dấu bước chuyển lịch sử quan trọng đầu thế kỷ XVI.",
+        "Nhà Mạc mở đầu cho cuộc xung đột Nam - Bắc triều.",
+        "Ảnh hưởng sâu rộng đến chính trị và xã hội Việt Nam thời đó."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 3,
+      "question": "Vì sao hình thành cục diện Nam triều – Bắc triều?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_03",
+      "reference_answer": "Sau khi nhà Mạc thay nhà Lê, một bộ phận cựu thần nhà Lê do Nguyễn Kim đứng đầu dựng lại nhà Lê ở Thanh Hóa năm 1533, hình thành Nam triều đối đầu với Bắc triều nhà Mạc.",
+      "status": 200,
+      "elapsed_seconds": 9.746,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=1017.4, openai;dur=9291.6, total;dur=9303.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_03"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.8636,
+      "reference_numbers_present": true,
+      "summary": "Cục diện Nam triều – Bắc triều hình thành do sự tranh giành quyền lực giữa nhà Mạc và nhóm quan lại trung thành với nhà Lê, dẫn đến sự chia cắt đất nước thành hai chính quyền đối lập.",
+      "key_points": [
+        "Nhà Mạc thay thế nhà Lê tạo ra xung đột chính trị.",
+        "Nguyễn Kim đứng đầu nhóm trung thành nhà Lê ở Thanh Hóa năm 1533.",
+        "Sự kiện này dẫn đến sự hình thành hai triều đại đối lập: Nam triều và Bắc triều.",
+        "Nam triều trung thành với nhà Lê, Bắc triều thuộc nhà Mạc.",
+        "Cục diện này gây chia cắt và xung đột trong nước Việt Nam.",
+        "Diễn biến này ảnh hưởng sâu rộng đến lịch sử Việt Nam giai đoạn từ thế kỷ XVI đến XVIII.",
+        "Nguyễn Kim là nhân vật quan trọng trong việc giữ truyền thống nhà Lê."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 4,
+      "question": "Bắc triều do lực lượng nào đứng đầu?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_04",
+      "reference_answer": "Bắc triều là chính quyền nhà Mạc, đứng đầu bởi Mạc Đăng Dung và các vua Mạc kế tiếp.",
+      "status": 200,
+      "elapsed_seconds": 10.37,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=1.6, openai;dur=9910.5, total;dur=9916.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_04"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Bắc triều là chính quyền nhà Mạc, do Mạc Đăng Dung và các vua Mạc kế tiếp đứng đầu trong cuộc xung đột Nam - Bắc triều.",
+      "key_points": [
+        "Bắc triều do chính quyền nhà Mạc lãnh đạo.",
+        "Mạc Đăng Dung là người đứng đầu và sáng lập Bắc triều.",
+        "Sau Mạc Đăng Dung, các vua Mạc kế tiếp tiếp tục đứng đầu Bắc triều.",
+        "Bắc triều đối đầu với Nam triều nhà Lê trong cuộc xung đột lịch sử.",
+        "Cuộc xung đột này được gọi là cuộc xung đột Nam - Bắc triều."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 5,
+      "question": "Nam triều do lực lượng nào đứng đầu?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_05",
+      "reference_answer": "Nam triều danh nghĩa do vua Lê đứng đầu, nhưng quyền lực thực tế ban đầu nằm trong tay Nguyễn Kim rồi họ Trịnh.",
+      "status": 200,
+      "elapsed_seconds": 8.782,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=1.7, openai;dur=8313.3, total;dur=8317.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_05"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Nam triều danh nghĩa do vua Lê đứng đầu, nhưng quyền lực thực tế ban đầu thuộc về Nguyễn Kim rồi chuyển sang họ Trịnh.",
+      "key_points": [
+        "Nam triều do vua Lê đứng đầu về danh nghĩa.",
+        "Quyền lực thực tế ban đầu thuộc về Nguyễn Kim.",
+        "Nguyễn Kim giữ vai trò lãnh đạo quan trọng trong triều.",
+        "Sau Nguyễn Kim, quyền lực thực tế nằm trong tay họ Trịnh.",
+        "Họ Trịnh nắm quyền Thực lực trong Nam triều."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 6,
+      "question": "Năm 1592 có sự kiện quan trọng nào liên quan đến nhà Mạc?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_06",
+      "reference_answer": "Năm 1592, quân Nam triều chiếm Thăng Long; nhà Mạc mất kinh đô và rút lên Cao Bằng.",
+      "status": 200,
+      "elapsed_seconds": 9.787,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2137.3, openai;dur=8940.0, total;dur=8973.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_06"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Năm 1592 là năm diễn ra sự kiện quan trọng liên quan đến nhà Mạc khi quân Nam triều chiếm Thăng Long, khiến nhà Mạc phải mất kinh đô và rút lên Cao Bằng.",
+      "key_points": [
+        "Năm 1592, quân Nam triều chiếm Thăng Long.",
+        "Nhà Mạc mất kinh đô trọng yếu.",
+        "Nhà Mạc rút lên Cao Bằng để duy trì lực lượng.",
+        "Sự kiện đánh dấu bước ngoặt lớn trong cuộc xung đột Nam - Bắc triều.",
+        "Đây là bước tiến cho Nam triều trong việc thống nhất đất nước.",
+        "Thăng Long là trung tâm quyền lực then chốt của nhà Mạc.",
+        "Nhà Mạc yếu thế hơn sau sự kiện này."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 7,
+      "question": "Vì sao sau khi nhà Lê được khôi phục, đất nước vẫn tiếp tục bị chia cắt?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_07",
+      "reference_answer": "Quyền lực sau khi nhà Lê được khôi phục rơi vào tay họ Trịnh; mâu thuẫn giữa họ Trịnh và họ Nguyễn phát triển thành chiến tranh, khiến đất nước tiếp tục chia cắt.",
+      "status": 200,
+      "elapsed_seconds": 9.43,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2369.2, openai;dur=9010.8, total;dur=9015.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_07"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9615,
+      "reference_numbers_present": true,
+      "summary": "Sau khi nhà Lê được khôi phục, quyền lực thực tế thuộc về họ Trịnh, còn mâu thuẫn giữa họ Trịnh và họ Nguyễn phát triển thành chiến tranh khiến đất nước tiếp tục bị chia cắt thành hai miền Nam - Bắc.",
+      "key_points": [
+        "Nhà Lê được khôi phục nhưng vua chỉ mang tính hình thức.",
+        "Quyền lực thực tế thuộc về họ Trịnh ở miền Bắc.",
+        "Họ Nguyễn giữ quyền lực ở miền Nam.",
+        "Mâu thuẫn giữa họ Trịnh và họ Nguyễn dẫn đến chiến tranh.",
+        "Chiến tranh làm đất nước tiếp tục bị chia cắt thành Nam và Bắc.",
+        "Sự chia cắt tồn tại dù nhà Lê vẫn là danh nghĩa thống nhất đất nước.",
+        "Nguyên nhân chính là xung đột quyền lực giữa hai họ Trịnh và Nguyễn."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 8,
+      "question": "Họ Trịnh kiểm soát khu vực nào và họ Nguyễn kiểm soát khu vực nào?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_08",
+      "reference_answer": "Họ Trịnh kiểm soát Đàng Ngoài từ sông Gianh trở ra; họ Nguyễn kiểm soát Đàng Trong từ sông Gianh trở vào Nam.",
+      "status": 200,
+      "elapsed_seconds": 9.693,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2122.9, openai;dur=9225.5, total;dur=9232.8",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_08"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Họ Trịnh kiểm soát khu vực Đàng Ngoài từ sông Gianh trở ra, còn họ Nguyễn kiểm soát khu vực Đàng Trong từ sông Gianh trở vào Nam trong lịch sử Việt Nam thế kỷ XVI đến XVIII.",
+      "key_points": [
+        "Họ Trịnh kiểm soát Đàng Ngoài.",
+        "Đàng Ngoài từ sông Gianh trở ra phía Bắc.",
+        "Họ Nguyễn kiểm soát Đàng Trong.",
+        "Đàng Trong từ sông Gianh trở vào Nam.",
+        "Sông Gianh là ranh giới giữa hai khu vực kiểm soát.",
+        "Thời kỳ này là đầu thế kỉ XVI đến thế kỉ XVIII.",
+        "Phân chia quyền lực thể hiện qua vị trí địa lý rõ ràng."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "question_number": 9,
+      "question": "Chiến tranh Trịnh – Nguyễn diễn ra trong khoảng thời gian nào?",
+      "expected_id": "CHK_HIST8_CHUONG_3_20_CAU_CB_09",
+      "reference_answer": "Chiến tranh Trịnh – Nguyễn diễn ra qua nhiều đợt từ năm 1627 đến năm 1672.",
+      "status": 200,
+      "elapsed_seconds": 10.864,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=1.5, openai;dur=10417.7, total;dur=10425.3",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_CHUONG_3_20_CAU_CB_09"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Chiến tranh Trịnh – Nguyễn diễn ra qua nhiều đợt từ năm 1627 đến năm 1672, kéo dài trong gần nửa thế kỷ và là cuộc xung đột lịch sử giữa hai thế lực Trịnh và Nguyễn ở Việt Nam.",
+      "key_points": [
+        "Chiến tranh Trịnh – Nguyễn diễn ra từ năm 1627 đến năm 1672.",
+        "Cuộc chiến được tiến hành qua nhiều đợt khác nhau.",
+        "Là cuộc xung đột giữa hai thế lực Trịnh (Bắc) và Nguyễn (Nam).",
+        "Phản ánh sự phân tranh và chia cắt Nam – Bắc Việt Nam trong thế kỷ XVII.",
+        "Ảnh hưởng sâu sắc đến tình hình chính trị và xã hội đất nước.",
+        "Giúp hiểu về giai đoạn lịch sử đặc trưng với sự chia cắt quyền lực.",
+        "Là một phần quan trọng của lịch sử Việt Nam từ đầu thế kỷ XVI đến thế kỷ XVIII."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 1,
+      "question": "Những biến đổi kinh tế nào dẫn đến sự hình thành chủ nghĩa đế quốc cuối thế kỉ XIX?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_CB_01",
+      "reference_answer": "Cuộc cách mạng công nghiệp mới làm sản xuất và tư bản tập trung cao độ; cạnh tranh dẫn tới các công ty độc quyền, tư bản ngân hàng hòa với tư bản công nghiệp thành tư bản tài chính, thúc đẩy xuất khẩu tư bản và tranh giành thuộc địa.",
+      "status": 200,
+      "elapsed_seconds": 13.071,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2327.7, openai;dur=12326.6, total;dur=12331.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_CB_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9677,
+      "reference_numbers_present": true,
+      "summary": "Cuộc cách mạng công nghiệp mới vào cuối thế kỉ XIX đã tạo ra những biến đổi kinh tế sâu sắc, dẫn đến sự hình thành chủ nghĩa đế quốc. Sản xuất và tư bản tập trung cao độ, hình thành các công ty độc quyền. Tư bản ngân hàng hợp nhất với tư bản công nghiệp tạo thành tư bản tài chính, thúc đẩy xuất khẩu tư bản và tranh giành thuộc địa.",
+      "key_points": [
+        "Cuộc cách mạng công nghiệp mới tập trung sản xuất và tư bản cao độ.",
+        "Cạnh tranh thúc đẩy sự hình thành các công ty độc quyền.",
+        "Tư bản ngân hàng kết hợp với tư bản công nghiệp tạo thành tư bản tài chính.",
+        "Xuất khẩu tư bản trở nên phổ biến để tìm kiếm lợi nhuận ở nước ngoài.",
+        "Tranh giành thuộc địa làm tăng sức mạnh kinh tế và chính trị cho các nước đế quốc."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 2,
+      "question": "Các tổ chức độc quyền ra đời trong hoàn cảnh nào và tác động như thế nào đến nền kinh tế?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_CB_02",
+      "reference_answer": "Khi sản xuất quy mô lớn cần vốn khổng lồ và cạnh tranh gay gắt, các doanh nghiệp liên kết hoặc thôn tính nhau thành cartel, syndicate, trust. Chúng chi phối giá, thị trường và chính sách nhà nước, làm cạnh tranh tự do chuyển dần sang độc quyền.",
+      "status": 200,
+      "elapsed_seconds": 9.202,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2190.5, openai;dur=8540.9, total;dur=8552.3",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_CB_02"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9231,
+      "reference_numbers_present": true,
+      "summary": "Các tổ chức độc quyền ra đời trong bối cảnh sản xuất quy mô lớn cần vốn nhiều và cạnh tranh quyết liệt. Doanh nghiệp lớn liên kết hoặc thôn tính nhau thành các loại tổ chức như cartel, syndicate, trust, chi phối giá cả và thị trường, từ đó làm giảm cạnh tranh tự do và chuyển sang độc quyền.",
+      "key_points": [
+        "Ra đời trong bối cảnh sản xuất quy mô lớn và cạnh tranh gay gắt.",
+        "Doanh nghiệp liên kết thành cartel, syndicate, trust.",
+        "Tổ chức độc quyền kiểm soát giá cả và thị trường.",
+        "Chi phối chính sách nhà nước.",
+        "Làm giảm cạnh tranh tự do, chuyển sang độc quyền.",
+        "Ảnh hưởng tiêu cực đến kinh tế thị trường tự do."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 3,
+      "question": "Nước Anh cuối thế kỉ XIX còn giữ những thế mạnh kinh tế và thuộc địa nào?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_CB_03",
+      "reference_answer": "Dù tốc độ công nghiệp chậm hơn Mỹ và Đức, Anh vẫn mạnh về thương mại, hàng hải, ngân hàng và xuất khẩu tư bản; nước này sở hữu hệ thống thuộc địa rộng nhất thế giới nên được gọi là đế quốc thực dân.",
+      "status": 200,
+      "elapsed_seconds": 11.498,
+      "server_timing": "retrieval;dur=0.7, generation_lock;dur=0.0, youtube_video;dur=3340.7, openai;dur=10989.4, total;dur=10997.1",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_CB_03"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9722,
+      "reference_numbers_present": true,
+      "summary": "Cuối thế kỉ XIX, nước Anh tuy công nghiệp phát triển chậm hơn Mỹ và Đức nhưng vẫn duy trì được những thế mạnh kinh tế quan trọng và sở hữu hệ thống thuộc địa rộng lớn nhất thế giới, tạo nên quyền lực của một đế quốc thực dân.",
+      "key_points": [
+        "Anh mạnh về thương mại quốc tế và hàng hải.",
+        "Hệ thống ngân hàng Anh rất phát triển.",
+        "Anh xuất khẩu tư bản sang các nước khác.",
+        "Anh sở hữu hệ thống thuộc địa rộng nhất thế giới.",
+        "Anh được biết đến như một đế quốc thực dân có ảnh hưởng lớn.",
+        "Công nghiệp phát triển chậm hơn Mỹ và Đức nhưng không làm giảm vị thế kinh tế của Anh.",
+        "Thuộc địa giúp nước Anh mở rộng ảnh hưởng chính trị và kinh tế toàn cầu."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 4,
+      "question": "Kinh tế Pháp cuối thế kỉ XIX có đặc điểm nổi bật gì?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_CB_04",
+      "reference_answer": "Công nghiệp Pháp phát triển chậm và quy mô nhiều xí nghiệp còn vừa, nhỏ; ngân hàng và cho vay lấy lãi giữ vai trò nổi bật, tư bản được xuất khẩu nhiều, đồng thời Pháp mở rộng một đế quốc thuộc địa lớn.",
+      "status": 200,
+      "elapsed_seconds": 12.163,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2889.7, openai;dur=11682.6, total;dur=11692.0",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_CB_04"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9118,
+      "reference_numbers_present": true,
+      "summary": "Cuối thế kỉ XIX, kinh tế Pháp phát triển chậm so với các nước khác, có nhiều doanh nghiệp vừa và nhỏ, nhưng hệ thống ngân hàng và hoạt động cho vay lấy lãi rất phát triển. Ngoài ra, Pháp đầu tư mạnh vào nước ngoài và mở rộng đế quốc thuộc địa.",
+      "key_points": [
+        "Công nghiệp phát triển chậm.",
+        "Nhiều xí nghiệp vừa và nhỏ.",
+        "Ngân hàng và cho vay lấy lãi rất quan trọng.",
+        "Xuất khẩu tư bản ra nước ngoài nhiều.",
+        "Pháp mở rộng đế quốc thuộc địa lớn.",
+        "Tập trung phát triển tài chính hơn là công nghiệp lớn.",
+        "Thuộc địa vừa cung cấp nguyên liệu vừa là thị trường tiêu thụ"
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 5,
+      "question": "Những điều kiện nào thúc đẩy công nghiệp Đức phát triển nhanh cuối thế kỉ XIX?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_CB_05",
+      "reference_answer": "Nước Đức thống nhất năm 1871 tạo thị trường chung; có than, sắt, bồi thường chiến tranh từ Pháp, tiếp thu kĩ thuật mới, hệ thống giáo dục tốt và được nhà nước hỗ trợ, nên công nghiệp nặng phát triển rất nhanh.",
+      "status": 200,
+      "elapsed_seconds": 9.6,
+      "server_timing": "retrieval;dur=0.7, generation_lock;dur=0.0, youtube_video;dur=2.5, openai;dur=8789.7, total;dur=8809.5",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_CB_05"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9444,
+      "reference_numbers_present": true,
+      "summary": "Cuối thế kỉ XIX, công nghiệp Đức phát triển nhanh nhờ nhiều điều kiện thuận lợi. Nước Đức thống nhất tạo ra thị trường chung rộng lớn, có nguồn tài nguyên than và sắt dồi dào, nhận bồi thường chiến tranh từ Pháp, tiếp thu kỹ thuật mới, hệ thống giáo dục phát triển và có sự hỗ trợ tích cực từ nhà nước. Những yếu tố này đã thúc đẩy công nghiệp nặng phát triển mạnh mẽ ở Đức.",
+      "key_points": [
+        "Nước Đức thống nhất năm 1871 tạo thị trường chung rộng lớn.",
+        "Có nguồn than và sắt dồi dào làm nguyên liệu cho công nghiệp nặng.",
+        "Nhận bồi thường chiến tranh từ Pháp giúp có vốn phát triển.",
+        "Tiếp thu kỹ thuật và công nghệ mới từ nước ngoài.",
+        "Hệ thống giáo dục phát triển, đào tạo nguồn nhân lực chất lượng.",
+        "Nhà nước có chính sách hỗ trợ công nghiệp, đặc biệt là công nghiệp nặng.",
+        "Nhờ đó công nghiệp Đức phát triển nhanh chóng cuối thế kỉ XIX."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 6,
+      "question": "Những điều kiện nào giúp kinh tế Mỹ vươn lên mạnh mẽ cuối thế kỉ XIX?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_CB_06",
+      "reference_answer": "Hoa Kỳ có lãnh thổ, tài nguyên và thị trường rộng, lao động nhập cư dồi dào, tích lũy vốn lớn, đường sắt phát triển, ứng dụng kĩ thuật và tổ chức sản xuất mới, lại ít bị chiến tranh tàn phá trên lãnh thổ.",
+      "status": 200,
+      "elapsed_seconds": 8.136,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2.6, openai;dur=7706.3, total;dur=7712.1",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_CB_06"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9474,
+      "reference_numbers_present": true,
+      "summary": "Cuối thế kỉ XIX, kinh tế Mỹ phát triển mạnh mẽ nhờ có nhiều điều kiện thuận lợi như lãnh thổ rộng lớn, tài nguyên phong phú, nguồn lao động nhập cư dồi dào, tích luỹ vốn lớn, hệ thống đường sắt phát triển và việc ứng dụng kỹ thuật cùng tổ chức sản xuất mới. Ngoài ra, nước Mỹ ít bị ảnh hưởng bởi chiến tranh trên đất liền, giúp kinh tế ổn định và phát triển.",
+      "key_points": [
+        "Hoa Kỳ có lãnh thổ rộng lớn với tài nguyên phong phú.",
+        "Nguồn lao động dồi dào nhờ nhập cư.",
+        "Tích lũy vốn lớn để đầu tư phát triển.",
+        "Đường sắt phát triển thuận tiện cho giao thương.",
+        "Ứng dụng kỹ thuật và tổ chức sản xuất mới nâng cao năng suất.",
+        "Ít bị chiến tranh tàn phá nên kinh tế ổn định.",
+        "Đây là các điều kiện giúp kinh tế Mỹ phát triển mạnh cuối thế kỉ XIX."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 7,
+      "question": "Chính sách đối ngoại của các nước đế quốc Âu – Mỹ có những điểm chung nào?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_CB_07",
+      "reference_answer": "Các đế quốc đều tăng cường chạy đua vũ trang, bành trướng, xuất khẩu tư bản, tranh giành thị trường, nguyên liệu và thuộc địa; họ dùng sức ép ngoại giao hoặc chiến tranh để phân chia thế giới.",
+      "status": 200,
+      "elapsed_seconds": 12.902,
+      "server_timing": "retrieval;dur=0.6, generation_lock;dur=0.0, youtube_video;dur=2.7, openai;dur=12215.3, total;dur=12229.5",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_CB_07"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9667,
+      "reference_numbers_present": true,
+      "summary": "Chính sách đối ngoại của các nước đế quốc Âu – Mỹ cuối thế kỉ XIX đến đầu thế kỉ XX có những điểm chung nổi bật như tăng cường chạy đua vũ trang, bành trướng lãnh thổ, xuất khẩu tư bản, và tranh giành thị trường, nguyên liệu cùng thuộc địa. Họ thường sử dụng sức ép ngoại giao hoặc chiến tranh để phân chia thế giới.",
+      "key_points": [
+        "Tăng cường chạy đua vũ trang để củng cố sức mạnh quân sự.",
+        "Thực hiện chính sách bành trướng, mở rộng thuộc địa.",
+        "Xuất khẩu tư bản phát triển kinh tế và kiểm soát thị trường.",
+        "Tranh giành nguyên liệu và thị trường tại các thuộc địa.",
+        "Dùng sức ép ngoại giao hoặc chiến tranh để phân chia thế giới.",
+        "Gây ra các xung đột và tranh giành quyền lực quốc tế.",
+        "Ảnh hưởng lâu dài đến sự phát triển chính trị và kinh tế toàn cầu."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 8,
+      "question": "Sự phát triển không đều giữa các nước đế quốc dẫn đến những mâu thuẫn gì?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_CB_08",
+      "reference_answer": "Các nước công nghiệp mới như Đức và Mỹ tăng trưởng nhanh nhưng có ít thuộc địa hơn Anh, Pháp. Sự phân chia thuộc địa không tương xứng làm mâu thuẫn giữa các đế quốc gay gắt, dẫn đến liên minh quân sự và nguy cơ chiến tranh.",
+      "status": 200,
+      "elapsed_seconds": 9.613,
+      "server_timing": "retrieval;dur=0.7, generation_lock;dur=0.0, youtube_video;dur=2.3, openai;dur=9012.2, total;dur=9019.7",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_CB_08"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Sự phát triển không đều giữa các nước đế quốc cuối thế kỉ XIX đầu thế kỉ XX đã dẫn đến những mâu thuẫn gay gắt về phân chia thuộc địa, gây ra sự cạnh tranh quyết liệt và nguy cơ chiến tranh giữa các đế quốc.",
+      "key_points": [
+        "Các nước công nghiệp mới Đức và Mỹ tăng trưởng nhanh.",
+        "Họ có ít thuộc địa hơn Anh và Pháp.",
+        "Phân chia thuộc địa không tương xứng tạo mâu thuẫn.",
+        "Mâu thuẫn làm gay gắt cạnh tranh giữa các đế quốc.",
+        "Xuất hiện các liên minh quân sự dựa trên mâu thuẫn này.",
+        "Nguy cơ chiến tranh thế giới tăng cao do mâu thuẫn đó."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "question_number": 9,
+      "question": "Vì sao tiềm lực công nghiệp và quy mô thuộc địa của một nước đế quốc không phải lúc nào cũng tương ứng với nhau?",
+      "expected_id": "CHK_HIST8_LS_04_CAU_HOI_MR_01",
+      "reference_answer": "Sức mạnh công nghiệp phụ thuộc thời điểm công nghiệp hóa, tài nguyên, thị trường và công nghệ; thuộc địa còn do kết quả chinh phục trong nhiều thế kỉ. Vì vậy Anh, Pháp giữ nhiều thuộc địa dù tăng trưởng chậm hơn Đức, Mỹ.",
+      "status": 200,
+      "elapsed_seconds": 10.336,
+      "server_timing": "retrieval;dur=0.6, generation_lock;dur=0.0, youtube_video;dur=2086.6, openai;dur=9887.9, total;dur=9895.6",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_04_CAU_HOI_MR_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9355,
+      "reference_numbers_present": true,
+      "summary": "Tiềm lực công nghiệp của một nước đế quốc phụ thuộc vào nhiều yếu tố như thời điểm công nghiệp hóa, tài nguyên, thị trường và công nghệ, trong khi quy mô thuộc địa phản ánh thành quả chinh phục qua nhiều thế kỉ. Do đó, không phải lúc nào hai yếu tố này cũng tương ứng.",
+      "key_points": [
+        "Tiềm lực công nghiệp khác nhau tùy vào thời điểm công nghiệp hóa.",
+        "Tài nguyên và công nghệ ảnh hưởng lớn đến sức mạnh công nghiệp.",
+        "Quy mô thuộc địa là kết quả của nhiều thế kỉ chinh phục.",
+        "Anh và Pháp có nhiều thuộc địa dù công nghiệp phát triển chậm hơn.",
+        "Đức và Mỹ có công nghiệp mạnh nhưng không có nhiều thuộc địa như Anh, Pháp.",
+        "Tiềm lực công nghiệp và quy mô thuộc địa do nhiều yếu tố phức tạp quyết định.",
+        "Không thể lấy quy mô thuộc địa làm thước đo trực tiếp cho sức mạnh công nghiệp."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "question_number": 1,
+      "question": "Những điều kiện kinh tế và xã hội nào thúc đẩy khoa học, kĩ thuật phát triển trong các thế kỉ XVIII–XIX?",
+      "expected_id": "CHK_HIST8_LS_05_CAU_HOI_CB_01",
+      "reference_answer": "Cách mạng công nghiệp tạo nhu cầu cải tiến máy móc, giao thông và sản xuất; đô thị, giáo dục, báo chí và các viện nghiên cứu phát triển, trong khi cạnh tranh giữa doanh nghiệp và quốc gia thúc đẩy đầu tư cho khoa học, kĩ thuật.",
+      "status": 200,
+      "elapsed_seconds": 10.012,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2337.2, openai;dur=9615.2, total;dur=9619.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_05_CAU_HOI_CB_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Trong các thế kỉ XVIII–XIX, sự phát triển của khoa học và kỹ thuật được thúc đẩy bởi nhiều điều kiện kinh tế và xã hội. Cách mạng công nghiệp tạo ra nhu cầu cấp thiết về đổi mới kỹ thuật, đồng thời sự phát triển của đô thị, giáo dục, báo chí và các viện nghiên cứu góp phần thúc đẩy tiến bộ. Cạnh tranh giữa các doanh nghiệp và các quốc gia cũng kích thích đầu tư cho khoa học và kỹ thuật.",
+      "key_points": [
+        "Cách mạng công nghiệp là động lực kinh tế lớn cho phát triển khoa học kỹ thuật.",
+        "Nhu cầu cải tiến máy móc và phương tiện giao thông tăng cao.",
+        "Sự phát triển đô thị tạo môi trường thuận lợi cho khoa học kỹ thuật.",
+        "Giáo dục, báo chí và viện nghiên cứu phát triển góp phần lan truyền và sáng tạo kiến thức.",
+        "Cạnh tranh giữa doanh nghiệp và quốc gia thúc đẩy đầu tư và đổi mới.",
+        "Khoa học và kỹ thuật được xem là công cụ nâng cao năng lực sản xuất và quốc phòng.",
+        "Các yếu tố kinh tế và xã hội liên kết chặt chẽ thúc đẩy sự phát triển mạnh mẽ của khoa học kỹ thuật."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "question_number": 2,
+      "question": "Khoa học tự nhiên và khoa học xã hội khác nhau ở đối tượng nghiên cứu như thế nào?",
+      "expected_id": "CHK_HIST8_LS_05_CAU_HOI_CB_02",
+      "reference_answer": "Khoa học tự nhiên nghiên cứu vật chất, sự sống và các quy luật của tự nhiên; khoa học xã hội nghiên cứu con người, quan hệ, thể chế và sự vận động của xã hội.",
+      "status": 200,
+      "elapsed_seconds": 9.155,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2180.1, openai;dur=8625.5, total;dur=8633.5",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_05_CAU_HOI_CB_02"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Khoa học tự nhiên và khoa học xã hội khác nhau rõ rệt về đối tượng nghiên cứu. Khoa học tự nhiên tập trung vào nghiên cứu vật chất, sự sống và các quy luật của tự nhiên, trong khi khoa học xã hội nghiên cứu con người, các mối quan hệ xã hội, thể chế và sự vận động của xã hội.",
+      "key_points": [
+        "Khoa học tự nhiên nghiên cứu vật chất và sự sống.",
+        "Khoa học tự nhiên nghiên cứu các quy luật của tự nhiên.",
+        "Khoa học xã hội nghiên cứu con người.",
+        "Khoa học xã hội nghiên cứu quan hệ xã hội và thể chế.",
+        "Khoa học xã hội nghiên cứu vận động của xã hội.",
+        "Đối tượng nghiên cứu là yếu tố phân biệt chính giữa hai loại khoa học.",
+        "Khoa học tự nhiên tập trung vào thế giới tự nhiên, khoa học xã hội tập trung vào thế giới xã hội."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "question_number": 3,
+      "question": "Những thành tựu vật lí nào được nhắc đến khi tìm hiểu khoa học thời cận đại?",
+      "expected_id": "CHK_HIST8_LS_05_CAU_HOI_CB_03",
+      "reference_answer": "Các thành tựu tiêu biểu gồm cơ học và định luật vạn vật hấp dẫn của Newton, nghiên cứu về điện–từ của Oersted và Faraday, cùng các phát hiện về nhiệt, năng lượng và sự bảo toàn, chuyển hóa năng lượng.",
+      "status": 200,
+      "elapsed_seconds": 9.04,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2548.9, openai;dur=8619.2, total;dur=8626.3",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_05_CAU_HOI_CB_03"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.8929,
+      "reference_numbers_present": true,
+      "summary": "Thời cận đại đã ghi dấu nhiều thành tựu vật lí quan trọng, trong đó nổi bật là cơ học và định luật vạn vật hấp dẫn của Newton, các nghiên cứu về điện từ của Oersted và Faraday, cùng những phát hiện về nhiệt, năng lượng và các nguyên lý bảo toàn, chuyển hóa năng lượng.",
+      "key_points": [
+        "Newton phát minh cơ học và định luật vạn vật hấp dẫn.",
+        "Oersted phát hiện mối liên hệ giữa điện và từ trường.",
+        "Faraday phát triển cảm ứng điện từ, nền tảng cho điện học hiện đại.",
+        "Khám phá về nhiệt và quy luật bảo toàn năng lượng được hoàn thiện.",
+        "Các thành tựu này làm nền tảng cho khoa học và kỹ thuật hiện đại."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "question_number": 4,
+      "question": "Các nghiên cứu về điện và từ góp phần mở ra những khả năng ứng dụng nào?",
+      "expected_id": "CHK_HIST8_LS_05_CAU_HOI_CB_04",
+      "reference_answer": "Nghiên cứu điện và từ tạo cơ sở cho máy phát điện, động cơ điện, điện báo, chiếu sáng và về sau là nhiều thiết bị điện phục vụ sản xuất, giao thông và đời sống.",
+      "status": 200,
+      "elapsed_seconds": 9.728,
+      "server_timing": "retrieval;dur=0.7, generation_lock;dur=0.0, youtube_video;dur=5476.3, openai;dur=9127.0, total;dur=9137.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_05_CAU_HOI_CB_04"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9524,
+      "reference_numbers_present": true,
+      "summary": "Các nghiên cứu về điện và từ trong các thế kỉ XVIII - XIX đã mở ra nhiều khả năng ứng dụng quan trọng, đặc biệt là trong sản xuất, giao thông và đời sống hàng ngày.",
+      "key_points": [
+        "Nghiên cứu điện và từ là nền tảng khoa học quan trọng của thế kỉ XVIII - XIX.",
+        "Máy phát điện và động cơ điện là những phát minh từ nghiên cứu này.",
+        "Điện báo giúp cải thiện liên lạc và truyền tin nhanh chóng.",
+        "Chiếu sáng bằng điện thay thế các nguồn sáng truyền thống.",
+        "Các thiết bị điện phục vụ sản xuất và giao thông giúp nâng cao năng suất và hiệu quả.",
+        "Các ứng dụng điện đã làm thay đổi đời sống và xã hội hiện đại.",
+        "Nghiên cứu khoa học đã thúc đẩy kỹ thuật và cuộc sống phát triển."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "question_number": 5,
+      "question": "Học thuyết tế bào có ý nghĩa gì đối với nhận thức về thế giới sinh vật?",
+      "expected_id": "CHK_HIST8_LS_05_CAU_HOI_CB_05",
+      "reference_answer": "Học thuyết tế bào chứng minh tế bào là đơn vị cấu tạo cơ bản của cơ thể sống và tế bào mới sinh từ tế bào có trước, tạo nền tảng thống nhất cho sinh học, giải phẫu và y học hiện đại.",
+      "status": 200,
+      "elapsed_seconds": 7.303,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2.1, openai;dur=6816.0, total;dur=6826.7",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_05_CAU_HOI_CB_05"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9048,
+      "reference_numbers_present": true,
+      "summary": "Học thuyết tế bào mở ra nhận thức mới về cấu trúc và quá trình sống của sinh vật, đặt nền móng cho các ngành khoa học sâu rộng như sinh học hiện đại, giải phẫu và y học.",
+      "key_points": [
+        "Tế bào là đơn vị cấu tạo cơ bản của cơ thể sống.",
+        "Các tế bào mới sinh ra từ tế bào có trước.",
+        "Làm nền tảng cho sinh học hiện đại.",
+        "Giúp giải thích quá trình phát triển và chức năng của sinh vật.",
+        "Có vai trò quan trọng trong giải phẫu và y học.",
+        "Thúc đẩy sự phát triển của nhiều ngành khoa học liên quan.",
+        "Mở rộng nhận thức về thế giới sinh vật ở cấp độ cơ bản nhất."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "question_number": 6,
+      "question": "Thuyết tiến hóa của Đác-uyn làm thay đổi cách giải thích sự phát triển của sinh giới như thế nào?",
+      "expected_id": "CHK_HIST8_LS_05_CAU_HOI_CB_06",
+      "reference_answer": "Darwin giải thích sinh giới biến đổi qua biến dị, di truyền và chọn lọc tự nhiên, thay cho quan niệm các loài bất biến; con người và sinh vật được nhìn nhận trong một quá trình tiến hóa lâu dài.",
+      "status": 200,
+      "elapsed_seconds": 9.889,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2.2, openai;dur=9329.3, total;dur=9333.1",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_05_CAU_HOI_CB_06"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.8621,
+      "reference_numbers_present": true,
+      "summary": "Thuyết tiến hóa của Đác-uyn đã thay đổi cách hiểu về sự phát triển của sinh giới bằng cách giới thiệu cơ chế biến dị, di truyền và chọn lọc tự nhiên. Nó kết thúc quan niệm các loài sinh vật là bất biến và cho thấy con người cùng các sinh vật khác đều trải qua quá trình tiến hóa lâu dài.",
+      "key_points": [
+        "Đác-uyn giải thích sinh giới phát triển qua biến dị, di truyền, chọn lọc tự nhiên.",
+        "Quan niệm trước là các loài bất biến, không thay đổi theo thời gian.",
+        "Chọn lọc tự nhiên giúp duy trì các đặc điểm phù hợp với môi trường.",
+        "Thuyết này đặt con người và sinh vật trong quá trình tiến hóa lâu dài.",
+        "Giải thích này thay thế quan niệm cố định truyền thống về sự sống."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "question_number": 7,
+      "question": "Định luật bảo toàn và chuyển hóa năng lượng có ý nghĩa gì đối với khoa học?",
+      "expected_id": "CHK_HIST8_LS_05_CAU_HOI_CB_07",
+      "reference_answer": "Định luật cho biết năng lượng không tự sinh ra hay mất đi mà chỉ chuyển từ dạng này sang dạng khác, thống nhất cách hiểu nhiều hiện tượng vật lí và tạo nền tảng cho nghiên cứu, thiết kế máy móc.",
+      "status": 200,
+      "elapsed_seconds": 8.23,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2537.9, openai;dur=7734.1, total;dur=7744.7",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_05_CAU_HOI_CB_07"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9118,
+      "reference_numbers_present": true,
+      "summary": "Định luật bảo toàn và chuyển hóa năng lượng là một nguyên lý cơ bản trong khoa học, giúp giải thích các hiện tượng vật lý và ứng dụng trong thiết kế máy móc.",
+      "key_points": [
+        "Năng lượng không tự sinh ra hoặc mất đi, chỉ chuyển hóa dạng.",
+        "Định luật giúp giải thích nhiều hiện tượng vật lý.",
+        "Nền tảng cho nghiên cứu khoa học và kỹ thuật.",
+        "Giúp thiết kế máy móc và công nghệ hiệu quả hơn.",
+        "Là nguyên lý cơ bản của vật lý hiện đại.",
+        "Ứng dụng rộng rãi trong kỹ thuật và công nghiệp.",
+        "Góp phần thúc đẩy sự phát triển khoa học và kỹ thuật."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "question_number": 8,
+      "question": "Những tiến bộ trong hóa học có ảnh hưởng gì đến sản xuất trong thế kỉ XIX?",
+      "expected_id": "CHK_HIST8_LS_05_CAU_HOI_CB_08",
+      "reference_answer": "Hóa học cung cấp hiểu biết về nguyên tố và phản ứng, đặc biệt qua bảng tuần hoàn; nó thúc đẩy sản xuất phân bón, thuốc nhuộm, dược phẩm, vật liệu, chất nổ và nhiều quy trình công nghiệp.",
+      "status": 200,
+      "elapsed_seconds": 10.509,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2883.7, openai;dur=9896.6, total;dur=9901.5",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_05_CAU_HOI_CB_08"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Trong thế kỉ XIX, những tiến bộ trong hóa học đã mang lại nhiều ảnh hưởng quan trọng đến sản xuất, giúp phát triển các ngành công nghiệp như phân bón, thuốc nhuộm, dược phẩm, vật liệu và chất nổ. Kiến thức về nguyên tố và phản ứng hóa học, đặc biệt là qua bảng tuần hoàn, đã thúc đẩy quy trình sản xuất công nghiệp hiện đại hơn.",
+      "key_points": [
+        "Tiến bộ trong hóa học giúp hiểu biết sâu hơn về nguyên tố và phản ứng.",
+        "Bảng tuần hoàn nguyên tố là công cụ quan trọng trong nghiên cứu hóa học.",
+        "Phân bón hóa học thúc đẩy nông nghiệp phát triển.",
+        "Thuốc nhuộm và dược phẩm được sản xuất đa dạng hơn.",
+        "Sản xuất vật liệu và chất nổ giúp cải thiện các ngành công nghiệp khác.",
+        "Hóa học đóng vai trò trung tâm trong quy trình sản xuất công nghiệp hiện đại.",
+        "Ảnh hưởng rộng rãi đến các lĩnh vực sản xuất và kinh tế thế kỉ XIX."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 1,
+      "question": "Vì sao Trung Quốc trở thành đối tượng xâm lược của các nước đế quốc trong thế kỉ XIX?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_01",
+      "reference_answer": "Trung Quốc có lãnh thổ rộng, dân đông, tài nguyên và thị trường lớn, nhưng nhà Thanh bảo thủ, quân sự lạc hậu và nội bộ khủng hoảng; các đế quốc muốn ép mở cửa, lấy nguyên liệu và chia phạm vi ảnh hưởng.",
+      "status": 200,
+      "elapsed_seconds": 11.406,
+      "server_timing": "retrieval;dur=0.7, generation_lock;dur=0.0, youtube_video;dur=2257.8, openai;dur=10482.7, total;dur=10492.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9677,
+      "reference_numbers_present": true,
+      "summary": "Trong thế kỉ XIX, Trung Quốc trở thành mục tiêu xâm lược của các nước đế quốc do có lãnh thổ rộng lớn, dân số đông, tài nguyên phong phú và thị trường lớn. Tuy nhiên, Chính quyền nhà Thanh bảo thủ, quân sự yếu kém và nội bộ đầy khủng hoảng khiến Trung Quốc không thể chống đỡ hiệu quả trước sức ép mở cửa của các nước đế quốc, dẫn đến việc bị chia cắt và xâm lược.",
+      "key_points": [
+        "Trung Quốc có lãnh thổ rộng và dân số đông.",
+        "Tài nguyên phong phú, thị trường lớn thu hút các nước đế quốc.",
+        "Nhà Thanh bảo thủ, chống đổi mới và quân sự lạc hậu.",
+        "Nội bộ Trung Quốc suy yếu, bất ổn do khủng hoảng chính trị.",
+        "Các nước đế quốc muốn khai thác nguyên liệu, mở cửa thị trường.",
+        "Trung Quốc trở thành mục tiêu chia cắt và xâm lược khi không đủ sức chống đỡ.",
+        "Áp lực mở cửa và chia phạm vi ảnh hưởng của các đế quốc diễn ra mạnh mẽ."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 2,
+      "question": "Chiến tranh thuốc phiện làm thay đổi tình hình Trung Quốc như thế nào?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_02",
+      "reference_answer": "Sau thất bại trong Chiến tranh thuốc phiện 1840–1842, nhà Thanh phải kí Hiệp ước Nam Kinh: nhượng Hồng Kông, mở cửa biển và bồi thường. Trung Quốc dần bị các nước đế quốc xâm phạm chủ quyền và trở thành nước nửa thuộc địa.",
+      "status": 200,
+      "elapsed_seconds": 13.511,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=2.3, openai;dur=13100.2, total;dur=13105.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_02"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9091,
+      "reference_numbers_present": true,
+      "summary": "Chiến tranh thuốc phiện (1840-1842) là bước ngoặt khiến Trung Quốc mất chủ quyền, phải nhượng đất, mở cửa cảng, và trở thành nước nửa thuộc địa dưới áp lực của các nước đế quốc.",
+      "key_points": [
+        "Chiến tranh thuốc phiện diễn ra 1840-1842 giữa Trung Quốc và Anh.",
+        "Nguyên nhân chính là Anh buôn bán thuốc phiện bất hợp pháp ở Trung Quốc.",
+        "Nhà Thanh quân yếu, thua trong chiến tranh khiến thế lực suy yếu.",
+        "Hiệp ước Nam Kinh khiến Trung Quốc phải nhượng Hồng Kông cho Anh.",
+        "Năm cảng biển Trung Quốc bị mở cửa cho thương nhân Anh và sau đó là các nước đế quốc khác.",
+        "Trung Quốc mất chủ quyền, trở thành nước nửa thuộc địa.",
+        "Chiến tranh thuốc phiện đánh dấu sự bắt đầu của thời kỳ suy yếu kéo dài của Trung Quốc."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 3,
+      "question": "Các nước đế quốc phân chia phạm vi ảnh hưởng ở Trung Quốc ra sao?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_03",
+      "reference_answer": "Các đế quốc ép thuê cảng, làm đường sắt, khai mỏ và xác lập khu vực lợi ích: Anh nổi bật ở lưu vực Dương Tử, Pháp ở miền Nam, Đức ở Sơn Đông, Nga ở Đông Bắc, Nhật ở vùng duyên hải; Trung Quốc bị ví như chiếc bánh bị chia cắt.",
+      "status": 200,
+      "elapsed_seconds": 10.157,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=3.0, openai;dur=9611.7, total;dur=9616.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_03"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9459,
+      "reference_numbers_present": true,
+      "summary": "Vào nửa sau thế kỉ XIX và đầu thế kỉ XX, các nước đế quốc đã phân chia Trung Quốc thành các khu vực ảnh hưởng riêng để khai thác kinh tế và chiến lược. Họ ép thuê cảng, xây dựng đường sắt, khai thác khoáng sản và xác lập các vùng ảnh hưởng, khiến Trung Quốc như chiếc bánh bị chia cắt.",
+      "key_points": [
+        "Trung Quốc bị chia thành nhiều khu vực ảnh hưởng do các nước đế quốc.",
+        "Anh chiếm ưu thế tại lưu vực sông Dương Tử.",
+        "Pháp kiểm soát miền Nam Trung Quốc.",
+        "Đức giành quyền tại bán đảo Sơn Đông.",
+        "Nga chiếm lĩnh Đông Bắc Trung Quốc.",
+        "Nhật Bản chiếm các vùng duyên hải.",
+        "Trung Quốc mất chủ quyền và bị chia cắt thành các khu vực lợi ích riêng biệt."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 4,
+      "question": "Cuộc khởi nghĩa Thái bình Thiên quốc có mục tiêu và kết quả gì?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_04",
+      "reference_answer": "Thái bình Thiên quốc 1851–1864 nhằm lật đổ nhà Thanh, chống áp bức và xây dựng một trật tự bình đẳng hơn, có chủ trương chia ruộng. Phong trào lập chính quyền rộng lớn nhưng cuối cùng bị quân Thanh và thế lực nước ngoài đàn áp.",
+      "status": 200,
+      "elapsed_seconds": 10.161,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=3240.1, openai;dur=9703.1, total;dur=9714.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_04"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9722,
+      "reference_numbers_present": true,
+      "summary": "Cuộc khởi nghĩa Thái bình Thiên quốc (1851-1864) là một cuộc nổi dậy lớn nhằm lật đổ triều đại nhà Thanh, chống lại sự áp bức, đồng thời xây dựng một xã hội công bằng hơn với chủ trương chia ruộng đất. Dù lập được chính quyền rộng lớn, khởi nghĩa cuối cùng bị đàn áp bởi quân chính phủ Thanh kết hợp với thế lực nước ngoài.",
+      "key_points": [
+        "Khởi nghĩa diễn ra năm 1851–1864 tại Trung Quốc.",
+        "Mục tiêu lật đổ nhà Thanh và chống áp bức phong kiến.",
+        "Chính sách chia ruộng đất nhằm tạo công bằng xã hội.",
+        "Xây dựng được chính quyền lớn trong thời gian phong trào.",
+        "Cuối cùng bị quân Thanh và thế lực nước ngoài đàn áp.",
+        "Phản ánh tinh thần đấu tranh chống bất công của nhân dân.",
+        "Có ý nghĩa lớn trong lịch sử Trung Quốc sau này."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 5,
+      "question": "Cuộc vận động Duy tân năm 1898 ở Trung Quốc nhằm mục đích gì và vì sao thất bại?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_05",
+      "reference_answer": "Duy tân Mậu Tuất năm 1898 muốn canh tân chính trị, kinh tế, quân sự và giáo dục theo hướng hiện đại. Phong trào chỉ kéo dài khoảng một trăm ngày vì lực lượng cải cách yếu, không nắm quân đội và bị phe bảo thủ của Từ Hi Thái hậu đàn áp.",
+      "status": 200,
+      "elapsed_seconds": 15.187,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2773.9, openai;dur=14765.6, total;dur=14769.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_05"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9756,
+      "reference_numbers_present": true,
+      "summary": "Cuộc vận động Duy tân năm 1898 ở Trung Quốc nhằm canh tân chính trị, kinh tế, quân sự và giáo dục theo hướng hiện đại. Phong trào này chỉ kéo dài khoảng một trăm ngày và thất bại do lực lượng cải cách yếu, không kiểm soát được quân đội và bị phe bảo thủ do Từ Hi Thái hậu lãnh đạo đàn áp.",
+      "key_points": [
+        "Cuộc vận động Duy tân năm 1898 nhằm hiện đại hóa chính trị, kinh tế, quân sự và giáo dục Trung Quốc.",
+        "Mục tiêu là nâng cao sức mạnh quốc gia trong bối cảnh bị các nước phương Tây đe dọa.",
+        "Phong trào kéo dài rất ngắn, khoảng một trăm ngày.",
+        "Lực lượng cải cách còn yếu, không kiểm soát được quân đội.",
+        "Phe bảo thủ do Từ Hi Thái hậu lãnh đạo đàn áp phong trào.",
+        "Thất bại của phong trào đã cho thấy sự khó khăn trong việc cải cách phương Tây hóa ở Trung Quốc lúc bấy giờ."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 6,
+      "question": "Phong trào Nghĩa Hòa đoàn bùng nổ trong hoàn cảnh nào?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_06",
+      "reference_answer": "Phong trào bùng nổ cuối thế kỉ XIX khi đế quốc xâu xé Trung Quốc, giáo sĩ và thương nhân nước ngoài lấn át, thiên tai và đời sống nông dân khó khăn; Nghĩa Hòa đoàn mang tinh thần chống ngoại xâm nhưng tổ chức còn hạn chế.",
+      "status": 200,
+      "elapsed_seconds": 8.911,
+      "server_timing": "retrieval;dur=0.8, generation_lock;dur=0.0, youtube_video;dur=2209.1, openai;dur=8400.8, total;dur=8410.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_06"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Phong trào Nghĩa Hòa đoàn bùng nổ vào cuối thế kỉ XIX trong bối cảnh Trung Quốc bị các đế quốc nước ngoài xâm lược, người nước ngoài lấn át về kinh tế và tôn giáo, cùng với thiên tai và đời sống nông dân ngày càng khó khăn. Dù mang tinh thần chống ngoại xâm mãnh liệt, tổ chức của Nghĩa Hòa đoàn vẫn còn nhiều hạn chế.",
+      "key_points": [
+        "Phong trào bùng nổ cuối thế kỉ XIX tại Trung Quốc.",
+        "Đế quốc nước ngoài xâu xé Trung Quốc rất ác liệt.",
+        "Giáo sĩ và thương nhân nước ngoài lấn át trên nhiều mặt.",
+        "Thiên tai gây khó khăn cho đời sống nông dân.",
+        "Nông dân chịu nhiều cảnh khổ nên bất mãn cao.",
+        "Phong trào mang tinh thần chống ngoại xâm mạnh mẽ.",
+        "Tổ chức của Nghĩa Hòa đoàn còn nhiều hạn chế."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 7,
+      "question": "Tôn Trung Sơn có vai trò gì đối với phong trào cách mạng Trung Quốc?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_07",
+      "reference_answer": "Tôn Trung Sơn truyền bá tư tưởng Tam dân, tập hợp lực lượng cách mạng và thành lập Trung Quốc Đồng minh hội năm 1905; ông định hướng và trở thành lãnh tụ tiêu biểu của Cách mạng Tân Hợi.",
+      "status": 200,
+      "elapsed_seconds": 7.237,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2.3, openai;dur=6760.8, total;dur=6767.7",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_07"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Tôn Trung Sơn là lãnh tụ tiêu biểu của phong trào cách mạng Trung Quốc đầu thế kỷ XX. Ông truyền bá tư tưởng Tam dân, tập hợp lực lượng cách mạng và thành lập Trung Quốc Đồng minh hội để đấu tranh chống lại chế độ phong kiến nhà Thanh, mở đường cho cuộc Cách mạng Tân Hợi thành công.",
+      "key_points": [
+        "Tôn Trung Sơn truyền bá tư tưởng Tam dân.",
+        "Ông thành lập Trung Quốc Đồng minh hội năm 1905.",
+        "Đồng minh hội là tổ chức cách mạng quan trọng.",
+        "Ông là lãnh tụ tiêu biểu của phong trào cách mạng.",
+        "Ông dẫn dắt cuộc Cách mạng Tân Hợi lật đổ triều Thanh."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 8,
+      "question": "Cách mạng Tân Hợi năm 1911 có kết quả, ý nghĩa và hạn chế gì?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_08",
+      "reference_answer": "Cách mạng 1911 lật đổ nhà Thanh, chấm dứt chế độ quân chủ hàng nghìn năm và lập Trung Hoa Dân quốc. Tuy nhiên nó không đánh đuổi đế quốc, không giải quyết ruộng đất, thành quả rơi vào tay Viên Thế Khải nên xã hội chưa đổi thay triệt để.",
+      "status": 200,
+      "elapsed_seconds": 11.164,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=1890.3, openai;dur=10675.7, total;dur=10680.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_08"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9512,
+      "reference_numbers_present": true,
+      "summary": "Cách mạng Tân Hợi năm 1911 là một cuộc cách mạng lớn ở Trung Quốc, đã lật đổ nhà Thanh và chấm dứt chế độ quân chủ kéo dài hàng nghìn năm, thành lập nền cộng hòa Trung Hoa Dân quốc. Tuy nhiên, cuộc cách mạng chưa loại bỏ được sự thống trị của thực dân đế quốc, không giải quyết được các vấn đề ruộng đất và các mâu thuẫn xã hội sâu sắc, đồng thời quyền lực sau cách mạng rơi vào tay Viên Thế Khải, khiến xã hội chưa có sự thay đổi triệt để.",
+      "key_points": [
+        "Cách mạng Tân Hợi năm 1911 lật đổ nhà Thanh.",
+        "Chấm dứt chế độ quân chủ phong kiến hàng nghìn năm ở Trung Quốc.",
+        "Thành lập nền Cộng hòa Trung Hoa Dân quốc.",
+        "Không đánh đuổi được các thế lực đế quốc thực dân.",
+        "Không giải quyết được vấn đề ruộng đất và các mâu thuẫn xã hội.",
+        "Quyền lực chuyển về tay Viên Thế Khải sau cách mạng.",
+        "Xã hội Trung Quốc chưa có sự đổi thay triệt để sau cách mạng."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "question_number": 9,
+      "question": "Nhật Bản giữa thế kỉ XIX đứng trước những khó khăn và sức ép nào?",
+      "expected_id": "CHK_HIST8_LS_06_CAU_HOI_CB_09",
+      "reference_answer": "Chế độ Mạc phủ khủng hoảng, kinh tế–xã hội biến đổi nhưng phong kiến cát cứ cản trở; từ năm 1853, tàu chiến Hoa Kỳ và các nước phương Tây ép Nhật mở cửa, kí hiệp ước bất bình đẳng, đe dọa độc lập.",
+      "status": 200,
+      "elapsed_seconds": 9.014,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=1853.6, openai;dur=8459.1, total;dur=8471.3",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_06_CAU_HOI_CB_09"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9474,
+      "reference_numbers_present": true,
+      "summary": "Giữa thế kỉ XIX, Nhật Bản đối mặt với nhiều khó khăn và sức ép lớn cả về chính trị, kinh tế và ngoại giao. Chế độ Mạc phủ suy yếu trong khi kinh tế – xã hội thay đổi, nhưng phong kiến cát cứ vẫn gây khó khăn cho sự phát triển. Nhật Bản bị các cường quốc phương Tây, đặc biệt là Hoa Kỳ, dùng sức mạnh quân sự ép mở cửa và ký các hiệp ước bất bình đẳng, đe dọa đến độc lập quốc gia.",
+      "key_points": [
+        "Chế độ Mạc phủ Nhật Bản giữa thế kỉ XIX đang suy yếu rõ rệt.",
+        "Kinh tế và xã hội Nhật có nhiều thay đổi nhưng vẫn bị chia rẽ bởi phong kiến cát cứ.",
+        "Năm 1853, tàu chiến Hoa Kỳ xuất hiện, buộc Nhật phải mở cửa đất nước.",
+        "Các nước phương Tây ép Nhật ký các hiệp ước bất bình đẳng.",
+        "Những hiệp ước này đe dọa nghiêm trọng nền độc lập của Nhật Bản."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "question_number": 1,
+      "question": "Nhà Nguyễn được thành lập trong hoàn cảnh nào và chọn kinh đô ở đâu?",
+      "expected_id": "CHK_HIST8_LS_07_CAU_HOI_CB_01",
+      "reference_answer": "Sau khi đánh bại Tây Sơn, Nguyễn Ánh lên ngôi năm 1802, lấy niên hiệu Gia Long, lập triều Nguyễn và thống nhất lãnh thổ; triều đình chọn Phú Xuân, tức Huế, làm kinh đô.",
+      "status": 200,
+      "elapsed_seconds": 9.519,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=657.3, openai;dur=8573.9, total;dur=8586.2",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_07_CAU_HOI_CB_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.963,
+      "reference_numbers_present": true,
+      "summary": "Nhà Nguyễn được thành lập sau khi Nguyễn Ánh đánh bại nhà Tây Sơn vào năm 1802. Ông lên ngôi, lấy niên hiệu Gia Long và thống nhất đất nước. Kinh đô được chọn là Phú Xuân, tức thành phố Huế ngày nay.",
+      "key_points": [
+        "Nhà Nguyễn được thành lập năm 1802 sau khi Nguyễn Ánh đánh bại nhà Tây Sơn.",
+        "Nguyễn Ánh lên ngôi hoàng đế, lấy niên hiệu là Gia Long.",
+        "Triều Nguyễn thống nhất lãnh thổ Việt Nam sau thời gian chiến tranh kéo dài.",
+        "Phú Xuân được chọn làm kinh đô của nhà Nguyễn.",
+        "Phú Xuân chính là thành phố Huế ngày nay."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "question_number": 2,
+      "question": "Bộ máy nhà nước thời Nguyễn được tổ chức như thế nào?",
+      "expected_id": "CHK_HIST8_LS_07_CAU_HOI_CB_02",
+      "reference_answer": "Nhà Nguyễn xây dựng quân chủ chuyên chế tập quyền: vua nắm mọi quyền, trung ương có sáu bộ và các cơ quan chuyên trách; địa phương ban đầu chia Bắc Thành, Gia Định Thành và các trực doanh, sau được tổ chức lại thành tỉnh.",
+      "status": 200,
+      "elapsed_seconds": 9.673,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=523.6, openai;dur=9171.9, total;dur=9180.0",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_07_CAU_HOI_CB_02"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Bộ máy nhà nước thời Nguyễn được tổ chức theo chế độ quân chủ chuyên chế tập quyền, trong đó vua nắm mọi quyền lực. Trung ương gồm sáu bộ và các cơ quan chuyên trách. Địa phương ban đầu chia thành Bắc Thành, Gia Định Thành và các trực doanh, sau đó tổ chức lại thành các tỉnh.",
+      "key_points": [
+        "Nhà Nguyễn xây dựng chế độ quân chủ chuyên chế tập quyền.",
+        "Vua nắm toàn bộ quyền lực trong bộ máy nhà nước.",
+        "Trung ương có sáu bộ chuyên trách mọi lĩnh vực.",
+        "Có các cơ quan chuyên trách hỗ trợ vua và các bộ.",
+        "Địa phương ban đầu chia thành Bắc Thành, Gia Định Thành và các trực doanh.",
+        "Sau đó tổ chức lại thành các tỉnh hành chính.",
+        "Công tác tổ chức nhằm quản lý đất nước hiệu quả và thống nhất."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "question_number": 3,
+      "question": "Cuộc cải cách hành chính dưới thời Minh Mạng có nội dung nổi bật gì?",
+      "expected_id": "CHK_HIST8_LS_07_CAU_HOI_CB_03",
+      "reference_answer": "Năm 1831–1832, Minh Mạng bỏ Bắc Thành và Gia Định Thành, chia cả nước thành 30 tỉnh cùng phủ Thừa Thiên, đặt tổng đốc, tuần phủ do triều đình bổ nhiệm và tăng kiểm soát từ trung ương.",
+      "status": 200,
+      "elapsed_seconds": 12.563,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=1.4, openai;dur=12144.1, total;dur=12152.9",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_07_CAU_HOI_CB_03"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9333,
+      "reference_numbers_present": true,
+      "summary": "Cuộc cải cách hành chính dưới thời vua Minh Mạng vào năm 1831-1832 nổi bật với việc tổ chức lại bộ máy hành chính của cả nước, bãi bỏ hệ thống cũ và chia lại thành 30 tỉnh để tăng cường sự quản lý trung ương.",
+      "key_points": [
+        "Năm 1831-1832, vua Minh Mạng tiến hành cải cách hành chính quy mô lớn.",
+        "Bãi bỏ Bắc Thành và Gia Định Thành.",
+        "Chia cả nước thành 30 tỉnh.",
+        "Đặt các chức tổng đốc và tuần phủ do triều đình bổ nhiệm.",
+        "Tăng cường kiểm soát từ trung ương xuống địa phương.",
+        "Cải cách giúp thống nhất bộ máy hành chính.",
+        "Nâng cao hiệu quả quản lý đất nước."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "question_number": 4,
+      "question": "Tình hình nông nghiệp, thủ công nghiệp và thương nghiệp nửa đầu thế kỉ XIX có đặc điểm gì?",
+      "expected_id": "CHK_HIST8_LS_07_CAU_HOI_CB_04",
+      "reference_answer": "Nông nghiệp vẫn là nền tảng nhưng ruộng hoang, thiên tai và tập trung ruộng đất làm đời sống khó khăn; thủ công nhà nước và làng nghề có sản phẩm tinh xảo; nội thương tồn tại song ngoại thương bị hạn chế bởi chính sách kiểm soát, đóng cửa.",
+      "status": 200,
+      "elapsed_seconds": 10.453,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=2119.7, openai;dur=9991.2, total;dur=9995.5",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_07_CAU_HOI_CB_04"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9459,
+      "reference_numbers_present": true,
+      "summary": "Nửa đầu thế kỉ XIX, nền nông nghiệp Việt Nam vẫn là cơ sở kinh tế chính nhưng gặp nhiều khó khăn do ruộng đất hoang hóa và thiên tai. Thủ công nghiệp phát triển trong các làng nghề và dưới sự quản lý của nhà nước với những sản phẩm tinh xảo. Thương nghiệp nội địa tồn tại nhưng hoạt động ngoại thương bị hạn chế do chính sách kiểm soát và đóng cửa của triều đình Nguyễn.",
+      "key_points": [
+        "Nông nghiệp là nền tảng kinh tế chính của xã hội Việt Nam nửa đầu thế kỉ XIX.",
+        "Ruộng đất bị bỏ hoang nhiều, thiên tai ảnh hưởng xấu đến sản xuất nông nghiệp.",
+        "Thủ công nghiệp phát triển nhờ làng nghề và cơ sở nhà nước.",
+        "Sản phẩm thủ công có tính tinh xảo và phục vụ đa dạng nhu cầu.",
+        "Thương nghiệp nội địa vẫn tồn tại và phát triển khiêm tốn.",
+        "Chính sách kiểm soát chặt chẽ và đóng cửa hạn chế ngoại thương.",
+        "Đời sống người dân nông thôn gặp nhiều khó khăn do các yếu tố trên."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "question_number": 5,
+      "question": "Triều Nguyễn đã có những hoạt động gì để quản lí và thực thi chủ quyền đối với Hoàng Sa, Trường Sa?",
+      "expected_id": "CHK_HIST8_LS_07_CAU_HOI_CB_05",
+      "reference_answer": "Triều Nguyễn tiếp tục cử thủy quân và dân binh ra Hoàng Sa, Trường Sa khảo sát, đo đạc, dựng mốc, lập bản đồ, khai thác sản vật, cứu hộ tàu thuyền và tuần tra, thực thi chủ quyền thường xuyên.",
+      "status": 200,
+      "elapsed_seconds": 8.445,
+      "server_timing": "retrieval;dur=0.4, generation_lock;dur=0.0, youtube_video;dur=683.9, openai;dur=7928.2, total;dur=7933.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_07_CAU_HOI_CB_05"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9412,
+      "reference_numbers_present": true,
+      "summary": "Triều Nguyễn đã chủ động quản lí và thực thi chủ quyền đối với Hoàng Sa và Trường Sa thông qua việc cử thủy quân và dân binh khảo sát, đo đạc, dựng mốc, lập bản đồ, khai thác sản vật, cứu hộ tàu thuyền cũng như tuần tra thường xuyên ở hai quần đảo này.",
+      "key_points": [
+        "Triều Nguyễn cử thủy quân và dân binh ra Hoàng Sa, Trường Sa khảo sát và đo đạc.",
+        "Dựng mốc và lập bản đồ để xác lập chủ quyền rõ ràng.",
+        "Khai thác sản vật trên hai quần đảo nhằm khai thác tài nguyên.",
+        "Cứu hộ tàu thuyền gặp nạn trên biển liên quan đến hai quần đảo.",
+        "Tuần tra thường xuyên để thực thi và bảo vệ chủ quyền biển đảo."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "question_number": 6,
+      "question": "Văn hóa Việt Nam nửa đầu thế kỉ XIX có những thành tựu tiêu biểu nào?",
+      "expected_id": "CHK_HIST8_LS_07_CAU_HOI_CB_06",
+      "reference_answer": "Văn học có Nguyễn Du, Hồ Xuân Hương, Cao Bá Quát; sử học và địa lí có Đại Nam thực lục, Đại Nam nhất thống chí, Gia Định thành thông chí. Kiến trúc, điêu khắc Huế, Nhã nhạc và nghệ thuật dân gian cũng phát triển.",
+      "status": 200,
+      "elapsed_seconds": 9.805,
+      "server_timing": "retrieval;dur=0.8, generation_lock;dur=0.0, youtube_video;dur=1.8, openai;dur=9021.5, total;dur=9033.4",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_07_CAU_HOI_CB_06"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 1.0,
+      "reference_numbers_present": true,
+      "summary": "Nửa đầu thế kỉ XIX, văn hóa Việt Nam có nhiều thành tựu tiêu biểu ở các lĩnh vực văn học, sử học, địa lí, kiến trúc, âm nhạc và nghệ thuật dân gian, thể hiện sự phát triển đa dạng và phong phú của nền văn hóa thời Nguyễn.",
+      "key_points": [
+        "Nguyễn Du là nhà văn, nhà thơ nổi bật với \"Truyện Kiều\".",
+        "Hồ Xuân Hương nổi tiếng với các bài thơ trào phúng, phản ánh xã hội.",
+        "Cao Bá Quát là nhà thơ có đóng góp lớn cho văn học thời Nguyễn.",
+        "\"Đại Nam thực lục\" là bộ sử quan trọng của triều Nguyễn.",
+        "\"Đại Nam nhất thống chí\" và \"Gia Định thành thông chí\" là tác phẩm địa lý tiêu biểu.",
+        "Kiến trúc và điêu khắc Huế phát triển với nhiều công trình đẹp.",
+        "Nhã nhạc và nghệ thuật dân gian phát triển, góp phần giàu có văn hóa truyền thống Việt Nam."
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "question_number": 7,
+      "question": "Vì sao khi đánh giá triều Nguyễn cần xem xét riêng các lĩnh vực quản lí đất nước, văn hóa và chính sách đối ngoại?",
+      "expected_id": "CHK_HIST8_LS_07_CAU_HOI_MR_01",
+      "reference_answer": "Triều Nguyễn có đóng góp về thống nhất quản lí, cải cách hành chính, văn hóa và thực thi chủ quyền biển đảo, nhưng đồng thời bảo thủ, hạn chế đối ngoại và sai lầm khi chống Pháp. Tách từng lĩnh vực giúp tránh kết luận tuyệt đối, một chiều.",
+      "status": 200,
+      "elapsed_seconds": 9.021,
+      "server_timing": "retrieval;dur=0.5, generation_lock;dur=0.0, youtube_video;dur=539.0, openai;dur=8339.2, total;dur=8343.6",
+      "expected_match": true,
+      "matched_ids": [
+        "CHK_HIST8_LS_07_CAU_HOI_MR_01"
+      ],
+      "source_count": 1,
+      "source_types": [
+        "dataset"
+      ],
+      "page_statuses": [
+        "unverified"
+      ],
+      "citations_valid": true,
+      "factual_coverage": 0.9744,
+      "reference_numbers_present": true,
+      "summary": "Khi đánh giá triều Nguyễn, ta cần xem xét riêng từng lĩnh vực quản lí đất nước, văn hóa và chính sách đối ngoại vì triều đại này có những mặt tích cực như thống nhất quản lí, cải cách hành chính, phát triển văn hóa và thực thi chủ quyền biển đảo, nhưng cũng có những hạn chế như sự bảo thủ trong quản lý, chính sách đối ngoại yếu kém và sai lầm trong việc chống Pháp. Việc phân tích từng lĩnh vực giúp tránh nhận xét phiến diện, cho cái nhìn toàn diện và chính xác hơn về triều Nguyễn.",
+      "key_points": [
+        "Triều Nguyễn có đóng góp trong thống nhất quản lý đất nước.",
+        "Cải cách hành chính giúp tổ chức đất nước tốt hơn.",
+        "Văn hóa thời Nguyễn có nhiều phát triển tích cực.",
+        "Chính sách đối ngoại bị đánh giá bảo thủ và hạn chế.",
+        "Triều Nguyễn mắc sai lầm lớn trong chống Pháp.",
+        "Cần xem xét riêng từng lĩnh vực để đánh giá khách quan.",
+        "Tránh kết luận một chiều khi đánh giá triều Nguyễn."
+      ],
+      "passed": true
+    }
+  ]
+}

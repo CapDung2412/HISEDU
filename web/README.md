@@ -1,6 +1,6 @@
 # HISEDU Web
 
-Giao diện Next.js cho trợ lý học Lịch sử THCS.
+Giao diện Next.js cho bản thử nghiệm trợ lý học nội dung Lịch sử lớp 8.
 
 ## Chạy cục bộ
 
@@ -28,8 +28,13 @@ Toàn bộ component test dùng mock; các lệnh kiểm thử không gọi Open
 ## API cần có
 
 - `POST /api/questions/ask`
+- `POST /api/questions/ask-stream`
+- `POST /api/questions/ocr`
 - `POST /api/questions/ask-image`
+- `POST /api/questions/ask-image-stream`
 - `POST /api/quizzes/{quiz_id}/submit`
+- `POST /api/quizzes/{quiz_id}/answer`
+- `POST /api/quizzes/{quiz_id}/reset`
 - `GET /api/health`
 
 Frontend không nhận đáp án đúng trong response hỏi bài. `correct_option_id` chỉ được backend trả về

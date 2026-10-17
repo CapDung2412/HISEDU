@@ -1,6 +1,6 @@
 # HISEDU Dataset Audit — Phase 1
 
-Generated (UTC): `2026-09-19T09:40:51+00:00`
+Generated (UTC): `2026-09-20T01:48:43+00:00`
 
 > Scope: read-only audit of `questions/**/*.txt`, `answers/**/*.json`, and a basic DOCX-container health check for `source_documents/*.docx`. Dataset files were not changed, renamed, or uploaded. `.env` was not read.
 

@@ -17,10 +17,15 @@ const sourceTypeNames: Record<ReferenceSource["type"], string> = {
 
 function locationLabel(source: ReferenceSource): string {
   if (source.page !== undefined && source.page !== null && String(source.page).trim()) {
-    return `Trang ${source.page}`;
+    const book = [
+      source.grade ? `Lớp ${source.grade}` : "",
+      source.book_series?.trim() ?? "",
+      `Trang ${source.page}`
+    ].filter(Boolean);
+    return book.join(" · ");
   }
-  if (source.type === "sgk") {
-    const missingPage = "Dữ liệu hiện tại chưa ghi nhận số trang";
+  if (source.page_status === "unverified") {
+    const missingPage = "Chưa xác minh số trang — không hiển thị như trích dẫn SGK";
     return source.locator?.trim()
       ? `${source.locator} · ${missingPage}`
       : missingPage;
@@ -29,13 +34,33 @@ function locationLabel(source: ReferenceSource): string {
   return "";
 }
 
+function reviewLabel(reviewStatus: string | null | undefined): string {
+  switch (reviewStatus) {
+    case "approved":
+    case "reviewed":
+    case "teacher_approved":
+      return "Đã được giáo viên thẩm định";
+    case "rejected":
+    case "needs_revision":
+      return "Giáo viên yêu cầu kiểm tra lại";
+    case "pending":
+    case "pending_teacher_review":
+      return "Đang chờ giáo viên thẩm định";
+    default:
+      return reviewStatus
+        ? `Trạng thái thẩm định: ${reviewStatus}`
+        : "Chưa có thông tin giáo viên thẩm định";
+  }
+}
+
 export function SourceList({ sources }: Props) {
   return (
-    <section className="section-card p-5 sm:p-7" aria-labelledby="sources-heading">
+    <section className="section-card border-t-4 border-t-heritage-600 p-5 sm:p-7" aria-labelledby="sources-heading">
       <div className="flex items-start gap-3">
-        <span className="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-50 text-xl" aria-hidden>🔎</span>
+        <span className="history-serif grid h-11 w-11 place-items-center rounded-full border border-heritage-100 bg-heritage-50 text-sm font-bold text-heritage-700" aria-hidden>ĐC</span>
         <div>
-          <h2 id="sources-heading" className="text-xl font-black text-ink sm:text-2xl">Nguồn tham khảo</h2>
+          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-heritage-600">Đối chiếu sử liệu</p>
+          <h2 id="sources-heading" className="history-serif text-xl font-bold text-ink sm:text-2xl">Nguồn tham khảo</h2>
           <p className="text-sm text-slate-600">Em có thể mở từng nguồn để kiểm tra và đọc thêm.</p>
         </div>
       </div>
@@ -72,6 +97,22 @@ export function SourceList({ sources }: Props) {
                         Hỗ trợ nội dung: {source.supports.join(" · ")}
                       </p>
                     )}
+                    {source.evidence_excerpt && (
+                      <div className="mt-3 rounded-2xl border-l-4 border-brand-300 bg-brand-50/70 px-4 py-3 text-sm leading-6 text-slate-700">
+                        <span className="mb-1 block text-[11px] font-black uppercase tracking-[0.14em] text-brand-700">
+                          Nội dung tham chiếu lưu trong HISEDU
+                        </span>
+                        <p>{source.evidence_excerpt}</p>
+                        <p className="mt-2 text-xs text-slate-500">
+                          {source.provenance_note ??
+                            "Nội dung dùng để đối chiếu, không mặc định là trích dẫn nguyên văn từ nguồn."}
+                        </p>
+                      </div>
+                    )}
+                    <p className="mt-3 inline-flex items-center gap-2 rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-700">
+                      <span className="h-2 w-2 rounded-full bg-amber-500" aria-hidden />
+                      {reviewLabel(source.review_status)}
+                    </p>
                     <div className="mt-3 flex flex-wrap items-center gap-3 text-xs text-slate-500">
                       {source.accessed_at && <span>Truy cập: {source.accessed_at}</span>}
                       {safeUrl && (

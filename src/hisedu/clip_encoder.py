@@ -61,6 +61,7 @@ class ClipEncoder:
         batch_size: int = 32,
         text_model: Any = None,
         image_model: Any = None,
+        local_files_only: bool = False,
     ) -> None:
         if batch_size <= 0:
             raise ValueError("batch_size must be positive")
@@ -70,6 +71,7 @@ class ClipEncoder:
         self.batch_size = batch_size
         self._text_model = text_model
         self._image_model = image_model
+        self.local_files_only = bool(local_files_only)
         self._dimension: int | None = None
 
     @property
@@ -90,14 +92,18 @@ class ClipEncoder:
         if self._text_model is not None:
             return
         SentenceTransformer = self._sentence_transformer()
-        kwargs = {"device": self.device} if self.device else {}
+        kwargs: dict[str, Any] = {"local_files_only": self.local_files_only}
+        if self.device:
+            kwargs["device"] = self.device
         self._text_model = SentenceTransformer(self.text_model_name, **kwargs)
 
     def _ensure_image_model(self) -> None:
         if self._image_model is not None:
             return
         SentenceTransformer = self._sentence_transformer()
-        kwargs = {"device": self.device} if self.device else {}
+        kwargs: dict[str, Any] = {"local_files_only": self.local_files_only}
+        if self.device:
+            kwargs["device"] = self.device
         self._image_model = SentenceTransformer(self.image_model_name, **kwargs)
 
     @staticmethod

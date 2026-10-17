@@ -17,3 +17,8 @@ web/coverage/
 web/.env*
 !web/.env.local.example
 *.tsbuildinfo
+
+# Local answer feedback awaiting teacher review
+feedback/
+
+/AI ho tro hoc lich su.mp4

@@ -10,15 +10,25 @@ describe("SourceList", () => {
           id: "S1",
           title: "Lịch sử và Địa lí 8",
           publisher: "Nhà xuất bản Giáo dục",
-          type: "sgk",
+          type: "dataset",
           url: "javascript:alert(1)",
-          supports: ["Nội dung bài học"]
+          grade: 8,
+          book_series: "Kết nối tri thức với cuộc sống",
+          page_status: "unverified",
+          supports: ["Nội dung bài học"],
+          evidence_excerpt: "Cách mạng tư sản Anh bùng nổ năm 1642.",
+          review_status: "pending_teacher_review",
+          provenance_note: "Câu trả lời được diễn đạt lại; không phải trích dẫn nguyên văn SGK."
         }]}
       />
     );
 
-    expect(screen.getByText("Dữ liệu hiện tại chưa ghi nhận số trang")).toBeInTheDocument();
+    expect(screen.getByText("Chưa xác minh số trang — không hiển thị như trích dẫn SGK")).toBeInTheDocument();
     expect(screen.getByText(/Hỗ trợ nội dung: Nội dung bài học/)).toBeInTheDocument();
+    expect(screen.getByText("Nội dung tham chiếu lưu trong HISEDU")).toBeInTheDocument();
+    expect(screen.getByText(/Cách mạng tư sản Anh bùng nổ năm 1642/)).toBeInTheDocument();
+    expect(screen.getByText(/Câu trả lời được diễn đạt lại/)).toBeInTheDocument();
+    expect(screen.getByText("Đang chờ giáo viên thẩm định")).toBeInTheDocument();
     expect(screen.queryByRole("link")).not.toBeInTheDocument();
   });
 });

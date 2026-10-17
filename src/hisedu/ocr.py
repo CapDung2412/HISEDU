@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import statistics
 from dataclasses import dataclass
 from pathlib import Path
@@ -39,6 +40,11 @@ class PaddleOcrExtractor:
     def _ensure_pipeline(self) -> Any:
         if self._pipeline is not None:
             return self._pipeline
+        # PaddleOCR 3.7 + PaddlePaddle 3.3 can select oneDNN automatically on
+        # Windows CPU and fail with ConvertPirAttribute2RuntimeAttribute.
+        # The plain Paddle backend is slower but stable; an explicit user value
+        # still takes precedence over this safe default.
+        os.environ.setdefault("PADDLE_PDX_ENABLE_MKLDNN_BYDEFAULT", "False")
         try:
             from paddleocr import PaddleOCR
         except ImportError as exc:
@@ -46,12 +52,26 @@ class PaddleOcrExtractor:
                 "PaddleOCR is optional; install `python -m pip install -e \".[ocr]\"` "
                 "and a supported PaddlePaddle inference engine"
             ) from exc
-        self._pipeline = PaddleOCR(
-            lang=self.language,
-            use_doc_orientation_classify=True,
-            use_doc_unwarping=True,
-            use_textline_orientation=True,
-        )
+        try:
+            options: dict[str, Any] = {
+                "use_doc_orientation_classify": False,
+                "use_doc_unwarping": False,
+                "use_textline_orientation": False,
+            }
+            if self.language == "vi":
+                # Mobile models are substantially faster on local Windows CPU
+                # while the Latin recognizer retains Vietnamese diacritics.
+                options.update(
+                    text_detection_model_name="PP-OCRv5_mobile_det",
+                    text_recognition_model_name="latin_PP-OCRv5_mobile_rec",
+                )
+            else:
+                options["lang"] = self.language
+            self._pipeline = PaddleOCR(**options)
+        except Exception as exc:
+            raise OcrError(
+                f"Could not initialize PaddleOCR: {type(exc).__name__}: {exc}"
+            ) from exc
         return self._pipeline
 
     @staticmethod
@@ -67,23 +87,28 @@ class PaddleOcrExtractor:
         pipeline = self._ensure_pipeline()
         accepted_lines: list[str] = []
         accepted_scores: list[float] = []
-        for result in pipeline.predict(str(path)):
-            payload = getattr(result, "json", result)
-            if callable(payload):
-                payload = payload()
-            if not isinstance(payload, dict):
-                continue
-            data = payload.get("res", payload)
-            texts = self._list(data.get("rec_texts"))
-            scores = self._list(data.get("rec_scores"))
-            if len(scores) < len(texts):
-                scores.extend([1.0] * (len(texts) - len(scores)))
-            for raw_text, raw_score in zip(texts, scores):
-                text = normalize_text(str(raw_text))
-                score = float(raw_score)
-                if text and score >= self.min_line_score:
-                    accepted_lines.append(text)
-                    accepted_scores.append(score)
+        try:
+            for result in pipeline.predict(str(path)):
+                payload = getattr(result, "json", result)
+                if callable(payload):
+                    payload = payload()
+                if not isinstance(payload, dict):
+                    continue
+                data = payload.get("res", payload)
+                texts = self._list(data.get("rec_texts"))
+                scores = self._list(data.get("rec_scores"))
+                if len(scores) < len(texts):
+                    scores.extend([1.0] * (len(texts) - len(scores)))
+                for raw_text, raw_score in zip(texts, scores):
+                    text = normalize_text(str(raw_text))
+                    score = float(raw_score)
+                    if text and score >= self.min_line_score:
+                        accepted_lines.append(text)
+                        accepted_scores.append(score)
+        except Exception as exc:
+            raise OcrError(
+                f"PaddleOCR inference failed: {type(exc).__name__}: {exc}"
+            ) from exc
         combined = normalize_text(" ".join(accepted_lines))
         if not combined:
             raise OcrError(
@@ -95,4 +120,3 @@ class PaddleOcrExtractor:
             scores=tuple(accepted_scores),
             mean_score=(statistics.mean(accepted_scores) if accepted_scores else None),
         )
-
